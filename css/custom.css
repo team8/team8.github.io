@@ -10,14 +10,15 @@ hr {
 .site {
   width: 100%; }
 .row {
-  width: 80%; }
+  width: 90%; }
 .header {
   width: 100%; }
 nav .topbar {
   width: 100%; }
 .top-bar-section ul li:hover > a {
   background: #006600 !important; }
-
+a:visited {
+  color: #00a !important; }
 
 /*****************************************************************************/
 /*
