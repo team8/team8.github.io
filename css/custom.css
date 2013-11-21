@@ -17,8 +17,6 @@ nav .topbar {
   width: 100%; }
 .top-bar-section ul li:hover > a {
   background: #006600 !important; }
-a:visited {
-  color: #00a !important; }
 
 /*****************************************************************************/
 /*
