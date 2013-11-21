@@ -21,7 +21,6 @@ nav .topbar {
     width: 100%; }
 
 .top-bar-section ul li:hover > a {
-<<<<<<< HEAD
     background: #007000 !important; }
 
 .top-bar {
@@ -30,9 +29,6 @@ nav .topbar {
 
 a:visited {
   color: #00a !important; }
-=======
-  background: #006600 !important; }
->>>>>>> 6426e270bcd06078ab264871d2cfdfcace65d287
 
 /*****************************************************************************/
 /*
