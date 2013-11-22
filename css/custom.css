@@ -23,13 +23,6 @@ nav .topbar {
 .top-bar-section ul li:hover > a {
     background: #007000 !important; }
 
-.top-bar {
-    background: #004d00 !important;
-}
-
-a:visited {
-  color: #00a !important; }
-
 /*****************************************************************************/
 /*
 /* Button
