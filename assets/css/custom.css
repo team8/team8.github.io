@@ -37,7 +37,7 @@ nav .topbar {
 
 button.green, .button.green {
   background-color: #03572c !important;
-  border-color: none !important;
+  border-color: #03572c !important;
   color: white; }
 
   button.green:hover, button.green:focus, .button.green:hover, .button.green:focus {
