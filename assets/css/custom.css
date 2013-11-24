@@ -24,7 +24,7 @@ h1, h2 {
     display: inline !important; }
 
 a:visited {
-    color: #008cba !important; }
+    color: #008cba; }
 
 /*****************************************************************************/
 /*
