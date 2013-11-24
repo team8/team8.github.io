@@ -10,10 +10,10 @@ hr {
 
 .site {
   width: 90%; }
-
-.row {
-  width: 90% !important; }
-
+@media (max-width: 1500px) {
+  .row {
+    min-width: 90% !important; }
+}
 .header {
   width: 100%; }
 
@@ -22,6 +22,9 @@ hr {
 
 h1, h2 {
     display: inline !important; }
+
+a:visited {
+    color: #008cba; }
 
 /*****************************************************************************/
 /*
