@@ -9,33 +9,35 @@ hr {
     height: 2px; }
 
 .site {
-  width: 100%; }
-
-.row {
   width: 90%; }
 
+.row {
+  width: 90% }
+
 .header {
-    width: 100%; }
+  width: 90%; }
 
 nav .topbar {
-    width: 100%; }
+  width: 90%; !important}
 
 .top-bar-section ul li:hover > a {
     background: #000000 !important; }
+
+h1, h2, h3, h4, h5, h6 {
+    display: inline !important; }
 
 /*****************************************************************************/
 /*
 /* Button
 /*
 /*****************************************************************************/
-
 button.green, .button.green {
-  background-color: #03572c !important;
-  border-color: #03572c !important;
+  background-color: #0A6805;
+  border-color: none;
   color: white; }
 
   button.green:hover, button.green:focus, .button.green:hover, .button.green:focus {
-    background-color: #02341A !important; }
+    background-color: #093d06; }
 
   button.green:hover, button.green:focus, .button.green:hover, .button.green:focus {
-    color: white !important; }
+    color: #white; }
