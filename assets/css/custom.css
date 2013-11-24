@@ -10,10 +10,24 @@ hr {
 
 .site {
   width: 90%; }
-@media (max-width: 1500px) {
+
+@media (min-width: 640px) and (max-width: 1023px) {
   .row {
-    min-width: 90% !important; }
+    min-width: 576px !important;
+    max-width: 576px !important; }
+  .site {
+    width: 576px !important; }
 }
+
+@media (min-width: 1024px) {
+  .row {
+    min-width: 920px !important;
+    max-width: 920px !important; }
+  .site {
+    width: 920px !important; }
+}
+
+
 .header {
   width: 100%; }
 
