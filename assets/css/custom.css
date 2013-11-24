@@ -10,10 +10,10 @@ hr {
 
 .site {
   width: 90%; }
-
-.row {
-  width: 90% !important; }
-
+@media (max-width: 1500px) {
+  .row {
+    min-width: 90% !important; }
+}
 .header {
   width: 100%; }
 
