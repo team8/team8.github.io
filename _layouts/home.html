@@ -34,19 +34,15 @@
 	  </div>
 	</strong>
       </div>
-      <nav class="top-bar" style="top:5px" data-topbar>
+
+
+      <nav class="top-bar hide-for-small" style="top:5px" data-topbar>
 	<ul class="title-area">
 	  <!-- Title Area -->
-	  <li class="name show-for-medium-up">
+	  <li class="name">
 	    <h1><a href="/">Home</a></h1>
 	  </li>
-	  <li class="name show-for-small-only">
-	    <h1><a href="/"><img src="/assets/img/horizontallogo.png" width="140" height="36"></img></h1>
-	  
-
-	  <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-	  <li class="toggle-topbar menu-icon"><a href><span>Menu</span></a></li>
-	</li></ul>
+	</ul>
 	
 	<section class="top-bar-section">
 	  <ul class="right">
@@ -78,7 +74,21 @@
 	    <li><a href="/contact.html">Contact Us</a></li>
 	    <li class="divider"></li>  
 	  </ul>
-      </section></nav>
+	</section>
+      </nav>
+
+
+      <nav class="tab-bar show-for-small">
+	<section class="left-off-canvas-toggle menu-icon">
+	  <a class="left-off-canvas-toggle menu-icon">
+	    <span title="Can't figure out how to get the span class to work with spaces">
+	      Paly_Robotics
+	    </span>
+	  </a>
+	</section>
+      </nav>
+
+
       <br />
       
       {{ content }}
