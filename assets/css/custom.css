@@ -11,13 +11,13 @@ hr {
 .site {
   width: 90%; }
 
-@media (min-width: 640px) and (max-width: 1023px) {
+/*@media (min-width: 640px) and (max-width: 1023px) {
   .row {
     min-width: 576px !important;
     max-width: 576px !important; }
   .site {
     width: 576px !important; }
-}
+}*/
 
 @media (min-width: 1024px) {
   .row {
