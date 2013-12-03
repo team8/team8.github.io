@@ -11,12 +11,14 @@ hr {
 .site {
   width: 90%; }
 
-@media (min-width: 640px) and (max-width: 1023px) {
+@media (max-width: 640px) {
   .row {
-    min-width: 576px !important;
-    max-width: 576px !important; }
+    min-width: 100% !important;
+    max-width: 100% !important; }
   .site {
-    width: 576px !important; }
+    width: 100% !important; }
+  .content {
+    width: 100% !important; }
 }
 
 @media (min-width: 1024px) {
