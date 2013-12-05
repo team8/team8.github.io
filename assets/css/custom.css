@@ -8,9 +8,29 @@ hr {
     background-color: #000000;
     height: 2px; }
 
+h4 {
+    font-weight: 500;
+}
+
 .site {
   width: 90%; }
 
+.header {
+  width: 100%; }
+
+.top-bar-section ul li:hover > a {
+    background: #000000 !important; }
+
+h1, h2 {
+    display: inline !important; }
+
+a:visited {
+    color: #008cba; }
+/*****************************************************************************/
+/*                                                                                                                                  
+/* Responsiveness                                                                                                                   
+/*                                                                                                                                 
+/*****************************************************************************/
 @media (max-width: 640px) {
   .row {
     min-width: 100% !important;
@@ -28,19 +48,6 @@ hr {
   .site {
     width: 920px !important; }
 }
-
-
-.header {
-  width: 100%; }
-
-.top-bar-section ul li:hover > a {
-    background: #000000 !important; }
-
-h1, h2 {
-    display: inline !important; }
-
-a:visited {
-    color: #008cba; }
 
 /*****************************************************************************/
 /*
