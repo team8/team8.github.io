@@ -15,11 +15,17 @@ h4 {
 .site {
   width: 90%; }
 
+.row {
+  width: 90% }
+
 .header {
   width: 100%; }
 
 .top-bar-section ul li:hover > a {
     background: #000000 !important; }
+
+nav .topbar {
+  width: 90% !important;}
 
 h1, h2 {
     display: inline !important; }
