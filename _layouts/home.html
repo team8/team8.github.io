@@ -14,12 +14,8 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     
-    <script src="/assets/javascript/javascript.js"></script>
-    <script src="/assets/foundation/js/modernizr.js"></script>
-    <script src="/assets/foundation/js/vendor/custom.modernizr.js"></script>
-    <script src="/assets/foundation/js/jquery.js"></script>
-    <script type="text/javascript" src="/assets/foundation/js/foundation.min.js"></script>
-
+    <script src="/assets/foundation/js/vendor/custom.modernizr.js"></script>    
+    
   </head>
   <body onresize="resizeIframe(document.getElementById('resizingIframe'))">
     
@@ -27,9 +23,9 @@
     <div class="site">
       
       <!-- Off canvas wrap stuffs-->
-      <div class="off-canvas-wrap">
+      <div class="off-canvas-wrap" style="top:-55px">
 	<div class="inner-wrap">
-	  <div class="header show-for-medium-up">
+	  <div class="header hide-for-small">
 	    <div class="row">
 	      <div class="large-7 small-11 columns">
 		<a href="/">
@@ -129,8 +125,7 @@
 		<a href="/about/join.html">Join</a>
 	      </li>
 	      <li>
-		<a href="/about/sponsors.html">Sponsrs</a>
-	      </li>
+		<a href="/about/sponsors.html">Sponsors</a>
 	      <li>
 		<a href="/about/website.html">Website</a>
 	      </li>
@@ -144,9 +139,9 @@
 		<a href="/challenge.html">FRC 2013 Challenge</a>
 	      </li>
 	    </ul>
-	</aside>
+	  </aside>
 	
-	<br />
+	  <br />
 	
 	{{ content }}
 	
@@ -164,12 +159,13 @@
 	</div>
 	
 	<!-- Off canvas wrap stuff -->
-	<a class="exit-off-canvas" href="#"></a>
-	</div>
       </div>
     </div>
+    <script src="/assets/foundation/js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="/assets/foundation/js/foundation.min.js"></script>
+    <script src="/assets/javascript/javascript.js"></script>
     <script>
-      $(document).foundation();
+        $(document).foundation();
     </script>
   </body>
 </html>
