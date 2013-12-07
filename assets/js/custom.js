@@ -77,7 +77,7 @@ $(function () {
     var $image = $('#container').children('img');
     function animate_img() {
         if ($image.css('top') == '0px') {
-            $image.animate({top: '-1000px'}, 2500, function () {
+            $image.animate({top: '1000px'}, 2500, function () {
                $image.css('top','0px');
                 animate_img();
             });
