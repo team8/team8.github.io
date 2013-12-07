@@ -63,3 +63,28 @@ function resizeIframe(obj) {
     reflow : function () {}
   };
 }(jQuery, this, this.document));
+
+
+/*****************************************************************************/
+/*                                                                                                               
+
+/* Infinite Image                                                                                                 
+
+/*                                                                                                                
+
+/*****************************************************************************/
+$(function () {
+    var $image = $('#container').children('img');
+    function animate_img() {
+        if ($image.css('top') == '0px') {
+            $image.animate({top: '-1000px'}, 2500, function () {
+                animate_img();
+            });
+        } else {
+            $image.animate({top: '0px'}, 2500, function () {
+                animate_img();
+            });
+        }
+    }
+    animate_img();
+});
