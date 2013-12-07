@@ -32,10 +32,25 @@ h1, h2 {
 
 a:visited {
     color: #008cba; }
+
 /*****************************************************************************/
+/*
+/* Layout
+/*
+/*****************************************************************************/
+
+
+
+/*****************************************************************************/
+<<<<<<< HEAD
 /*                                          
 /* Responsiveness                                                                                                
 /*                                                       
+=======
+/*                                                                                                                
+/* Responsiveness                                                                                                 
+/*                                                                                                               
+>>>>>>> eaa0ad3a4a8eca6eaebbfba25aad7a6815e5848d
 /*****************************************************************************/
 @media (max-width: 640px) {
   .row {
@@ -64,7 +79,6 @@ a:visited {
 orbit-nav {
     arrow-color: d4d4d4 !important; }
 
-
 /*****************************************************************************/
 /*
 /* Button
@@ -80,3 +94,80 @@ button.green, .button.green {
 
   button.green:hover, button.green:focus, .button.green:hover, .button.green:focus {
     color: #white; }
+
+/*****************************************************************************/
+/*
+/* Infinite Image
+/*
+/*****************************************************************************/
+#container {
+    position : relative;
+    width    : 800;
+    height   : 250px;
+}
+
+#container > img {
+    position : absolute;
+    top      : 0;
+    left     : 0;
+}
+
+/*****************************************************************************/
+/*
+/* Infinite Image 2
+/*
+/*****************************************************************************/
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 576px;
+	height: 200px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width: 576px;
+	height: 200px;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	width: 290px;
+	height: 200px;
+}
