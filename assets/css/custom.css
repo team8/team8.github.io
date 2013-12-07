@@ -79,3 +79,21 @@ button.green, .button.green {
 
   button.green:hover, button.green:focus, .button.green:hover, .button.green:focus {
     color: #white; }
+
+/*****************************************************************************/
+/*
+/* Infinite Image
+/*
+/*****************************************************************************/
+#container {
+    position : relative;
+    width    : 600px;
+    height   : 200px;
+    overflow : hidden;
+}
+
+#container > img {
+    position : absolute;
+    top      : 0;
+    left     : 0;
+}
