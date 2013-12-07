@@ -77,12 +77,12 @@ $(function () {
     var $image = $('#container').children('img');
     function animate_img() {
         if ($image.css('left') == '0px') {
-            $image.animate({left: '1000px'}, 250, function () {
+            $image.animate({left: '1000px'}, 25000, function () {
                $image.css('left','-1000px');
                 animate_img();
             });
         } else {
-            $image.animate({left: '1000px'}, 250, function () {
+            $image.animate({left: '1000px'}, 25000, function () {
                 $image.css('left','-1000px');
                 animate_img();
             });
