@@ -82,7 +82,7 @@ $(function () {
                 animate_img();
             });
         } else {
-            $image.animate({top: '0px'}, 2500, function () {
+            $image.animate({top: '1000px'}, 2500, function () {
                 $image.css('top','0px');
                 animate_img();
             });
