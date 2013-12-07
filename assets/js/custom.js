@@ -78,12 +78,12 @@ $(function () {
     function animate_img() {
         if ($image.css('left') == '0px') {
             $image.animate({left: '1000px'}, 2500, function () {
-               $image.css('left','0px');
+               $image.css('left','-1000px');
                 animate_img();
             });
         } else {
             $image.animate({left: '1000px'}, 2500, function () {
-                $image.css('left','0px');
+                $image.css('left','-1000px');
                 animate_img();
             });
         }
