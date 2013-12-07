@@ -88,7 +88,7 @@ button.green, .button.green {
 #container {
     position : relative;
     width    : 800;
-    height   : 300px;
+    height   : 250px;
 }
 
 #container > img {
