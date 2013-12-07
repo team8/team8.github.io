@@ -87,8 +87,8 @@ button.green, .button.green {
 /*****************************************************************************/
 #container {
     position : relative;
-    width    : 100%;
-    height   : 700px;
+    width    : 1000;
+    height   : 50px;
     overflow : hidden;
 }
 
