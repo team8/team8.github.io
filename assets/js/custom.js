@@ -8,9 +8,9 @@ function resizeIframe(obj) {
 }
 
 /*****************************************************************************/
-/*                                                                                                                                  
-/* Off-Canvas Fix                                                                                                                   
-/*                                                                                                                                  
+/* 
+/* Off-Canvas Fix
+/*
 /*****************************************************************************/
 
 ;(function ($, window, document, undefined) {
@@ -66,44 +66,25 @@ function resizeIframe(obj) {
 
 
 /*****************************************************************************/
-/*                                                                                                               
-
+/*
 /* Infinite Image                                                                                                 
-
-/*                                                                                                                
-
+/*
 /*****************************************************************************/
 $(function () {
-    var $image = $('#container').children('img');
-    function animate_img() {
-        if ($image.css('left') == '0px') {
-            $image.animate({left: '+10px'}, 1000, function () {
-               $image.css('left','-1000px');
-                animate_img();
-            });
-        } else {
-            $image.animate({left: '+10px'}, 1000, function () {
-                $image.css('left','-1000px');
-                animate_img();
-            });
-        }
+    var $image1 = $('#animate1');
+    var $image2 = $('#animate2');
+    function animate_img1() {
+        $image1.animate({left: '+1000px'}, 20000, function () {
+	    $image1.css('left','-1000px');
+	    animate_img1();
+        });
     }
-    animate_img();
+    function animate_img2() {
+        $image2.animate({left: '+1000px'}, 10000, function () {
+	    $image2.css('left','-2000px');
+	    animate_img()2;
+        });
+    }
+    animate_img1();
+    animate_img2();
 });
-
-
-/*****************************************************************************/
-/*                                                                                                               
-
-/* Infinite Image Attempt 2                                                                                                 
-
-/*                                                                                                                
-
-/*****************************************************************************/
-
-
-(function($) {
-	$(function() { //on DOM ready 
-    		$("#scroller").simplyScroll();
-	});
- })(jQuery);
