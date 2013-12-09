@@ -88,3 +88,24 @@ $(function () {
     animate_img1();
     animate_img2();
 });
+
+/*****************************************************************************/
+/*
+/* Infinite Image temp                                                                                                
+/*
+/*****************************************************************************/
+$(function () {
+    var $image = $('#container').children('img');
+    function animate_img() {
+        if ($image.css('top') == '0px') {
+            $image.animate({top: '-1000px'}, 2500, function () {
+                animate_img();
+            });
+        } else {
+            $image.animate({top: '0px'}, 2500, function () {
+                animate_img();
+            });
+        }
+    }
+    animate_img();
+});
