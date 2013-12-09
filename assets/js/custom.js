@@ -98,13 +98,15 @@ $(function () {
     var $image = $('#container').children('img');
     function animate_img() {
         if ($image.css('top') == '0px') {
-            $image.animate({top: '-1000px'}, 2500, function () {
-                animate_img();
-            });
+            $image.animate({left: '+1000px'}, 20000, function () {
+	    $image.css('left','-1000px');
+	    animate_img1();
+        });
         } else {
-            $image.animate({top: '0px'}, 2500, function () {
-                animate_img();
-            });
+            $image.animate({left: '+1000px'}, 20000, function () {
+	    $image.css('left','-1000px');
+	    animate_img1();
+        });
         }
     }
     animate_img();
