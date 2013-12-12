@@ -33,6 +33,14 @@ h1, h2 {
 a:visited {
     color: #008cba; }
 
+element.style {
+    height: 200px !important; }
+
+.orbit-container .orbit-slides-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative; }
 /*****************************************************************************/
 /*
 /* Layout
