@@ -1,0 +1,8 @@
+Web Design Good Habits:
+  no "12-columns"
+  don't have duplicates for flexibility - use "small-12 large-6 columns"
+  good descriptive commits, not "Update index.html"
+  always put things in rows & columns
+  don't have rows class and no columns class
+  close all tags, including <p> and <div> !
+  go in and tab everything so you can catch extra tags
