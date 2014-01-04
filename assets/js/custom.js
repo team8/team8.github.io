@@ -3,8 +3,11 @@
 /* General                                                                                                                          
 /*                                                                                                                                  
 /*****************************************************************************/
-function resizeIframe(obj) {
-    obj.style.height = (obj.parentNode.offsetWidth / 16 * 9) + "px";
+window.onresize = function() {
+    if (document.getElementById('resizingIframe') != null) {
+	var obj = document.getElementById('resizingIframe');
+	obj.style.height = (obj.parentNode.offsetWidth / 16 * 9) + "px";
+    }
 }
 
 /*****************************************************************************/
@@ -63,51 +66,3 @@ function resizeIframe(obj) {
     reflow : function () {}
   };
 }(jQuery, this, this.document));
-
-
-/*****************************************************************************/
-/*
-/* Infinite Image                                                                                                 
-/*
-/*****************************************************************************/
-$(function () {
-    var $image1 = $('#animate1');
-    var $image2 = $('#animate2');
-    function animate_img1() {
-        $image1.animate({left: '+1000px'}, 20000, function () {
-	    $image1.css('left','-1000px');
-	    animate_img1();
-        });
-    }
-    function animate_img2() {
-        $image2.animate({left: '+1000px'}, 10000, function () {
-	    $image2.css('left','-2000px');
-	    animate_img()2;
-        });
-    }
-    animate_img1();
-    animate_img2();
-});
-
-/*****************************************************************************/
-/*
-/* Infinite Image temp                                                                                                
-/*
-/*****************************************************************************/
-$(function () {
-    var $image = $('#container').children('img');
-    function animate_img() {
-        if ($image.css('top') == '0px') {
-            $image.animate({left: '+1000px'}, 20000, function () {
-	    $image.css('left','-1000px');
-	    animate_img1();
-        });
-        } else {
-            $image.animate({left: '+1000px'}, 20000, function () {
-	    $image.css('left','-1000px');
-	    animate_img1();
-        });
-        }
-    }
-    animate_img();
-});
