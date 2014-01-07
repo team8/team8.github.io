@@ -66,3 +66,18 @@ window.onresize = function() {
     reflow : function () {}
   };
 }(jQuery, this, this.document));
+
+$(document).ready(function () {
+    var url = window.location.origin;
+    // if we're on a dev box
+    if (url != "http://palyrobotics.com") {
+	var regex = new RegExp("/[a-zA-Z0-9]+$");
+	// go through every link element
+	$("a").each(function changeURLs (ind, val) {
+	    var $val = $(val);
+	    var $href = $val.attr("href");
+	    // if it's a link to a page, add a '.html'
+	    if (regex.test($href)) $val.attr("href", $href+".html");
+	});
+    }
+});
