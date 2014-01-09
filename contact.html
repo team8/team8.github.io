@@ -1,6 +1,43 @@
 ---
 layout: home
 title: Contact Us | Paly Robotics
+members:
+  -
+    role: Coach
+    name: Chris Kuszmaul
+    email: chriskuszmaul [at] gmail [dot] com
+  -
+    role: Team Captain
+    name: David Najork
+    email: david.najork [at] gmail [dot] com
+  -
+    role: Vice Captain
+    name: Christopher Hinstorff
+    email: chinstorff [at] palyrobotics [dot] com
+  -
+    role: Build
+    name: Ahmed Awadallah
+    email: amadallah [at] gmail [dot] com
+  -
+    role: Programming
+    name: Freddy Kellison-Linn
+    email: fred.kl [at] me [dot] com
+  -
+    role: Animation
+    name: Griffin Bajor
+    email: gbajor [at] me [dot] com
+  -
+    role: Public Relations
+    name: Paige Esterly
+    email: paige.esterlyy [at] gmail [dot] com
+  -
+    role: Public Relations
+    name: Eric Najork
+    email: eric.najork [at] gmail [dot] com
+  -
+    role: Webmaster
+    name: Maxwell Bernstein
+    email: robotics [at] bernsteinbear [dot] com
 ---
 
 <div class="row">
@@ -11,98 +48,19 @@ title: Contact Us | Paly Robotics
 <div class="row hide-for-small-only">
   <div class="12 columns">
     <table width="100%" class="responsive">
+      {% for member in page.members %}
       <tr>
 	<td>
-	  <strong>Coach</strong>
+	  <strong>{{ member.role }}</strong>
 	</td>
 	<td>
-	  Chris Kuszmaul
+	  {{ member.name }}
 	</td>
 	<td>
-	  chriskuszmaul [at] gmail [dot] com
+	  {{ member.email }}
 	</td>
       </tr>
-      <tr>
-	<td>
-	  <strong>Team Captain</strong>
-	</td>
-	<td>
-	  David Najork
-	</td>
-	<td>
-	  david.najork [at] gmail [dot] com
-	</td>
-      </tr>
-      <tr>
-	<td>
-	  <strong>Vice Captain</strong>
-	</td>
-	<td>
-	  Christopher Hinstorff
-	</td>
-	<td>
-	  chinstorff [at] palyrobotics [dot] com
-	</td>
-      </tr>
-      <tr>
-	<td>
-	  <strong>Build</strong>
-	</td>
-	<td>
-	  Ahmed Awadallah
-	</td>
-	<td>
-	  amadallah [at] gmail [dot] com
-	</td>
-      </tr>
-      <tr>
-	<td>
-	  <strong>Programming</strong>
-	</td>
-	<td>
-	  Freddy Kellison-Linn
-	</td>
-	<td>
-	  fred.kl [at] me [dot] com
-	</td>
-      </tr>
-      <tr>
-	<td>
-	  <strong>Animation</strong>
-	</td>
-	<td>
-	  Griffin Bajor
-	</td>
-	<td>
-	  gbajor [at] me [dot] com
-	</td>
-      </tr>
-      <tr>
-	<td>
-	  <strong>Public Relations</strong>
-	</td>
-	<td>
-	  Paige Esterly
-	  <br />
-	  Eric Najork
-	</td>
-	<td>
-	  paige.esterlyy [at] gmail [dot] com 
-	  <br />
-	  eric.najork [at] gmail [dot] com
-	</td>
-      </tr>
-      <tr>
-	<td>
-	  <strong>Webmaster</strong>
-	</td>
-	<td>
-	  Max Bernstein
-	</td>
-	<td>
-	  robotics [at] bernsteinbear [dot] com
-	</td>
-      </tr>
+      {% endfor %}
     </table>
     <div class="row">
       <div class="2 columns">
@@ -119,156 +77,21 @@ title: Contact Us | Paly Robotics
   </div>
 </div>
 
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
+<div class="show-for-small-only">
+  {% for member in page.members %}
+  <div class="row small-12 medium-3 columns" style="padding-bottom: 10px;">
     <p>
-      <strong>Coach:</strong>
+      <strong>{{ member.name }}</strong>
+    </p>
+    <p>
+      {{ member.role }}
+    </p>
+    <p>
+      {{ member.email }}
     </p>
   </div>
-  <div class="small-12 medium-3 columns">
-    <p>
-      Chris Kuszmaul
-    </p>
-  </div>
-  <div class="small-12 medium-6 columns">
-    <p>
-      chriskuszmaul [at] gmail [dot] com
-    </p>
-  </div>
-</div>
-<br />
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
-    <p>
-      <strong>Team Captain:</strong>
-    </p>
-  </div>
-  <div class="small-12 medium-3 columns">
-    <p>
-      David Najork
-    </p>
-  </div>
-  <div class="small-12 medium-6 columns">
-    <p>
-      david.najork [at] gmail [dot] com
-    </p>
-  </div>
-</div>
-<br />
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
-    <p>
-      <strong>Vice Captain:</strong>
-    </p>
-  </div>
-  <div class="small-12 medium-3 columns">
-    <p>
-      Christopher Hinstorff
-    </p>
-  </div>
-  <div class="small-12 medium-6 columns">
-    <p>
-      chinstorff [at] palyrobotics [dot] com
-    </p>
-  </div>
-</div>
-<br />
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
-    <p>
-      <strong>Build:</strong>
-    </p>
-  </div>
-  <div class="small-12 medium-3 columns">
-    <p>
-      Ahmed Awadallah
-    </p>
-  </div>
-  <div class="small-12 medium-6 columns">
-    <p>
-      amadallah [at] gmail [dot] com
-    </p>
-  </div>
-</div>
-<br />
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
-    <p>
-      <strong>Programming:</strong>
-    </p>
-  </div>
-  <div class="small-12 medium-3 columns">
-    <p>
-      Freddy Kellison-Linn
-    </p>
-  </div>
-  <div class="small-12 medium-6 columns">
-    <p>
-      fred.kl [at] me [dot] com
-    </p>
-  </div>
-</div>
-<br />
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
-    <p>
-      <strong>Animation:</strong>
-    </p>
-  </div>
-  <div class="small-12 medium-3 columns">
-    <p>
-      Griffin Bajor
-    </p>
-  </div>
-  <div class="small-12 medium-6 columns">
-    <p>
-      gbajor [at] me [dot] com
-    </p>
-  </div>
-</div>
-<br />
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
-    <p>
-      <strong>Public Relations:</strong>
-    </p>
-  </div>
-  <div class="small-12 medium-3 columns">
-    <p>
-      Paige Esterly
-      <br />
-      Eric Najork
-    </p>
-  </div>
-  <div class="small-12 medium-6 columns">
-    <p>
-      paige.esterlyy [at] gmail [dot] com
-      <br />
-      eric.najork [at] gmail [dot] com
-    </p>
-  </div>
-</div>
-<br />
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
-    <p>
-      <strong>Webmaster:</strong>
-    </p>
-  </div>
-  <div class="small-12 medium-3 columns">
-    <p>
-      Max Bernstein
-    </p>
-  </div>
-  <div class="small-12 medium-6 columns">
-    <p>
-      robotics [at] bernsteinbear [dot] com
-    </p>
-  </div>
-</div>
-<br />
-<div class="row show-for-small-only">
-  <div class="small-12 medium-3 columns">
+  {% endfor %}
+  <div class="row small-12 medium-3 columns">
     <p>
       <strong>Address:</strong>
     </p>
