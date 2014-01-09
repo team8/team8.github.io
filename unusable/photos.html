@@ -1,4 +1,125 @@
 ---
 layout: home
 title: Robots | Paly Robotics
+photos:
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/800/500
+   caption: Small kitten on hand
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/500/700
+   caption: Cat in snow
+  -
+   path: http://placekitten.com/1500/800
+   caption: Cat looking at camera
+  -
+   path: http://placekitten.com/1500/800
+   caption: Cat looking at camera
+  -
+   path: http://placekitten.com/1500/800
+   caption: Cat looking at camera
+  -
+   path: http://placekitten.com/1500/800
+   caption: Cat looking at camera
+  -
+   path: http://placekitten.com/1500/800
+   caption: Cat looking at camera
 ---
+
+<div class="row">
+  <div class="12 columns">
+    <h2>Photos</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="12 columns">
+<ul class="clearing-thumbs" data-clearing>
+    {% for photo in page.photos %}
+    <li><a href="{{ photo.path }}"><img data-caption="{{ photo.caption }}" src="{{ photo.path }}"></a></li>
+</ul>
