@@ -121,7 +121,7 @@ photos:
   <div class="12 columns">
     <ul class="clearing-thumbs" data-clearing>
       {% for photo in page.photos %}
-      <li><a href="{{ photo.path }}"><img data-caption="{{ photo.caption }}" src="{{ photo.path }}"></a></li>
+      <li><a href={{ photo.path }}><img data-caption={{ photo.caption }} src={{ photo.path }}></a></li>
       {% endfor %}
     </ul>
   </div>
