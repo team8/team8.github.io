@@ -1,3 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
+analytics:
+  code: UA-47036829-1
+  url: palyrobotics.com
