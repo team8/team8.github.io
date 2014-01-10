@@ -1,12 +1,27 @@
-v2.0
-	Dev branch for development before next release
-	<br />
-	50 issues closed!
-	<br />
-	Fixed Contact Us page.
-	<br />
+v3.0
+
+	Google Analytics installed.
+
+	Updated Groups page text.
+
 	Reorganized Resources page.
-	<br />
+
+	Reorganized nav bar.
+
+	Fixed Members page to avoid redundancy and mobile bug.
+
+	Fixed logo & title format to display best on mobile.
+
+v2.0
+
+	Dev branch for development before next release.
+
+	50 issues closed!
+
+	Fixed Contact Us page.
+
+	Reorganized Resources page.
+
 	Added wiki.
-	<br />
+
 	Started revamping Teams page.
