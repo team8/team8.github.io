@@ -1,27 +1,27 @@
 -
-  role: Coach
-  name: Chris Kuszmaul
-  email: chriskuszmaul [at] gmail [dot] com
--
-  role: Team Captain
-  name: David Najork
-  email: david [dot] najork [at] gmail [dot] com
--
-  role: Vice Captain
-  name: Christopher Hinstorff
-  email: chinstorff [at] palyrobotics [dot] com
+  role: Animation
+  name: Griffin Bajor
+  email: gbajor [at] me [dot] com
 -
   role: Build
   name: Ahmed Awadallah
   email: amadallah [at] gmail [dot] com
 -
+  role: Coach
+  name: Chris Kuszmaul
+  email: chriskuszmaul [at] gmail [dot] com
+-
+  role: Lab Management
+  name: Claire Kokontis
+  email: cykokontis [at] gmail [dot] com 
+-
   role: Programming
   name: Freddy Kellison-Linn
   email: fred [dot] kl [at] me [dot] com
 -
-  role: Animation
-  name: Griffin Bajor
-  email: gbajor [at] me [dot] com
+  role: Project Management
+  name: Jerome Rasky
+  email: jerome [at] rasky [dot] co (not a typo)
 -
   role: Public Relations
   name: Paige Esterly
@@ -31,6 +31,14 @@
   name: Eric Najork
   email: eric [dot] najork [at] gmail [dot] com
 -
-  role: Webmaster
+  role: Team Captain
+  name: David Najork
+  email: david [dot] najork [at] gmail [dot] com
+-
+  role: Vice Captain
+  name: Christopher Hinstorff
+  email: chinstorff [at] palyrobotics [dot] com
+-
+  role: Web
   name: Maxwell Bernstein
   email: robotics [at] bernsteinbear [dot] com

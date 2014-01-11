@@ -1,36 +1,15 @@
 -
-  path: http://placekitten.com/800/500/
+  path: assets/img/photos/lab/photo_1.jpg
   caption: Filler image 1
 -
-  path: http://placekitten.com/800/500/
-  caption: Filler image 1
--
-  path: http://placekitten.com/800/500/
-  caption: Filler image 1
--
-  path: http://placekitten.com/800/500/
-  caption: Filler image
--
-  path: http://placekitten.com/500/700/
-  caption: Cat in snow
--
-  path: http://placekitten.com/500/700/
+  path: assets/img/photos/lab/photo_2.jpg
   caption: Filler image 2
 -
-  path: http://placekitten.com/500/700/
-  caption: Filler image 2
--
-  path: http://placekitten.com/500/700/
-  caption: Filler image 2
--
-  path: http://placekitten.com/1500/800/
+  path: assets/img/photos/lab/photo_3.jpg
   caption: Filler image 3
 -
-  path: http://placekitten.com/1500/800/
-  caption: Filler image 3
+  path: assets/img/photos/photo/photo_1.jpg
+  caption: yep
 -
-  path: http://placekitten.com/1500/800/
-  caption: Filler image 3
--
-  path: http://placekitten.com/1500/800/
-  caption: Filler image 3
+  path: assets/img/photos/photo/photo_2.jpg
+  caption: blah
