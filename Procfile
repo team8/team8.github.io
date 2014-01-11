@@ -1,1 +1,1 @@
-web: bundle exec jekyll serve --port $PORT
+web: rackup -p $PORT
