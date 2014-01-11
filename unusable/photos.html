@@ -1,115 +1,7 @@
 ---
 layout: home
 title: Photos | Paly Robotics
-photos:
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/800x500
-   caption: Small kitten on hand
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/500x700
-   caption: Cat in snow
-  -
-   path: http://placehold.it/1500x800
-   caption: Cat looking at camera
-  -
-   path: http://placehold.it/1500x800
-   caption: Cat looking at camera
-  -
-   path: http://placehold.it/1500x800
-   caption: Cat looking at camera
-  -
-   path: http://placehold.it/1500x800
-   caption: Cat looking at camera
-  -
-   path: http://placehold.it/1500x800
-   caption: Cat looking at camera
+permalink: photos/
 ---
 
 <div class="row">
@@ -120,8 +12,8 @@ photos:
 <div class="row">
   <div class="12 columns">
     <ul class="clearing-thumbs" data-clearing>
-      {% for photo in page.photos %}
-      <li><a href={{ photo.path }}><img data-caption={{ photo.caption }} src={{ photo.path }}></a></li>
+      {% for photo in site.data.unusable_photos %}
+      <li><a href="{{ photo.path | addslash }}" class="th"><img class="album-photo" data-caption="{{ photo.caption }}" src="{{ photo.path | thumbnail: '100x100<' }}" style="max-width:100px; max-height:100px"></a></li>
       {% endfor %}
     </ul>
   </div>
