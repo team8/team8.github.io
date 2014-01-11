@@ -1,0 +1,12 @@
+-
+  name: Build
+  description: The Build Team is in charge of &mdash; you guessed it &mdash; building the robot! Thanks to Team 8's plethora of tools, such as a laser cutter, CNC mill, drill press, and chop saw, Build Team members are able to construct the robot from the bottom up! Due to the potentially dangerous nature of construction, all of our Build Team members have passed a comprehensive safety exam, just to, you know, make sure all fingers stay firmly attached to their owners.
+-
+  name: Public Relations
+  description: Our Public Relations Team is not only the most attractive and intelligent of all the teams, but it's also in charge of PR matters such as this one (which explains the slightly biased viewpoint of this author). Team 8's PR Team works year-round to reach out to sponsors, organize presentations, advertise robotics around school, and save kittens from burning buildings (okay, maybe not that last one).
+-
+  name: Programming
+  description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using C++, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers.
+-
+  name: Animation
+  description: What does animation have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Animation Team works together to create short videos for this competition using Autodesk 3D animation software.
