@@ -193,3 +193,7 @@ Class name automatically added to element */
 	width: 290px;
 	height: 200px;
 }
+
+.top-bar {
+    margin-bottom: 20px;
+}
