@@ -73,19 +73,15 @@
 		    <li class="divider"></li>
 		    <li class="has-dropdown not-click"><a href="#">About</a>
 		      <ul class="dropdown">
-			<li><a href="/about/groups">Groups</a></li>
-			<li><a href="/about/FIRST">FIRST</a></li>
-			<li><a href="/about/sponsors">Sponsors</a></li>
-			<li><a href="/about/join">Join</a></li>
-			<li><a href="/about/lab">Our Lab</a></li>
+			{% for page in site.data.pages.about %}
+			<li><a href="{{ page.link }}">{{ page.name }}</a></li>
+			{% endfor %}
 		      </ul>
 		    </li>
+		    {% for page in site.data.pages.other %}
 		    <li class="divider"></li> 
-		    <li><a href="/calendar">Calendar</a></li>
-		    <li class="divider"></li>
-		    <li><a href="/resources">Resources</a></li>
-		    <li class="divider"></li>
-		    <li><a href="/contact">Contact Us</a></li>
+		    <li><a href="{{ page.link }}">{{ page.name }}</a></li>
+		    {% endfor %}
 		  </ul>
 		</section>
 	      </nav>
@@ -110,30 +106,19 @@
 	      <li>
 		<a href="/">Paly Robotics</a>
 	      </li>
-	      <li style="background-color: #3B3B3B">
-		<a href="/about/groups">&ensp;&ensp;Groups</a>
-	      </li>
-	      <li style="background-color: #3B3B3B">
-		<a href="/about/FIRST">&ensp;&ensp;FIRST</a>
-	      </li>
-	      <li style="background-color: #3B3B3B">
-		<a href="/about/sponsors">&ensp;&ensp;Sponsors</a>
-	      </li>
-	      <li style="background-color: #3B3B3B">
-		<a href="/about/lab">&ensp;&ensp;Our Lab</a>
-	      </li>
-	      <li style="background-color: #3B3B3B">
-		<a href="/about/join">&ensp;&ensp;Join</a>
-	      </li>
 	      <li>
-		<a href="/contact">Contact Us</a>
-	      </li>
+		<a href="#">About</a>
 	      <li>
-		<a href="/calendar">Calendar</a>
+	      {% for page in site.data.pages.about %}
+	      <li style="background-color: #3B3B3B">
+		<a href="{{ page.link }}">{{ page.name }}</a>
 	      </li>
+	      {% endfor %}
+	      {% for page in site.data.pages.other %}
 	      <li>
-		<a href="/resources">Resources</a>
+		<a href="{{ page.link }}">{{ page.name }}</a>
 	      </li>
+	      {% endfor %}
 	    </ul>
 	  </aside>
 	  
