@@ -33,11 +33,8 @@ a:visited {
 element.style {
     height: 200px !important; }
 
-.orbit-container .orbit-slides-container {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative; }
+
+
 /*****************************************************************************/
 /*
 /* Layout
