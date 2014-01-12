@@ -22,63 +22,17 @@ permalink: sponsors/
     <h3 class="subheader">Sponsors</h3>
     <br />
     <ul class="example-orbit" style="height:350px;" data-orbit>
-      <li>	
-	<img src="https://f.cloud.github.com/assets/5943647/1896828/c448d402-7bbb-11e3-8ba6-e57637892608.png" alt="slide 1" />
-	<div class="orbit-caption">
-	  Apple matched donations
-	</div>
-      </li>
+      {% for sponsor in site.data.sponsors %}
       <li>
-	<img src="https://f.cloud.github.com/assets/5943647/1895361/eeed1864-7b28-11e3-8cdd-583066f45320.png" alt="slide 2" />
-	<div class="orbit-caption">
-	  Microsoft matched donations
-	</div>
-      </li>
-      <li>
-	<img src="https://f.cloud.github.com/assets/5943647/1895359/eec9e448-7b28-11e3-97f9-df11804343ad.png" alt="slide 3" />
-	<div class="orbit-caption">
-	  Boeing donated
-	</div>
-      </li>
-      <li>
-        <img src="https://f.cloud.github.com/assets/5943647/1896736/cb11f424-7bb3-11e3-81ee-d6ae268432c5.png" alt="slide 4" />
+        <img src="{{ sponsor.link }}" />
         <div class="orbit-caption">
-          Dreamworks donated
+          {{ sponsor.caption }}
         </div>
       </li>
-      <li>
-        <img src="https://f.cloud.github.com/assets/5943647/1895360/eedc7036-7b28-11e3-9068-28535df8f49f.png" alt="slide 5" />
-        <div class="orbit-caption">
-          Google donated
-        </div>
-      </li>
-      <li>
-        <img src="https://f.cloud.github.com/assets/5943647/1896737/cb141ce0-7bb3-11e3-9a75-48faa84846d8.png" alt="slide 6" />
-        <div class="orbit-caption">
-          Lockheed-Martin donated
-        </div>
-      </li>
-      <li>
-        <img src="https://f.cloud.github.com/assets/5943647/1896827/c448c958-7bbb-11e3-92cd-7d8d1e0a3d77.png" alt="slide 7" />
-        <div class="orbit-caption">
-          MTM Precision donated
-        </div>
-      </li>
-      <li>
-        <img src="https://f.cloud.github.com/assets/5943647/1895362/eeed8e34-7b28-11e3-80d0-33fcb491734d.png" alt="slide 8" />
-        <div class="orbit-caption">
-          RFMD donated
-        </div>
-      </li>
+      {% endfor %}
     </ul>
     
-    <a href="#" class="orbit-prev"><span></span></a>
-    <a href="#" class="orbit-next"><span></span></a>
-    
-    <div class="orbit-timer">
-      <span></span>
-      <div class="orbit-progress"></div>
-    </div>
-    
+    <a href="#" class="orbit-prev"><span style="border-right-color:grey !important"></span></a>
+    <a href="#" class="orbit-next"><span style="border-left-color:grey !important"></span></a>
   </div>
 </div>
