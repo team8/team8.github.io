@@ -113,6 +113,14 @@ button.green, .button.green {
 
   button.green:hover, button.green:focus, .button.green:hover, .button.green:focus {
     color: white; }
+/*****************************************************************************/
+/*
+/* Orbit Slider Arrow fix
+/*
+/*****************************************************************************/
+
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+  background-color: rgba(51, 51, 51, 0.8); }
 
 /*****************************************************************************/
 /*
