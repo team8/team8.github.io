@@ -1,10 +1,4 @@
 -
-  link: /assets/img/photos/sponsors/apple.png
-  caption: Apple matched donations
--
-  link: /assets/img/photos/sponsors/microsoft.png
-  caption: Microsoft matched donations
--
   link: /assets/img/photos/sponsors/boeing.png
   caption: Boeing donated
 -
@@ -22,3 +16,9 @@
 -
   link: /assets/img/photos/sponsors/rfmd.png
   caption: RFMD donated
+-
+  link: /assets/img/photos/sponsors/apple.png
+  caption: Apple matched donations
+-
+  link: /assets/img/photos/sponsors/microsoft.png
+  caption: Microsoft matched donations
