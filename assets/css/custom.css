@@ -113,6 +113,13 @@ button.green, .button.green {
 
   button.green:hover, button.green:focus, .button.green:hover, .button.green:focus {
     color: white; }
+
+button.small-center, .button.small-center {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%; 
+    margin-left: 0.625em}
+
 /*****************************************************************************/
 /*
 /* Orbit Slider Arrow fix
