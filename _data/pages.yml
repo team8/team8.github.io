@@ -16,6 +16,9 @@ about:
     link: /about/lab
 other:
   -
+    name: News
+    link: /news
+  -
     name: Calendar
     link: /calendar
   -
