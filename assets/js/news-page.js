@@ -66,7 +66,7 @@ var writePostList = function writePostListF (data) {
 
 	var postBody = $("<div/>", {
 	    class: "item-body",
-	    text: val.body
+	    text: val.body.replace(/\n/g, '<br />')
 	}).appendTo(postDiv);
 
 	postDiv.appendTo(postDivs);
