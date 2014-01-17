@@ -12,7 +12,6 @@ window.postList = [];
 window.loadedPosts = false;
 
 var showPost = function showPostF (id) {
-//    if (!loadedPosts) loadPostList();
     var singlePost = $("div.news-items .news-item-"+id);
 
     $("ul.news-list").hide();
@@ -27,10 +26,12 @@ var showPost = function showPostF (id) {
 };
 
 var SinglePost = function SinglePostF (id) {
-    if (loadedPosts) showPost(id);
+    if (loadedPosts) {
+	showPost(id);
+    }
     else {
 	loadPostList();
-	setTimeout(SinglePost, 500);
+	setTimeout(function () { SinglePost(id); }, 500);
     }
 };
 
