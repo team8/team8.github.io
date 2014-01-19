@@ -31,8 +31,10 @@
     <div class="site">
       
       <!-- Off canvas wrap stuffs-->
+      <!--[if !IE><!-->
       <div class="off-canvas-wrap" style="top:-55px">
 	<div class="inner-wrap">
+	  <!--<![endif]-->
 	  <div class="header">
 	    <br class="show-for-large-up" />
 	    <div class="row">
@@ -89,6 +91,7 @@
 	  </div>
 	  
 	  
+	  <!--[if !IE]><!-->
 	  <!-- Menu icon stuffs -->
 	  <nav class="tab-bar show-for-small">
 	    <a class="left-off-canvas-toggle menu-icon">
@@ -121,6 +124,7 @@
 	      {% endfor %}
 	    </ul>
 	  </aside>
+	  <!--<![endif]-->
 	  	  
 	  {{ content }}
 
@@ -157,8 +161,12 @@
 	  </div>	  
 	  
 	  <!-- Off canvas wrap stuff -->
+	  <!--[if !IE]><!-->
 	</div>
       </div>
+      <!--<![endif]-->
+
+      <!-- Script stuffs -->
       <script type="text/javascript" src="/assets/foundation/js/jquery.js"></script>
       <script type="text/javascript" src="/assets/foundation/js/foundation.min.js"></script>
       <script type="text/javascript" src="/assets/foundation/js/foundation/foundation.clearing.js"></script>
