@@ -38,36 +38,44 @@ var SinglePost = function SinglePostF (link) {
     }
 };
 
+var appendPost = function appendPostF (post, postList, listUl) {
+    var listEl = $("<li/>");
+
+    post.link = '/news/#/' + post.link;
+
+    $("<a/>", {
+	href: post.link,
+	html: post.title
+    }).appendTo(listEl);
+
+    listEl.appendTo(listUl);
+};
+
+var appendPosts = function appendPostsF (postList) {
+    var postList = $("#post-list");
+    var listUl = postList.find("ul");
+    $.each(window.posts, function (ind, post) {
+	appendPost(post, postList, listUl);
+    });
+};
+
 $(document).ready(function () {
-    $.ajax({
-	url: "http://news.palyrobotics.com/feed",
-	type: "GET",
-	dataType: "text",
-	success: function(data) {
-	    window.posts = JSON.parse(data);
+    var spinner = $('.preloader');
+    $(document).ajaxStart(function () {
+	spinner.show();
+    }).ajaxStop(function () {
+	spinner.hide();
+    });
 
-	    $.each(window.posts, function (ind, post) {
-		var postList = $("#post-list");
-		var listUL = postList.find("ul");
-		var listEl = $("<li/>");
+    $.getJSON("http://news.palyrobotics.com/feed").success(function (data) {
+	window.posts = data;
+	appendPosts(window.posts);
 
-		post.link = '/news/#/' + post.link;
-
-		$("<a/>", {
-		    href: post.link,
-		    html: post.title
-		}).appendTo(listEl);
-
-		listEl.appendTo(listUL);
-	    });
-
-	    routie({
-		"": PostList,
-		"/:id": SinglePost
-	    });
-	},
-	fail: function (err) {
-	    console.log(err);
-	}
+	routie({
+	    "": PostList,
+	    "/:id": SinglePost
+	});
+    }).fail(function (err) {
+	console.log(err);
     });
 });
