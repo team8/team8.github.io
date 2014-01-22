@@ -1,106 +1,73 @@
-$(document).
-    ajaxStart(function () {
-	$loading.show();
-    }).
-    ajaxStop(function () {
-	$loading.hide();
-    });
+/*
+ * Code written by Maxwell Bernstein and originally used for
+ * bernsteinbear.com. This work is licensed under a
+ * Creative Commons Attribution-NonCommercial 3.0 Unported License.
+ * For attribution, please clearly mention my name and my website, Bernstein Bear.
+ * License: http://creativecommons.org/licenses/by-nc/3.0/deed.en_US
+ * Bernstein Bear: http://bernsteinbear.com
+ */
 
-var $loading = $("div.preloader");
-
-window.postList = [];
-window.loadedPosts = false;
-
-var showPost = function showPostF (id) {
-    var singlePost = $("div.news-items .news-item-"+id);
-
-    $("ul.news-list").hide();
-    $("div.news-nav").show();
-    singlePost.show();
-
-    $("a.nav-el").click(function () {
-	singlePost.hide();
-	$("ul.news-list").show();
-	routie('');
-    });
-};
-
-var SinglePost = function SinglePostF (id) {
-    if (loadedPosts) {
-	showPost(id);
-    }
-    else {
-	loadPostList();
-	setTimeout(function () { SinglePost(id); }, 500);
-    }
-};
-
-var writePostList = function writePostListF (data) {
-    var newsList = $("ul.news-list");
-    var postDivs = $("div.news-items");
-
-    newsList.hide();
-
-    data.map(function loadItemF (val, ind) {
-	var listItem = $("<li/>", {
-	    class: "list-item"
-	});
-	
-	var listLink = $("<a/>", {
-	    class: "item-link",
-	    href: "#post/"+val.id,
-	    text: val.title,
-	}).appendTo(listItem);
-	
-	listItem.appendTo(newsList);
-
-	var postDiv = $("<div/>", {
-	    class: "news-item-"+val.id,
-	    style: "display: none;"
-	});
-
-	var postTitle = $("<h3/>", {
-	    class: "item-title",
-	    text: val.title
-	}).appendTo(postDiv);
-
-	var postBody = $("<div/>", {
-	    class: "item-body",
-	    html: val.body.replace(/\n/g, '<br />')
-	}).appendTo(postDiv);
-
-	postDiv.appendTo(postDivs);
-    });
-};
-
-var showPostList = function showPostListF () {
-    $("div.news-nav").hide();
-    $("div.news-items .news-item-*").hide();
-    $("ul.news-list").show();
-};
-
-var loadPostList = function loadPostListF () {
-    $.getJSON("http://news.palyrobotics.com/feed").
-	success(function (data) {
-	    loadedPosts = true;
-	    writePostList(data);
-	}).
-	fail(function (err) {
-	    $("<div/>", {
-		text: "Oops! Looks like something went wrong. Maybe you should try refreshing the page."
-	    }).appendTo($("#news-container"));
-	});
-};
+window.posts = [];
 
 var PostList = function PostListF () {
-    if (loadedPosts) showPostList();
-    else {
-	loadPostList();
-	setTimeout(PostList, 500);
+    var postList = $("#post-list");
+    var postSingle = $("#post-single");
+    postSingle.hide();
+    postList.show();
+};
+
+var SinglePost = function SinglePostF (link) {
+    var postList = $("#post-list");
+    var postSingle = $("#post-single");
+    postList.hide();
+    postSingle.show();
+
+    link = '/news/#/' + link;
+
+    var found = false;
+    $.each(window.posts, function (ind, post) {
+	if (post.link == link) {
+	    postSingle.find("#post-title").html(post.title);
+	    postSingle.find("#post-body").html(post.body);
+	    found = true;
+	}
+    });
+
+    if (!found) {
+	postSingle.find("#post-title").html("Not found");
     }
 };
 
-routie({
-    '': PostList,
-    'post/:id': SinglePost
+$(document).ready(function () {
+    $.ajax({
+	url: "http://news.palyrobotics.com/feed",
+	type: "GET",
+	dataType: "text",
+	success: function(data) {
+	    window.posts = JSON.parse(data);
+
+	    $.each(window.posts, function (ind, post) {
+		var postList = $("#post-list");
+		var listUL = postList.find("ul");
+		var listEl = $("<li/>");
+
+		post.link = '/news/#/' + post.link;
+
+		$("<a/>", {
+		    href: post.link,
+		    html: post.title
+		}).appendTo(listEl);
+
+		listEl.appendTo(listUL);
+	    });
+
+	    routie({
+		"": PostList,
+		"/:id": SinglePost
+	    });
+	},
+	fail: function (err) {
+	    console.log(err);
+	}
+    });
 });
