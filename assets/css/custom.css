@@ -138,3 +138,7 @@ button.small-center, .button.small-center {
 .top-bar {
     margin-bottom: 20px;
 }
+
+.post-list ul {
+    list-style-type: none; 
+}
