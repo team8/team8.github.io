@@ -52,7 +52,7 @@
 	      <div class="large-5 small-1 columns show-for-large-up">
 		<br />
 		<h6 style="text-align: right !important;" title="2013 Web Team Rocks">A FIRST Robotics Team since 1996</h6>
-		<h6 style="text-align: right !important;" title="Watch Counter Logic Gaming!">Palo Alto High School</h6>
+		<h6 style="text-align: right !important;">Palo Alto High School</h6>
 		<h6 style="text-align: right !important;">FRC Team #8</h6>
 	      </div>
 	    </div>
@@ -77,13 +77,15 @@
 		      <ul class="dropdown">
 			{% for page in site.data.pages.about %}
 			<li><a href="{{ page.link }}">{{ page.name }}</a></li>
+			<li class="divider">
 			{% endfor %}
 		      </ul>
 		    </li>
-		    {% for page in site.data.pages.other %}
 		    <li class="divider"></li> 
-		    <li><a href="{{ page.link }}">{{ page.name }}</a></li>
-		    {% endfor %}
+		    <li><a href="/news">News</a></li>
+		    <li class="divider"></li>
+		    <li><a href="/contact">Contact Us</a></li>
+		    <li class="divider">
 		    <li class="has-dropdown not-click"><a href="/resources/resources">Resources</a>
 		      <ul class="dropdown">
 			<li><a href="/resources/calendar">Calendar</a></li>
