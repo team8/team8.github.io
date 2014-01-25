@@ -84,6 +84,11 @@
 		    <li class="divider"></li> 
 		    <li><a href="{{ page.link }}">{{ page.name }}</a></li>
 		    {% endfor %}
+		    <li class="has-dropdown not-click"><a href="/resources/resources">Resource</a>
+		      <ul class="dropdown">
+			<li><a href="/resources/calendar">Calendar</a></li>
+		      </ul>
+		    </li>
 		  </ul>
 		</section>
 	      </nav>
@@ -114,7 +119,7 @@
 	      <li>
 	      {% for page in site.data.pages.about %}
 	      <li style="background-color: #3B3B3B">
-		<a href="{{ page.link }}">{{ page.name }}</a>
+		<a href="{{ page.link }}">  {{ page.name }}</a>
 	      </li>
 	      {% endfor %}
 	      {% for page in site.data.pages.other %}
@@ -122,6 +127,12 @@
 		<a href="{{ page.link }}">{{ page.name }}</a>
 	      </li>
 	      {% endfor %}
+	      <li>
+		<a href="/resources/resources">Resources</a>
+	      </li>
+	      <li style="background-color: #3B3B3B">
+		<a href="/resources/calendar">Calendar</a>
+	      </li>
 	    </ul>
 	  </aside>
 	  <!--<![endif]-->
