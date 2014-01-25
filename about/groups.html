@@ -17,6 +17,7 @@ permalink: groups/
     <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
       {% for group in site.data.groups %}
       <li>
+	<img src="{{ group.image }}" width="100%">
 	<h4>{{ group.name }}</h4>
 	<p>{{ group.description }}</p>
       </li>
