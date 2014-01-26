@@ -1,28 +1,26 @@
+#1 goes in the top row, with pic on left, text on right, 2 goes pic on right, text on left
 -
-  image: 
-  name: Public Relations
-  description: Our Public Relations Team is in charge of PR matters such as this one. Team 8's PR Team works year-round to reach out to sponsors, organize presentations, advertise robotics around school, and save kittens from burning buildings (okay, maybe not that last one).
+  image1: /assets/img/photos/photo/photo_4.jpg
+  name1: Build
+  description1: The Build Team is in charge of &mdash; you guessed it &mdash; building the robot! Thanks to Team 8's plethora of tools, such as a laser cutter, CNC mill, drill press, and chop saw, Build Team members are able to construct the robot from the bottom up! Due to the potentially dangerous nature of construction, all of our Build Team members have passed a comprehensive safety exam.
+  image2: /assets/img/photos/photo/photo_1.jpg
+  name2: Programming
+  description2: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using C++, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers.
 -
-  image: /assets/img/photos/photo/photo_4.jpg
-  name: Build
-  description: The Build Team is in charge of &mdash; you guessed it &mdash; building the robot! Thanks to Team 8's plethora of tools, such as a laser cutter, CNC mill, drill press, and chop saw, Build Team members are able to construct the robot from the bottom up! Due to the potentially dangerous nature of construction, all of our Build Team members have passed a comprehensive safety exam.
+  image1: /assets/img/1350_by_1800.png
+  name1: Animation
+  description1: What does animation have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Animation Team works together to create short videos for this competition using Autodesk 3D animation software.
+  image2: /assets/img/1350_by_1800.png 
+  name2: Public Relations
+  description2: Our Public Relations Team is in charge of PR matters such as this one. Team 8's PR Team works year-round to reach out to sponsors, organize presentations, advertise robotics around school, and save kittens from burning buildings (okay, maybe not that last one).
 -
-  image: /assets/img/photos/photo/photo_1.jpg
-  name: Programming
-  description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using C++, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers.
+  image1: https://f.cloud.github.com/assets/5943647/2000652/c9bc98e6-8562-11e3-9ad9-8deeeb70f267.png
+  name1: Project Management
+  description1: Our Project Manager keeps the team organized, creating spreadsheets outlining every team member's responsibilities and projects. Project Management checks up on progress regarding ongoing tasks, and makes sure everything is on schedule.
+  image2: /assets/img/cage.jpg
+  name2: Lab Management
+  description2: Team 8's Lab Manager runs things in the lab during work days. Looking for a tool? Ask the Lab Manager. Wondering where you can find the Programming Captain? Ask the Lab Manager.  Lab Management is what keeps the lab from dissolving into chaos, making sure everything is put away in its correct place, checking to see if people are wearing safety goggles in the cage, and keeping all of us rowdy roboticists under control.
 -
-  image:
-  name: Animation
-  description: What does animation have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Animation Team works together to create short videos for this competition using Autodesk 3D animation software.
--
-  image: https://f.cloud.github.com/assets/5943647/2000652/c9bc98e6-8562-11e3-9ad9-8deeeb70f267.png
-  name: Project Management
-  description: Our Project Manager keeps the team organized, creating spreadsheets outlining every team member's responsibilities and projects. Project Management checks up on progress regarding ongoing tasks, and makes sure everything is on schedule.
--
-  image: /assets/img/cage.jpg
-  name: Lab Management
-  description: Team 8's Lab Manager runs things in the lab during work days. Looking for a tool? Ask the Lab Manager. Wondering where you can find the Programming Captain? Ask the Lab Manager.  Lab Management is what keeps the lab from dissolving into chaos, making sure everything is put away in its correct place, checking to see if people are wearing safety goggles in the cage, and keeping all of us rowdy roboticists under control.
--
-  image: /assets/img/photos/photo/photo_3.JPG
-  name: Web
-  description: The Web Team is in charge of creating and maintaining Team 8's beautiful website, palyrobotics.com. Additionally, our Web Team members work closely with Project Management to create and manage servers for our Programming Team.
+  image1: /assets/img/photos/photo/photo_3.JPG
+  name1: Web
+  description1: The Web Team is in charge of creating and maintaining Team 8's beautiful website, palyrobotics.com. Additionally, our Web Team members work closely with Project Management to create and manage servers for our Programming Team.
