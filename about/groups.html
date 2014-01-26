@@ -14,14 +14,16 @@ permalink: groups/
 
 <div class="row">
   <div class="large-12 columns">
-    <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
-      {% for group in site.data.groups %}
+    {% for group in site.data.groups %}
+    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
       <li>
 	<img src="{{ group.image }}" width="100%">
+      </li>
+      <li>
 	<h4>{{ group.name }}</h4>
 	<p>{{ group.description }}</p>
       </li>
-      {% endfor %}
     </ul>
+    {% endfor %}
   </div>
 </div>
