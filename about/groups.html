@@ -16,24 +16,25 @@ permalink: groups/
   <div class="large-12 columns">
     {% for group in site.data.groups %}
     <ul class="medium-block-grid-2 large-block-grid-2">
-    {% if group.stagger == 0 %}
+    	{% if group.stagger == 0 %}
 		<li>
-		<img src="{{ group.image }}" width="100%">
-      </li>
-      <li>
-		<h4>{{ group.name }}</h4>
-		<p>{{ group.description }}</p>
-      </li>
-	{% endif %}
-	{% if group.stagger == 1 %}
-	  <li>
-		<h4> {{ group.name }} </h4>
-		<p>{{ group.description }}</p>
-	  </li>
-	  <li>
-		<img src="{{ group.image }}" width="100%">
-	  </li>	
-	{% endif %}
+			<img src="{{ group.image }}" width="100%">
+    	</li>
+    	<li>
+			<h4>{{ group.name }}</h4>
+			<p>{{ group.description }}</p>
+    	</li>
+		{% endif %}
+
+		{% if group.stagger == 1 %}
+		<li>
+			<h4> {{ group.name }} </h4>
+			<p>{{ group.description }}</p>
+		</li>
+		<li>
+			<img src="{{ group.image }}" width="100%">
+		</li>	
+		{% endif %}
     </ul>
     {% endfor %}
   </div>
