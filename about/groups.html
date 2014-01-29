@@ -12,7 +12,7 @@ permalink: groups/
 
 <br />
 
-<div class="row">
+<div class="row show-for-medium-up">
   <div class="large-12 columns">
     {% for group in site.data.groups %}
     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
@@ -35,4 +35,17 @@ permalink: groups/
     </ul>
     {% endfor %}
   </div>
+</div>
+
+<div class="row hide-for-medium-up">
+	<div class="large-12 columns">
+	{% for group in site.data.groups %}
+	<ul class="small-block-grid-1">
+		<h4>{{ group.name }}</h4>
+		<p>{{ group.description }}</p>
+		<img src="{{ group.image }}" width="100%">
+		<hr />
+	</ul>
+	{% endfor %}
+	</div>
 </div>
