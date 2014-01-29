@@ -15,28 +15,15 @@ permalink: groups/
 
 <div class="row show-for-medium-up">
   <div class="large-12 columns">
-    <!-- Group description and photos (extra code for stagger) -->
     <ul class="medium-block-grid-2 large-block-grid-2">
-      {% for group in site.data.groups %}
+      {% for group in site.data.ground %}
       {% if group.stagger == 0 %}
       <li>
 	<img src="{{ group.image }}" width="100%">
       </li>
       <li>
-	<img src="{{ group.image1 }}" width="100%">
-      </li>
-      <li>
-	<h4>{{ group.name1 }}</h4>
-	<p>{{ group.description1 }}</p>
-      </li>
-    </ul>
-    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
-      <li>
-	<h4>{{ group.name2 }}</h4>
-	<p>{{ group.description2 }}</p>
-      </li>
-      <li>
-	<img src="{{ group.image2 }}" width="100%">
+	<h4>{{ group.name }}</h4>
+	<p>{{ group.description }}</p>
       </li>
       {% endif %}
       
@@ -51,13 +38,11 @@ permalink: groups/
       {% endif %}
       {% endfor %}
     </ul>
-    {% endfor %}
   </div>
 </div>
 
 <div class="row hide-for-medium-up">
   <div class="large-12 columns">
-    <!-- Group description and photos (resizing) -->
     {% for group in site.data.groups %}
     <ul class="small-block-grid-1">
       <h4>{{ group.name }}</h4>
@@ -67,17 +52,4 @@ permalink: groups/
     </ul>
     {% endfor %}
   </div>
-</div>
-
-<div class="row hide-for-medium-up">
-	<div class="large-12 columns">
-	{% for group in site.data.groups %}
-	<ul class="small-block-grid-1">
-		<h4>{{ group.name }}</h4>
-		<p>{{ group.description }}</p>
-		<img src="{{ group.image }}" width="100%">
-		<hr />
-	</ul>
-	{% endfor %}
-	</div>
 </div>
