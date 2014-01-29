@@ -13,17 +13,17 @@ permalink: groups/
 <br />
 
 <div class="row show-for-medium-up">
-  <div class="large-12 columns">
+	<div class="large-12 columns">
     {% for group in site.data.groups %}
     <ul class="medium-block-grid-2 large-block-grid-2">
-    	{% if group.stagger == 0 %}
+		{% if group.stagger == 0 %}
 		<li>
 			<img src="{{ group.image }}" width="100%">
-    	</li>
+		</li>
     	<li>
 			<h4>{{ group.name }}</h4>
 			<p>{{ group.description }}</p>
-    	</li>
+		</li>
 		{% endif %}
 
 		{% if group.stagger == 1 %}
@@ -35,9 +35,9 @@ permalink: groups/
 			<img src="{{ group.image }}" width="100%">
 		</li>	
 		{% endif %}
-    </ul>
-    {% endfor %}
-  </div>
+	</ul>
+	{% endfor %}
+	</div>
 </div>
 
 <div class="row hide-for-medium-up">
