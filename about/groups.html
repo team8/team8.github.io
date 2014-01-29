@@ -68,3 +68,16 @@ permalink: groups/
     {% endfor %}
   </div>
 </div>
+
+<div class="row hide-for-medium-up">
+	<div class="large-12 columns">
+	{% for group in site.data.groups %}
+	<ul class="small-block-grid-1">
+		<h4>{{ group.name }}</h4>
+		<p>{{ group.description }}</p>
+		<img src="{{ group.image }}" width="100%">
+		<hr />
+	</ul>
+	{% endfor %}
+	</div>
+</div>
