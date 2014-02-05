@@ -45,6 +45,10 @@ appendPosts = () ->
     listUl = window.postList.find "ul"
     appendPost(post, postList, listUl) for post in window.posts
 
+replaceURLWithHTMLLinks = (text) ->
+    exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig
+    text.replace exp, "<a href='$1'>$1</a>"
+
 $(document).ready ->
     window.postList = $("#post-list")
     window.postSingle = $("#post-single")
@@ -57,6 +61,8 @@ $(document).ready ->
 
     $.getJSON("http://news.palyrobotics.com/feed")
         .success((data) ->
+            for post in data
+                post.body = replaceURLWithHTMLLinks post.body
             window.posts = data
             appendPosts()
 
