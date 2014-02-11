@@ -14,9 +14,6 @@ about:
   -
     name: Our Lab
     link: /about/lab
-  -
-    name: Resources
-    link: /resources/resources
 
 other:
   -
@@ -25,3 +22,6 @@ other:
   -
     name: Contact Us
     link: /contact
+  -
+    name: Resources
+    link: /resources
