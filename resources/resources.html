@@ -11,6 +11,27 @@ permalink: resources/
 </div>
 
 <div class="row">
+  <div class="small-12 columns">
+  </div>
+</div>
+
+<br />
+
+<div class="row">
+  <div class="small-12 columns">
+    
+    <h3 class="subheader">Event Calendar</h3>
+    <h5 class="subheader">Includes lab hours and major events</h5>
+    <p>Please note that this calendar has lab hours and major events. If you are looking for our build schedule, please reference our<a href="/resources/resources"> build calendar.</a></p>
+
+    <br />
+      
+    <iframe class="show-for-medium-up" src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=db25n7oev1at726gljle5d784c%40group.calendar.google.com&amp;color=%230D7813&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+    <iframe class="hide-for-medium-up" src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=db25n7oev1at726gljle5d784c%40group.calendar.google.com&amp;color=%230D7813&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+  </div>
+</div>
+
+<div class="row">
   <div class="small-12 large-12 columns">
     <table width="100%">
       <tr>
@@ -45,21 +66,74 @@ permalink: resources/
 </div>
 
 <div class="row">
-  <div class="medium-12 large-7 columns">
+  <div class="medium-12 columns">
     <h3 class="subheader">Build Calendar</h3>
     <h5 class="subheader">Includes build and events</h5> 
+    <p>Please note that this calendar contains major deadlines for the construction of the robot. For lab hours and major events please reference <a href="/resources/calendar">this calendar</a>.</p>
+
     <br />
     <iframe class="show-for-medium-up" src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=k7vl40udkusm195pavmgvj3ak4%40group.calendar.google.com&amp;color=%230D7813&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="450" frameborder="0" scrolling="no"></iframe>
-    <iframe class="hide-for-medium-up" src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=k7vl40udkusm195pavmgvj3ak4%40group.calendar.google.com&amp;color=%230D7813&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="450" frameborder="0" scrolling="no"></iframe>
-    <br />
-    <p>Please note that this calendar contains major deadlines for the construction of the robot. For lab hours and major events please reference <a href="/resources/calendar">this calendar</a>.</p>
+    <iframe class="hide-for-medium-up" src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=k7vl40udkusm195pavmgvj3ak4%40group.calendar.google.com&amp;color=%230D7813&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="500" frameborder="0" scrolling="no"></iframe>
   </div>
-  <div class="medium-12 large-5 columns">
-    <br class="hide-for-large-up"/>
-    <h3 class="subheader">Map to location</h3>
-    <h5 class="subheader">We are located at Palo Alto High School</h5>
-    <br />
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6336.238133073568!2d-122.15770663381215!3d37.434291908280905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2113420bed%3A0x795c005023273e8c!2sPalo+Alto+High+School%2C+Embarcadero+Rd%2C+Palo+Alto%2C+CA!5e0!3m2!1sen!2sus!4v1388957446857" width="100%" height="540" frameborder="0" style="border:0"></iframe>
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
+    <!-- Accordian with important dates for the last week below -->
+    <h3 class="subheader" title="Important events for the last week">Last Week of Build Season</h3>
+
+    <dl class="accordion" data-accordion>
+      <dd>
+        <a href="#" onclick="addPanel(0);">Thursday February 6</a>
+        <div id="panel0" class="content">
+          <ul>
+            <li>Finish drive train (everything but electronics)</li>
+          </ul>
+        </div>
+      </dd>
+      <dd>
+        <a href="#" onclick="addPanel(1);">Friday February 7</a>
+        <div id="panel1" class="content">
+          <ul>
+            <li>Finish drive train electronics</li>
+            <li>Finish super-structure pieces</li>
+          </ul>
+        </div>
+      </dd>
+      <dd>
+        <a href="#" onclick="addPanel(2);">Saturday February 8</a>
+        <div id="panel2" class="content">
+          <ul>
+            <li>Assemble super-structure (not including electronics)</li>
+          </ul>
+        </div>
+      </dd>
+      <dd>
+        <a href="#" onclick="addPanel(3);">Sunday February 9</a>
+        <div id="panel3" class="content">
+          <ul>
+            <li>Finish super-structure electronics</li>
+            <li>Test accumulation and physical components</li>
+          </ul>
+        </div>
+      </dd>
+      <dd>
+        <a href="#" onclick="addPanel(4);">Monday February 10</a>
+        <div id="panel4" class="content">
+          <ul>
+            <li>Attach super-structure</li>
+          </ul>
+        </div>
+      </dd>
+      <dd>
+        <a href="#" onclick="addPanel(5);">Tuesday February 11</a>
+        <div id="panel5" class="content">
+          <ul>
+            <li>Finish electronics</li>
+            <li>Finish bumpers</li>
+        </div>
+      </dd>
+    </dl>
   </div>
 </div>
 
@@ -67,16 +141,30 @@ permalink: resources/
 
 <div class="row">
   <div class="small-12 large-5 columns">
-    <iframe src="https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform?embedded=true" width="100%" height="672" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <br class="hide-for-large-up"/>
+    <h3 class="subheader">Map to location</h3>
+    <h5 class="subheader">We are located at Palo Alto High School</h5>
+    <br />
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6336.238133073568!2d-122.15770663381215!3d37.434291908280905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2113420bed%3A0x795c005023273e8c!2sPalo+Alto+High+School%2C+Embarcadero+Rd%2C+Palo+Alto%2C+CA!5e0!3m2!1sen!2sus!4v1388957446857" width="100%" height="380" frameborder="0" style="border:0"></iframe>
   </div>
   <div class="small-12 large-7 columns">
     <h3 class="subheader">Map to lab</h3>
     <h5 class="subheader">Shows our location</h5>
     <br />
     <img src="/assets/img/palymap.png" style="display:block;margin-left:auto;margin-right:auto;width:100%;height:auto">
+  </div>
+</div>
 
-    <br />
+<br />
 
+<div class="row">
+  <div class="small-12 columns">
+        <iframe src="https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
     <table width="100%">
       <tr>
         <th colspan="2"><h3 class="subheader">Website Details</h3></th>
@@ -94,13 +182,5 @@ permalink: resources/
         <td>Jekyll</td>
       </tr>
     </table>
-  </div>
-</div>
-
-<br />
-
-<div class="row">
-  <div class="small=12 large-12 columns">
-    
   </div>
 </div>
