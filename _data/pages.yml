@@ -23,10 +23,10 @@ about:
 resources:
   -
     name: Resources
-    link: /resources
+    link: /resources/resources
   -
     name: Calendar
-    link: /calendar
+    link: /resources/calendar
 
 other:
   -
