@@ -86,6 +86,12 @@
 		    <li><a href="{{ page.link }}">{{ page.name }}</a></li>
 		    <li class="divider"></li>
 		    {% endfor %}
+		    <li class="has-dropdown not-click"><a href="#">Resources</a>
+		      <ul class="dropdown">
+			{% for page in site.data.pages.resources %}
+			<li><a href="{{ page.link }}">{{ page.name }}</a></li>
+			{% endfor %}
+		      </ul>
 		    </li>
 		  </ul>
 		</section>

@@ -20,6 +20,14 @@ about:
     name: Mentors
     link: /about/mentors
 
+resources:
+  -
+    name: Resources
+    link: /resources
+  -
+    name: Calendar
+    link: /calendar
+
 other:
   -
     name: News
