@@ -14,14 +14,9 @@ about:
   -
     name: Our Lab
     link: /about/lab
-
-resources:
   -
     name: Resources
     link: /resources/resources
-  -
-    name: Calendar
-    link: /resources/calendar
 
 other:
   -
