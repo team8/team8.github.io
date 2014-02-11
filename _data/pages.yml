@@ -17,6 +17,14 @@ about:
     name: Our Lab
     link: /about/lab
 
+resources:
+  -
+    name: Resources
+    link: /resources
+  -
+    name: Calendar
+    link: /calendar
+
 other:
   -
     name: Mini-Classes
