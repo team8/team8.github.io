@@ -11,60 +11,42 @@ window.onresize = function() {
 }
 
 /*****************************************************************************/
-/* 
+/*
 /* Off-Canvas Fix
 /*
 /*****************************************************************************/
-
-;(function ($, window, document, undefined) {
-  'use strict';
-
-  Foundation.libs.offcanvas = {
-    name : 'offcanvas',
-
-    version : '5.0.0',
-
-    settings : {},
-
-    init : function (scope, method, options) {
-      this.events();
-    },
-
-    events : function () {
-      $(this.scope).off('.offcanvas')
-        .on('click.fndtn.offcanvas', '.left-off-canvas-toggle', function (e) {
-          e.preventDefault();
-          $(this).closest('.off-canvas-wrap').toggleClass('move-right');
+$(window)
+    .on('resize', function (e) {
+        if ($(this).width() > 640) {
+            e.preventDefault();
+            $(".off-canvas-wrap").removeClass("move-left");
+        }
         })
-        .on('click.fndtn.offcanvas', '.exit-off-canvas',  function (e) {
-          e.preventDefault();
-          $(".off-canvas-wrap").removeClass("move-right");
-        })
-        .on('click.fndtn.offcanvas', '.right-off-canvas-toggle', function (e) {
-          e.preventDefault();
-          $(this).closest(".off-canvas-wrap").toggleClass("move-left");
-        })
-        .on('click.fndtn.offcanvas', '.exit-off-canvas', function (e) {
-          e.preventDefault();
-          $(".off-canvas-wrap").removeClass("move-left");
-        });
-      $(window)
-	.on('resize', function (e) {
-	  if ($(this).width() > 640) {
-	    e.preventDefault();
-	    $(".off-canvas-wrap").removeClass("move-left");
-	  }
-	})
-	.on('resize', function (e) {
-	  if ($(this).width() > 640) {
-	    e.preventDefault();
-	    $(".off-canvas-wrap").removeClass("move-right");
-          }
-	})
-    },
-
-    reflow : function () {}
-  };
-}(jQuery, this, this.document));
+    .on('resize', function (e) {
+        if ($(this).width() > 640) {
+            e.preventDefault();
+            $(".off-canvas-wrap").removeClass("move-right");
+        }
+    });
 
 // no longer need .html adding, due to permalinks! :D
+
+/*****************************************************************************/
+/*
+/* Accordion Fix
+/*
+/*****************************************************************************/
+var panelNum;
+function addPanel(i) {
+    panelNum = i;
+}
+$('dd > a').on("click", function (e) {
+    target = $('#' + 'panel' + panelNum);
+    if(target.hasClass('active2')) {
+        target.removeClass('active');
+        target.removeClass('active2');
+    } else {
+        target.addClass('active2');
+    }
+    $('.active2').addClass('active');
+});
