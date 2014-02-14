@@ -1,32 +1,32 @@
 -
   link: http://projects.palyrobotics.com/
-  linkTitle: Project Management
+  link_title: Project Management
   description: In progress projects for our robotics team
 -
   link: http://wiki.palyrobotics.com/index.php/Main_Page
-  linkTitle: Paly Robotics Wiki
+  link_title: Paly Robotics Wiki
   description: Our wiki, with more information and tutorials for robotics team members
 -
   link: /assets/docs/FRC_2014_shooter_analysis.pdf
-  linkTitle: Shooter Analysis
+  link_title: Shooter Analysis
   description: A shooter analysis written by Dr. Brownell
 -
   link: https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform
-  linkTitle: Mailing List Sign-Up
+  link_title: Mailing List Sign-Up
   description: If you aren't part of the robotics mailing list, sign up here
 -
   link: /assets/docs/RoboticsMediaWaiver.pdf
-  linkTitle: Media wavers
+  link_title: Media Waivers
   description: Fill out a media waver and turn it in so we can use pictures of you
 -
   link: /assets/img/photos/lab/cage.jpg
-  linkTitle: Lab Map
+  link_title: Lab Map
   description: A map of the lab with labeled lab managers
 -
   link: http://www.usfirst.org/roboticsprograms/frc/first-student-team-information-members-system-and-consent-form
-  linkTitle: Release and Consent Form for FIRST
+  link_title: Release and Consent Form for FIRST
   description: Please make sure you have this formed signed so you can participate in FIRST
 -
   link: https://my.usfirst.org/stims/site.lasso
-  linkTitle: STIMS
+  link_title: STIMS
   description: Sign up for STIMS (Student Team Information Members System)
