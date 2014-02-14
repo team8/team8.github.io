@@ -17,37 +17,12 @@ permalink: resources/
       <tr>
 	<th colspan="2"><h3 class="subheader">Links</h3></th>
       </tr>
+      {% for link in site.data.links %}
       <tr>
-	<td><a href="http://projects.palyrobotics.com/"><strong>Project Management</strong></a></td>
-	<td>In progress projects for our robotics team</td>
+	<td><a href="{{ link.link }}"><strong> {{ link.linkTitle }}</strong></a></td>
+	<td>{{ link.description }}</td>
       </tr>
-      <tr>
-	<td><a href="http://wiki.palyrobotics.com/index.php/Main_Page"><strong>Paly Robotics Wiki</strong></a></td>
-	<td>Our wiki, with more information and tutorials for robotics team members</td>
-      </tr>
-      <tr>
-        <td><a href="/assets/docs/FRC_2014_shooter_analysis.pdf"><strong>Shooter Analysis</strong></a></td>
-        <td>A shooter analysis written by Dr. Brownell</td>
-      </tr>
-      <tr>
-	<td><a href="https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform"><strong>Mailing List Sign-Up</strong></a></td>
-	<td>If you aren't part of the robotics mailing list, sign up here</td>
-      </tr>
-      <tr>
-	<td><a href="/assets/docs/RoboticsMediaWaiver.pdf"><strong>Media wavers</strong></a></td>
-	<td>Fill out the media wavers and turn them in so we can use pictures of you</td>
-      <tr>
-	<td><a href="/assets/img/photos/lab/cage.jpg"><strong>Lab Map</strong></a></td>
-	<td>A map of the lab with labeled lab managers</td>
-      </tr>
-      <tr>
-	<td><a href="http://www.usfirst.org/roboticsprograms/frc/first-student-team-information-members-system-and-consent-form"><strong>Release and Consent Form</strong></a></td>
-	<td>Please make sure you have this formed signed</td>
-      </tr>
-      <tr>
-	<td><a href="https://my.usfirst.org/stims/site.lasso"><strong>STIMS</strong></a></td>
-	<td>Sign up through STIMS</td>
-      </tr>
+      {% endfor %}
     </table>
   </div>
 </div>
