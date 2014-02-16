@@ -15,6 +15,7 @@ permalink: groups/
 
 <div class="row show-for-medium-up">
   <div class="large-12 columns">
+    <!-- Group description and photos (extra code for stagger) -->
     <ul class="medium-block-grid-2 large-block-grid-2">
       {% for group in site.data.groups %}
       {% if group.stagger == 0 %}
@@ -43,6 +44,7 @@ permalink: groups/
 
 <div class="row hide-for-medium-up">
   <div class="large-12 columns">
+    <!-- Group description and photos (resizing) -->
     {% for group in site.data.groups %}
     <ul class="small-block-grid-1">
       <h4>{{ group.name }}</h4>
