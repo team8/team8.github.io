@@ -92,18 +92,12 @@ permalink: resources/
       <tr>
         <th colspan="2"><h3 class="subheader">Website Details</h3></th>
       </tr>
+      {% for detail in site.data.website_details %}
       <tr>
-        <td width="50%"><strong>Server</strong></td>
-        <td>GitHub Pages</td>
+        <td width="50%"><strong>{{ detail.name }}</strong></td>
+        <td>{{ detail.content }}</td>
       </tr>
-      <tr>
-        <td><strong>Layout Framework</strong></td>
-        <td>Foundation 5</td>
-      </tr>
-      <tr>
-        <td><strong>Page Generation Framework</strong></td>
-        <td>Jekyll</td>
-      </tr>
+      {% endfor %}
     </table>
   </div>
 </div>
