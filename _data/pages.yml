@@ -27,5 +27,8 @@ other:
     name: Contact Us
     link: /contact
   -
+    name: Calendar
+    link: /calendar
+  -
     name: Resources
     link: /resources
