@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsiveness                                                                                                 
 /*
 /*****************************************************************************/
-@media (max-width: 640px) {
+@media (max-width: 2400px) {
   .row {
     min-width: 100% !important;
     max-width: 100% !important; }
