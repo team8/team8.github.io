@@ -1,4 +1,5 @@
 #for /resources links
+otherpages:
 -
   link: http://projects.palyrobotics.com/
   title: Project Management
@@ -11,6 +12,8 @@
   link: /assets/docs/FRC_2014_shooter_analysis.pdf
   title: Shooter Analysis
   description: A shooter analysis written by Dr. Brownell
+
+teamforms:
 -
   link: https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform
   title: Mailing List Sign-Up
@@ -20,10 +23,6 @@
   title: Media Waivers
   description: Fill out a media waver and turn it in so we can use pictures of you
 -
-  link: /assets/img/photos/lab/cage.jpg
-  title: Lab Map
-  description: A map of the lab with labeled lab managers
--
   link: http://www.usfirst.org/roboticsprograms/frc/first-student-team-information-members-system-and-consent-form
   title: Release and Consent Form for FIRST
   description: Please make sure you have this formed signed so you can participate in FIRST
@@ -31,3 +30,9 @@
   link: https://my.usfirst.org/stims/site.lasso
   title: STIMS
   description: Sign up for STIMS (Student Team Information Members System)
+
+miscellaneous:
+-
+  link: /assets/img/photos/lab/cage.jpg
+  title: Lab Map
+  description: A map of the lab with labeled lab managers
