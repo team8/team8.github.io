@@ -22,9 +22,6 @@ other:
     name: News
     link: /news
   -
-    name: Calendar
-    link: /calendar
-  -
     name: Contact Us
     link: /contact
   -
