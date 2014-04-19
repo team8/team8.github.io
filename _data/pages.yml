@@ -14,9 +14,6 @@ about:
     name: Join
     link: /about/join
   -
-    name: Calendar
-    link: /calendar
-  -
     name: Our Lab
     link: /about/lab
 
@@ -27,6 +24,9 @@ other:
   -
     name: Contact Us
     link: /contact
+  -
+    name: Calendar
+    link: /calenar
   -
     name: Resources
     link: /resources
