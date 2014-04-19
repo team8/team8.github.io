@@ -10,19 +10,11 @@ otherpages:
   title: Paly Robotics Wiki
   description: Our wiki, with more information and tutorials for robotics team members
 -
-  link: https://docs.google.com/forms/d/1qrT8_d0fFQUnwNw4ZIn0ndp_2eONPNqwMMzhpZEY21Y/viewform
-  title: Mini-Class Course Creation
-  description: Sign up to teach a mini-class
--
   link: /assets/docs/FRC_2014_shooter_analysis.pdf
   title: Shooter Analysis
   description: A shooter analysis written by Dr. Brownell
 
 teamforms:
--
-  link: http://goo.gl/zzXU4P
-  title: Mini-Class Sign-Up
-  description: Sign up for mini classes here! Finish before 4/17
 -
   link: https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform
   title: Mailing List Sign-Up
