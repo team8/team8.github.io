@@ -1,6 +1,7 @@
 v5.0
 
-	References to empty pqages Removed. (https://github.com/team8/team8.github.io/commit/aeb2030137cb726eb9d8dd153d68a1104f3b0766)
+	References to empty pqages Removed. (aeb2030137cb726eb9d8dd153d68a1104f3b0766)
+	References to images fixed
 	
 v4.0
 
