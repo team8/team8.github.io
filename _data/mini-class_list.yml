@@ -1,6 +1,6 @@
 # for the list of mini-classes
 
-Thursday:
+thursday:
   -
     name: Electronics
   -
@@ -8,7 +8,7 @@ Thursday:
   -
     name: Robot Programming
 
-Saturday Morning:
+saturday_morning:
   -
     name: Basic Milling
   -
@@ -16,7 +16,7 @@ Saturday Morning:
   -
     name: Server Management
 
-Saturday Afternoon:
+saturday_afternoon:
   -
     name: CAD
   -
@@ -24,7 +24,7 @@ Saturday Afternoon:
   -
     name: Robot Programming
 
-Sunday:
+sunday:
   -
     name: CAD
   -
