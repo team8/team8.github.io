@@ -7,7 +7,7 @@ days:
     -
       name: Electronics
     -
-      name: Kenton's Class - CNC, Solder, Power Machinery
+      name: CNC, Solder, Power Machinery
     -
       name: Robot Programming
 
@@ -27,7 +27,7 @@ days:
       -
         name: CAD
       -
-        name: Pnuematics
+        name: Pneumatics
       -
         name: Robot Programming
 
