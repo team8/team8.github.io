@@ -19,6 +19,9 @@ about:
 
 other:
   -
+    name: Mini-Classes
+    link: /miniclass
+  -
     name: News
     link: /news
   -
@@ -30,6 +33,3 @@ other:
   -
     name: Resources
     link: /resources
-  -
-    name: Mini-Classes
-    link: /miniclass
