@@ -14,7 +14,8 @@ permalink: miniclass/
 <div class="row">
   <div class="small-12 medium-6 columns">
     <!-- About mini-classes -->
-    <p>At robotics, one of our goals to is to pass on our knowledge to younger students. One way we do this is by teaching mini-classes. In mini-classes, students are sign up to lead and teach other students on a robotics-related subject. This allows students to teach other students what they feel they know best. Students are also encouraged to ask robotics veterans to teach a mini-class on a subject they wish they knew better. After sign-ups, students sign up for classes whose subjects they wish to learn. Mini-class examples are below.
+    <p>At robotics, one of our goals to is to pass on our knowledge to younger students. One way we do this is by teaching mini-classes. In mini-classes, students are sign up to lead and teach other students on a robotics-related subject. This allows students to teach other students what they feel they know best. Students are also encouraged to ask robotics veterans to teach a mini-class on a subject they wish they knew better. After sign-ups, students sign up for classes whose subjects they wish to learn. A list of mini-classes are to the right.</p>
+    <br />
     <!-- Picture -->
     <img src="/assets/img/photos/photo/photo_3.JPG" />
     <br class="show-for-medium-up" />
@@ -25,33 +26,41 @@ permalink: miniclass/
       <tr>
 	<td><h4>Thursday</h4></td>
       </tr>
-      {% for page in site.data.mini-class_list.thursday %}
+      {% for class in site.data.mini-class_list.thursday %}
       <tr>
-	<td>{{ mini-class_list.name }}</td>
+	<td>{{ class.name }}</td>
       </tr>
       {% endfor %}
       <tr>
 	<td><h4>Saturday Morning</h4></td>
       </tr>
-      {% for page in site.data.mini-class_list.saturday_morning %}
+      {% for class in site.data.mini-class_list.saturday_morning %}
       <tr>
-	<td>{{ mini-class_list.name }}</td>
+	<td>{{ class.name }}</td>
       </tr>
       {% endfor %}
       <tr>
 	<td><h4>Saturday Afternoon</h4></td>
       </tr>
-      {% for page in site.data.mini-class_list.saturday_afternoon %}
+      {% for class in site.data.mini-class_list.saturday_afternoon %}
       <tr>
-	<td>{{ mini-class_list.name }}</td>
+	<td>{{ class.name }}</td>
       </tr>
       {% endfor %}
       <tr>
 	<td><h4>Sunday</h4></td>
       </tr>
-      {% for page in site.data.mini-class_list.sunday %}
+      {% for class in site.data.mini-class_list.sunday %}
       <tr>
-	<td>{{ mini-class_list.name }}</td>
+	<td>{{ class.name }}</td>
+      </tr>
+      {% endfor %}
+      <tr>
+	<td><h4>To Be Determined</h4></td>
+      </tr>
+      {% for class in site.data.mini-class_list.tbd %}
+      <tr>
+	<td>{{ class.name }}</td>
       </tr>
       {% endfor %}
     </table>
