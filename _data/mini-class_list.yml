@@ -22,7 +22,7 @@ days:
         name: Server Management
 
   -
-    name: Saturday Afternoon:
+    name: Saturday Afternoon
     classes:
       -
         name: CAD

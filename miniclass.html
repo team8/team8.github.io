@@ -17,51 +17,27 @@ permalink: miniclass/
     <h5>About Mini-Classes</h5>
     <p>At robotics, one of our goals to is to pass on our knowledge to younger students. One way we do this is by teaching mini-classes. In mini-classes, students sign up to lead and teach other students on a robotics-related subject. This allows students to teach other students what they feel they know best. Students are also encouraged to ask robotics veterans to teach a mini-class on a subject they wish they knew better. During sign-ups, students sign up for classes whose subjects they wish to learn. A list of mini-classes, and their times, are to the right.</p>
     <br />
+  </div>
+  <div class="small-12 medium-6 columns">
     <!-- Picture -->
     <img src="/assets/img/photos/photo/photo_3.JPG" />
     <br class="show-for-medium-up" />
   </div>
-  <div class="small-12 medium-6 columns">
-    <!-- List of mini-classes -->
+</div>
+
+<div class="row">
+  <div class="large-12 columns">
     <table width="100%">
+      {% for day in site.data.mini-class_list.days %}
       <tr>
-	<td><h5>Thursday</h5></td>
-      </tr>
-      {% for class in site.data.mini-class_list.thursday %}
-      <tr>
-	<td>{{ class.name }}</td>
-      </tr>
-      {% endfor %}
-      <tr>
-	<td><h5>Saturday Morning</h5></td>
-      </tr>
-      {% for class in site.data.mini-class_list.saturday_morning %}
-      <tr>
-	<td>{{ class.name }}</td>
-      </tr>
-      {% endfor %}
-      <tr>
-	<td><h5>Saturday Afternoon</h5></td>
-      </tr>
-      {% for class in site.data.mini-class_list.saturday_afternoon %}
-      <tr>
-	<td>{{ class.name }}</td>
-      </tr>
-      {% endfor %}
-      <tr>
-	<td><h5>Sunday</h5></td>
-      </tr>
-      {% for class in site.data.mini-class_list.sunday %}
-      <tr>
-	<td>{{ class.name }}</td>
-      </tr>
-      {% endfor %}
-      <tr>
-	<td><h5>To Be Determined</h5></td>
-      </tr>
-      {% for class in site.data.mini-class_list.tbd %}
-      <tr>
-	<td>{{ class.name }}</td>
+	<td>
+	  <strong>{{ day.name }}</strong>
+	</td>
+	{% for class in day.classes %}
+	<td>
+	  {{ class.name }}
+	</td>
+	{% endfor %}
       </tr>
       {% endfor %}
     </table>
