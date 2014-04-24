@@ -1,37 +1,48 @@
 # for the list of mini-classes
 
-thursday:
+days:
   -
-    name: Electronics
-  -
-    name: Kenton's Class - CNC, Solder, Power Machinery
-  -
-    name: Robot Programming
+    name: Thursday
+    classes:
+    -
+      name: Electronics
+    -
+      name: Kenton's Class - CNC, Solder, Power Machinery
+    -
+      name: Robot Programming
 
-saturday_morning:
   -
-    name: Basic Milling
-  -
-    name: Welding
-  -
-    name: Server Management
+    name: Saturday Morning
+    classes:
+      -
+        name: Basic Milling
+      -
+        name: Welding
+      -
+        name: Server Management
 
-saturday_afternoon:
   -
-    name: CAD
-  -
-    name: Pnuematics
-  -
-    name: Robot Programming
+    name: Saturday Afternoon:
+    classes:
+      -
+        name: CAD
+      -
+        name: Pnuematics
+      -
+        name: Robot Programming
 
-sunday:
   -
-    name: CAD
-  -
-    name: Project Management Website
+    name: Sunday
+    classes:
+    -
+      name: CAD
+    -
+      name: Project Management Website
 
-tbd:
   -
-    name: Git Shell Tutorials
-  -
-    name: Laser Cutter Basics
+    name: To Be Determined
+    classes:
+    -
+      name: Git Shell Tutorials
+    -
+      name: Laser Cutter Basics
