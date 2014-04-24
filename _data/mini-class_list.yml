@@ -1,0 +1,31 @@
+# for the list of mini-classes
+
+Thursday:
+  -
+    name: Electronics
+  -
+    name: Kentron's Class: CNC, Solder, Power Machinery
+  -
+    name: Robot Programming
+
+Saturday Morning:
+  -
+    name: Basic Milling
+  -
+    name: Welding
+  -
+    name: Server Management
+
+Saturday Afternoon:
+  -
+    name: CAD
+  -
+    name: Pnuematics
+  -
+    name: Robot Programming
+
+Sunday:
+  -
+    name: CAD
+  -
+    name: Project Management Website
