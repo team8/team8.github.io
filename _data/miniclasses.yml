@@ -34,15 +34,15 @@ days:
   -
     name: Sunday
     classes:
-    -
-      name: CAD
-    -
-      name: Project Management Website
+      -
+        name: CAD
+      -
+        name: Project Management Website
 
   -
     name: To Be Determined
     classes:
-    -
-      name: Git Shell Tutorials
-    -
-      name: Laser Cutter Basics
+      -
+        name: Git Shell Tutorials
+      -
+        name: Laser Cutter Basics
