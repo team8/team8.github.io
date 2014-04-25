@@ -28,7 +28,42 @@ permalink: miniclasses/
 <div class="row">
   <div class="large-12 columns">
     <table width="100%">
-      {% for day in site.data.mini-class_list.days %}
+      <tr>
+	  <td width="20%"><b>Thursday</b></td>
+	  <td width="20%"><b>Saturday Morning</b></td>
+	  <td width="20%"><b>Saturday Afternoon</b></td>
+	  <td width="20%"><b>Sunday</b></td>
+	  <td width="20%"><b>To Be Determined</b></td>
+      </tr>
+      <tr>
+	<td>Electronics</td>
+	<td>Basic Milling</td>
+	<td>CAD</td>
+	<td>CAD</td>
+	<td>Git Shell Tutorials</td>
+      </tr>
+      <tr>
+	<td>CNC, Solder,Power Machinery</td>
+	<td>Welding</td>
+	<td>Pneumatics</td>
+	<td>Project Management Website</td>
+	<td>Laser Cutter Basics</td>
+      </tr>
+      <tr>
+	<td>Robot Programming</td>
+	<td>Server Management</td>
+	<td>Robot Programming</td>
+	<td><div align="center">*</span></td>
+	<td><div align="center">*</div></td>
+    </table>
+  </div>
+</div>
+
+<!-- Sideways yaml code
+<div class="row">
+  <div class="large-12 columns">
+    <table width="100%">
+      {% for day in site.data.miniclasses.days %}
       <tr>
 	<td>
 	  <strong>{{ day.name }}</strong>
@@ -43,3 +78,4 @@ permalink: miniclasses/
     </table>
   </div>
 </div>
+-->
