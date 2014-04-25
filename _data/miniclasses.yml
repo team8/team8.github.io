@@ -12,7 +12,7 @@ days:
       name: Robot Programming
 
   -
-    name: Saturday Morning
+    name: Saturday morning
     classes:
       -
         name: Basic Milling
@@ -22,7 +22,7 @@ days:
         name: Server Management
 
   -
-    name: Saturday Afternoon
+    name: Saturday afternoon
     classes:
       -
         name: CAD
