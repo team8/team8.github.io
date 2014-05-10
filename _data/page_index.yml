@@ -1,0 +1,18 @@
+# for the home page
+
+team_description: Paly Robotics is dedicated to enriching the education of its members through building, programming, animation, and community outreach. We have been a FIRST team since 1996.
+
+first_description: The Paly Robotics team is happy to have been a part of FIRST for 18 years. For Inspiration and Recognition of Science and Technology has a term "gracious professionalism" that we believe everyone should abide by. The first regional competiton that we will be attending will be in Madera from March 7th to 9th. The second will be in San Jose from April 3rd to 5th. To read more about FIRST go to our <a href="/about/FIRST" title="Also under the &ldquo;About&rdquo; tab">FIRST page</a> or check out their <a href="http://www.usfirst.org/roboticsprograms/frc">website</a>.
+
+find_stuff: Want to find some information about us? Maps, links, and server information can all be found on the <a href="/resources">resources</a> page!
+
+sponsors_description: Our robotics team needs money to be able to thrive, and for this reason we depend on our gracious sponsors. We welcome donations of all amounts. To view our sponsors check out our <a href="/about/sponsors" title="Under the &ldquo;About&rdquo; tab">Sponsors</a> page.
+
+# chris with viking helmet
+main_image: /assets/img/photos/madera/1016455_10152285948601031_269852201_n.jpg
+
+# robot wth red bumper at competition
+secondary_image: /assets/img/photos/madera/1782134_10152285948346031_1546759482_n.jpg
+
+# panorma of lab on day 1
+bottom_image: /assets/img/photos/lab/pano_4.jpg
