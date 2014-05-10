@@ -18,12 +18,8 @@ h4 {
 }
 
 .row {
-<<<<<<< HEAD
-  width: 100% }
-=======
-    width: 90%
+    width: 100%;
 }
->>>>>>> Fixed syntax according to styleguide
 
 .header {
     width: 100%;
