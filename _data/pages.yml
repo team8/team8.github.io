@@ -25,11 +25,11 @@ other:
     name: News
     link: /news
   -
-    name: Contact Us
-    link: /contact
-  -
     name: Calendar
     link: /calendar
   -
     name: Resources
     link: /resources
+  -
+    name: Contact Us
+    link: /contact
