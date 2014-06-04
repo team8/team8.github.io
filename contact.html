@@ -15,7 +15,7 @@ permalink: contact/
   <div class="12 columns">
     <!-- List of contacts -->
     <table width="100%" class="responsive">
-      {% for member in site.data.contact %}
+      {% for member in site.data.page_contact %}
       <tr>
 	<td>
 	  <strong>{{ member.role }}</strong>
@@ -46,7 +46,7 @@ permalink: contact/
 
 <div class="show-for-small-only">
   <!-- List of contacts (resizing) -->
-  {% for member in site.data.contact %}
+  {% for member in site.data.page_contact %}
   <div class="row small-12 medium-3 columns" style="padding-bottom: 10px;">
     <p>
       <strong>{{ member.name }}</strong>
