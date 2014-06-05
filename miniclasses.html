@@ -15,53 +15,26 @@ permalink: miniclasses/
   <div class="small-12 medium-6 columns">
     <!-- About mini-classes -->
     <h5>About Mini-Classes</h5>
-    <p>At robotics, one of our goals to is to pass on our knowledge to younger students. One way we do this is by teaching mini-classes. At robotics, students sign up to teach other students a robotics-related topic. This allows students to teach other students what they feel they know best. Students are also encouraged to ask robotics veterans to teach a mini-class on a subject they wish they knew better. During sign-ups, students sign up for classes whose subjects they wish to learn. A list of mini-classes, and their times, are to the below.</p>
+    <p> {{ site.data.page_miniclass.text }} </p>
     <br />
+    <h5>To Be Determined</h5>
+    <ul>
+      <li>Git shell tutorials</li>
+      <li>Laser cutter basics</li>
+    </ul>
   </div>
   <div class="small-12 medium-6 columns">
     <!-- Picture -->
-    <img src="/assets/img/photos/photo/photo_3.JPG" />
+    <img src= {{ site.data.page_miniclass.image }} />
     <br class="show-for-medium-up" />
   </div>
 </div>
 
-<div class="row">
-  <div class="large-12 columns">
-    <table width="100%">
-      <tr>
-	  <td width="20%"><b>Thursday</b></td>
-	  <td width="20%"><b>Saturday Morning</b></td>
-	  <td width="20%"><b>Saturday Afternoon</b></td>
-	  <td width="20%"><b>Sunday</b></td>
-	  <td width="20%"><b>To Be Determined</b></td>
-      </tr>
-      <tr>
-	<td>Electronics</td>
-	<td>Basic milling</td>
-	<td>CAD</td>
-	<td>CAD</td>
-	<td>Git Shell Tutorials</td>
-      </tr>
-      <tr>
-	<td>CNC, soldering, power machinery</td>
-	<td>Welding</td>
-	<td>Pneumatics</td>
-	<td>Project management website</td>
-	<td>Laser cutter basics</td>
-      </tr>
-      <tr>
-	<td>Robot programming</td>
-	<td>Server management</td>
-	<td>Robot programming</td>
-    </table>
-  </div>
-</div>
 
-<!-- Sideways yaml code
 <div class="row">
   <div class="large-12 columns">
     <table width="100%">
-      {% for day in site.data.miniclasses.days %}
+      {% for day in site.data.page_miniclass.days %}
       <tr>
 	<td>
 	  <strong>{{ day.name }}</strong>
@@ -76,4 +49,3 @@ permalink: miniclasses/
     </table>
   </div>
 </div>
--->

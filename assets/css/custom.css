@@ -18,12 +18,8 @@ h4 {
 }
 
 .row {
-<<<<<<< HEAD
-  width: 100% }
-=======
-    width: 90%
+    width: 100%;
 }
->>>>>>> Fixed syntax according to styleguide
 
 .header {
     width: 100%;
@@ -104,6 +100,10 @@ table tr {
 
 table tr:nth-child(2n) {
     background-color: #f8f8f8;
+}
+
+table.same-color tr {
+    background-color: white;
 }
 
 table tr th {
