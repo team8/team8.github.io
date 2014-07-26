@@ -6,7 +6,7 @@
   email: chriskuszmaul [at] gmail [dot] com
 -
   role: Team Captain
-  name: Christopher Hinstorff
+  name: Chris Hinstorff
   email: chinstorff [at] palyrobotics [dot] com
 -
   role: Public Relations
@@ -14,8 +14,8 @@
   email: 
 -
   role: Build
-  name: TBD
-  email:
+  name: Claire Kokontis
+  email: ckokontis@palyrobotics.com
 -
   role: Programming
   name: TBD
@@ -24,15 +24,15 @@
   role: Animation
   name: Griffin Bajor
   email: gbajor [at] palyrobotics [dot] com
--
-  role: Project Management
-  name: Maya Deshpande
-  email: mdeshpande@palyrobotics.com
+# -
+#   role: Project Management
+#   name: TBD
+#   email:
 -
   role: Lab Management
   name: Kenny Cheung
   email: kcheung [at] palyrobotics [dot] com 
--
-  role: Web
-  name: TBD
-  email: 
+# -
+#   role: Web
+#   name: TBD
+#   email: 
