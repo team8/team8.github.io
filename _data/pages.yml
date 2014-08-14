@@ -22,6 +22,9 @@ other:
     name: News
     link: /news
   -
+    name: Cheezy Champs
+    link: /cheezychamps
+  -
     name: Calendar
     link: /calendar
   -
