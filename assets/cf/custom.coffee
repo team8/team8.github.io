@@ -6,8 +6,8 @@
 
 window.onresize = () ->
     if document.getElementById('resizingIframe') != null
-	obj = document.getElementById('resizingIframe')
-	obj.style.height = (obj.parentNode.offsetWidth / 16 * 9) + "px"
+    	obj = document.getElementById('resizingIframe')
+    	obj.style.height = (obj.parentNode.offsetWidth / 16 * 9) + "px"
 
 ###
  *

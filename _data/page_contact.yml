@@ -1,38 +1,38 @@
 # for /contact us
 
 -
-  role: Public Relations
-  name: Paige Esterly
-  email: paige [dot] esterlyy [at] gmail [dot] com (not a typo)
--
   role: Coach
   name: Chris Kuszmaul
   email: chriskuszmaul [at] gmail [dot] com
 -
   role: Team Captain
-  name: Christopher Hinstorff
+  name: Chris Hinstorff
   email: chinstorff [at] palyrobotics [dot] com
 -
+  role: Public Relations
+  name: TBD
+  email: 
+-
   role: Build
-  name: Ahmed Awadallah
-  email: amadallah [at] gmail [dot] com
+  name: Claire Kokontis
+  email: ckokontis [at] palyrobotics [dot] com
 -
   role: Programming
-  name: Freddy Kellison-Linn
-  email: fred [dot] kl [at] me [dot] com
+  name: James Ngo
+  email: jngo [at] palyrobotics [dot] com
 -
   role: Animation
   name: Griffin Bajor
-  email: gbajor [at] me [dot] com
--
-  role: Project Management
-  name: Jerome Rasky
-  email: jerome [at] rasky [dot] co (not a typo)
+  email: gbajor [at] palyrobotics [dot] com
+# -
+#   role: Project Management
+#   name: TBD
+#   email:
 -
   role: Lab Management
-  name: Claire Kokontis
-  email: cykokontis [at] gmail [dot] com 
+  name: Kenny Cheung
+  email: kcheung [at] palyrobotics [dot] com 
 -
   role: Web
-  name: Maxwell Bernstein
-  email: robotics [at] bernsteinbear [dot] com
+  name: Rafi Long
+  email: rlong [at] palyrobotics [dot] com
