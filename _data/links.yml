@@ -1,5 +1,11 @@
 # for /resources links
 
+clubday:
+-
+  link: https://docs.google.com/forms/d/1srcQ0yza89Ntg4b8PkspRlN9IEBv8xi8E2kjsphysIE/viewform?usp=send_form
+  title: Club Day Sign Up Form
+  description: The club day sign up form for robotics
+  
 otherpages:
 -
   link: http://projects.palyrobotics.com/
