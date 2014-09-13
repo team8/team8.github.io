@@ -1,5 +1,11 @@
 # for /resources links
 
+clubday:
+-
+  link: https://docs.google.com/forms/d/1srcQ0yza89Ntg4b8PkspRlN9IEBv8xi8E2kjsphysIE/viewform?usp=send_form
+  title: Club Day Sign Up Form
+  description: The club day sign up form for robotics
+  
 otherpages:
 -
   link: http://projects.palyrobotics.com/
@@ -19,6 +25,10 @@ otherpages:
   description: The Paly Robotics Facebook page, which contains updates for the team.
 
 teamforms:
+-
+  link: https://docs.google.com/forms/d/1MHuLfXxjUmQYMycP2JwS9fDPSBN-kZhBlebCpW4fwF0/viewform?usp=send_form
+  title: Parent Workplace Survey
+  description: Help Paly Robotics get sponsors by telling us where your parents work.
 -
   link: https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform
   title: Mailing List Sign-Up
@@ -41,7 +51,3 @@ miscellaneous:
   link: http://theuniversityfaculty.cornell.edu/meetings/RobertsRulesSimplified.pdf
   title: Robert's Rules of Order
   description: Cornell University's explanation of Robert's Rules of Order
--
-  link: /assets/img/photos/lab/cage.jpg
-  title: Lab Map
-  description: A map of the lab with labeled lab managers
