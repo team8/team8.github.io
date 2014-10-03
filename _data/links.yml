@@ -42,6 +42,10 @@ teamforms:
 
 miscellaneous:
 -
+  link: http://wrrf.org/calgames/calgames-2014/
+  title: Calgames Information
+  description: Time, location, and scoring information for Calgames on their website!
+-
   link: http://theuniversityfaculty.cornell.edu/meetings/RobertsRulesSimplified.pdf
   title: Robert's Rules of Order
   description: Cornell University's explanation of Robert's Rules of Order
