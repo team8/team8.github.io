@@ -4,11 +4,7 @@ otherpages:
 -
   link: http://projects.palyrobotics.com/
   title: Project Management
-  description: In progress projects for our robotics team
--
-  link: http://wiki.palyrobotics.com/index.php/Main_Page
-  title: Paly Robotics Wiki
-  description: Our wiki, with more information and tutorials for robotics team members
+  description: Active projects for our robotics team
 -
   link: https://www.youtube.com/user/PalyRobotics
   title: Paly Robotics Videos
@@ -41,10 +37,6 @@ teamforms:
   description: Sign up for STIMS (Student Team Information Members System)
 
 miscellaneous:
--
-  link: http://wrrf.org/calgames/calgames-2014/
-  title: Calgames Information
-  description: Time, location, and scoring information for Calgames on their website!
 -
   link: http://theuniversityfaculty.cornell.edu/meetings/RobertsRulesSimplified.pdf
   title: Robert's Rules of Order
