@@ -12,9 +12,9 @@
   description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using C++, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers.
 -
   stagger: 0
-  image: /assets/img/photos/groups/animation.jpg
-  name: Animation
-  description: What does animation have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Animation Team works together to create short videos for this competition using Autodesk 3D animation software.
+  image: /assets/img/photos/groups/art.jpg
+  name: Art
+  description: What does art have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Art team works together to create short videos for this competition using Autodesk 3D animation software. Art team also designs our t-shirts and other graphically designed objects.
 -
   stagger: 1
   image: /assets/img/photos/groups/pr.jpg
