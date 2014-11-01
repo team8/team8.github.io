@@ -2,17 +2,9 @@
   
 otherpages:
 -
-  link: http://projects.palyrobotics.com/
-  title: Project Management
-  description: In progress projects for our robotics team
--
-  link: http://wiki.palyrobotics.com/index.php/Main_Page
-  title: Paly Robotics Wiki
-  description: Our wiki, with more information and tutorials for robotics team members
--
   link: https://www.youtube.com/user/PalyRobotics
   title: Paly Robotics Videos
-  description: The Paly Robotics YouTube channel
+  description: The Paly Robotics YouTube channel.
 -
   link: https://www.facebook.com/PalyRobotics
   title: Paly Robotics Facebook
@@ -26,22 +18,22 @@ teamforms:
 -
   link: https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform
   title: Mailing List Sign-Up
-  description: If you aren't part of the robotics mailing list, sign up here
+  description: If you aren't part of the robotics mailing list, sign up here.
 -
   link: /assets/docs/RoboticsMediaWaiver.pdf
   title: Media Waivers
-  description: Fill out a media waver and turn it in so we can use pictures of you
+  description: Fill out a media waver and turn it in so we can use pictures of you.
 -
   link: http://www.usfirst.org/roboticsprograms/frc/first-student-team-information-members-system-and-consent-form
   title: Release and Consent Form for FIRST
-  description: Please make sure you have this formed signed so you can participate in FIRST
+  description: Please make sure you have this form signed so you can participate in FIRST.
 -
   link: https://my.usfirst.org/stims/site.lasso
   title: STIMS
-  description: Sign up for STIMS (Student Team Information Members System)
+  description: Sign up for STIMS (Student Team Information Members System).
 
 miscellaneous:
 -
   link: http://theuniversityfaculty.cornell.edu/meetings/RobertsRulesSimplified.pdf
   title: Robert's Rules of Order
-  description: Cornell University's explanation of Robert's Rules of Order
+  description: Cornell University's explanation of Robert's Rules of Order.
