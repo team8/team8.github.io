@@ -11,7 +11,7 @@ get '/*' do
   if File.exists?(file_name)
     File.read(file_name)
   else
-    File.read('_site/404.html')
+    File.read('404.html')
     #raise Sinatra::NotFound
   end
 end
