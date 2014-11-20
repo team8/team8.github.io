@@ -187,3 +187,15 @@ button.small-center,
 }
 
 /* rafi never touch this file again */
+
+/******************************************************************************/
+/*
+/* Web Comics
+/*
+/******************************************************************************/
+
+img.webcomic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
