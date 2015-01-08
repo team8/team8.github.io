@@ -2,3 +2,4 @@
 *\#
 _site
 *.coffee.js
+*.DS_Store
