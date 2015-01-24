@@ -1,8 +1,17 @@
 # for /about/sponsors
 
 -
-  link: /assets/img/sponsor/solidworks.png
-  caption: Solidworks sponsors Team 8 by giving us student copies of their CAD software.  Soildworks allows us to more effectively design and prototype our robot.  It also also gives us a powerful CAM tool to use in conjunction with our CNC Mill and 3D Printer.
+  link: /assets/img/sponsor/google.png
+  caption: Arguably one of the most influential tech companies of the Information Era, Google is a symbol of modern technological innovation. Based in nearby Mountain View, Google sponsors Team 8 as part of it's mission to inspire the next generation of technological pioneers.
+-
+  link: /assets/img/sponsor/medallia.png
+  caption: Medallia is the fastest-growing customer experience company in the world, growing by over 50% in each of the the past two years. Based in Palo Alto, they handle customer satisfaction for companies that include PayPal, Shell and Nordstrom, among others.
+-
+  link: /assets/img/sponsor/lockheedmartin.png
+  caption: Lockheed Martin is a well-known industrial company and defense contractor that designs and builds satellites, as well as military aircraft and equipment. We are proud to be sponsored by a company that has made major contributions in exploring the frontiers of space and technology.
 -
   link: /assets/img/sponsor/surgical.png
-  caption: Intuitive Surgical makes robotics surgical machines, which are used in hospitals around the United States. This is very related to our team, and we feal grateful that this company sponsors us.
+  caption: Intuitive Surgical manufactures robotic surgical machines designed for minimally invasive surgery, which are employed in hospitals throughout the U.S.  We admire their advances with robotics into the field of medicine, and are proud to be sponsored by Intuitive Surgical.
+-
+  link: /assets/img/sponsor/solidworks.png
+  caption: Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing  us to effectively design and prototype our robot. They also donated a powerful CAM tool that we  use in conjunction with our CNC Mill and 3D Printer.
