@@ -16,6 +16,9 @@ about:
   -
     name: Our Lab
     link: /about/lab
+  -
+    name: Art
+    link: /about/art
 
 other:
   -
@@ -27,6 +30,3 @@ other:
   -
     name: Contact Us
     link: /contact
-  -
-    name: Web Comic
-    link: /webcomic/samplecomic

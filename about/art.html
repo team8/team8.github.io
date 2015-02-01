@@ -1,0 +1,83 @@
+---
+layout: home
+title: Art
+permalink: art/
+---
+
+
+<div class="row">
+  <div class="large-12 columns">
+    <!-- Header -->
+    <h2>Paly Robotics Art Team</h2>
+  </div>
+</div>
+
+<br />
+
+<div class="row">
+  <h3>Animation</h3>
+  <div class="medium-6 small-12 columns">
+    {% for animation in site.data.page_about_art.animation %}
+    <h5 style="text-align:left !important">{{ animation.name }}</h5>
+    <p>{{ animation.description }}</p>
+    <br />
+    {% endfor %}
+  </div>
+  <div class="medium-6 small-12 columns">
+    <ul class="example-orbit" data-orbit>
+      {% for image in site.data.page_about_art.animationimage %}
+      <li>
+	<img src="{{ image.link }}" height="406" width="890" />
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="#" class="orbit-prev"><span style="border-right-color:grey !important"></span></a>
+    <a href="#" class="orbit-next"><span style="border-left-color:grey !important"></span></a>
+  </div>
+</div>
+
+<br />
+
+<div class="row">
+  <h3>Graphic Design</h3>
+  <div class="medium-6 small-12 columns">
+    {% for graphic in site.data.page_about_art.graphic %}
+    <h5 style="text-align:left !important">{{ graphic.name }}</h5>
+    <p>{{ graphic.description }}</p>
+    <br />
+    {% endfor %}
+  </div>
+  <div class="medium-6 small-12 columns">
+    <ul class="example-orbit" data-orbit>
+      {% for image in site.data.page_about_art.graphicimage %}
+      <li>
+	<img src="{{ image.link }}" height="406" width="890" />
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="#" class="orbit-prev"><span style="border-right-color:grey !important"></span></a>
+    <a href="#" class="orbit-next"><span style="border-left-color:grey !important"></span></a>
+  </div>
+</div>
+
+<div class="row">
+  <h3>Storytelling and Sketching</h3>
+  <div class="medium-6 small-12 columns">
+    {% for storysketch in site.data.page_about_art.storysketch %}
+    <h5 style="text-align:left !important">{{ storysketch.name }}</h5>
+    <p>{{ storysketch.description }}</p>
+    <br />
+    {% endfor %}
+  </div>
+  <div class="medium-6 small-12 columns">
+    <ul class="example-orbit" data-orbit>
+      {% for image in site.data.page_about_art.storysketchimage %}
+      <li>
+	<img src="{{ image.link }}" height="406" width="890" />
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="#" class="orbit-prev"><span style="border-right-color:grey !important"></span></a>
+    <a href="#" class="orbit-next"><span style="border-left-color:grey !important"></span></a>
+  </div>
+</div>
