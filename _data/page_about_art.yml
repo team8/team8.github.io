@@ -1,0 +1,81 @@
+# for the about/art page
+
+animation:
+  -
+    name: No Capes! (2014)
+    description: The first project by the new art team and its new team process. We were able to push a higher quality short in a much shorter period of time, even though a majority of the members had never animated before. The images are stills showcasing the detail in the set of the short. <a href="https://www.youtube.com/watch?v=_6dTBzbmBQ8">View it here!</a>
+  -
+    name: Reminiscence (2014)
+    description: The second short made by the same group of animators. With a combination of greater skill and advanced rendering software, the end result was way prettier. <a href="https://www.youtube.com/watch?v=Qrxd9191kbU">View it here!</a>
+  -
+    name: No Distractions (2013)
+    description: This is an animation created for the nationwide First Robotics Safety Award. It was created with a group entirely made of first year animators who had never touched 3-D animation software in their life. This animation was created just a couple months after they started learning! <a href="https://www.youtube.com/watch?v=DCFmT9InEvY">View it here!</a>
+
+    
+animationimage:
+  -
+    link: /assets/img/art/animation/RoomScene.png
+  -
+    link: /assets/img/art/animation/SawAndDrillScene.png
+  -
+    link: /assets/img/art/animation/ComputerScene.png
+  -
+    link: /assets/img/art/animation/MillScene.png
+  -
+    link: /assets/img/art/animation/DrillPressScene.png
+    
+graphic:
+  -
+    name: Art Team Poster
+    description: The first public announcement of the art team. It was hung around school to raise awareness for the team.
+  -
+    name: Board Game Party Poster
+    description: Advertising poster for the pre-build season board game party.
+  -
+    name: Club Day Poster
+    description: A very large poster showcased during our school's club day to advertise robotics to the school.
+  -
+    name: ID Cards
+    description: An ID that will be given to each member of the robotics team.
+  -
+    name: Kickoff Poster
+    description: A poster advertising our kickoff event to members of robotics.
+  -
+    name: Name Tags
+    description: Examples of name tags that people made to start familiarizing themselves with digital tools.
+  -
+    name: T-Shirt
+    description: The shirt design that will be worn by all members of our team going to any event such as competitions or PR events. We tried to incorporate this year's competition theme of waste and recycling to showcase the game's main features.
+
+graphicimage:
+  -
+    link: /assets/img/art/graphic/TShirt.png
+  -
+    link: /assets/img/art/graphic/NameTag.png
+  -
+    link: /assets/img/art/graphic/KickOff.png
+  -
+    link: /assets/img/art/graphic/BoardgameParty.png
+  -
+    link: /assets/img/art/graphic/ClubDay.jpg
+  -
+    link: /assets/img/art/graphic/ArtTeam.jpg
+  -
+    link: /assets/img/art/graphic/IDCard.png
+
+storysketch:
+  -
+   name: Various sketches
+   description: Various sketches conceptualizing designs for various parts of animations. Also included is the complete storyboard for our latest animation, No Capes, showing the concept of the progression of the story.
+
+storysketchimage:
+  -
+    link: /assets/img/art/storysketch/Character_Concepts.JPG
+  -
+    link: /assets/img/art/storysketch/NoCapes_Hairs.jpeg
+  -
+    link: /assets/img/art/storysketch/Hair_Concepts.jpeg
+  -
+    link: /assets/img/art/storysketch/NoCapes_StoryBoard.jpeg
+  -
+    link: /assets/img/art/storysketch/Safe_Character.JPG
