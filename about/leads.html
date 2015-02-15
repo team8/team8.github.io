@@ -13,8 +13,8 @@ permalink: leads/
 
 <br />
 
+{% for lead in site.data.page_about_leads %}
 <div class="row">
-  {% for lead in site.data.page_about_leads &}
   <div class="medium-6 large-12 columns">
     <h5>{{ lead.role }}</h5>
     <p>{{ lead.name }}</p>
@@ -22,8 +22,10 @@ permalink: leads/
     <p>{{ lead.bio }}</p>
   </div>
   <div class="medium-6 large-12 columns">
-    <img src="{{ lead.image }}"></img>
+    <img src="{{ lead.picture }}"></img>
   </div>
-  {% endfor %}
 </div>
-  
+
+<br />
+
+{% endfor %}  
