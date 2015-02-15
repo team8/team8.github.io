@@ -15,13 +15,13 @@ permalink: leads/
 
 {% for lead in site.data.page_about_leads %}
 <div class="row">
-  <div class="medium-6 large-12 columns">
+  <div class="small-12 medium-6 columns">
     <h5>{{ lead.role }}</h5>
     <p>{{ lead.name }}</p>
     <p>{{ lead.email }}</p>
     <p>{{ lead.bio }}</p>
   </div>
-  <div class="medium-6 large-12 columns">
+  <div class="small-12 medium-6 columns">
     <img src="{{ lead.picture }}"></img>
   </div>
 </div>
