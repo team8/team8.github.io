@@ -1,0 +1,29 @@
+---
+layout: home
+title: Leads
+permalink: leads/
+---
+
+<div class="row">
+  <div class="large-12 columns">
+    <!-- Header -->
+    <h2>Paly Robotics Team Leads</h2>
+  </div>
+</div>
+
+<br />
+
+<div class="row">
+  {% for lead in site.data.page_about_leads &}
+  <div class="medium-6 large-12 columns">
+    <h5>{{ lead.role }}</h5>
+    <p>{{ lead.name }}</p>
+    <p>{{ lead.email }}</p>
+    <p>{{ lead.bio }}</p>
+  </div>
+  <div class="medium-6 large-12 columns">
+    <img src="{{ lead.image }}"></img>
+  </div>
+  {% endfor %}
+</div>
+  
