@@ -37,6 +37,10 @@ teamforms:
 
 miscellaneous:
 -
+  link: http://www.usfirst.org/roboticsprograms/team-member-registration-faq
+  title: STIMS FAQ
+  description: A webpage with answers to common questions about signing up for STIMS.
+-
   link: http://theuniversityfaculty.cornell.edu/meetings/RobertsRulesSimplified.pdf
   title: Robert's Rules of Order
   description: Cornell University's explanation of Robert's Rules of Order.
