@@ -13,6 +13,7 @@ otherpages:
   link: http://paly.io/agenda
   title: Leadership Meeting Agenda
   description: The agendas for leadership meetings will be hosted here.
+
 teamforms:
 -
   link: https://docs.google.com/forms/d/1MHuLfXxjUmQYMycP2JwS9fDPSBN-kZhBlebCpW4fwF0/viewform?usp=send_form
@@ -26,6 +27,8 @@ teamforms:
   link: /assets/docs/RoboticsMediaWaiver.pdf
   title: Media Waivers
   description: Fill out a media waver and turn it in so we can use pictures of you.
+
+competition:
 -
   link: http://www.usfirst.org/roboticsprograms/frc/first-student-team-information-members-system-and-consent-form
   title: Release and Consent Form for FIRST
@@ -34,12 +37,20 @@ teamforms:
   link: https://my.usfirst.org/stims/site.lasso
   title: STIMS
   description: Sign up for STIMS (Student Team Information Members System).
-
-miscellaneous:
 -
   link: http://www.usfirst.org/roboticsprograms/team-member-registration-faq
   title: STIMS FAQ
   description: A webpage with answers to common questions about signing up for STIMS.
+-
+  link: /assets/docs/ParentMeetingNoteSheet.pdf
+  title: Parent Meeting Notes
+  description: General pamphlet about going to Madera.
+-
+  link: /assets/docs/Madera2015StudentPresentation.pdf
+  title: Madera Information Presentation
+  description: A presentation about general information about Madera competiton.
+  
+miscellaneous:
 -
   link: http://theuniversityfaculty.cornell.edu/meetings/RobertsRulesSimplified.pdf
   title: Robert's Rules of Order

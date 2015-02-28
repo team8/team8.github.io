@@ -37,6 +37,15 @@ permalink: resources/
       </tr>
       {% endfor %}
       <tr>
+	<th colspan="2"><strong>Competition Information</strong></th>
+      <tr>
+      {% for link in site.data.links.competition %}
+      <tr>
+	<td><a href="{{ link.link }}"><strong> {{ link.title }}</strong></a></td>
+	<td>{{ link.description }}</td>
+      </tr>
+      {% endfor %}
+      <tr>
 	<th colspan="2"><strong>Miscellaneous</strong></th>
       <tr>
       {% for link in site.data.links.miscellaneous %}
