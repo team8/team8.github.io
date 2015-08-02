@@ -21,7 +21,7 @@ permalink: resources/
       <tr>
 	<th colspan="2"><strong>Our Other Websites</strong></th>
       <tr>
-      {% for link in site.data.links.otherpages %}
+      {% for link in site.data.page_resources.otherpages %}
       <tr>
 	<td><a href="{{ link.link }}"><strong> {{ link.title }}</strong></a></td>
 	<td>{{ link.description }}</td>
@@ -30,7 +30,7 @@ permalink: resources/
       <tr>
 	<th colspan="2"><strong>Team Forms</strong></th>
       <tr>
-      {% for link in site.data.links.teamforms %}
+      {% for link in site.data.page_resources.teamforms %}
       <tr>
 	<td><a href="{{ link.link }}"><strong> {{ link.title }}</strong></a></td>
 	<td>{{ link.description }}</td>
@@ -48,7 +48,7 @@ permalink: resources/
       <tr>
 	<th colspan="2"><strong>Miscellaneous</strong></th>
       <tr>
-      {% for link in site.data.links.miscellaneous %}
+      {% for link in site.data.page_resources.miscellaneous %}
       <tr>
 	<td><a href="{{ link.link }}"><strong> {{ link.title }}</strong></a></td>
 	<td>{{ link.description }}</td>
