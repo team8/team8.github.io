@@ -1,53 +1,59 @@
 # for /resources links
   
-otherpages:
--
-  link: https://www.youtube.com/user/PalyRobotics
-  title: Paly Robotics Videos
-  description: The Paly Robotics YouTube channel.
--
-  link: https://www.facebook.com/PalyRobotics
-  title: Paly Robotics Facebook
-  description: The Paly Robotics Facebook page, which contains updates for the team.
-
-teamforms:
--
-  link: https://docs.google.com/forms/d/1MHuLfXxjUmQYMycP2JwS9fDPSBN-kZhBlebCpW4fwF0/viewform?usp=send_form
-  title: Parent Workplace Survey
-  description: Help Paly Robotics get sponsors by telling us where your parents work.
--
-  link: https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform
-  title: Mailing List Sign-Up
-  description: If you aren't part of the robotics mailing list, sign up here.
--
-  link: /assets/docs/RoboticsMediaWaiver.pdf
-  title: Media Waivers
-  description: Fill out a media waver and turn it in so we can use pictures of you.
-
-competition:
--
-  link: http://www.usfirst.org/roboticsprograms/frc/first-student-team-information-members-system-and-consent-form
-  title: Release and Consent Form for FIRST
-  description: Please make sure you have this form signed so you can participate in FIRST.
--
-  link: https://my.usfirst.org/stims/site.lasso
-  title: STIMS
-  description: Sign up for STIMS (Student Team Information Members System).
--
-  link: http://www.usfirst.org/roboticsprograms/team-member-registration-faq
-  title: STIMS FAQ
-  description: A webpage with answers to common questions about signing up for STIMS.
-  
-miscellaneous:
--
-  link: http://theuniversityfaculty.cornell.edu/meetings/RobertsRulesSimplified.pdf
-  title: Robert's Rules of Order
-  description: Cornell University's explanation of Robert's Rules of Order.
--
-  link: http://tinyurl.com/stanforddrivingstudies
-  title: Stanford Driving Studies
-  description: A study going on at Stanford that students are invited to sign up for.
--
-  link: http://paly.io/agendas
-  title: Leadership Meeting Agenda Topic Submission
-  description: Fill out this simple form to add a topic to the Monday meeting agenda!
+categories:
+  -
+    name: Our Ohter Sites
+    links:
+    -
+      link: https://www.youtube.com/user/PalyRobotics
+      title: Paly Robotics Videos
+      description: The Paly Robotics YouTube channel.
+    -
+      link: https://www.facebook.com/PalyRobotics
+      title: Paly Robotics Facebook
+      description: The Paly Robotics Facebook page, which contains updates for the team.
+  -
+    name: Team Forms
+    links:
+    -
+      link: https://docs.google.com/forms/d/1MHuLfXxjUmQYMycP2JwS9fDPSBN-kZhBlebCpW4fwF0/viewform?usp=send_form
+      title: Parent Workplace Survey
+      description: Help Paly Robotics get sponsors by telling us where your parents work.
+    -
+      link: https://docs.google.com/forms/d/1DNdZYmS9Y6CxXAXKDl3Xeh0QHDinCQnzsqhFCInREQ4/viewform
+      title: Mailing List Sign-Up
+      description: If you aren't part of the robotics mailing list, sign up here.
+    -
+      link: /assets/docs/RoboticsMediaWaiver.pdf
+      title: Media Waivers
+      description: Fill out a media waver and turn it in so we can use pictures of you.
+  -
+    name: Competition
+    links:
+    -
+      link: http://www.usfirst.org/roboticsprograms/frc/first-student-team-information-members-system-and-consent-form
+      title: Release and Consent Form for FIRST
+      description: Please make sure you have this form signed so you can participate in FIRST.
+    -
+      link: https://my.usfirst.org/stims/site.lasso
+      title: STIMS
+      description: Sign up for STIMS (Student Team Information Members System).
+    -
+      link: http://www.usfirst.org/roboticsprograms/team-member-registration-faq
+      title: STIMS FAQ
+      description: A webpage with answers to common questions about signing up for STIMS.
+  -
+    name: Miscellaneous
+    links:
+    -
+      link: http://theuniversityfaculty.cornell.edu/meetings/RobertsRulesSimplified.pdf
+      title: Robert's Rules of Order
+      description: Cornell University's explanation of Robert's Rules of Order.
+    -
+      link: http://tinyurl.com/stanforddrivingstudies
+      title: Stanford Driving Studies
+      description: A study going on at Stanford that students are invited to sign up for.
+    -
+      link: http://paly.io/agendas
+      title: Leadership Meeting Agenda Topic Submission
+      description: Fill out this simple form to add a topic to the Monday meeting agenda!
