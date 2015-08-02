@@ -9,10 +9,6 @@ otherpages:
   link: https://www.facebook.com/PalyRobotics
   title: Paly Robotics Facebook
   description: The Paly Robotics Facebook page, which contains updates for the team.
--
-  link: http://paly.io/agenda
-  title: Leadership Meeting Agenda
-  description: The agendas for leadership meetings will be hosted here.
 
 teamforms:
 -
@@ -51,3 +47,7 @@ miscellaneous:
   link: http://tinyurl.com/stanforddrivingstudies
   title: Stanford Driving Studies
   description: A study going on at Stanford that students are invited to sign up for.
+-
+  link: http://paly.io/agendas
+  title: Leadership Meeting Agenda Topic Submission
+  description: Fill out this simple form to add a topic to the Monday meeting agenda!
