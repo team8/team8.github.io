@@ -43,6 +43,17 @@ categories:
       title: STIMS FAQ
       description: A webpage with answers to common questions about signing up for STIMS.
   -
+    name: Build Files
+    links:
+    -
+      link: /assets/docs/cad/Octagon_WCD_Concept.zip
+      title: Octagon Concept CAD
+      description: A concept CAD for a octagonal drivetrain.
+    -
+      link: /assets/docs/cad/6_Wheel_Rect_WCD_Concept.zip
+      title: Six Wheel Concept
+      description: A concept CAD for a 6-wheel drivetrain.
+  -
     name: Miscellaneous
     links:
     -

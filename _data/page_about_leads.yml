@@ -3,7 +3,7 @@
   picture: /assets/img/leads/claire.jpg
   name: Claire Kokontis
   email: ckokontis [at] palyrobotics [dot] com
-  bio:
+  bio: Claire joined the robotics team in her freshman year and is now a senior and the Team Captain. She was previously Lab Manager her sophomore year, and Build Captain her junior year. This season, she is focused on working with the team to create a great experience for new members. During her free time, Claire enjoys painting and drawing in her sketchbook with the brightest colors she can find, or spending countless hours on her AP Physics problem sets.
 -
   role: Business Captain
   picture: /assets/img/leads/lauren.jpg
@@ -24,22 +24,16 @@
   bio: James Ngo is a sophomore at Paly who joined robotics during his freshman year as a programmer. During build season, he was heavily involved in testing and was one of the key contributors to the 2014 Fenrir code. During the summer, he worked on programming games with his friends and became the software captain. During his spare time, he enjoys playing Puzzles & Dragons and reading manga. His goals in robotics include implementing vision software and teaching newer members.
 -
   role: Art Captain
-  picture: /assets/img/leads/griffin.jpg
+  picture: /assets/img/leads/peter.jpg
   name: Peter Turnbull
   email: pturnbull [at] palyrobotics [dot] com
-  bio:
--
-  role: Project Manager
-  picture: /assets/img/leads/sandy.jpg
-  name: Blake Novak
-  email: bnovak [at] palyrobotics [dot] com
-  bio:
+  bio: Peter joined Team 8 his junior year, and is now in his senior year of high school. He initially had trouble deciding what subteam to participate in, but ended up working as an animator, and contributed to our first place prize winning animation, ANTi-Hero. He now serves as the Art Captain and Animation Lead, and helps out with a handful of additional projects. When he absolutely can.t be in the lab (i.e. when the coach makes everyone go home), he.s probably on Slack or tinkering with several small art/computer science/engineering projects that are in various stages of completion.
 -
   role: Lab Manager
-  picture: /assets/img/leads/kenny.jpg
+  picture: 
   name: Charlotte Brownell
   email: cbrownell [at] palyrobotics [dot] com
-  bio:
+  bio: The Lab Manager of Team 8 is in charge of organizing the lab, keeping it clean, and monitoring the use of the machines. The Lab Manager should also know where everything is in the lab. In addition to the Lab Manager.s usual tasks, Team 8 has "Lab Clean-Up" days (aka "Doughnut" days) where the whole team completely cleans the lab under the direction of the Lab Manager.
 -
   role: Web Captain
   picture: /assets/img/leads/rafi.jpg
@@ -48,7 +42,7 @@
   bio: When Rafi Long joined robotics, he wasn't sure what team to join, as every job was something that he loved doing. So, of course, he joined Web. Max Bernstein taught him, along with his few peers, the way of Jekyll and Unix, and explored the more hidden parts of Git. Over time all of them progress to be where they are now, until Rafi was the only one still on web team. He became captain earlier this year, and now works on learning how to manage a team. In his free time he continues to enjoy playing Minecraft, reading, and coding.
 -
   role: Treasurer
-  picture: /assets/img/leads/lydia.jpg
+  picture: /assets/img/leads/madeline.jpg
   name: Madeline Li
   email: mli [at] palyrobotics [dot] com
   bio: The treasurer joined Paly Robotics her freshman year, during the middle of build season. As she was swept into the tornado or tsunami or some-great-Earthly-crisis of Team 8, there was no time to officially put her on a sub-team, but the treasurer decided that that was fine and worked odd-jobs where she was needed. The matter of which sub-team the treasurer belongs to is still a mystery, a migraine-inducing topic, and another story. Near the end of build season, the previous treasurer, now design captain, Lydia, who was looking for a minion to succeed her, spotted the current treasurer and decided that she had found her minion. The treasurer also has a name Madeline.
