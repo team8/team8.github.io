@@ -152,7 +152,7 @@ function loadData()
 					   {
 					       minutes = "0" + minutes;
 					   }
-					   $channel.append("<div class=message_row><div class=avatar_div><img src=" + user.profile.image_72 + " class=avatar /></div><div class=channel_post><div class=channel_name><span class=bold>" + user.name + "</span> <span class=timestamp>" + (date.getMonth() + 1) + "/" + date.getDay() + "/" + date.getFullYear() + " at " + hours + ":" + minutes + " " + extension + "</span></div><div class=message_text><span class=chan>@channel</span>" + message.text + "</div></div></div>");
+					   $channel.append("<div class=message_row><div class=avatar_div><img src=" + user.profile.image_72 + " class=avatar /></div><div class=channel_post><div class=channel_name><span class=bold>" + user.name + "</span> <span class=timestamp>" + (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear() + " at " + hours + ":" + minutes + " " + extension + "</span></div><div class=message_text><span class=chan>@channel</span>" + message.text + "</div></div></div>");
 					   i++;
 				       }
 				   }
