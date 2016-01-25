@@ -164,3 +164,30 @@ function loadData()
     });
 }
 
+/*****************************************************************************/
+/*                                                                                                  
+/* Secondary Nav                                                                             
+/*                                                                                                 
+/*****************************************************************************/
+    
+function showTab(name) {
+    $(".current").slideUp(200);
+    $(".current").removeClass("current");
+    $("." + name).delay(200).slideDown(600);
+    $("." + name).addClass("current");
+}
+
+$(function ()
+  {
+      $(document).on("mouseenter", "#nav", function ()
+		     {
+			 $(this).css("background-color", "#bfbfbf");
+		     }
+		    );
+      $(document).on("mouseleave", "#nav", function()
+		     {
+			 $(this).css("background-color", "transparent");
+		     }
+		    );      
+  }
+ );
