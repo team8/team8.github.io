@@ -199,3 +199,87 @@ img.webcomic {
     margin-left: auto;
     margin-right: auto;
 }
+
+/******************************************************************************/
+/*
+/* Announcements Ticker
+/*
+/******************************************************************************/
+
+#channel {
+    font-family: lato;
+}
+#reload {
+    width: 99%;
+}
+#loadmore {
+    width: 99%;
+}
+.bold {
+    font-family: lato-bold;
+}
+.timestamp {
+    font-family: lato-thin;
+    font-size: 8pt;
+}
+.chan {
+    font-family: lato-bold;
+    background-color: #FFF3B8;
+}
+.ticker {
+    height: 500px;
+    overflow-y: scroll;
+    font-size: 12pt;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bfbfbf;
+}
+.message {
+    padding-top: 20px;
+}
+.message_row {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.avatar_div {
+    float: left;
+    padding-right: 10px;
+    width: 50px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+}
+.channel_post {
+    margin-left: 50px;
+}
+.channel_name {
+    padding-bottom: 5px;
+}
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: lato-bold;
+    src: url(../fonts/Lato-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: lato-thin;
+    src: url(../fonts/Lato-Thin.ttf) format('truetype');
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+}
