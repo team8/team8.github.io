@@ -27,9 +27,9 @@ other:
     name: Zero
     link: /zero
   -
-#    name: Summer Camp
-#    link: /summercamp
-#  -
+    name: Summer Camp
+    link: /summercamp
+  -
     name: Calendar
     link: /calendar
   -
