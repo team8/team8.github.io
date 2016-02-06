@@ -171,6 +171,7 @@ function loadData()
 /*****************************************************************************/
     
 function showTab(name) {
+    $(".mobilenav").val(name);
     $(".current").slideUp(200);
     $(".current").removeClass("current");
     $("." + name).delay(200).slideDown(600);
