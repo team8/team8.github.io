@@ -9,7 +9,7 @@
   stagger: 1
   image: /assets/img/used/programming.jpg
   name: Programming
-  description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using C++, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers.
+  description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using Java, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers. The Programming Team uses Git in order to collaborate on code with its large development team.
 -
   stagger: 0
   image: /assets/img/used/art.jpg
