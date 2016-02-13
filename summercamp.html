@@ -145,30 +145,11 @@ permalink: summercamp/
   </div>
   <div class = "summercamp faq" style="display:none;" >
     <div class ="small-12 centered columns">
-      <p style = "text-align:center"><b>Is previous experience required?</b></p>
-      <p style = "text-align:center">Not at all.  We hope to introduce all campers to STEAM regardless of what they already know.  If they have previous experience, that is totally fine, and we will be sure to keep them engaged with interesting activities.</p>
+      {% for question in site.data.page_summercamp %}
+      <p style = "text-align:center"><b>{{ question.question }}</b></p>
+      <p style = "text-align:center">{{ question.answer }}</p>
       <br></br>
-      <p style="text-align:center"><b>Where do the donations for the camp go?</b></p>
-      <p style = "text-align:center">The recommended donations ($350/week) are handled by the Palo Alto High School Robotics Boosters, which is the non-profit entity that supports the team. The boosters fund every aspect of the team, from covering summer camp costs to paying for the robot components and competitions.  Your donation is highly appreciated.</p>
-      <br></br>
-      <p style="text-align:center"><b>Since it is a donation to a non-profit, can I receive a tax deduction?</p></b>
-      <p style="text-align:center">Yes, absolutely!  The Paly Robotics Boosters will send a receipt with the tax ID number.</p>
-      <br></br>
-      <p style="text-align:center"><b>Will there be adult supervision?</p></b>
-      <p style="text-align:center">Although the team is run primarily by students, we have mentors and coaches who will be there to supervise the summer camp at all times, just as they would do during normal team lab hours.</p>
-      <br></br>
-      <p style="text-align:center"><b>How is safety going to be enforced when using tools/machinery?</p></b>
-      <p style="text-align:center">Our team members are well versed in safe operation of all the machines and tools in the lab, but again, adults will be present to keep an eye on campers as well.</p>
-      <br></br>
-      <p style="text-align:center"><b>What is the policy regarding lunch and snacks?</b></p>
-      <p style="text-align:center">Campers will have to bring their own lunch, but we will be providing nut-free snacks to campers during breaks.</p>
-      <br></br>
-      <p style="text-align:center"><b>Where is the robotics lab?</b></p>
-      <p style="text-align:center">More information will be sent before the camp, but you can find the location of our lab on the Resources page.</p>
-      <br></br>
-      <p style="text-align:center"><b>For incoming freshmen, does attending the camp affect the chance of being on the team the next year?</b></p>
-      <p style="text-align:center">We cannot promise anything, but membership will be decided based on interest and commitment to the team.</p>
-      <br></br>
+      {% endfor %}
       <p style="text-align:center">If you have any questions, feel free to contact us at <a href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.</p>
     </div> 
   </div>  
