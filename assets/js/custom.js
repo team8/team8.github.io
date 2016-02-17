@@ -137,24 +137,22 @@ function loadData()
 			       {
 				   if(user.id == message.user)
 				   {
-				       if(String(message.text).substring(0, 10) === "<!channel>")
+				       var date = new Date(parseInt(String(message.ts).substring(0, String(message.ts).indexOf(".")))*1000);
+				       var hours = date.getHours();
+				       var minutes = date.getMinutes();
+				       var extension = "AM";
+				       if(hours > 12)
 				       {
-					   var date = new Date(parseInt(String(message.ts).substring(0, String(message.ts).indexOf(".")))*1000);
-					   var hours = date.getHours();
-					   var minutes = date.getMinutes();
-					   var extension = "AM";
-					   if(hours > 12)
-					   {
-					       hours -= 12;
-					       extension = "PM";
-					   }
-					   if(minutes < 10)
-					   {
-					       minutes = "0" + minutes;
-					   }
-					   $channel.append("<div class=message_row><div class=avatar_div><img src=" + user.profile.image_72 + " class=avatar /></div><div class=channel_post><div class=channel_name><span class=bold>" + user.name + "</span> <span class=timestamp>" + (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear() + " at " + hours + ":" + minutes + " " + extension + "</span></div><div class=message_text><span class=chan>@channel</span>" + message.text + "</div></div></div>");
-					   i++;
+					   hours -= 12;
+					   extension = "PM";
 				       }
+				       if(minutes < 10)
+				       {
+					   minutes = "0" + minutes;
+				       }
+				       $channel.append("<div class=message_row><div class=avatar_div><img src=" + user.profile.image_72 + " class=avatar /></div><div class=channel_post><div class=channel_name><span class=bold>" + user.real_name + "</span> <span class=timestamp>" + (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear() + " at " + hours + ":" + minutes + " " + extension + "</span></div><div class=message_text>" + message.text + "</div></div></div>");
+				       i++;
+				
 				   }
 			       });
 		    }
