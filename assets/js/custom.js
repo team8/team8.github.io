@@ -113,7 +113,7 @@ function loadData()
 	}
     });
     $.ajax({
-	url: "https://slack.com/api/channels.history?token=xoxp-3317728684-3381416213-19127044354-c54c7fae49&channel=C0BUT8215&count=1000",
+	url: "https://slack.com/api/groups.history?token=xoxp-3317728684-3381416213-19127044354-c54c7fae49&channel=G0MJD9N9K&count=1000",
 	format: "json",
 	dataType: "JSON",
 	type: "GET",
