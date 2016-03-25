@@ -7,7 +7,7 @@ permalink: /
 <div class="row">
   <div class="small-12 large-7 columns">
     <!-- Welcome to our page stuff -->
-    <h1 style="text-align:left !important">Palo Alto High School Vikings</h1>
+    <h1 style="text-align:left !important">Palo Alto High School Robotics</h1>
     <p>{{ site.data.page_index.team_description }}</p>
     <br />
     <img src="{{ site.data.page_index.main_image }}" class="show-for-large-up" />
@@ -15,10 +15,25 @@ permalink: /
     <!-- Thanks to our sponsors -->
     <h4 style="text-align:left !important">Sponsors</h4>
     <p>{{ site.data.page_index.sponsors_description }}</p>
+    <br />
+    <img src="{{ site.data.page_index.bottom_photo_1 }}"  />
+    <br />
+    <br />
+    <h4 style="text-align:left !important">Our team beliefs</h4>
+    <p>{{ site.data.page_index.beliefs }}</p>
   </div>
   <div class="small-12 large-5 columns">
     <br />
     <!-- Link to resources -->
+    <h4 style="text-align:left !important">Announcements</h4>
+    <div class="ticker">
+      <a class="button secondary"  id="reload">Reload</a>
+      <div id="channel" class="message">
+      </div>
+      <br />
+      <a class="button secondary" id="loadmore">Load More</a>
+    </div>
+    <br />
     <div class="panel callout">
       <h4 style="text-align:left !important">Donate!</h4>
       <p>{{ site.data.page_index.find_stuff }}</p>
@@ -32,8 +47,6 @@ permalink: /
   </div>
 </div>
 
-<br />
-
 <div class="row hide-for-large">
   <div class="small-12 medium-6 columns">
     <img src="{{ site.data.page_index.main_image }}" width="100%" />
@@ -44,7 +57,7 @@ permalink: /
   </div>
 </div>
 
-<div class="row">
+<div class="row hide-for-large">
   <div class="small-12 medium-6 columns">
     <br class="hide-for-large-up" />
     <img src="{{ site.data.page_index.bottom_photo_1 }}"  />

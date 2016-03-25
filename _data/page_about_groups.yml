@@ -9,17 +9,17 @@
   stagger: 1
   image: /assets/img/used/programming.jpg
   name: Programming
-  description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using C++, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers.
+  description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using Java, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers. The Programming Team uses Git in order to collaborate on code with its large development team.
 -
   stagger: 0
   image: /assets/img/used/art.jpg
   name: Art
-  description: What does art have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Art team works together to create short videos for this competition using Autodesk 3D animation software. Art team also designs our t-shirts and other graphically designed objects.
+  description: What does art have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Art Team works together to create short videos for this competition using Autodesk 3D animation software. Art Team also designs our t-shirts and other graphically designed objects.
 -
   stagger: 1
   image: /assets/img/photos/photo/photo_5.jpg
   name: Business
-  description: Our Business Team is in charge of PR matters such as this one. Team 8's PR Team works year-round to reach out to sponsors, organize presentations, advertise robotics around school, and save kittens from burning buildings (okay, maybe not that last one).
+  description: Our Business Team is in charge of Public Relations and the writing of essays for awards, such as the Entrepreneurship Award, which Team 8 won twice in a row in the 2015 season. Team 8's Business Team works year-round to reach out to sponsors, acquire food during build season, manage funding, organize presentations, and advertise robotics around school.
 -
   stagger: 0
   image: /assets/img/used/projectmanagement.jpg
@@ -34,4 +34,4 @@
   stagger: 0
   image: /assets/img/used/web.jpg
   name: Web
-  description: The Web Team is in charge of creating and maintaining Team 8's beautiful website, palyrobotics.com. Additionally, our Web Team members work closely with Project Management to create and manage servers for our Programming Team.
+  description: The Web Team is in charge of creating and maintaining Team 8's beautiful website, palyrobotics.com. The Web Team uses a variety of tools, including HTML, CSS, Javascript, Jekyll, Foundation, and Heroku, in order to update the website with the necessary information for the greater productivity of the team.
