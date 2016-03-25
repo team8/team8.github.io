@@ -1,11 +1,11 @@
 # for /resources links
-  
+
 categories:
   -
     name: Our Other Sites
     links:
     -
-      link: https://www.youtube.com/user/PalyRobotics
+      link: https://www.youtube.com/channel/UC1Q-dz-xPEsrMnSZg8FHjaA
       title: Paly Robotics Videos
       description: The Paly Robotics YouTube channel.
     -
