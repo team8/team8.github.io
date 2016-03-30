@@ -11,25 +11,31 @@ permalink: summercamp/
 </div>
 
 <div class="row">
+
+  <!-- For Desktop -->
   <div class="12 columns hide-for-small-only" style="text-align:center">
     <div style="display:table;margin:0 auto; font-size:80%;">
       <a onclick="showTab('about')" href="javascript:void(0)"><div class="nav-left" id="nav">About the Camp</div></a>
       <a onclick="showTab('sessions')" href="javascript:void(0)"><div class="nav" id="nav">Sessions</div></a>
       <a onclick="showTab('faq')" href= "javascript:void(0)"><div class ="nav" id="nav">FAQ</div></a>
-      <a onclick="showTab('signups')" href="javascript:void(0)"><div class="nav-right" id="nav">Register</div></a>
+      <a onclick="showTab('register')" href="javascript:void(0)"><div class="nav-right" id="nav">Register</div></a>
     </div>
   </div>
+  
+  <!-- For Mobile -->
   <div class="12 columns show-for-small-only" style="text-align:center">
     <select class="mobilenav" onchange="showTab(this.value)">
       <option value="about">About the Camp</option>
       <option value="sessions">Sessions</option>
       <option value="faq">FAQ</option>
-      <option value="signups">Register</option>
+      <option value="register">Register</option>
     </select>
-  </div>  
+  </div>
+
 </div>
+
 <br />
-<div class="row">
+
   <div class="summercamp about current">
     <div class="row">
       <div class="small-12 large-7 columns">
@@ -84,7 +90,8 @@ permalink: summercamp/
     </div>
   </div>
   <div class="summercamp sessions" style="display:none;">
-    <div class="small-centered large-8 columns small-12">
+  	<div class="row">
+    <div class="small-centered large-9 columns small-12">
       <p style="text-align:center"><b>Sessions Offered</b></P>
       <table width="100%">
 	<tbody>
@@ -92,32 +99,32 @@ permalink: summercamp/
 	    <td colspan="100%">Week 1 (July 18-22)</td>
 	  </tr>
 	  <tr>
-	    <td>Programming and 3D Animation <span style="font-weight: bold">(FULL)</span></td>
+	    <td>Programming and 3D Animation<br /><span style="font-weight: bold">(WAITLIST OPEN)</span></td>
 	    <td><b>or</b></td>
-	    <td>Robot Design and Hardware <span style="font-weight: bold">(FULL)</span></td>
+	    <td>Robot Design and Hardware<br /><span style="font-weight: bold">(WAITLIST CLOSED)</span></td>
 	  </tr>
 	  <tr>
 	    <td colspan="100%">Week 2 (July 25-29)</td>
 	  </tr>
 	  <tr>
-	    <td>Robot Design and Hardware <span style="font-weight: bold">(FULL)</span></td>
+	    <td>Robot Design and Hardware<br /><span style="font-weight: bold">(WAITLIST CLOSED)</span></td>
 	    <td><b>or</b></td>
-	    <td>Entrepreneurship and Website Design</td>
+	    <td>Entrepreneurship and Website Design<br /><span style="font-weight: bold">(REGISTRATION OPEN)</span></td>
 	  </tr>
 	  <tr>
 	    <td colspan="100%">Week 3 (August 1-5)</td>
 	  </tr>
 	  <tr>
-	    <td>Programming and 3D Animation <span style="font-weight: bold">(FULL)</span></td>
+	    <td>Programming and 3D Animation<br /><span style="font-weight: bold">(WAITLIST CLOSED)</span></td>
 	    <td><b>or</b></td>
-	    <td>Entrepreneurship and Website Design <span style="font-weight: bold">(FULL)</span></td>
+	    <td>Entrepreneurship and Website Design<br /><span style="font-weight: bold">(WAITLIST OPEN)</span></td>
 	  </tr>
 	</tbody>
       </table>
     </div>
     <div class="large-2 columns"><br /></div>
     <div class="centered small-12 large-8 columns">
-      <p style="text-align:center;font-size:10pt">A waitlist is currently open for sessions that are full. If you select a session that is full during registration, you will automatically be added to the waitlist for that session.</p>
+      <p style="text-align:center;font-size:10pt">We are currently waitlisting people for sessions that are full.  If the waitlist is still open for a given session, please select that session during registration to be automatically added to its waitlist.  If the waitlist is closed for a given session, we cannot add any more people to the waitlist for that session.</p>
     </div>
     <div class="small-12 large-7 columns">
       <br />
@@ -147,15 +154,9 @@ permalink: summercamp/
       <img src="/assets/img/summercamp/businessweb.JPG">
     </div>
   </div>
-  <div class="summercamp signups" style="display:none;">
-    <div class="small-12 centered columns">
-      <p style="text-align:center;font-size:80%">Please fill out the form below to register.  You can send the recommended donation ($350 per week) via the PayPal button below.</p>
-      <br />
-      <form style="text-align:center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="E97TMT658F8BE"><input type="image" src="/assets/img/sponsor/paypalbtn.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></form>
-      <iframe id="signupform" style="margin:auto; display:block;" src="https://docs.google.com/forms/d/1RnlcMUzQZAobk40SoXIUGQlP9CGN8hhFFFHdNEmNxWI/viewform?embedded=true" height="720px" width="80%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-    </div>
   </div>
-  <div class = "summercamp faq" style="display:none;" >
+  <div class="summercamp faq" style="display:none;" >
+    <div class="row">
     <div class ="small-12 centered columns">
       {% for question in site.data.page_summercamp %}
       <p style = "text-align:center"><b>{{ question.question }}</b></p>
@@ -163,8 +164,20 @@ permalink: summercamp/
       <br></br>
       {% endfor %}
       <p style="text-align:center">If you have any questions, feel free to contact us at <a href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.</p>
+    </div>
     </div> 
-  </div>  
+  </div>
+  <div class="summercamp register" style="display:none;">
+    <div class="row">
+    <div class="small-12 centered columns">
+      <p style="text-align:center;font-size:80%">Please fill out the form below to register.  You can send the recommended donation ($350 per week) via the PayPal button below.</p>
+      <br />
+      <form style="text-align:center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="E97TMT658F8BE"><input type="image" src="/assets/img/sponsor/paypalbtn.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></form>
+      <iframe id="signupform" style="margin:auto; display:block;" src="https://docs.google.com/forms/d/1RnlcMUzQZAobk40SoXIUGQlP9CGN8hhFFFHdNEmNxWI/viewform?embedded=true" height="720px" width="80%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+  </div>
+  </div>
+  
 <!--  <div class="small-12 large-6 columns">
     <p>Palo Alto High School Robotics will be hosting a summer camp for middle schoolers (incoming 6th to incoming 9th) this year. The camp will be held in three sessions, one week each. The dates are July 18-22, July 25-29, and August 1-5. We hope to spark interest and start future high schoolers on a path of engineering and technology. Sign ups will open on January 22 (subject to change). More info on classes offered and cost will be coming soon.</p>
     <table width="100%">
@@ -185,4 +198,4 @@ permalink: summercamp/
   <div class="small-12 large-6 columns">
     <img src="/assets/img/summercamp/IMG_9707.JPG"></img>
   </div> -->
-</div>
+
