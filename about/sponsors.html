@@ -24,7 +24,9 @@ permalink: sponsors/
     <ul class="example-orbit" data-orbit>
       {% for sponsor in site.data.page_about_sponsors %}
       <li>
-        <img src="{{ sponsor.link }}" height="406" width="890" />
+	<a href="{{ sponsor.url }}">
+          <img src="{{ sponsor.link }}" height="406" width="890" />
+	</a>
         <div class="orbit-caption">
           {{ sponsor.caption }}
         </div>
