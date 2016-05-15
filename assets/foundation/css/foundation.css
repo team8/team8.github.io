@@ -2623,6 +2623,7 @@ a.th {
     display: block; }
   .orbit-container .orbit-prev,
   .orbit-container .orbit-next {
+    background-color: transparent;
     position: absolute;
     top: 45%;
     margin-top: -25px;
@@ -2654,7 +2655,7 @@ a.th {
       border-right-color: white; }
   .orbit-container .orbit-next {
     right: 0; }
-    .orbit-container .orbit-next > span {
+  .orbit-container .orbit-next > span {
       border-color: transparent;
       border-left-style: solid;
       border-left-color: white;

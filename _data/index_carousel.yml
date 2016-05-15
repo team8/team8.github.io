@@ -1,0 +1,20 @@
+#For the image/link carousel on the index page
+
+-
+ link: /assets/img/carousel/carousel-img1.jpg
+ caption: Team 8 proudly participated in the 2016 FIRST World Championships in St. Louis, ranking 27th place in the Curie Division.
+ url:
+-
+ link: /assets/img/carousel/carousel-img2.jpg
+ caption: Through our 2016 Summer Camp, Team 8 hopes to spark interest and start future high school students on a path in science, technology, engineering, art or math.
+ url: http://palyrobotics.com/summercamp
+-
+ link: /assets/img/carousel/carousel-img3.jpg
+ caption: It's been an exciting year for Team 8. Watch Paly Robotics' 2016 Year in Review video here!
+ url: https://www.youtube.com/watch?v=Rdb7xZ_6Eqk&feature=youtu.be
+-
+ link: /assets/img/carousel/carousel-img4.jpg
+ caption: Team 8's FIRST Stronghold robot, Tyr.
+ url:
+
+      
