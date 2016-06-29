@@ -9,6 +9,10 @@ permalink: /
   <div class="small-12 large-12 columns" style="margin-left:auto; margin-right:auto">
     <!-- Carousel slider -->
     <h1 style="text-align:middle !important">Palo Alto High School Robotics</h1>
+    <div class="panel callout">
+      <h4 style="text-align:left !important">Donate!</h4>
+      <p>{{ site.data.page_index.find_stuff }}</p>
+    </div>
     <ul class="example-orbit" data-orbit data-options="slide_number:false; animation:fade; timer_speed:5000; pause_on_hover:false">
       {% for image in site.data.index_carousel %}
       <li>
@@ -47,10 +51,6 @@ permalink: /
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
     <br />
-    <div class="panel callout">
-      <h4 style="text-align:left !important">Donate!</h4>
-      <p>{{ site.data.page_index.find_stuff }}</p>
-    </div>
     <!-- About FIRST -->
     <h4 style="text-align:left !important">FIRST</h4>
     <p>{{ site.data.page_index.first_description }}</p>
