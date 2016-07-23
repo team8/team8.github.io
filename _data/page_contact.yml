@@ -6,32 +6,32 @@
   email: chriskuszmaul [at] gmail [dot] com
 -
   role: Team Captain
-  name: Claire Kokontis
-  email: ckokontis [at] palyrobotics [dot] com
--
-  role: Business
-  name: Lauren Nolen
-  email: lnolen [at] palyrobotics [dot] com
--
-  role: Build
   name: Kenny Cheung
   email: kcheung [at] palyrobotics [dot] com
+-
+  role: Business
+  name: Annalee Soohoo
+  email: asoohoo [at] palyrobotics [dot] com
+-
+  role: Build
+  name: Devin Ardeshna
+  email: dardeshna [at] palyrobotics [dot] com
 -
   role: Design
   name: Lydia Brownell
   email: lbrownell [at] palyrobotics [dot] com
 -
   role: Programming
-  name: James Ngo
-  email: jngo [at] palyrobotics [dot] com
+  name: Nihar Mitra
+  email: nmitra [at] palyrobotics [dot] com
 -
   role: Art
-  name: Peter Turnbull
-  email: pturnbull [at] palyrobotics [dot] com
+  name: Maya Chin
+  email: mchin [at] palyrobotics [dot] com
 -
   role: Project Management
-  name: Blake Novak
-  email: bnovak [at] palyrobotics [dot] com
+  name: Jonathan Zwiebel
+  email: jzwiebel [at] palyrobotics [dot] com
 -
   role: Lab Management
   name: Charlotte Brownell
@@ -39,7 +39,7 @@
 -
   role: Web
   name: Alex Tarng
-  email: alecadad [at] gmail [dot] com
+  email: atarng [at] gmail [dot] com
 -
   role: Treasurer
   name: Madeline Li
