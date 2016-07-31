@@ -1,0 +1,18 @@
+table
+{
+	border-style: 1px solid black;
+}
+
+th, td
+{
+	font-family:verdana;
+	border: 1px solid #2f4f4f;
+}
+body {
+	color: #5f9ea0;
+}
+
+p {
+	font-family:verdana;
+}
+

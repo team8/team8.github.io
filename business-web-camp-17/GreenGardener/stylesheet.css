@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box; /*Makes sizing include padding and border*/
+}
+
+div {
+	width: 100%;
+}
+
+body {
+	font-size: 12;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color:#333000;
+	background-color:#ffffff;
+}
+
+div.all {
+	width: 1000px;
+	margin: auto; /*Centers div*/
+	padding: 0px !important;
+}
+
+div.header {
+	height: 100px;
+	background-color: #ffffff;
+	color: #99E64C;
+}
+
+div.navbar {
+	height: 30px;
+/*	width:111% !important;*/
+	background-color: #99E64C;
+	color:#ffffff;
+
+}
+
+div.body {
+	padding: 0px !important;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+div.content {
+	width: 75% !important;
+	float: left; /*Puts content and sidebar next to each other*/
+	background-color: #ffffff;
+	height:500px;
+}
+
+div.sidebar {
+	width: 25% !important;
+	float: left; /*Puts content and sidebar next to each other*/
+	background-color: #E6FFCC;
+	height: 500px;
+}
+
+div.footer {
+	height: 20px;
+	background-color: #ffe6b3;
+	clear:both;
+}
+
+
+p.lightgreen {
+	color:#99E64C;
+}
+
+table.Market{
+	border-style: solid; 
+	background-color: #ffffff;
+}
+
+body.marketanalysis{
+	background-color:#CCE4E6;
+	font-size:50px;
+	font-color: #0A0A0A;
+}
+
+a.spacedForNavbar {
+	margin-left: 60px;
+	text-decoration: none;
+}
+
+table.financialplan {
+	margin:auto;
+}

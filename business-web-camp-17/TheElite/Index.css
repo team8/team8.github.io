@@ -1,0 +1,93 @@
+* {
+	background-color: #33332B;
+}
+
+div.header {
+	border-style:solid;
+	border-color:#33332B;
+}
+
+div.navbar {
+	height: 30px;
+	background-color: #ED7926;
+}
+
+li.oneline {
+	display: inline;
+	padding-right: 75px;
+}
+
+p{color:#ED7926;}
+
+h1{
+	text-align: center;
+	color: #ED7926;
+	font-size:48px;
+	font-family:"Papyrus";
+
+
+}
+
+h2{text-align: center;
+	color: #ED7926;
+	font-family:"Century Gothic";
+
+
+}
+
+p{ 
+	color:#ED7926;
+	font-family: "Century Gothic";
+
+
+}
+
+img.MuscleyArm{  float:left;
+
+	padding-right: 15px;
+
+}
+
+.linker {
+	color: gold;
+	text-decoration: none;
+}
+
+
+
+img.logo{  float:left;
+
+
+}
+
+h3{color: #ED7926
+	;
+	text-align:center;
+	font-family:"Century Gothic";
+
+
+}
+
+div.block{display: inline-block;
+
+
+}
+
+h3{font-size:30px;
+}
+
+img.hello{
+	display:block;
+	margin:auto;
+}
+
+h4{color:#ED7926;
+	font-family:"Century Gothic";
+			text-align:center;
+
+
+
+}
+
+
+

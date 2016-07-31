@@ -1,0 +1,36 @@
+* {
+	background-color:#33332B;
+	font-family:Century Gothic;
+}
+h1.star {
+	color:#ED7926;
+	
+	padding:20px;
+}
+p.hello {
+	font-size:14pt;
+	color:#FFFFFF;
+	padding:20px;
+}
+p.cat {
+	font-size:14pt;
+	color:#FFFFFF;
+	padding:20px;
+}
+div.navbar {
+	height: 30px;
+	background-color: #ED7926;
+	margin: 20px;
+}
+ul {
+	list-style:none;
+}
+ul li {
+	display:inline;
+}
+a:hover {
+	color:#ED7926 !important;
+}
+a:visited {
+	color:#FFFFFF;
+}

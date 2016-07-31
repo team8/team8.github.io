@@ -1,0 +1,26 @@
+p.header {
+	text-align: center;
+	font-size: 72px;
+	font-family: verdana;
+}
+
+p.sidebar {
+	font-family :verdana;
+	font-size: 18px;
+}
+
+
+p {
+	font-family: verdana;
+	margin:16px;
+}
+
+img.robot {
+	float: bottom;
+}
+
+.no-space {
+	padding:0px;
+	display:inline-flex;
+}
+

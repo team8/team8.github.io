@@ -1,0 +1,67 @@
+p.header {
+	text-align: center;
+	font-size: 72px;
+	font-family: verdana;
+}
+
+p.sidebar {
+	font-family :verdana;
+	font-size: 21px;
+	margin:16px;
+	padding: 14px;
+}
+
+p.navbars {
+	display: inline;
+	text-align: center;
+	border-style: solid;
+	border-color: #89c8e5;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+p.navbarone {
+	width: 20% !important;
+}
+
+p.navbartwo {
+	width: 40% !important;
+}
+
+p.navbarthree {
+	width: 60% !important;
+}
+
+p.navbarfour {
+	width: 80% !important;
+}
+
+p.navbarfive {
+	width: 100% !important;
+}
+
+p {
+	font-family: verdana;
+}
+
+img.food {
+	margin-top: 20px;
+	margin-left: 75px;
+}
+
+img.robot {
+	margin-top: 20px;
+	margin-left: 75px;
+}
+
+p.foodp {
+	text-align: center;
+	width:600px;
+	padding-left: 200px;
+}
+
+p.robotp {
+	text-align: center;
+	width:600px;
+	padding-left: 250px;
+}
