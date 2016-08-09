@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box; /*Makes sizing include padding and border*/
+}
+
+div {
+	width: 100%;
+	padding: 5px;
+}
+
+div.all {
+	width: 1000px;
+	margin: auto; /*Centers div*/
+	padding: 0px !important;
+}
+
+div.header {
+	height: 300px;
+	background-color: #99dfff;
+}
+
+div.navbar {
+	height: 50px;
+	background-color: #7d7d7d;
+}
+
+div.body {
+	padding: 0px !important;
+}
+
+div.content {
+	width: 75% !important;
+	float: left; /*Puts content and sidebar next to each other*/
+	background-color: #99ff99;
+}
+
+div.sidebar {
+	width: 25% !important;
+	float: left; /*Puts content and sidebar next to each other*/
+	background-color: #ccccff;
+}
+
+div.footer {
+	height: 100px;
+	background-color: #ffe6b3;
+}
+
+}
+
+table {
+		border-style:solid;
+		border-width:2px;
+		border-collapse:collapse;
+}
+
+td {
+		border-style:solid;
+		border-width:2px;
+		color:#99dfff;
+		font-family:Impact;
+		font-size:19pt;
+}
+
+a.white{
+		color:white;
+		padding-right:17px;
+		padding-left:17px;
+}
