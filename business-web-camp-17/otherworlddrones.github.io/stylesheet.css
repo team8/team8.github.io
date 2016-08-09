@@ -1,0 +1,90 @@
+div.header {
+	height: 40px;
+	width: 500px;
+	/*border: rgb(0, 250, 0);
+	border-color: green;
+	border-radius: 10px;*/
+}
+
+div.top{
+	background: #1e88d4;
+	width: 1000px;
+}
+
+.body{
+	width: 1500px;
+}
+
+.blue{
+	color: #1e88d4 ;
+	width: 1000px;
+	background: #cbe6f0;
+}
+
+.red{
+	color:#26c5f1;
+}
+
+.orange{
+	color:white;
+}
+
+.pad{
+	padding: 10px;
+}
+
+.small{
+	font-size: 45px;
+}
+
+.large{
+	font-size: 70px;
+}
+
+.med{
+	font-size: 55px;
+}
+
+.cursive{
+	font-family: cursive;
+	font-size: 35px;
+}
+
+.tab{
+	margin-left: 40px;
+}
+
+*{
+	font-family: monospace;
+	font-size: 30px; 
+	margin: auto;
+	box-sizing: border-box;
+}
+div.center{
+	margin: auto;
+}
+div.left{
+	width: 100px;
+	margin: 0px !important;
+	float: left;
+}
+
+div.right{
+	width: 250px;
+	background: #9debb1;
+	float: right;
+	border-style: solid;
+	border-color: red;
+}
+
+p.chatwith{
+	padding-left:10px;
+
+}
+
+iframe.chat{
+	height:1000px;
+	width:170px;
+	border-width:10px;
+
+}
