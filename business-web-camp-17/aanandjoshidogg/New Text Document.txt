@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+
+=======
+The quick brown fox jumped over the lazy dog. 133742069
+
+>>>>>>> origin/master
+
+
+i AM THE TALLLLLLEST
+=======
+The quick brown fox jumped over the lazy dog. 133742069 
+>>>>>>> origin/master
