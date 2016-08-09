@@ -1,0 +1,38 @@
+div.header {
+	height: 100px;
+	background-color: #ffcccc;
+}
+
+div.navbar {
+	height: 33px;
+	width:100%;
+	background-color: #c0c9cc;
+}
+
+div.body {
+	padding: 0px !important;
+}
+
+div.content {
+	width: 75% !important;
+	float: left; /*Puts content and sidebar next to each other*/
+	background-color: #99ff99;
+}
+
+div.sidebar {
+	width: 25% !important;
+	float: left; /*Puts content and sidebar next to each other*/
+	background-color: #ccccff;
+}
+
+div.footer {
+	height: 100px;
+	background-color: #ffe6b3;
+}
+a.navlink{
+	padding-left:100px;
+	padding-right:100px;
+	height:33px;
+	background-color:#c0c9cc;
+	color:#000000;
+}
