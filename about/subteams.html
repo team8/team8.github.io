@@ -1,13 +1,13 @@
 ---
 layout: home
-title: Groups
-permalink: groups/
+title: Subteams
+permalink: subteams/
 ---
 
 <div class="row">
   <div class="large-12 columns">
     <!-- Header -->
-    <h2>Paly Robotics Groups</h2>
+    <h2>Paly Robotics Subteams</h2>
   </div>
 </div>
 
@@ -17,7 +17,7 @@ permalink: groups/
   <div class="large-12 columns">
     <!-- Group description and photos (extra code for stagger) -->
     <ul class="medium-block-grid-2 large-block-grid-2">
-      {% for group in site.data.page_about_groups %}
+      {% for group in site.data.page_about_subteams %}
       {% if group.stagger == 0 %}
       <li>
 	<img src="{{ group.image }}" width="100%">
@@ -45,7 +45,7 @@ permalink: groups/
 <div class="row hide-for-medium-up">
   <div class="large-12 columns">
     <!-- Group description and photos (resizing) -->
-    {% for group in site.data.page_about_groups %}
+    {% for group in site.data.page_about_subteams %}
     <ul class="small-block-grid-1">
       <h4>{{ group.name }}</h4>
       <p>{{ group.description }}</p>
