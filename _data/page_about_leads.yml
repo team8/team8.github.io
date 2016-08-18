@@ -1,54 +1,70 @@
 -
   role: Team Captain
-  picture: /assets/img/leads/claire.jpg
-  name: Claire Kokontis
-  email: ckokontis [at] palyrobotics [dot] com
-  bio: Claire joined the robotics team in her freshman year and is now a senior and the Team Captain. She was previously Lab Manager her sophomore year, and Build Captain her junior year. This season, she is focused on working with the team to create a great experience for new members. During her free time, Claire enjoys painting and drawing in her sketchbook with the brightest colors she can find, or spending countless hours on her AP Physics problem sets.
--
-  role: Business Captain
-  picture: /assets/img/leads/lauren.jpg
-  name: Lauren Nolen
-  email: lnolen [at] palyrobotics [dot] com
-  bio: Lauren Nolen, a dedicated member of Paly Robotics, started her career in the lab as a Freshman at Palo Alto High. Originally in build team, she wasn't satisfied with her impact on the team and thought she could benefit the team in other ways. Frequently attending leadership meetings despite her inexperience, she soon became the epicentre of funding and public relations between Team 8 and countless businesses around the community.
--
-  role: Build Captain
   picture: /assets/img/leads/kenny.jpg
   name: Kenny Cheung
   email: kcheung [at] palyrobotics [dot] com
-  bio: Kenny Cheung is a junior who has been on Team 8 since his freshmen year.  Previously the team's lab manager, Kenny now oversees the fabrication and assembly of the robot as Build Captain.  He is familiar in the mechanical aspect of FRC and is also experienced in Solidworks 3D CAD.  In his free time Kenny enjoys deranking in CS:GO and painting historical miniatures.
+  bio: 
+  stagger: 0
 -
-  role: Programming Captain
-  picture: /assets/img/leads/james_2.jpg
-  name: James Ngo
-  email: jngo [at] palyrobotics [dot] com
-  bio: James Ngo is a junior at Paly who joined robotics during his freshman year as a programmer. During build season, he was heavily involved in testing and was one of the key contributors to the 2014 Fenrir code. During the summer, he worked on programming games with his friends and became the software captain. During his spare time, he enjoys playing Puzzles & Dragons and reading manga. His goals in robotics include implementing vision software and teaching newer members.
+  role: Assistant Captain
+  picture: /assets/img/leads/placeholder-female.jpg
+  name: Simran Pujji
+  email: spujji [at] palyrobotics [dot] com
+  bio: 
+  stagger: 1
+-
+  role: Build Captain
+  picture: /assets/img/leads/placeholder-male.jpg
+  name: Devin Ardeshna
+  email: dardeshna [at] palyrobotics [dot] com
+  bio: 
+  stagger: 0
 -
   role: Design Captain
-  picture: /assets/img/leads/lydia.jpg
-  name: Lydia Brownell
-  email: lbrownell [at] palyrobotics [dot] com
-  bio: Lydia Brownell is a junior and has been on the team about two years. She began as a build team member, and still actively participates in the build team, but has expanded into the newly created role of design captain. She loves being on Team 8 because she has built model cars and planes since she was 8 years old and tinkered with legos even earlier than that; robotics is the next step. Robotics has also taught her very useful leadership skills, as well as given her many awesome friends who also care just as much about robotics and the traditions of Paly Robotics. Outside of Robotics, Lydia loves to read, build and draw miniature models, and hang out with her friends and family.
--
-  role: Art Captain
-  picture: /assets/img/leads/peter.jpg
-  name: Peter Turnbull
-  email: pturnbull [at] palyrobotics [dot] com
-  bio: Peter joined Team 8 his junior year, and is now in his senior year. He initially had trouble deciding what subteam to participate in, but ended up working as an animator, and contributed to our first place prize winning animation, ANTi-Hero. He now serves as the Art Captain and Animation Lead, and helps out with a handful of additional projects. When he absolutely can't be in the lab (i.e. when the coach makes everyone go home), he.s probably on Slack or tinkering with several small art/computer science/engineering projects that are in various stages of completion.
--
-  role: Lab Manager
   picture: /assets/img/leads/charlotte.jpg
   name: Charlotte Brownell
   email: cbrownell [at] palyrobotics [dot] com
-  bio: The Lab Manager of Team 8 is in charge of organizing the lab, keeping it clean, and monitoring the use of the machines. The Lab Manager should also know where everything is in the lab. In addition to the Lab Manager's usual tasks, Team 8 has "Lab Clean-Up" days (aka "Doughnut" days) where the whole team completely cleans the lab under the direction of the Lab Manager.
+  bio: 
+  stagger: 1
+-
+  role: Programming Captain
+  picture: /assets/img/leads/placeholder-male.jpg
+  name: Nihar Mitra
+  email: nmitra [at] palyrobotics [dot] com
+  bio: 
+  stagger: 0
+-
+  role: Art Captain
+  picture: /assets/img/leads/placeholder-female.jpg
+  name: Maya Chin
+  email: mchin [at] palyrobotics [dot] com
+  bio: 
+  stagger: 1
+-
+  role: Business Captain
+  picture: /assets/img/leads/placeholder-female.jpg
+  name: Annalee Soohoo
+  email: asoohoo [at] palyrobotics [dot] com
+  bio: 
+  stagger: 0
 -
   role: Web Captain
-  picture: /assets/img/leads/alex.jpg
-  name: Alex Tarng
-  email: alecadad [at] gmail [dot] com
-  bio: Alex joined the robotics team in his freshman year, looking to join programming team along with his friend, Rafi. It was there that they encountered Max Bernstein, the webmaster, who invited them to join web team. Max eventually graduated, and Rafi became the next web captain. Alex moved on to join the programming team as he originally intended. However, Rafi left the team to join Team 6036, leaving Alex, the only person left on the team knowledgable enough about web, to take over his position as web captain. He is now working to tie together all the loose ends and trying to seal the hole Rafi left in the team.
--
-  role: Treasurer
   picture: /assets/img/leads/madeline.jpg
   name: Madeline Li
   email: mli [at] palyrobotics [dot] com
   bio: The treasurer joined Paly Robotics her freshman year, during the middle of build season. As she was swept into the tornado or tsunami or some-great-Earthly-crisis of Team 8, there was no time to officially put her on a sub-team, but the treasurer decided that that was fine and worked odd-jobs where she was needed. The matter of which sub-team the treasurer belongs to is still a mystery, a migraine-inducing topic, and another story. Near the end of build season, the previous treasurer, now design captain, Lydia, who was looking for a minion to succeed her, spotted the current treasurer and decided that she had found her minion. The treasurer also has a name Madeline.
+  stagger: 1
+-
+  role: Lab Manager
+  picture: /assets/img/leads/placeholder-male.jpg
+  name: Shota Yamamoto
+  email: syamamoto [at] palyrobotics [dot] com
+  bio: The Lab Manager of Team 8 is in charge of organizing the lab, keeping it clean, and monitoring the use of the machines. The Lab Manager should also know where everything is in the lab. In addition to the Lab Manager's usual tasks, Team 8 has "Lab Clean-Up" days (aka "Doughnut" days) where the whole team completely cleans the lab under the direction of the Lab Manager.
+  stagger: 0
+-
+  role: Treasurer
+  picture: /assets/img/leads/placeholder-male.jpg
+  name: Kendall Shaw
+  email: kshaw [at] palyrobotics [dot] com
+  bio: 
+  stagger: 1

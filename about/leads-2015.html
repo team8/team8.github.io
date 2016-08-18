@@ -1,0 +1,45 @@
+---
+layout: home
+title: Leads (2015)
+permalink: leads-2015/
+---
+
+<div class="row">
+  <div class="large-12 columns">
+    <!-- Header -->
+    <h2>Paly Robotics Team Leads (2015)</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="12 columns" style="text-align:center;">
+    <a href="/about/leads" style="
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80%;
+    ">Go back to the 2016 Team Leads</a>
+  </div>
+</div>
+
+<br />
+
+{% for lead in site.data.page_about_leads-2015 %}
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <h5>{{ lead.role }}</h5>
+    <p>{{ lead.name }}</p>
+    <p>{{ lead.email }}</p>
+    <p>{{ lead.bio }}</p>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <img src="{{ lead.picture }}"></img>
+  </div>
+</div>
+
+<br />
+
+{% endfor %}  

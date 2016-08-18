@@ -11,19 +11,52 @@ permalink: leads/
   </div>
 </div>
 
+
+
+<div class="row">
+  <div class="12 columns" style="text-align:center;">
+    <a href="/about/leads-2015" style="
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80%;
+    ">Learn about the 2015 Team Leads</a>
+  </div>
+</div>
+
 <br />
+
 
 {% for lead in site.data.page_about_leads %}
 <div class="row">
-  <div class="small-12 medium-6 columns">
+  
+  {% if lead.stagger == 0 %}
+  <div class="small-12 medium-7 columns">
     <h5>{{ lead.role }}</h5>
-    <p>{{ lead.name }}</p>
-    <p>{{ lead.email }}</p>
-    <p>{{ lead.bio }}</p>
+    <p><strong>{{ lead.name }}</strong></p>
+    <p style="font-size: 90%; padding-bottom:.5em;">{{ lead.email }}</p>
+    <p style="font-size: 85%; line-height: 1.4em;">{{ lead.bio }}</p>
   </div>
-  <div class="small-12 medium-6 columns">
+  <div class="small-12 medium-5 columns">
     <img src="{{ lead.picture }}"></img>
   </div>
+  {% endif %}
+  
+  {% if lead.stagger == 1 %}
+  <div class="small-12 medium-5 columns">
+    <img src="{{ lead.picture }}"></img>
+  </div>
+  <div class="small-12 medium-7 columns">
+    <h5>{{ lead.role }}</h5>
+    <p><strong>{{ lead.name }}</strong></p>
+    <p style="font-size: 90%;  padding-bottom:.5em;">{{ lead.email }}</p>
+    <p style="font-size: 85%; line-height: 1.4em;">{{ lead.bio }}</p>
+  </div>
+  {% endif %}
+  
 </div>
 
 <br />
