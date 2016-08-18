@@ -5,6 +5,15 @@ about:
     name: Subteams
     link: /about/subteams
   -
+    name: Leads
+    link: /about/leads
+  -
+    name: Art
+    link: /about/art
+  -
+    name: Our Lab
+    link: /about/lab
+  -
     name: FIRST
     link: /about/FIRST
   -
@@ -13,15 +22,7 @@ about:
   -
     name: Join
     link: /about/join
-  -
-    name: Our Lab
-    link: /about/lab
-  -
-    name: Art
-    link: /about/art
-  -
-    name: Leads
-    link: /about/leads
+
 other:
   -
     name: Zero
