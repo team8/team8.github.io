@@ -1,0 +1,33 @@
+# for /about/subteams
+
+-
+  stagger: 0
+  image: /assets/img/used/build.jpg
+  name: Build
+  description: The Build Team is in charge of &mdash; you guessed it &mdash; building the robot!  The Build Team takes a design and makes it a reality, thanks to Team 8's plethora of tools, including a lathe, CNC mill, laser cutter and 3D printer.  In addition to machining, Build Team members learn about topics such as robot wiring and pneumatics systems, bringing all of this knowledge to help create the final product.
+-
+  stagger: 1
+  image: /assets/img/used/design.jpg
+  name: Design
+  description: Good design is key to developing a successful robot, and this is the job of the Design Team.  Design Team leads the team in prototyping, allowing different mechanisms and ideas to be tested out.  After determining which prototypes work the best, Design Team creates a computer-aided design (CAD) of the robot before it is built.
+-
+  stagger: 0
+  image: /assets/img/used/programming.jpg
+  name: Programming
+  description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using Java, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers. The Programming Team uses Git in order to collaborate on code with its large development team.
+-
+  stagger: 1
+  image: /assets/img/used/art.jpg
+  name: Art
+  description: What does art have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Art Team works together to create short videos for this competition using Autodesk 3D animation software. Art Team also designs our t-shirts, posters, flyers, banners, logos, buttons and anything else you can think of!
+-
+  stagger: 0
+  image: /assets/img/photos/photo/photo_5.jpg
+  name: Business
+  description:  Our Business Team is in charge of sponsorship, fundraising and public relations.  They reach out to potential donors and sponsors year round, as well as find unique ways to raise additional funds, such as working for Stanford Concessions.  In addition, the Business Team applies for awards at competition, such as the Entrepreneurship Award that Team 8 won twice in a row in 2015.
+-
+  stagger: 1
+  image: /assets/img/used/web.jpg
+  name: Web
+  description: The Web Team is in charge of creating and maintaining Team 8's beautiful website, palyrobotics.com. The Web Team uses a variety of tools, including HTML, CSS, Javascript, Jekyll, Foundation, and Heroku, in order to update the website with the necessary information for the greater productivity of the team.
+-
