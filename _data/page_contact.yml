@@ -1,7 +1,7 @@
 # for /contact us
 
 -
-  role: Coach
+  role: Head Coach
   name: Chris Kuszmaul
   email: chriskuszmaul [at] gmail [dot] com
 -
@@ -9,25 +9,37 @@
   name: Kenny Cheung
   email: kcheung [at] palyrobotics [dot] com
 -
-  role: Business
-  name: Annalee Soohoo
-  email: asoohoo [at] palyrobotics [dot] com
+  role: Assistant Captain
+  name: Simran Pujji
+  email: spujji [at] palyrobotics [dot] com
 -
-  role: Build
+  role: Strategic Director
+  name: Lauren Nolen
+  email: lnolen [at] palyrobotics [dot] com
+-
+  role: Build Captain
   name: Devin Ardeshna
   email: dardeshna [at] palyrobotics [dot] com
 -
-  role: Design
+  role: Design Captain
   name: Charlotte Brownell
   email: cbrownell [at] palyrobotics [dot] com
 -
-  role: Programming
+  role: Programming Captain
   name: Nihar Mitra
   email: nmitra [at] palyrobotics [dot] com
 -
-  role: Art
+  role: Art Captain
   name: Maya Chin
   email: mchin [at] palyrobotics [dot] com
+-
+  role: Business Captain
+  name: Annalee Soohoo
+  email: asoohoo [at] palyrobotics [dot] com
+-
+  role: Web Captain
+  name: Madeline Li
+  email: mli [at] palyrobotics [dot] com
 -
   role: Project Management
   name: Jonathan Zwiebel
@@ -37,10 +49,6 @@
   name: Shota Yamamoto
   email: syamamoto [at] palyrobotics [dot] com 
 -
-  role: Web
-  name: Alex Tarng
-  email: atarng [at] gmail [dot] com
--
   role: Treasurer
-  name: Madeline Li
-  email: mli [at] palyrobotics [dot] com
+  name: Kendall Shaw
+  email: kshaw [at] palyrobotics [dot] com
