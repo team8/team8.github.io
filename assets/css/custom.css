@@ -41,6 +41,10 @@ element.style {
     height: 200px !important;
 }
 
+p.caption {
+    font-size: 10pt !important;
+}
+
 /*****************************************************************************/
 /*
 /* Layout
