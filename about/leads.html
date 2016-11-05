@@ -15,17 +15,32 @@ permalink: leads/
 
 {% for lead in site.data.page_about_leads %}
 <div class="row">
-  <div class="small-12 medium-6 columns">
-    <h5>{{ lead.role }}</h5>
-    <p>{{ lead.name }}</p>
-    <p>{{ lead.email }}</p>
-    <p>{{ lead.bio }}</p>
+
+  {% capture side %}{% cycle 'even', 'odd' %}{% endcapture %}
+
+  {% if side == 'odd' %}
+    <div class="small-12 medium-5 columns">
+      <img src="{{ lead.picture }}"></img>
+    </div>
+  {% endif %}
+  
+  <div class="small-12 medium-7 columns">
+    <h5 style="font-weight: 500;">{{ lead.role }}</h5>
+    <p style="font-size: 85%; font-weight: 600;">{{ lead.name }}</p>
+    <p style="font-size: 75%; font-weight: 700; padding-bottom:5px;">{{ lead.email }}</p>
+    <p style="font-size: 82%; line-height: 150%;">{{ lead.bio }}</p>
   </div>
-  <div class="small-12 medium-6 columns">
-    <img src="{{ lead.picture }}"></img>
-  </div>
+    
+  {% if side == 'even' %}
+    <div class="small-12 medium-5 columns">
+      <img src="{{ lead.picture }}"></img>
+    </div>
+  {% endif %} 
+  
 </div>
 
-<br />
+{% if forloop.last == false %}
+<hr style="height: 1px !important;"/>
+{% endif %}
 
 {% endfor %}  
