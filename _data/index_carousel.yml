@@ -1,0 +1,16 @@
+#For the images/captions for the carousel in the index page
+
+Team8:
+  link:  /assets/img/carousel/Team8.jpg
+  caption: Team 8!
+
+Tyr:
+  link: /assets/img/carousel/Tyr.jpg
+  caption: Team 8's FIRST Stronghold Robot &#58 Tyr
+
+WorldChampionships:
+  link: /assets/img/carousel/WorldChampionships.jpg
+  caption: 2016 FIRST World Championships
+
+
+
