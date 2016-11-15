@@ -1,0 +1,31 @@
+#For the content including the carousel/captions and AboutUs
+
+Team8:
+  image:  /assets/img/carousel/Team8.jpg
+  caption: Team 8!
+
+Tyr:
+  image: /assets/img/carousel/Tyr.jpg
+  caption: Team 8's FIRST Stronghold Robot &#58 Tyr
+
+WorldChampionships:
+  image: /assets/img/carousel/WorldChampionships.jpg
+  caption: 2016 FIRST World Championships
+
+AboutUs:
+  image: /assets/img/aboutus/AboutImage1.jpg
+  paragraph: Paly Robotics is dedicated to enriching the education of its members through building, programming, animation, and community
+        outreach. Our team is focused on learning new skills, which include technical skills, communication skills, leadership
+        skills, and teamwork. We are proud to be a completely student-run team and whatever our finished products might be, they
+        are always the result of students' work.
+
+AboutFIRST:
+  image: /assets/img/aboutus/AboutImageFIRST.jpg
+  paragraph: The Paly Robotics team is happy to have been a part of FIRST for 20 years. FIRST, or For Inspiration and Recognition of
+        Science and Technology, has a term "gracious professionalism" that we believe everyone should abide by. To read more
+        about FIRST go to their <a class="paragraph-links" href="http://www.firstinspires.org/robotics/frc">website</a>. 
+
+
+
+
+

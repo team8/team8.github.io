@@ -26,13 +26,67 @@
 	</head>
 
 
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="103">
+	<div id="top-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container naver">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target=".navbar-collapse">
+		   			<span class="sr-only">Toggle navigation</span>
+		   			<span class="icon-bar"></span>
+		   			<span class="icon-bar"></span>
+		   			<span class="icon-bar"></span>
+   				</button>
+
+				<a class="navbar-brand" href="index.html">
+					<span><img id="logo" src="https://avatars3.githubusercontent.com/u/1227303?v=3&s=280"></span><span><h1>Paly Robotics</h1></span></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right ">
+					<li class="active links"><a class="active links" href="#Home">Home</a></li>
+					<li class="links"><a class="links" href="#AboutUs">About Us</a></li>
+					<li class="links"><a class="links" href="#Subteams">Subteams</a></li>
+					<li class="links"><a class="links" href="#Sponsors">Sponsors</a></li>
+					<li class="dropdown links">
+						<a ref="#" class="dropdown-toggle links" data-toggle="dropdown">More<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-text" href="Calendar-page.html">Calendar</a></li>
+							<li><a class="dropdown-text" href="Resources-page.html">Resources</a></li>
+							<li><a class="dropdown-text" href="Art-page.html">Art</a></li>
+							<li><a class="dropdown-text" href="ZeroRobotics-page.html">Zero</a></li>
+							<li><a class="dropdown-text" href="#">Summer Camp</a></li>
+						</ul>
+					</li>
+					<li class="links"><a class="links" href="ContactUs-page.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 {{content}}
 
+	<div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
+		<div class="container foot">
+			<div class="navbar-text pull-left">
+				<p class="footer">© Paly Robotics 2016</p>
+			</div>
+			<div class="navbar-text pull-right icons">
+				<a href="https://www.facebook.com/PalyRobotics/" target="_blank"><i class="fa fa-facebook-square fa-2x facebook"></i></a>
+				<a href="https://twitter.com/frc8?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter fa-2x twitter twitter"></i></a>
+				<a href="https://www.youtube.com/channel/UCxDYmpiPO5we91MfFKfWzsQ" target="_blank"><i class="fa fa-youtube-play fa-2x youtube"></i></a>
+			</div>
+			<div class="col-md-5 pull-right">
+				<a class="glyph" href="#Home">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+					<h5>To Top</h5>
+				</a>
+			</div>
+		</div>
+	</div>
 </body>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/scrollspy.js"></script>
 
 </html>
