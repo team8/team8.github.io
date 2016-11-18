@@ -1,9 +1,30 @@
----
-layout: home
-title: Art | Paly Robotics
-permalink: /art/
----
+<!DOCTYPE html>
+<html>
 
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Art | Paly Robotics | Paly Robotics</title>
+
+		<!-- Bootstrap -->
+		<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/assets/css/stylesheet.css" rel="stylesheet">
+
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9
+	    <![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Righteous|Poppins" rel="stylesheet">
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+	</head>
+
+
+<body>
  <div id="top-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container naver">
       <div class="navbar-header">
@@ -50,12 +71,12 @@ permalink: /art/
 <!--Elaine work done -->
     <div class="container">
       <div class = "col-md-6">
-        <h3>{{site.data.art.Animation.No-Capes.title}}</h3>
-        <p>{{site.data.art.Animation.No-Capes.paragraph}} <a class = "paragraph-links" href = "{{site.data.art.Animation.No-Capes.link}}">{{site.data.art.Animation.No-Capes.link-des}}</a></p>
+        <h3>No Capes! (2014)</h3>
+        <p>The first project by the new art team and its new team process. We were able to push a higher quality short in a much shorter period of time, even though a majority of the members had never animated before. The images are stills showcasing the detail in the set of the short. <a class = "paragraph-links" href = "https://www.youtube.com/watch?v=_6dTBzbmBQ8">View it here!</a></p>
       </div>
     
       <div class = "col-md-6">
-          <img class="pull-right first-img" src= "{{site.data.art.Animation.No-Capes.img}}" height = "250" width = "380">
+          <img class="pull-right first-img" src= "http://palyrobotics.com/assets/img/art/animation/RoomScene.png" height = "250" width = "380">
       </div>
   
  
@@ -68,13 +89,13 @@ permalink: /art/
       </div>
 
       <div class = "col-md-6">
-        <h3>{{site.data.art.Animation.Remi.title}}</h3>
-        <p>{{site.data.art.Animation.Remi.paragraph}} <a class="paragraph-links" href = "{{site.data.art.Animation.No-Capes.link}}">{{site.data.art.Animation.No-Capes.link-des}}</a></p>
+        <h3>Reminiscence (2014)</h3>
+        <p>The second short made by the same group of animators. With a combination of greater skill and advanced rendering software, the end result was way prettier. <a class="paragraph-links" href = "https://www.youtube.com/watch?v=_6dTBzbmBQ8">View it here!</a></p>
 
       </div>
 
       <div class = "col-md-6">
-          <img class= "pull-right" src= "{{site.data.art.Animation.Remi.img}}" height = "250" width = "380">
+          <img class= "pull-right" src= "http://palyrobotics.com/assets/img/art/animation/SawAndDrillScene.png" height = "250" width = "380">
       </div>
   
       <div class="col-md-12">
@@ -85,12 +106,12 @@ permalink: /art/
 
 
       <div class = "col-md-6">
-        <h3>{{site.data.art.Animation.No-Capes.title}}</h3>
-        <p>{{site.data.art.Animation.No-Capes.paragraph}} <a class = "paragraph-links" href = "{{site.data.art.Animation.No-Capes.link}}">{{site.data.art.Animation.No-Capes.link-des}}</a></p>
+        <h3>No Capes! (2014)</h3>
+        <p>The first project by the new art team and its new team process. We were able to push a higher quality short in a much shorter period of time, even though a majority of the members had never animated before. The images are stills showcasing the detail in the set of the short. <a class = "paragraph-links" href = "https://www.youtube.com/watch?v=_6dTBzbmBQ8">View it here!</a></p>
       </div>
     
       <div class = "col-md-6">
-          <img class="pull-right first-img" src= "{{site.data.art.Animation.No-Capes.img}}" height = "250" width = "380">
+          <img class="pull-right first-img" src= "http://palyrobotics.com/assets/img/art/animation/RoomScene.png" height = "250" width = "380">
       </div>
     </div>
 
@@ -101,25 +122,60 @@ permalink: /art/
 
     <div class="col-md-12">
       <hr>
-      <h3 class = "Animation-title">{{site.data.art.Graph-Des.title}}</h3><br>
+      <h3 class = "Animation-title">Graphic Design</h3><br>
     </div>
 
 	<div class="row">
-{% assign pic = 0 %}
-    {% for item in site.data.art.Graph-Des-img %}
+
+    
 
       <div class="col-md-4 extra-padding">
-        <img class="img-responsive" src="{{item.img}}">
-        <h4>{{item.title}}</h4>
-        <p class="paragraph-circle">{{item.paragraph}}</p>
+        <img class="img-responsive" src="http://palyrobotics.com/assets/img/art/graphic/ArtTeam.jpg">
+        <h4>Art Team Poster</h4>
+        <p class="paragraph-circle">The first public announcement of the art team. It was hung around school to raise awareness for the team.</p>
       </div>
-      {% pic = pic + 1 %}
-      {% if pic == 3 %}
-      </div>
-      	<div class = "row">
-      {% endif %}
+      
+    
 
-    {% endfor %}
+      <div class="col-md-4 extra-padding">
+        <img class="img-responsive" src="http://palyrobotics.com/assets/img/art/graphic/BoardgameParty.png">
+        <h4>Board Game Party Poster</h4>
+        <p class="paragraph-circle">Advertising poster for the pre-build season board game party.</p>
+      </div>
+      
+    
+
+      <div class="col-md-4 extra-padding">
+        <img class="img-responsive" src="http://palyrobotics.com/assets/img/art/graphic/ClubDay.jpg">
+        <h4>Club Day Poster</h4>
+        <p class="paragraph-circle">A very large poster showcased during our school's club day to advertise robotics to the school.</p>
+      </div>
+      
+    
+
+      <div class="col-md-4 extra-padding">
+        <img class="img-responsive" src="http://palyrobotics.com/assets/img/art/graphic/NameTag.png">
+        <h4>Name Tags</h4>
+        <p class="paragraph-circle">Examples of name tags that people made to start familiarizing themselves with digital tools.</p>
+      </div>
+      
+    
+
+      <div class="col-md-4 extra-padding">
+        <img class="img-responsive" src="http://palyrobotics.com/assets/img/art/graphic/IDCard.png">
+        <h4>ID Cards</h4>
+        <p class="paragraph-circle">An ID that will be given to each member of the robotics team.</p>
+      </div>
+      
+    
+
+      <div class="col-md-4 extra-padding">
+        <img class="img-responsive" src="http://palyrobotics.com/assets/img/art/graphic/KickOff.png">
+        <h4>Kickoff Poster</h4>
+        <p class="paragraph-circle">A poster advertising our kickoff event to members of robotics.</p>
+      </div>
+      
+    
 	</div>
 
     
@@ -220,3 +276,12 @@ permalink: /art/
   </style>
 
 
+
+
+</body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+</html>

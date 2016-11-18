@@ -1,9 +1,74 @@
 ---
-text-1paragraph: The first project by the new art team and its new team process. We were able to push a higher quality short in a much shorter period of time, even though a majority of the members had never animated before. The images are stills showcasing the detail in the set of the short.
+Animation:
+  No-Capes: 
+    title: No Capes! (2014)
+    paragraph: The first project by the new art team and its new team process. We were able to push a higher quality short in a much shorter period of time, even though a majority of the members had never animated before. The images are stills showcasing the detail in the set of the short.  
+    link: https://www.youtube.com/watch?v=_6dTBzbmBQ8
+    link-des: View it here!
+    img: http://palyrobotics.com/assets/img/art/animation/RoomScene.png
 
-text-2paragraph: The second short made by the same group of animators. With a combination of greater skill and advanced rendering software, the end result was way prettier.
+  Remi:
+    title: Reminiscence (2014)
+    paragraph: The second short made by the same group of animators. With a combination of greater skill and advanced rendering software, the end result was way prettier. 
+    link: https://www.youtube.com/watch?v=Qrxd9191kbU
+    link-des: View it here!
+    img: http://palyrobotics.com/assets/img/art/animation/SawAndDrillScene.png
+  
+  No-Dis:
+    title: No Distractions (2013)
+    paragraph: This is an animation created for the nationwide First Robotics Safety Award. It was created with a group entirely made of first year animators who had never touched 3-D animation software in their life. This animation was created just a couple months after they started learning! 
+    link: https://www.youtube.com/watch?v=Qrxd9191kbU
+    link-des: View it here!
+    img: http://palyrobotics.com/assets/img/art/animation/DrillPressScene.png
 
-text-3paragraph: This is an animation created for the nationwide First Robotics Safety Award. It was created with a group entirely made of first year animators who had never touched 3-D animation software in their life. This animation was created just a couple months after they started learning!
+Graph-Des:
+  title: Graphic Design
+
+Graph-Des-img:
+  -
+    img: http://palyrobotics.com/assets/img/art/graphic/ArtTeam.jpg
+    title: Art Team Poster
+    paragraph: The first public announcement of the art team. It was hung around school to raise awareness for the team.
+
+  -
+    img: http://palyrobotics.com/assets/img/art/graphic/BoardgameParty.png
+    title: Board Game Party Poster
+    paragraph: Advertising poster for the pre-build season board game party.
+
+  -
+    img: http://palyrobotics.com/assets/img/art/graphic/ClubDay.jpg
+    title: Club Day Poster
+    paragraph: A very large poster showcased during our school's club day to advertise robotics to the school.
+
+  -
+    img: http://palyrobotics.com/assets/img/art/graphic/NameTag.png
+    title: Name Tags
+    paragraph: Examples of name tags that people made to start familiarizing themselves with digital tools.
+
+  -
+    img: http://palyrobotics.com/assets/img/art/graphic/IDCard.png
+    title: ID Cards
+    paragraph: An ID that will be given to each member of the robotics team.
+    
+  -
+    img: http://palyrobotics.com/assets/img/art/graphic/KickOff.png
+    title: Kickoff Poster
+    paragraph: A poster advertising our kickoff event to members of robotics.
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ...
