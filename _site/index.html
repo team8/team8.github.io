@@ -24,7 +24,42 @@
 	</head>
 
 
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="103">
+	<div id="top-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container naver">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target=".navbar-collapse">
+		   			<span class="sr-only">Toggle navigation</span>
+		   			<span class="icon-bar"></span>
+		   			<span class="icon-bar"></span>
+		   			<span class="icon-bar"></span>
+   				</button>
+
+				<a class="navbar-brand" href="index.html">
+					<span><img id="logo" src="https://avatars3.githubusercontent.com/u/1227303?v=3&s=280"></span><span><h1>Paly Robotics</h1></span></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right ">
+					<li class="active links"><a class="active links" href="#Home">Home</a></li>
+					<li class="links"><a class="links" href="#AboutUs">About Us</a></li>
+					<li class="links"><a class="links" href="#Subteams">Subteams</a></li>
+					<li class="links"><a class="links" href="#Sponsors">Sponsors</a></li>
+					<li class="dropdown links">
+						<a ref="#" class="dropdown-toggle links" data-toggle="dropdown">More<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-text" href="Calendar-page.html">Calendar</a></li>
+							<li><a class="dropdown-text" href="Resources-page.html">Resources</a></li>
+							<li><a class="dropdown-text" href="Art-page.html">Art</a></li>
+							<li><a class="dropdown-text" href="ZeroRobotics-page.html">Zero</a></li>
+							<li><a class="dropdown-text" href="#">Summer Camp</a></li>
+						</ul>
+					</li>
+					<li class="links"><a class="links" href="ContactUs-page.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 <!-- Carousel stuff starts here -->
 	<div id="Home">
 	</div>
@@ -91,17 +126,17 @@
 		</div>
 		<div class="col-md-8">
 			<h3 class="about-us">About Us</h3>
-			<p class="about-us"></p>
+			<p class="about-us">Paly Robotics is dedicated to enriching the education of its members through building, programming, animation, and community outreach. Our team is focused on learning new skills, which include technical skills, communication skills, leadership skills, and teamwork. We are proud to be a completely student-run team and whatever our finished products might be, they are always the result of students' work.</p>
 		</div>
 		<div class="col-md-4">
-			<img class="engineering" src="">
+			<img class="engineering" src="/assets/img/aboutus/AboutImage1.jpg">
 		</div>
 		<div class="col-md-5">
-			<img class="firstimage" src="">
+			<img class="firstimage" src="/assets/img/aboutus/AboutImageFIRST.jpg">
 		</div>
 		<div class="col-md-7">
 			<h3 class="FIRST">FIRST</h3>
-			<p class="about-us"></p>
+			<p class="about-us">The Paly Robotics team is happy to have been a part of FIRST for 20 years. FIRST, or For Inspiration and Recognition of Science and Technology, has a term "gracious professionalism" that we believe everyone should abide by. To read more about FIRST go to their <a class="paragraph-links" href="http://www.firstinspires.org/robotics/frc">website</a>.</p>
 		</div>
 		<div class="col-md-12">
 		</div>
@@ -118,34 +153,34 @@
 			<h3 class="subteams">Subteams</h3>
 		</div>
 		<div class="col-md-4">
-			<img class="img-circle" src="">
+			<img class="img-circle" src="/assets/img/subteams/design.jpg">
 			<h4>Design</h4>
-			<p class="paragraph-circle"></p>
+			<p class="paragraph-circle">Good design is key to developing a successful robot, and this is the job of the Design Team. Design Team leads the team in prototyping, allowing different mechanisms and ideas to be built and tested out. After determining which prototypes work the best, Design Team creates a computer-aided design (CAD) of the robot before it is built.</p>
 		</div>
 		<div class="col-md-4">
-			<img class="img-circle" src="">
+			<img class="img-circle" src="/assets/img/subteams/build.jpg">
 			<h4>Build</h4>
-			<p class="paragraph-circle"></p>
+			<p class="paragraph-circle">The Build Team is in charge of — you guessed it — building the robot!  The Build Team takes a design and makes it a reality, thanks to Team 8's plethora of tools, including a lathe, CNC mill, laser cutter and 3D printer. In addition to machining, Build Team members learn about topics such as robot wiring and pneumatics systems, bringing all of this knowledge to help create the final product.</p>
 		</div>
 		<div class="col-md-4">
-			<img class="img-circle" src="">
+			<img class="img-circle" src="/assets/img/subteams/software.jpg">
 			<h4 class="program">Software</h4>
-			<p class="paragraph-circle"></p>
+			<p class="paragraph-circle">Writing code in Java and Python, the Software Team works alongside Build Team to test our robot and make it functional. In addition to autonomous and human control of the robot, they code features such as computer vision, and a dashboard to display the robot status during matches. We collaborate using Git, and publish our projects here&#58; <a href="https://github.com/team8" target="_blank">www.github.com/team8</a>.</p>
 		</div>
 		<div class="col-md-4 bot-sub">
-			<img class="img-circle" src="">
+			<img class="img-circle" src="/assets/img/subteams/art.jpg">
 			<h4 class="art">Art</h4>
 			<p class="paragraph-circle"></p>
 		</div>
 		<div class="col-md-4 bot-sub">
-			<img class="img-circle" src="">
+			<img class="img-circle" src="/assets/img/subteams/business.jpg">
 			<h4 class="program">Business</h4>
-			<p class="paragraph-circle"></p>
+			<p class="paragraph-circle">Our Business Team is in charge of sponsorship, fundraising and public relations. They reach out to potential donors and sponsors year round, as well as find unique ways to raise additional funds, such as working for Stanford Concessions. In addition, the Business Team applies for awards at competition, such as the Entrepreneurship Award that Team 8 won three times in a row in 2016.</p>
 		</div>
 		<div class="col-md-4 bot-sub">
-			<img class="img-circle" src="">
+			<img class="img-circle" src="/assets/img/subteams/web.jpg">
 			<h4 class="web">Web</h4>
-			<p class="paragraph-circle"></p>
+			<p class="paragraph-circle">The Web Team is in charge of creating and maintaining <b>this beautiful website</b>, palyrobotics.com. The Web Team uses a variety of tools, including HTML, CSS, Javascript, Jekyll, Bootstrap, and Heroku, in order to update the website with the necessary information for the greater productivity of the team.</p>
 		</div>
 	</div>
 
@@ -286,10 +321,29 @@
 	<!-- Sponsor stuff ends here -->
 
 
+	<div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
+		<div class="container foot">
+			<div class="navbar-text pull-left">
+				<p class="footer">© Paly Robotics 2016</p>
+			</div>
+			<div class="navbar-text pull-right icons">
+				<a href="https://www.facebook.com/PalyRobotics/" target="_blank"><i class="fa fa-facebook-square fa-2x facebook"></i></a>
+				<a href="https://twitter.com/frc8?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter fa-2x twitter twitter"></i></a>
+				<a href="https://www.youtube.com/channel/UCxDYmpiPO5we91MfFKfWzsQ" target="_blank"><i class="fa fa-youtube-play fa-2x youtube"></i></a>
+			</div>
+			<div class="col-md-5 pull-right">
+				<a class="glyph" href="#Home">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+					<h5>To Top</h5>
+				</a>
+			</div>
+		</div>
+	</div>
 </body>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/scrollspy.js"></script>
 
 </html>
