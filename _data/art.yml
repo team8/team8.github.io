@@ -40,6 +40,7 @@ Graph-Des-img:
     title: Club Day Poster
     paragraph: A very large poster showcased during our school's club day to advertise robotics to the school.
 
+Graph-Des-img-2:
   -
     img: http://palyrobotics.com/assets/img/art/graphic/NameTag.png
     title: Name Tags
@@ -54,6 +55,11 @@ Graph-Des-img:
     img: http://palyrobotics.com/assets/img/art/graphic/KickOff.png
     title: Kickoff Poster
     paragraph: A poster advertising our kickoff event to members of robotics.
+
+Vary: 
+  title: Various Sketches
+  paragraph: Various sketches conceptualizing designs for various parts of animations. Also included is the complete storyboard for our latest animation, No Capes, showing the concept of the progression of the story.
+  img: http://palyrobotics.com/assets/img/art/storysketch/Safe_Character.JPG
 ...
 
 

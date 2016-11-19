@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Art | Paly Robotics
+title: Art
 permalink: /art/
 ---
 
@@ -40,7 +40,7 @@ permalink: /art/
    </div>
    <!-- Navbar ends here -->
 <!--Animation Starts -->
-   <div class = "container first-container">
+    <div class = "container first-container">
      <div class = "col-md-12">
        <h2 class="about-first">Paly Robotics Art Team</h2>
        <hr>
@@ -58,9 +58,6 @@ permalink: /art/
           <img class="pull-right first-img" src= "{{site.data.art.Animation.No-Capes.img}}" height = "250" width = "380">
       </div>
   
- 
-  
-    
       <div class="col-md-12">
           <br>
           <br>
@@ -97,34 +94,39 @@ permalink: /art/
 <!--Graphic Design Section-->
    
 <!--Elaine Idea-->
-<div class="container">
-
-    <div class="col-md-12">
-      <hr>
-      <h3 class = "Animation-title">{{site.data.art.Graph-Des.title}}</h3><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+        <h3 class = "Animation-title">{{site.data.art.Graph-Des.title}}</h3><br>
+      </div>
     </div>
 
-	<div class="row">
-{% assign pic = 0 %}
+    <div class="row">
+    {% assign pic = 0 %}
     {% for item in site.data.art.Graph-Des-img %}
-
-      <div class="col-md-4 extra-padding">
-        <img class="img-responsive" src="{{item.img}}">
-        <h4>{{item.title}}</h4>
-        <p class="paragraph-circle">{{item.paragraph}}</p>
-      </div>
-      {% pic = pic + 1 %}
-      {% if pic == 3 %}
-      </div>
-      	<div class = "row">
-      {% endif %}
-
+        <div class="col-md-4 extra-padding">
+            <img class="img-responsive" src="{{item.img}}">
+            <h4>{{item.title}}</h4>
+            <p class="paragraph-circle">{{item.paragraph}}</p>
+        </div>
     {% endfor %}
-	</div>
+    </div>
 
-    
-  
+
+    <div class = "row">
+    {% assign pic = 0 %}
+    {% for item in site.data.art.Graph-Des-img-2 %}
+        <div class="col-md-4 extra-padding">
+            <img class="img-responsive" src="{{item.img}}">
+            <h4>{{item.title}}</h4>
+            <p class="paragraph-circle">{{item.paragraph}}</p>
+        </div>
+    {% endfor %}
+        
+  	</div>
   </div>
+  
     <hr class = "padding">
     
   <!--Idea ends-->
@@ -134,20 +136,23 @@ permalink: /art/
     
         <div class = "col-md-6">
           
-          <h3 class>Various Sketches</h3>
-          <p>Various sketches conceptualizing designs for various parts of animations. Also included is the complete storyboard for our latest animation, No Capes, showing the concept of the progression of the story.</p>
+          <h3 class>{{site.data.art.Vary.title}}</h3>
+          <p>{{site.data.art.Vary.paragraph}}</p>
         </div>
       
 
         <div class = "col-md-6">
-            <img class="pull-right first-img" src= "http://palyrobotics.com/assets/img/art/storysketch/Safe_Character.JPG" height = "250" width = "380">
+            <img class="pull-right first-img" src= "{{site.data.art.Vary.img}}" height = "250" width = "380">
         </div>
+  
   </div>
-  </div>
+
+
+  <!--Done-->
 <!--StoryTelling Ends-->
    <!-- Footer starts here -->
 
-   <div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
+   <!--<div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
       <div class="container foot">
         <div class="navbar-text pull-left">
           <p class="footer">© Paly Robotics 2016</p>
@@ -158,7 +163,7 @@ permalink: /art/
           <a class="twitter" href="https://www.youtube.com/channel/UCxDYmpiPO5we91MfFKfWzsQ" target="_blank"><i class="fa fa-youtube-play fa-2x youtube"></i></a>
         </div>
       </div>
-    </div>
+    </div>-->
     <!-- Footer stuff ends here////////////////////////////////////////////// -->
     <!-- Carousal HTML BEGINS//////////////////////////////////////////////// -->
 
