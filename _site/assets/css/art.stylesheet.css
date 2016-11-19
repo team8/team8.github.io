@@ -1,0 +1,43 @@
+/* stylesheet only for art page */
+
+h2.about-first {
+      font-family:'Poppins',sans-serif;
+      font-size:45px;
+      text-align:center;
+    }
+.first-container  {
+      padding-top:150px;
+    }
+    .container {
+      padding-left:15px;
+      padding-right:15px;
+    }
+    p{
+      font-family:'Poppins',sans-serif;
+      font-size:20px;
+    }
+    hr {
+      margin-bottom:50px;
+    }
+    
+    h3{
+      font-family: 'Poppins',sans-serif;
+      font-size: 35px;
+      margin-top:-15px;
+      margin-bottom:20px;
+    }
+
+
+    h3.Animation-title{
+      text-align: center;
+      font-size:35px;
+      margin-bottom:25px;
+    }
+
+    .extra-padding{
+      padding-bottom:45px;
+    }    
+
+    hr.padding{
+      margin-top: 20px;
+    }
