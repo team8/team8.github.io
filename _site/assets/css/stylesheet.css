@@ -253,9 +253,10 @@ b{
 }
 .carousel-caption {
 	height:65%;
-	right:50%;
+	right:40%;
 	left:20%;
 }
+
 
 p.p-carousel-caption {
 	font-size:25px;
