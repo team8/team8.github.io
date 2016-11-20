@@ -1,16 +1,26 @@
 ---
 layout: pages
 title: Summer Camp
-permalink: /summer-camp/
+permalink: /summer-camp
 ---
 
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/summer-camp.stylesheet.css">
+</head>
 <!-- Body begins here -->
+<div class = "container">
+    <div class = "col-md-12">
+        <h2 class="summer-camp-title">Summer Camp</h2>
+    </div>
+    <hr/>
+</div>
+<br/>
 <div class="container">
-    <div class="col-md-12">
-        <br/><br/><br/><br/><br/><br/><br/>
-        <hr/>
-        {{site.data.summer-camp.Summer-Camp.paragraph}}
-        <img src="{{site.data.summer-camp.Summer-Camp.image}}"/>
+    <div class="col-md-6">
+        <p class="summer-camp">{{site.data.summer-camp.Summer-Camp.paragraph}}</p>
+    </div>
+    <div class="col-md-6">
+        <img src="{{site.data.summer-camp.Summer-Camp.image}}" class = "summer-camp"/>
     </div>
 </div>
 <!-- Body ends here -->

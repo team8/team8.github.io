@@ -1,0 +1,16 @@
+h2.summer-camp-title {
+    text-align: center;
+	padding-bottom: 50px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 48px;
+    margin-top: 175px;
+}
+
+img.summer-camp {
+    width: 100%;
+    border: 2px solid;
+}
+
+p.summer-camp {
+    font-size: 18px;
+}
