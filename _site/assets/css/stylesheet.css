@@ -181,10 +181,13 @@ b{
 
 /*All Navbar CSS ENDS HERE-----------------------------------*/
 /*Carousel CSS begins HERE-----------------------------------*/
+
+
+
 .slide {
 	padding-top:102px;
 }
-/*getting rid of txt when at small size-------------------------------------*/
+
 .carousel-fade .carousel-inner .item {
  	opacity:0;
  	transition:0.5s;
@@ -245,14 +248,20 @@ b{
 	font-family: 'Poppins', sans-serif;	
 	color:white;
 	font-size:50px;
-	text-align:center;
+	text-align:left;
 	padding-top:10px;
 }
 .carousel-caption {
 	height:65%;
+	right:50%;
+	left:20%;
 }
 
-
+p.p-carousel-caption {
+	font-size:25px;
+	font-family:'Poppins', sans-serif;
+	text-align:left;
+}
 
 /*Carousel CSS ENDS------------------------------------------*/
 /*Entering About Us Zone-------------------------------------*/
