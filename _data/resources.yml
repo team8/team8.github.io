@@ -1,0 +1,88 @@
+---
+Main:
+  title-h2: Resources
+
+Links:
+  title: Links
+
+  Our-Other: 
+    title: Our Other Sites
+
+    Vid: 
+      vid-link: Paly Robotics Videos
+      des: The Paly Robotics YouTube channel.
+
+    Facebook:
+      facebook-link: Paly Robotics Facebook
+      face-des: The Paly Robotics Facebook page, which contains updates for the team.
+
+    Twitter:
+      twitter-link: Paly Robotics Twitter
+      des: The Paly Robotics Twitter page, which contains bite-sized updates for the team.
+
+  Team-Forms:
+    title: Team Forms
+
+    Parent-Workplace-Surv: 
+      link: Parent Workplace Survey
+      des: Help Paly Robotics get sponsors by telling us where your parents work.
+
+    Mailing:
+      link: Mailing List Sign-Up
+      des: If you aren't part of the robotics mailing list, sign up here.
+
+    Media: 
+      link: Media Waivers
+      des: Fill out a media waver and turn it in so we can use pictures of you.
+
+  Comp:
+    title: Competition
+
+    Release:
+      link: Release and Consent Form for FIRST
+      des: Please make sure you have this form signed so you can participate in FIRST.
+
+    STIMS:
+      link: STIMS
+      des: The Paly Robotics Facebook page, which contains updates for the team.
+
+    STIMS-FAQ:
+      link: STIMS FAQ
+      des: A webpage with answers to common questions about signing up for STIMS.
+
+  Build-Files:
+    title: Build Files
+
+    OcT:
+      link: Octagon Concept CAD
+      des: A concept CAD for a octagonal drivetrain.
+
+    Six:
+      link: Six Wheel Concept
+      des: A concept CAD for a 6-wheel drivetrain.
+
+  Miscellaneous:
+    title: Miscellaneous
+
+    Stanford:
+      link: Stanford Driving Studies
+      des: A study going on at Stanford that students are invited to sign up for.
+
+    Leadership:
+      link: Leadership Meeting Agenda Topic Submission
+      des: Fill out this simple form to add a topic to the Monday meeting agenda!
+
+Maps:
+  Location:
+    head: Map to location
+    des: We are located at Palo Alto High School.
+    iframe: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6336.238133073568!2d-122.15770663381215!3d37.434291908280905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2113420bed%3A0x795c005023273e8c!2sPalo+Alto+High+School%2C+Embarcadero+Rd%2C+Palo+Alto%2C+CA!5e0!3m2!1sen!2sus!4v1388957446857
+
+  Lab: 
+    head: Map to lab
+    des: Shows our location
+    img: images/palymap.png
+
+
+...
+
