@@ -1,5 +1,25 @@
 # For the summer camp page #
 
-Summer-Camp:
-    image: /assets/img/summercamp/summer-camp.png
-    paragraph: Paly Robotics Summer Camp 2016 is done for the year. If you have any questions, feel free to contact us at summercamp [at] palyrobotics [dot] com.
+summer-camp:
+    build:
+        title: Build
+        img: /assets/img/summercamp/build-img.png
+        info: At build camp students get to build robots.
+    programming:
+        title: Programming
+        img: /assets/img/summercamp/programming-img.png
+        info: At programming camp students get to program robots.
+    design:
+        title: Design
+        img: /assets/img/summercamp/design-img.png
+        info: At design camp students explore CAD and create models for robots.
+    web:
+        title: Web/Entrepreneurship
+        img: /assets/img/summercamp/web-img.png
+        info: At entrepreneurship and web design camps students pitch their ideas for a robot and then create a website for it.
+    art:
+        title: Art/Animation
+        img: /assets/img/summercamp/art-img.png
+        info: At art and animation campers create animations using Autodesk Maya.
+    group-img: /assets/img/summercamp/group-img.png
+    info: "Paly Robotics Summer Camp 2016 is done for the year. If you have any questions, feel free to contact us at: summercamp[at]palyrobotics[dot]com."

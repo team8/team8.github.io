@@ -1,16 +1,48 @@
 h2.summer-camp-title {
     text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 48px;
-    margin-top: 175px;
+    margin-top: 165px;
+}
+
+h3.summer-camp-header {
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+    margin: 15px;
+}
+
+h3.group-img-header {
+    font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+    margin: 15px;
+    margin-top: 45px !important;
+    text-align: center;
 }
 
 img.summer-camp {
-    width: 100%;
+    width: 95% !important;
     border: 2px solid;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+img.group-img {
+    width: 95%;
+    display: block;
+    margin: auto;
+    border: 2px solid;
+    margin-top: 50px !important;
 }
 
 p.summer-camp {
-    font-size: 18px;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+hr {
+    margin: 20px !important;
 }
