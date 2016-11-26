@@ -6,7 +6,6 @@ permalink: /art
 
 
  
-   
 <!--Animation Starts -->
     <div class = "container first-container">
      <div class = "col-md-12">
@@ -65,36 +64,36 @@ permalink: /art
   <div class="container">
       <div class="col-md-12">
         <hr>
-        <h3 class = "Animation-title">{{site.data.art-page.Graph-Des.title}}</h3><br>
+        <h3 class="Animation-title">{{site.data.art-page.Graph-Des.title}}</h3><br>
       </div>
+  </div>
+    <div class="container">
+      {% assign pic = 0 %}
+      {% for item in site.data.art-page.Graph-Des-img %}
+          <div class="col-md-4 extra-padding">
+              <img class="img-responsive" src="{{item.img}}">
+              <h4>{{item.title}}</h4>
+              <p class="paragraph-circle">{{item.paragraph}}</p>
+          </div>
+      {% endfor %}
+    </div>  
 
-    <div class="row">
-    {% assign pic = 0 %}
-    {% for item in site.data.art-page.Graph-Des-img %}
-        <div class="col-md-4 extra-padding">
-            <img class="img-responsive" src="{{item.img}}">
-            <h4>{{item.title}}</h4>
-            <p class="paragraph-circle">{{item.paragraph}}</p>
-        </div>
-    {% endfor %}
+
+    <div class="container">
+      {% assign pic = 0 %}
+      {% for item in site.data.art-page.Graph-Des-img-2 %}
+          <div class="col-md-4 extra-padding">
+              <img class="img-responsive" src="{{item.img}}">
+              <h4>{{item.title}}</h4>
+              <p class="paragraph-circle">{{item.paragraph}}</p>
+          </div>
+      {% endfor %}
     </div>
-
-
-    <div class = "row">
-    {% assign pic = 0 %}
-    {% for item in site.data.art-page.Graph-Des-img-2 %}
-        <div class="col-md-4 extra-padding">
-            <img class="img-responsive" src="{{item.img}}">
-            <h4>{{item.title}}</h4>
-            <p class="paragraph-circle">{{item.paragraph}}</p>
-        </div>
-    {% endfor %}
-        
-  	</div>
+ 
   
-  
+  <div class="container">
     <hr class = "padding">
-    
+  </div>   
   <!--Idea ends-->
 <!--StoryTelling Starts-->
 
@@ -116,6 +115,6 @@ permalink: /art
 
  
 
+
+
 <link href="/assets/css/art.stylesheet.css" rel="stylesheet">
-
-
