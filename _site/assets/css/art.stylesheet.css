@@ -5,7 +5,7 @@ h2.about-first {
       font-size:45px;
       text-align:center;
     }
-.first-container  {
+    .first-container  {
       padding-top:150px;
     }
     .container {
@@ -23,7 +23,6 @@ h2.about-first {
     h3{
       font-family: 'Poppins',sans-serif;
       font-size: 35px;
-      margin-top:-15px;
       margin-bottom:20px;
     }
 
@@ -41,3 +40,11 @@ h2.about-first {
     hr.padding{
       margin-top: 20px;
     }
+
+
+    
+    img.animation-img {
+      padding-bottom:10px;
+      padding-top:10px;
+    }
+
