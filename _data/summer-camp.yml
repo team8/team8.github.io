@@ -1,5 +1,7 @@
 # For the summer camp page #
 
+summer-camp-2016-link:
+    
 summer-camp:
     build:
         title: Build
@@ -23,3 +25,4 @@ summer-camp:
         info: At art and animation campers create animations using Autodesk Maya.
     group-img: /assets/img/summercamp/group-img.png
     info: "Paly Robotics Summer Camp 2016 is done for the year. If you have any questions, feel free to contact us at: summercamp[at]palyrobotics[dot]com."
+    check-out: Click to see info about Paly Robotics' <a class="paragraph-links" href="summer-camp-2016">2016 Summer Camp</a>

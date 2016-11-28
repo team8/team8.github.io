@@ -1,9 +1,8 @@
 h2.zero-robotics-title {
     text-align: center;
-	padding-bottom: 40px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 48px;
-    margin-top: 165px;
+    padding-top: 150px;
 }
 
 h3.zero-robotics-header {
@@ -15,14 +14,11 @@ h3.zero-robotics-header {
 h3.section-header {
     font-family: 'Poppins', sans-serif;
 	font-size: 32px;
-    margin: 15px;
     margin-top: 25px !important;
 }
 
 img.zero-robotics {
     width: 95% !important;
-    border: 2px solid;
-    margin: 10px;
     margin-top: 30px;
 }
 
@@ -36,8 +32,6 @@ img.iss-challenge {
 p.zero-robotics {
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 25px;
     margin-bottom: 45px;
 }
@@ -45,9 +39,11 @@ p.zero-robotics {
 p.caption {
     font-size: 14px;
     margin-top: 25px;
-    margin-left: 10px;
 }
 
+hr.one-hr {
+    margin-top: 62px !important;
+}
 hr {
-    margin: 20px !important;
+    margin-top: 35px;
 }
