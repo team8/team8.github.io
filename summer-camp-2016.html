@@ -8,76 +8,73 @@ permalink: /summer-camp-2016
     <link rel = "stylesheet" type = "text/css" href = "assets/css/summer-camp.stylesheet.css">
 </head>
 <!-- Body begins here -->
-<div class="tab-content">
+
     <div class = "container">
         <div class = "col-md-12">   
             <h2 class="summer-camp-title">Summer Camp 2016</h2>
             <hr class="one-hr"/>
-            <ul class="nav nav-tabs">
-                <li class="active"><a class="menu" data-toggle="tab" href="#home">About the Camp</a></li>
-                <li><a class="menu" data-toggle="tab" href="#menu1">Sessions</a></li>
+            <ul class="nav nav-pills">
+                <li class="active"><a class="menu" data-toggle="tab" href="#about-the-camp">About the Camp</a></li>
+                <li><a class="menu" data-toggle="tab" href="#sessions">Sessions</a></li>
                 <li><a class="menu" data-toggle="tab" href="#menu2">FAQ</a></li>
             </ul>
         </div>
     </div>
 
+<div class="tab-content">
+    <div class="container tab-pane fade in active" id="about-the-camp">
+        <br><br>
+        <div class="row less-marg">
+            <div class="col-md-7">
+                <p class="summer-camp-2016">{{site.data.summer-camp-2016.Description.paragraph}}</p>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td>Weeks Offered</td><td>Week 1: July 18-22<br>Week 2: July 25-29<br>Week 3: August 1-5</td>
+                        </tr>
+                        <tr>
+                            <td>Time</td><td>9 AM - 3 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Location</td><td>The Paly Robotics Lab (Room 903 at Palo Alto High School)</td>
+                        </tr>
+                        <tr>
+                            <td>Recommended Donation</td><td>$350 per week <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="E97TMT658F8BE"><input type="image" display = "inline-block" src="/assets/img/summercamp/paypalbtn.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></form></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-5">
+                <img class="img-responsive" src="{{site.data.summer-camp-2016.Description.image1}}">
+            </div>
+        </div>
+        <hr>
+        <div class="row less-marg">
+            <br><br>
+            <div class="col-md-4">
+                <img class="img-responsive" src="{{site.data.summer-camp-2016.Description.image2}}">
+            </div>
+            <div class="col-md-8">
+            </div>
+        </div>
+    </div>
+
     <!-- Build starts here -->
-    <div class="container tab-pane fade in active" id="home">
- 
-            <div class="col-md-6">
-                <h3 class="summer-camp-header">{{site.data.summer-camp.summer-camp.build.title}}</h3>
-                <p class="summer-camp">{{site.data.summer-camp.summer-camp.build.info}}</p>
-            </div>
-            <div class="col-md-6">
-                <img src="{{site.data.summer-camp.summer-camp.build.img}}" class = "summer-camp"/>
-            </div>
-
-    <!-- Build ends here -->
-    <!--<div class="container"><hr/></div>-->
-    <!-- Proramming starts here -->
-
-            <div class="col-md-6">
-                <img src="{{site.data.summer-camp.summer-camp.programming.img}}" class = "summer-camp"/>
-            </div>
-            <div class="col-md-6">
-                <h3 class="summer-camp-header">{{site.data.summer-camp.summer-camp.programming.title}}</h3>
-                <p class="summer-camp">{{site.data.summer-camp.summer-camp.programming.info}}</p>
-            </div>
-
-    <!-- Programming ends here -->
-    <!--<div class="container"><hr/></div>-->
-    <!-- Design starts here -->
-
-            <div class="col-md-6">
-                <h3 class="summer-camp-header">{{site.data.summer-camp.summer-camp.design.title}}</h3>
-                <p class="summer-camp">{{site.data.summer-camp.summer-camp.design.info}}</p>
-            </div>
-            <div class="col-md-6">
-                <img src="{{site.data.summer-camp.summer-camp.design.img}}" class = "summer-camp"/>
-            </div>
-
-    <!-- Design ends here -->
-    <!--<div class="container"><hr/></div>-->
-    <!-- Web starts here -->
-
-            <div class="col-md-6">
-                <img src="{{site.data.summer-camp.summer-camp.web.img}}" class = "summer-camp"/>
-            </div>
-            <div class="col-md-6">
-                <h3 class="summer-camp-header">{{site.data.summer-camp.summer-camp.web.title}}</h3>
-                <p class="summer-camp">{{site.data.summer-camp.summer-camp.web.info}}</p>
-            </div>
-    <!-- Web ends here -->
-    <!-- Art starts here -->
-
-            <div class="col-md-6">
-                <h3 class="summer-camp-header">{{site.data.summer-camp.summer-camp.art.title}}</h3>
-                <p class="summer-camp">{{site.data.summer-camp.summer-camp.art.info}}</p>
-            </div>
-            <div class="col-md-6">
-                <img src="{{site.data.summer-camp.summer-camp.art.img}}" class = "summer-camp"/>
-            </div>
-
+    <div class="container tab-pane fade in" id="sessions">
+        <br>
+        <br>
+            {% for item in site.data.summer-camp-2016.SummerCamp2016 %}
+                <div class="row less-marg">   
+                   <div class="col-md-6">
+                        <h3 class="summer-camp-header">{{item.title}}</h3>
+                        <p class="summer-camp">{{item.info}}</p>
+                    </div>
+                    <br>
+                    <div class="col-md-6">
+                        <img src="{{item.img}}" class = "summer-camp"/>
+                    </div>
+                </div>
+            {% endfor %}
     </div>
 </div>
 

@@ -32,12 +32,17 @@ img.group-img {
 }
 
 p.summer-camp {
-    font-size: 22px;
+    font-size: 19.5px;
     margin-top: 45px;
     margin-bottom: 45px;
     font-family: 'Poppins', sans-serif;
 }
+p.summer-camp-2016 {
+    font-size: 19.5px;
 
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
 hr.one-hr {
     margin-top:77px;
 }
@@ -56,4 +61,15 @@ ul.nav-tabs {
 }
 a.menu {
     color:#333;
+}
+
+div.less-marg {
+    margin:0px;
+}
+
+a {
+    font-size:19.5px;
+}
+.table {
+    font-family:'Poppins', sans-serif;
 }
