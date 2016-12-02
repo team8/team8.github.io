@@ -1,0 +1,48 @@
+---
+layout: pages
+title: Contact Us
+permalink: /contact-us
+---
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/contact-us.stylesheet.css">
+</head>
+
+<!-- Body begins here -->
+<div class="container">
+    <div class="col-md-12">
+        <h2 class="contact-us-title">
+            {{site.data.contact-us.contact-us.title}}
+        </h2>
+
+        <hr/>
+
+        <form>
+            <!-- Name input -->
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input class="form-control" id="NameInput" aria-describedby="nameHelp" placeholder="Enter name:" autofocus required>
+            </div>
+            <!-- End name input -->
+
+            <!-- E-Mail input -->
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="EmailInput" aria-describedby="emailHelp" placeholder="Enter email:" required>
+                <p id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <!-- End E-Mail input -->
+
+            <!-- Text input field -->
+            <div class="form-group">
+                <label for="exampleTextarea">What do you want to say?</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3" required></textarea>
+            </div>
+            <!-- Text input field ends here -->
+
+            <!-- Input field -->
+            <button type="submit" class="btn btn-primary submit">Submit</button>
+        </form>
+    </div>
+</div>
+<!-- Body ends here -->
