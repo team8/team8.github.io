@@ -1,0 +1,36 @@
+h2.contact-us-title {
+    text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 48px;
+    padding-top: 150px;
+}
+
+button.submit {
+    margin-top: 16px;
+    width: 100%;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+    margin-top: 24px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+    margin-left: 4px;
+    margin-top: 8px !important;
+}
+
+textarea {
+    min-height: 150px !important;
+    max-width: 100% !important;
+    font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}

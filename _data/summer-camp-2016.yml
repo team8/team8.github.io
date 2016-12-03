@@ -3,7 +3,20 @@
 
     
 ---
-    SummerCamp2016:
+    AboutTheCamp1:
+        paragraph1: This year, Paly Robotics will be offering three different weeks of our annual summer camp for incoming middle school students (incoming 6th - 9th). We hope to spark interest and start future high school students on a path in science, technology, engineering, art or math (STEAM). If you have any questions, feel free to contact us at summercamp [at] palyrobotics [dot] com.
+        image1: /assets/img/summercamp/aboutthecamp1-img.jpg
+        image2: /assets/img/summercamp/aboutthecamp2-img.jpg
+    AboutTheCamp2:
+        -
+            title2: More than Robotics
+            paragraph2: When most people think about robotics, they picture machines that are controlled by computers to complete certain tasks. While building and programming robots is a big part of what we do, our team is much more than that below the surface. We have different sections of the team that focus on things such as art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the sessions offered, check out the Sessions page. 
+        -
+            title2: Counselors
+            paragraph2: Student mentoring is a big part of our team’s philosophy, and we rely on passing down knowledge from the older students to the younger students. Reflecting this philosophy, our high school team members will be teaching campers about STEAM through the different aspects of the robotics team. Just as we were taught by older team members, we hope to be able to teach what we have learned to the younger generation. 
+    Sessions1:
+            paragraph: We are currently waitlisting people for sessions that are full. If the waitlist is still open for a given session, please select that session during registration to be automatically added to its waitlist. If the waitlist is closed for a given session, we cannot add any more people to the waitlist for that session.
+    Sessions2:
         -
             title: Robot Design and Hardware
             img: /assets/img/summercamp/build-img.png
@@ -16,9 +29,39 @@
             title: Entrepreneurship and Website Design
             img: /assets/img/summercamp/design-img.png
             info: In the Entrepreneurship and Web Design session, campers will learn how to take a business idea from start to finish; learning the skills to pitch their business ideas to potential investors. Furthermore, campers will learn how to create websites with languages such as HTML and CSS to showcase their business ideas, using GitHub to keep track of changes in a group environment.
- 
-    Description:
-        paragraph: This year, Paly Robotics will be offering three different weeks of our annual summer camp for incoming middle school students (incoming 6th - 9th). We hope to spark interest and start future high school students on a path in science, technology, engineering, art or math (STEAM). If you have any questions, feel free to contact us at summercamp [at] palyrobotics [dot] com.
-        image1: /assets/img/summercamp/aboutthecamp1-img.jpg
-        image2: /assets/img/summercamp/aboutthecamp2-img.jpg
+   FAQ: 
+        -
+            question: Is previous experience required?
+            answer: Not at all. We hope to introduce all campers to STEAM regardless of what they already know. If they have previous experience, that is totally fine, and we will be sure to keep them engaged with interesting activities.
+        -
+            question: I'm confused, how does registration work?
+            answer: Don't worry, it can be confusing. We are offering the camp three different weeks, and each week, there are two different sessions to choose from. For example, a camper could choose to register for two weeks of camp. They could pick the Robot Design and Hardware session the first week, and the Entrepreneurship and Website Design session the second week.
+        -
+            question: What if a session is full?
+            answer: We are currently waitlisting people for sessions that are full. If the waitlist is still open for a given session, please select that session during registration to be automatically added to its waitlist. If the waitlist is closed for a given session, we cannot add any more people to the waitlist for that session.
+        -
+            question: Where do the donations for the camp go?
+            answer: The recommended donations ($350 per week) are handled by the Palo Alto High School Robotics Boosters, which is the non-profit entity that supports the team. The boosters fund every aspect of the team, from covering summer camp costs to paying for the robot components and competition expenses. Your donation is highly appreciated.
+        - 
+            question: Since it is a donation to a non-profit, can I receive a tax deduction?
+            answer: Yes, absolutely! The Paly Robotics Boosters will send a receipt with the tax ID number.
+        -
+            question: Can I donate by mailing in a check?
+            answer: "While PayPal is the best method for donating, we also accept donations via check. You can make the check payable to Palo Alto High School Robotics Boosters Club, add Summer Camp to the memo, and mail it to: <br> Palo Alto High School Robotics Boosters Club<br>50 Embarcadero Road<br>Palo Alto, CA 94301"
+        -
+            question: Will there be adult supervision?
+            answer: Although the team is run primarily by students, we have mentors and coaches who will be there to supervise the summer camp at all times, just as they would do during normal team lab hours.
+        -
+            question: How is safety going to be enforced when using tools/machinery?
+            answer: Our team members are well versed in safe operation of all the machines and tools in the lab, but again, adults will be present to keep an eye on campers as well.
+        -
+            question: What is the policy regarding lunch and snacks?
+            answer: Campers will have to bring their own lunch, but we will be providing nut-free snacks to campers during breaks.
+        - 
+            question: Where is the robotics lab?
+            answer: More information will be sent before the camp, but you can find the location of our lab on the <a class="paragraph-links href="resources.html">Resources</a> page.
+        - 
+            question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
+            answer: We cannot promise anything, but membership will be decided based on interest and commitment to the team.
+
 ...
