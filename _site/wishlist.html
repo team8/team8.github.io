@@ -57,7 +57,7 @@
 							<li><a class="dropdown-text" href="summer-camp.html">Summer Camp</a></li>
 						</ul>
 					</li>
-					<li class="links"><a class="links" href="ContactUs-page.html">Contact</a></li>
+					<li class="links"><a class="links" href="contact-us.html">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -71,25 +71,27 @@
 </div>
 
 <div class="container">
-  <hr>
-  <p id="tobegin">Below is the list if items we need for our lab. If you are willing to buy/donate any of these items, please talk to our lab manager Shota. You can find Shota's contact information on the "Leads" page under "More".</p>
-  <ul class="pagination" id="pRangeButtons">
-    <li id="1,1000000" class="active"><a href="#" onclick="paginationClicked([1.00,1000000.0])">All</a></li>
-    <li id="1,20"><a href="#" onclick="paginationClicked([1.0,20.0])">$0-$20</a></li>
-    <li id="20,50"><a href="#" onclick="paginationClicked([20.0,50.0])">$20-$50</a></li>
-    <li id="50,100"><a href="#" onclick="paginationClicked([50.0,100.0])">$50-$100</a></li>
-    <li id="100,300"><a href="#" onclick="paginationClicked([100.0,300.0])">$100-$300</a></li>
-    <li id="300,1000000"><a href="#" onclick="paginationClicked([300.0,1000000.0])">$300+</a></li>
-  </ul>
+  <div class="col-md-12">
+    <hr>
+    <p id="tobegin">Below is the list if items we need for our lab. If you are willing to buy/donate any of these items, please talk to our lab manager Shota. You can find Shota's contact information on the "Leads" page under "More".</p>
+    <ul class="pagination" id="pRangeButtons">
+      <li id="1,1000000" class="active"><a href="#" onclick="paginationClicked([1.00,1000000.0])">All</a></li>
+      <li id="1,20"><a href="#" onclick="paginationClicked([1.0,20.0])">$0-$20</a></li>
+      <li id="20,50"><a href="#" onclick="paginationClicked([20.0,50.0])">$20-$50</a></li>
+      <li id="50,100"><a href="#" onclick="paginationClicked([50.0,100.0])">$50-$100</a></li>
+      <li id="100,300"><a href="#" onclick="paginationClicked([100.0,300.0])">$100-$300</a></li>
+      <li id="300,1000000"><a href="#" onclick="paginationClicked([300.0,1000000.0])">$300+</a></li>
+    </ul>
 
-  <table class="table table-bordered">
-    <thead>
-      <tr id="toshow">
-      </tr>
-    </thead>
-    <tbody id="csv-import">
-    </tbody>
-  </table>
+    <table class="table table-bordered">
+      <thead>
+        <tr id="toshow">
+        </tr>
+      </thead>
+      <tbody id="csv-import">
+      </tbody>
+    </table>
+  </div>
 </div>
 
 
@@ -108,6 +110,7 @@
   }
   
   hr {
+    margin-top:65px;
     margin-bottom: 40px !important;
   }
   
