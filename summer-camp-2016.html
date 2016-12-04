@@ -13,7 +13,7 @@ permalink: /summer-camp-2016
         <div class = "col-md-12">   
             <h2 class="summer-camp-title">Summer Camp 2016</h2>
             <hr class="one-hr"/>
-            <ul class="nav nav-pills">
+            <ul class="nav nav-pills red">
                 <li class="active"><a class="menu" data-toggle="tab" href="#about-the-camp">About the Camp</a></li>
                 <li><a class="menu" data-toggle="tab" href="#sessions">Sessions</a></li>
                 <li><a class="menu" data-toggle="tab" href="#faq">FAQ</a></li>
@@ -119,6 +119,7 @@ permalink: /summer-camp-2016
     <!-- FAQ starts here -->
     <div class="container tab-pane fade in" id="faq">
         <div class="col-md-12">
+        <p class="summer-camp">{{site.data.summer-camp-2016.FAQEmail.info}}</p>
         {% for item2 in site.data.summer-camp-2016.FAQ %}
             <h3 class="summer-camp-header">{{item2.question}}</h3>
             <p class="summer-camp">{{item2.answer}}</p>

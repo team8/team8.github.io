@@ -29,6 +29,8 @@
             title: Entrepreneurship and Website Design
             img: /assets/img/summercamp/design-img.png
             info: In the Entrepreneurship and Web Design session, campers will learn how to take a business idea from start to finish; learning the skills to pitch their business ideas to potential investors. Furthermore, campers will learn how to create websites with languages such as HTML and CSS to showcase their business ideas, using GitHub to keep track of changes in a group environment.
+    FAQEmail: 
+        info: Our email&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>
     FAQ: 
         -
             question: Is previous experience required?

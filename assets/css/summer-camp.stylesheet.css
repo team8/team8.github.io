@@ -61,12 +61,18 @@ li {
     font-size:22px;
     font-family: 'Poppins', sans-serif;
 }
-li.active {
+li.active  {
     border-bottom:none;
 }
-ul.nav-tabs {
-    border-bottom-color:#333;
+a.active {
+    background-color:green;
 }
+
+.red .active a,
+.red .active a:hover {
+    background-color: red;
+}
+
 a.menu {
     color:#333;
 }
