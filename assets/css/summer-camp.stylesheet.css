@@ -50,6 +50,8 @@ p.summer-camp-2016 {
 }
 hr.one-hr {
     margin-top:77px;
+    margin-bottom:0px;
+    width:100% !important;
 }
 
 a.paragraph-links {
@@ -90,4 +92,9 @@ a {
 
 hr.special-hr {
     margin-top:40px;
+}
+
+.page-head {
+    width:100%;
+    background-image: url("/assets/img/headers/header-summercamp.jpg");
 }

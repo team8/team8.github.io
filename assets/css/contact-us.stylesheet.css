@@ -5,6 +5,9 @@ h2.contact-us-title {
     padding-top: 150px;
 }
 
+hr {
+    margin-top:72px;
+}
 button.submit {
     margin-top: 16px;
     width: 100%;

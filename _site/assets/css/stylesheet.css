@@ -189,6 +189,10 @@ b{
 }
 
 /*All Navbar CSS ENDS HERE-----------------------------------*/
+/*All header CSS begins HERE */
+.special-contain { 
+	width:100%;
+}
 /*Carousel CSS begins HERE-----------------------------------*/
 
 
@@ -321,7 +325,6 @@ p.about-us {
 .firstimage {
 	width:325px;
 	height:256px;
-	margin-left:50px;
 	margin-top:35px;
 }
 
