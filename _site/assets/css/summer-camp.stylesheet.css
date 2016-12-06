@@ -3,6 +3,7 @@ h2.summer-camp-title {
 	font-family: 'Poppins', sans-serif;
 	font-size: 48px;
     margin-top: 165px;
+    color:white;
 }
 
 h3.summer-camp-header {
@@ -94,7 +95,16 @@ hr.special-hr {
     margin-top:40px;
 }
 
-.page-head {
+.page-head-1 {
     width:100%;
     background-image: url("/assets/img/headers/header-summercamp.jpg");
+}
+
+.page-head-2 {
+    width:100%;
+    background-image: url("/assets/img/headers/header-summercamp.jpg");
+}
+
+.summer-2016 {
+    margin-top:20px;
 }

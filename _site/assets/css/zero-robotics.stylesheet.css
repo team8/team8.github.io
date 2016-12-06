@@ -42,8 +42,17 @@ p.caption {
 }
 
 hr.one-hr {
-    margin-top: 62px !important;
+    margin-top: 72px !important;
+    margin-bottom:0px;
 }
 hr {
     margin-top: 35px;
+}
+
+.special-col {
+    padding:0px;
+}
+.page-head {
+    background-image:url("/assets/img/headers/header-zerorobotics.jpg")
+    padding:0px;
 }
