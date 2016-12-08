@@ -1,17 +1,14 @@
 #For the content including the carousel/captions and AboutUs
 
 Team8:
-  image:  /assets/img/carousel/Team8.jpg
   caption: Team 8 | Paly Robotics
   caption2: It has been an exciting year for Team 8. Watch Paly Robotics' 2016 Year in Review video <a class="paragraph-links" href="https://www.youtube.com/watch?v=ueb6V6h4ogc" target="_blank">here</a>! 
 
 Tyr:
-  image: /assets/img/carousel/Tyr.jpg
   caption: Our 2016 Robot &#58 Tyr
   caption2: Tyr was our FIRST Stronghold Robot for the 2016 season. It used a plunger system to propel boulders into high goals.
 
 WorldChampionships:
-  image: /assets/img/carousel/WorldChampionships.jpg
   caption: 2016 FIRST World Championships
   caption2: Team 8 proudly participated in the 2016 FIRST World Championships in St. Louis, ranking 27th place in the Curie Division.
 

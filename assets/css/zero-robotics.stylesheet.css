@@ -48,11 +48,3 @@ hr.one-hr {
 hr {
     margin-top: 35px;
 }
-
-.special-col {
-    padding:0px;
-}
-.page-head {
-    background-image:url("/assets/img/headers/header-zerorobotics.jpg")
-    padding:0px;
-}
