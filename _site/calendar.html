@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Summer Camp | Paly Robotics</title>
+		<title>Calendar | Paly Robotics</title>
 
 		<!-- Bootstrap -->
 		<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -63,41 +63,41 @@
 		</div>
 	</div>
 
-<head>
-    <link rel = "stylesheet" type = "text/css" href = "/assets/css/summer-camp.stylesheet.css">
-</head>
-<!-- Body begins here -->
-<div class = "container">   
-    <div class="col-md-12">
-        <h2 class="summer-camp-title">Summer Camp</h2>
-        <hr class="one-hr"/>
-    </div>
-</div>
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/calendar.stylesheet.css">
+    <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.css'/>
+    <script src='assets/fullcalendar/lib/jquery.min.js'></script>
+    <script src='assets/fullcalendar/lib/moment.min.js'></script>
+    <script src='assets/fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='/assets/fullcalendar/gcal.js'></script>
+    <script type='text/javascript'>
+                    $(document).ready(function() {
+                         $(document).ready(function () {
+            $('#calendar').fullCalendar({
+                googleCalendarApiKey : 'AIzaSyDIQZLuITK90tlTtdHN4cSkdLW9aRznnL4',
+                events : {
+                    googleCalendarId : 'db25n7oev1at726gljle5d784c@group.calendar.google.com'
+                }
+            });
+            $(window).resize(function () {
+                if ((($(window).width() / $(window).height()) < 0.95)) {
+                    $('#calendar').fullCalendar('changeView', "agendaWeek") //Change this accordingly
+                } else {
+                    $('#calendar').fullCalendar('changeView', "month") //Change this accordingly
+                }
+            });
+         });
+                    });
+    </script>
 
-<div class="container">
-    <div class="col-md-6">    
-        <p class="summer-camp">Paly Robotics Summer Camp 2016 is done for the year. If you have any questions, feel free to contact us at&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a></p>
-        <br>
-        <p class="summer-camp">Click to see info about Paly Robotics' <a class="paragraph-links" href="summer-camp-2016">2016 Summer Camp</a>. Information about the 2017 Summer Camp will be coming out in the next few months.</p>
-    </div>
-    <div class="col-md-6">
-         <img src="/assets/img/summercamp/group-img.png" class = "group-img "/>
-    </div>
-</div>
-<div class="container">    
-    <div class="col-md-12">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-</div>
 
+<div class="container first-container">
+    <div class="col-md-12">
+      <h2 class="about-calendar">Calendar</h2>
+      <hr>
+      <div id='calendar'></div>
+    </div>
+</div>
 <!-- Body ends here -->
-
-   
 
 	<div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
 		<div class="container foot">

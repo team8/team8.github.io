@@ -1,0 +1,42 @@
+---
+layout: pages
+title: Calendar
+permalink: /calendar
+---
+
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/calendar.stylesheet.css">
+    <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.css'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src='assets/fullcalendar/lib/jquery.min.js'></script>
+    <script src='assets/fullcalendar/lib/moment.min.js'></script>
+    <script src='assets/fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='/assets/fullcalendar/gcal.js'></script>
+    <script type='text/javascript'>
+                    $(document).ready(function() {
+                         $(document).ready(function () {
+            $('#calendar').fullCalendar({
+                googleCalendarApiKey : 'AIzaSyDIQZLuITK90tlTtdHN4cSkdLW9aRznnL4',
+                events : {
+                    googleCalendarId : 'db25n7oev1at726gljle5d784c@group.calendar.google.com'
+                }
+            });
+            $(window).resize(function () {
+                if ((($(window).width() / $(window).height()) < 0.95)) {
+                    $('#calendar').fullCalendar('changeView', "agendaWeek") //Change this accordingly
+                } else {
+                    $('#calendar').fullCalendar('changeView', "month") //Change this accordingly
+                }
+            });
+         });
+                    });
+    </script>
+
+
+<div class="container first-container">
+    <div class="col-md-12">
+      <h2 class="about-calendar">Calendar</h2>
+      <hr>
+      <div id='calendar'></div>
+    </div>
+</div>
+<!-- Body ends here -->
