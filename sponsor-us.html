@@ -1,0 +1,34 @@
+---
+layout: pages
+title: Sponsor Us
+permalink: /sponsor-us
+---
+<head>
+    <link href="/assets/css/sponsor-us.stylesheet.css" rel="stylesheet">        
+</head>
+
+<!-- Body begins here -->
+<div class="container first-container">
+    <div class="col-md-12 no-marg">
+        <h2 class="sponsor-us-h2">Sponsor Us</h2>
+        <hr>
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-12">
+        <p class="sponsor">{{site.data.sponsor-us.Paragraph1}}</p>
+
+        <p class="sponsor">{{site.data.sponsor-us.Paragraph2}}</p>
+
+        <p class="sponsor">The sponsorship levels are:</p>
+        <ul>
+            <li> Bronze - $1000-2499</li>
+            <li> Silver - $2500-4999</li>
+            <li> Gold - $5000</li>
+        </ul>
+
+        <p class="sponsor">{{site.data.sponsor-us.Paragraph3}}</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="YH2WG4QHMKF4S"><input type="image" src="/assets/img/summercamp/paypalbtn.gif" style="position: relative; top: 10px; right: 2px;" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></form>
+    </div>
+</div>
+<!-- Body ends here -->
