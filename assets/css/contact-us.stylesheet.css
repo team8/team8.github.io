@@ -11,6 +11,7 @@ hr {
 button.submit {
     margin-top: 16px;
     width: 100%;
+    border-radius:6px;
 }
 
 label {
@@ -23,7 +24,7 @@ p {
     font-family: 'Poppins', sans-serif;
 	font-size: 14px;
     margin-left: 4px;
-    margin-top: 8px !important;
+    margin-top: 8px;
 }
 
 textarea {
@@ -36,4 +37,19 @@ textarea {
 input {
     font-family: 'Poppins', sans-serif;
 	font-size: 18px;
+}
+
+a.link {
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    text-decoration: none;
+}
+p.info {
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    margin-top:24px !important;
+}
+
+.glyphicon {
+    color:green;
 }
