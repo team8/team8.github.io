@@ -13,6 +13,7 @@
     <link href="/assets/css/stylesheet.css" rel="stylesheet">
 
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -175,22 +176,6 @@
 	</div>
 
 
-	<!-- Footer HTML BEGINS///////////////////////////////////////////////// -->
-
-	<!--<div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
-		<div class="container foot">
-			<div class="navbar-text pull-left">
-				<p class="footer">© Paly Robotics 2016</p>
-			</div>
-			<div class="navbar-text pull-right">
-				<a href="https://www.facebook.com/PalyRobotics/" target="_blank"><i class="fa fa-facebook-square fa-2x facebook"></i></a>
-         		 <a href="https://twitter.com/frc8?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter fa-2x twitter twitter"></i></a>
-         		 <a href="https://www.youtube.com/channel/UCxDYmpiPO5we91MfFKfWzsQ" target="_blank"><i class="fa fa-youtube-play fa-2x youtube"></i></a>
-			</div>
-		</div>
-	</div>-->
-	<!-- Footer stuff ends here////////////////////////////////////////////// -->
-
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -202,8 +187,8 @@
 	padding-top:150px;
 	font-family:'Poppins',sans-serif;
 	text-align: center;
-	font-size: 45px;
-	color:black;
+	font-size: 48px;
+	color:#333;
 }
     hr {
       margin-bottom:50px;
@@ -244,6 +229,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/js/bootstrap.min.js"></script>
-  
+      <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.css'/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='assets/fullcalendar/lib/jquery.min.js'></script>
+    <script src='assets/fullcalendar/lib/moment.min.js'></script>
+    <script src='assets/fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='assets/fullcalendar/gcal.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Orienta|Poppins" rel="stylesheet">
+    <script type='text/javascript'>
+    $(document).ready(function() {
+                 $(document).ready(function () {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey : 'AIzaSyDIQZLuITK90tlTtdHN4cSkdLW9aRznnL4',
+        events : {
+            googleCalendarId : 'db25n7oev1at726gljle5d784c@group.calendar.google.com'
+        }
+    });
+ });
+            });
+        </script>
 
 </html>

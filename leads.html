@@ -1,0 +1,201 @@
+--- 
+  layout: pages 
+  title: Leads 
+  permalink: /leads 
+---
+
+<!-- Body begins here -->
+	<div class="container extra-padding-bottom">
+		<h2 class="contact-us-header">
+			Leads
+		</h2>
+		<hr/>
+	</div>
+	<!-- Body ends here -->
+
+	<!-- Contact stuff begins here -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<a data-toggle="collapse" data-target="#0a,#0">
+			    	<img src="assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+				</a>
+				<div class="name-and-role">
+					<p class="name">Kenny Cheung</p>
+					<p class="role">Team Captain</p>
+				</div>
+  				<i class="glyphicon glyphicon-triangle-top collapse out" id="0a"></i>
+  			</div>
+  			<div class="col-md-3">
+				<a data-toggle="collapse" data-target="#1a,#1">
+			    	<img src="assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(1);">
+				</a>
+				<div class="name-and-role">
+					<p class="name">Simran Pujji</p>
+					<p class="role">Assistant Captain</p>
+				</div>
+  				<i class="glyphicon glyphicon-triangle-top collapse out" id="1a"></i>
+  			</div>
+  		</div>
+
+  		<div class="col-md-12">
+  			<div id="0" class="collapse out paragraph">
+  				<p class="paragraph-text">
+    			Kenny is a senior and a three-year veteran of Team 8. He was formerly Lab Manager his sophomore year and Build Captain his junior year. He was a FIRST Dean's List Semifinalist in 2016. As Team Captain, he will focus on moving the team forward to inspire new members, expand its technical abilities, and to improve its own organizational structure. Kenny enjoys random facts (did you know?), Mucho Mangoes (#youdidntseethiscoming), forklifts (not a certified operator), rivets (of all varieties), cargo pants o_o, and wearing his 2014 robotics polo (:kenny:).
+    			</p>
+  			</div>
+  		</div>
+
+  		<div class="col-md-12">
+  			<div id="1" class="collapse out paragraph">
+  				<p class="paragraph-text">
+  				Simran paragraph.
+    			</p>
+  			</div>
+  		</div>
+	</div>
+	<!-- Body ends here -->
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+</body>
+
+<style>
+	div.contact-us {
+		padding: 5%;
+	}
+	img.img-circle {
+/*		width: 100% !important;
+		height: 100% !important;*/
+/*		padding: 20px;*/
+/*		margin-left: 0px !important;
+		display: block !important;*/
+/*		max-width: 100% !important;*/
+		margin: 0 auto;
+		width: 200px !important;
+		height: 200px !important;
+	}
+	.extra-padding-bottom{
+		padding-bottom: 20px;
+	}
+	
+	h2.contact-us-header {
+		text-align: center;
+		padding-top: 150px;
+		font-family: 'Poppins', sans-serif;
+		font-size: 48px;
+		color:#333;
+	}
+
+	body{
+		font-family: 'Poppins', sans-serif;
+	}
+	p.name{
+		text-align: center;
+		font-size: 25px;
+	}
+	p.role{
+		text-align: center;	
+		font-size: 15px;
+	}
+	.name-and-role{
+		padding: 20px;
+	}
+	.i{
+		display: inline;	
+	}
+	.paragraph{
+/*		padding-top: -30px !important;*/
+/*		background-color: rgb(41,88,44);*/
+		/*padding: 20px;*/
+		margin: none !important;
+		border: none !important;
+		margin-top: -7px !important;
+	}
+	.paragraph-text{
+		padding: 20px;
+		color: white;
+		background-color: rgb(41,88,44);
+	}
+	.glyphicon-triangle-top{
+		text-align: center !important;
+		color: rgb(41,88,44);
+		font-size: 25px;
+	}
+	.glyphicon-triangle-top:hover{	
+		opacity: 1 !important;
+		color: rgb(41,88,44) !important;
+	}
+	.collapsing.glyphicon-triangle-top{
+		display: none;
+	}
+
+</style>
+
+
+</script>
+<script type="text/javascript">
+
+
+// Object.size = function(obj) {
+//     var size = 0, key;
+//     for (key in obj) {
+//         if (obj.hasOwnProperty(key)) size++;
+//     }
+//     return size;
+// };
+
+// // Get the size of an object
+// var size = Object.size(data);
+// var numberOfItems = 4;
+// var rows = Math.ceil(size / numberOfItems);
+// var innerHTML = "";
+// var currentRow = 1;
+
+
+// var indexArr = [];
+// for (var i = 0; i < rows; i++){
+// 	var innerArr = [];
+// 	for (var ix = (i * numberOfItems); ix < ((i + 1) * numberOfItems); ix++){
+// 		if(ix < size){
+// 			innerArr.push(ix);
+// 		}
+		
+// 	}
+// 	indexArr.push(innerArr);
+	
+// }
+// var innerHTML = "";
+// for (var i = 0; i < indexArr.length; i++){
+// 	innerHTML += "\n<div class=\"row\">";
+// 	var itemsArr = indexArr[i];
+// 	for (var ix = 0; ix < itemsArr.length; ix++){
+// 		innerHTML += "\n<div class=\"col-md-3\">\n<img src=\"images/placeholder-200x200.jpeg\" class=\"img-circle center-block\" />\n<div class=\"name-and-role\">";
+// 		innerHTML += "\n<p class=\"name\">" + data[(itemsArr[ix])][0] + "</p>";
+// 		innerHTML += "\n<p class=\"role\">" + data[(itemsArr[ix])][1] + "</p>";
+// 		// innerHTML += "<i class=\"glyphicon glyphicon-envelope\"></i>"
+// 		// innerHTML += "<a href=\"mailto:" + data[(itemsArr[ix])][1] + "\" class=\"glyphicon glyphicon-envelope\">"
+// 		innerHTML += "\n</div>\n</div>";
+// 	}
+// 	innerHTML += "\n</div>";
+
+// }
+// console.log(innerHTML);
+
+var current = "none";
+function hideDescription(param){
+	if (current == "none"){
+		current = param;
+	}else if(current == param){
+		current == "none";
+	}else{
+
+		// document.getElementById("#" + current).aria-expanded = false;
+		// document.getElementById("#" + current + "a").aria-expanded = false;
+		document.getElementById(current).className = document.getElementById(current).className.replace( /(?:^|\s)in(?!\S)/g , '' );
+		document.getElementById(current + "a").className = document.getElementById(current + "a").className.replace( /(?:^|\s)in(?!\S)/g , '' );
+		current = param;
+	}
+
+}
+// document.getElementById("js-add").innerHTML = innerHTML;
+</script>

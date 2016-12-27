@@ -13,6 +13,7 @@
     <link href="/assets/css/stylesheet.css" rel="stylesheet">
 
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -69,14 +70,14 @@
 
 <div class="container first-container">
   <div class="col-md-12">
-    <h2>Wishlist</h2>
+    <h2 style="font-size:48px">Wishlist</h2>
   </div>
 </div>
 
 <div class="container">
   <div class="col-md-12">
     <hr>
-    <p id="tobegin">Below is the list if items we need for our lab. If you are willing to buy/donate any of these items, please talk to our lab manager Shota. You can find Shota's contact information on the "Leads" page under "More".</p>
+    <p id="tobegin">Below is the list if items we need for our lab. If you are willing to buy/donate any of these items, please talk to our lab manager Shota. You can find Shota's contact information on the <a href="leads.html">Leads</a> page.</p>
     <ul class="pagination" id="pRangeButtons">
       <li id="1,1000000" class="active"><a href="#" onclick="paginationClicked([1.00,1000000.0])">All</a></li>
       <li id="1,20"><a href="#" onclick="paginationClicked([1.0,20.0])">$0-$20</a></li>
@@ -120,6 +121,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/js/bootstrap.min.js"></script>
-  
+      <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.css'/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='assets/fullcalendar/lib/jquery.min.js'></script>
+    <script src='assets/fullcalendar/lib/moment.min.js'></script>
+    <script src='assets/fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='assets/fullcalendar/gcal.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Orienta|Poppins" rel="stylesheet">
+    <script type='text/javascript'>
+    $(document).ready(function() {
+                 $(document).ready(function () {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey : 'AIzaSyDIQZLuITK90tlTtdHN4cSkdLW9aRznnL4',
+        events : {
+            googleCalendarId : 'db25n7oev1at726gljle5d784c@group.calendar.google.com'
+        }
+    });
+ });
+            });
+        </script>
 
 </html>

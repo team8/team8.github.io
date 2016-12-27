@@ -13,6 +13,7 @@
     <link href="/assets/css/stylesheet.css" rel="stylesheet">
 
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -68,7 +69,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/contact-us.stylesheet.css">
 </head>
 
+
+
+
 <!-- Body begins here -->
+
 <div class="container">
     <div class="col-md-12">
         <h2 class="contact-us-title">
@@ -76,27 +81,38 @@
         </h2>
 
         <hr/>
-
-        <form>
+    </div>
+    <div class="col-md-5">
+            <p class="info">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                &nbsp;&nbsp;50 Embarcadero Rd, Palo Alto, CA 94301 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(See <a class="link" href="resources.html">Resources</a> for map)<br>
+            </p>
+            <p class="info">
+                <span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;
+                <a class="link" href="mailto:contact@palyrobotics.com">contact@palyrobotics.com</a>
+            </p>
+    </div>
+    <div class="col-md-7">
+        <form action="https://formspree.io/contact@palyrobotics.com" method="POST">
             <!-- Name input -->
             <div class="form-group">
                 <label for="exampleInputEmail1">Name</label>
-                <input class="form-control" id="NameInput" aria-describedby="nameHelp" placeholder="Enter name:" autofocus required>
+                <input type="text" name="name" class="form-control" id="NameInput" aria-describedby="nameHelp" placeholder="Enter name:" autofocus required>
             </div>
             <!-- End name input -->
 
             <!-- E-Mail input -->
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="EmailInput" aria-describedby="emailHelp" placeholder="Enter email:" required>
-                <p id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <input type="email" name="_replyto" type="text" class="form-control" id="EmailInput" aria-describedby="emailHelp" placeholder="Enter email:" required>
+                <p id="emailHelp" class="form-text text-muted">Your email will not be disclosed.</small>
             </div>
             <!-- End E-Mail input -->
 
             <!-- Text input field -->
             <div class="form-group">
-                <label for="exampleTextarea">What do you want to say?</label>
-                <textarea class="form-control" id="exampleTextarea" rows="3" required></textarea>
+                <label for="exampleTextarea">Your Message</label>
+                <textarea name="input" class="form-control" id="exampleTextarea" rows="3" required></textarea>
             </div>
             <!-- Text input field ends here -->
 
@@ -105,6 +121,7 @@
         </form>
     </div>
 </div>
+
 <!-- Body ends here -->
 
   <div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
@@ -125,6 +142,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/js/bootstrap.min.js"></script>
-  
+      <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.css'/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='assets/fullcalendar/lib/jquery.min.js'></script>
+    <script src='assets/fullcalendar/lib/moment.min.js'></script>
+    <script src='assets/fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='assets/fullcalendar/gcal.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Orienta|Poppins" rel="stylesheet">
+    <script type='text/javascript'>
+    $(document).ready(function() {
+                 $(document).ready(function () {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey : 'AIzaSyDIQZLuITK90tlTtdHN4cSkdLW9aRznnL4',
+        events : {
+            googleCalendarId : 'db25n7oev1at726gljle5d784c@group.calendar.google.com'
+        }
+    });
+ });
+            });
+        </script>
 
 </html>
