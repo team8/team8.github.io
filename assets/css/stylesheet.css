@@ -485,6 +485,7 @@ hr.sponsorshr {
 /*Entering Footer CSS zone-----------------------------------*/
 .navbar-static-bottom {
 	margin-top:35px;
+	border-radius:0px;
 }
 
 p.footer{
@@ -496,6 +497,7 @@ p.footer{
 
 div.navbar.navbar-inverse.navbar-static-bottom {
 	margin-bottom:0px;
+	border-radius:0px;
 }
 div.icons {
 	margin-top:25px;
