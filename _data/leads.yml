@@ -1,4 +1,6 @@
 ---
+    
+Leads1:
     - 
         id: Kuszmaul
         name: Chris Kuszmaul
@@ -47,6 +49,8 @@
             team project manager, and is now the Zero Robotics captain, robot driver, and bike project lead. Outside of robotics, 
             he enjoys playing baseball, reading about foreign policy, and programming.
 
+
+Leads2:
     -
         id: Devin
         name: Devin Ardeshna
@@ -92,6 +96,8 @@
             and other team managerial efforts. In her spare time, Annalee enjoys baking, drawing, and reading. Annalee considers the robotics 
             lab her second home.
 
+
+Leads3:
     -
         id: Maya
         name: Maya Chin 
@@ -131,13 +137,18 @@
             reason he is our lab manager this year.
 
     -
+        id: Kendall     
         name: Kendall Shaw
         role: Treasurer
         email: kshaw@palyrobotics.com
         description: >
             Kendall started out as an eager build team freshman and quickly showed that he was up for any challenge. As the year ended, he stepped into the role of treasurer, a position vital for keeping the team running. In the coming year, Kendall is looking forward to 
             improving the treasury system on the team as well as continuing to be an active member of build team.
+   
+
+Leads4:
     -
+        id: Liam
         name: Liam Sherlock
         role: Competition Management
         email: lsherlock@palyrobotics.com
@@ -148,6 +159,7 @@
             daytrips, or feeding the whole team, Liam does it all! When he’s not planning competitions or helping around the 
             lab, he enjoys juggling and art.
     -
+        id: Eddie
         name: Eddie Shi
         role: Pit Management/Safety Captain
         email: eshi@palyrobotics.com

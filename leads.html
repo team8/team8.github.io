@@ -16,7 +16,7 @@
 	<!-- Contact stuff begins here -->
 	<div class="container">
 		<div class="row">
-		{% for item in site.data.leads array limit:4 %}
+		{% for item in site.data.leads.Leads1 %}
 			<div class="col-md-3">
 				<a data-toggle="collapse" data-target="#{{item.id}}">
 			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
@@ -29,7 +29,7 @@
   		{% endfor %}
   		</div>
   		<div class="row">
-  		{% for item in site.data.leads array offset:4 array limit:8 %}
+  		{% for item in site.data.leads.Leads2 %}
 			<div class="col-md-3">
 				<a data-toggle="collapse" data-target="#{{item.id}}">
 			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
@@ -41,9 +41,8 @@
   			</div>
   		{% endfor %}
   		</div>
-  		
   		<div class="row">
-  		{% for item in site.data.leads array offset:8 array limit:11 %}
+  		{% for item in site.data.leads.Leads3 %}
 			<div class="col-md-3">
 				<a data-toggle="collapse" data-target="#{{item.id}}">
 			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
@@ -53,7 +52,19 @@
 					<p class="role">{{item.role}}</p>
 				</div>
   			</div>
+  		{% endfor %}
   		</div>
+  		<div class="row">
+  		{% for item in site.data.leads.Leads4 %}
+			<div class="col-md-3">
+				<a data-toggle="collapse" data-target="#{{item.id}}">
+			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+				</a>
+				<div class="name-and-role">
+					<p class="name">{{item.name}}</p>
+					<p class="role">{{item.role}}</p>
+				</div>
+  			</div>
   		{% endfor %}
   		</div>
   	
