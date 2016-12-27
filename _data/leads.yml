@@ -1,5 +1,6 @@
 ---
     - 
+        id: Kuszmaul
         name: Chris Kuszmaul
         role: Head Coach
         email: ckuszmaul@palyrobotics.com
@@ -11,6 +12,7 @@
             if he is aware of the definition of the word martial.
 
     -
+        id: Kenny
         name: Kenneth Cheung
         role: Team Captain
         email: kcheung@palyrobotics.com
@@ -23,6 +25,7 @@
             o_o, and wearing his 2014 robotics polo (:kenny:).
 
     -
+        id: Simran
         name: Simran Pujji
         role: Assistant Captain
         email: spujji@palyrobotics.com
@@ -34,6 +37,7 @@
             robots other teams made. She’s looking forward to another great year of FIRST Robotics with Team 8 :)
 
     -
+        id: Jonathan
         name: Jonathan Zwiebel
         role: Project Manager
         email: jzwiebel@palyrobotics.com
@@ -46,6 +50,7 @@
             programming.
 
     -
+        id: Devin
         name: Devin Ardeshna
         role: Build Captain
         email: dardeshna@palyrobotics.com
@@ -58,6 +63,7 @@
             skills.
 
     -
+        id: Nihar
         name: Nihar Mitra
         role: Software Captain
         email: nmitra@palyrobotics.com
@@ -68,6 +74,7 @@
             upcoming competitions as well as organize better teaching and collaborative development.
 
     - 
+        id: Charlotte
         name: Charlotte Brownell
         role: Design Captain
         email: cbrownwell@palyrobotics.com
@@ -79,6 +86,7 @@
             drawings are handed off to build team to manufacture the robot.
 
     -
+        id: Annalee
         name: Annalee Soohoo
         role: Business Captain
         email: asoohoo@palyrobotics.com
@@ -89,6 +97,7 @@
             enjoys baking, drawing, and reading. Annalee considers the robotics lab her second home.
 
     -
+        id: Maya
         name: Maya Chin 
         role: Art Captain
         email: mchin@palyrobotics.com
@@ -102,6 +111,7 @@
             old by now at all. Ha. Ha. Ha.
 
     -
+        id: Madeline
         name: Madeline Li
         role: Web Captain
         email: mli@palyrobotics.com
@@ -111,6 +121,7 @@
             years on the team, Madeline has learned a lot and hopes to continue her career on the team.
 
     -
+        id: Shota
         name: Shota Yamamoto
         role: Lab Manager
         email: syamamoto@palyrobotics.com
