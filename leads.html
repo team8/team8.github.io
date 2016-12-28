@@ -15,11 +15,11 @@
 	<!-- Body ends here -->
 
 	<!-- Contact stuff begins here. Note: each for loop contains one row of leads stuff, and it goes in the format: col-3: the pictures, role, name, and col-12: the description and email-->
-	<div class="container" id="collapsible">
-		<div class="row">
+	<div class="container accordion" id="accordion1">
+		<div class="row accordion-group">
 		{% for item in site.data.leads.Leads1 %}
-			<div class="col-md-3">
-				<a data-toggle="collapse" data-parent="#collapsible" href="#{{item.id}}">
+			<div class="col-md-3 accordion-heading">
+				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#{{item.id}}">
 			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
 				</a>
 				<div class="name-and-role">
@@ -30,11 +30,11 @@
   		{% endfor %}
   		</div>
   		{% for item in site.data.leads.Leads1 %}
-  		<div class="col-md-12">
-	  			<div id="{{item.id}}" class="collapse paragraph">
-	  				<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
-	  			</div>
+  		<div class="col-md-12 accordion-body">
+	  		<div id="{{item.id}}" class="collapse paragraph">
+	  			<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
 	  		</div>
+	  	</div>
   		{% endfor %}
   		<!-- end of Leads1 -->
   		<div class="row">

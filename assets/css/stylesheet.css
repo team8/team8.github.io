@@ -84,6 +84,16 @@ li.active{
  	background-color:#222 !important;
  	height:85px !important;
  }
+ /* green box for DONATE NOW! button */
+ a.donate-button {
+ 	background-color:green !important;
+ 	border-radius: 3px;
+ 	transition: .2s;
+ }
+ a.donate-button:hover {
+ 	background-color: #fff !important;
+    color: #000 !important;
+ }
  
  /*to counter the green effects for the indicators for the carousel*/
  li.no-green{
@@ -108,7 +118,7 @@ li.active{
     	margin-top:-40px;
     }
    
-	button {
+	btn {
 		margin-bottom:18px !important;
 	}
 
