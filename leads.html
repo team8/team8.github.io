@@ -20,7 +20,7 @@
 			{% for item in site.data.leads.Leads1 %}
 				<div class="col-md-3">
 					<a data-toggle="collapse" href="#{{item.id}}">
-				    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0)";>
+				    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
 					</a>
 					<div class="name-and-role">
 						<p class="name">{{item.name}}</p>
@@ -41,7 +41,7 @@
   		{% for item in site.data.leads.Leads2 %}
 			<div class="col-md-3">
 				<a data-toggle="collapse" href="#{{item.id}}">
-			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
 				</a>
 				<div class="name-and-role">
 					<p class="name">{{item.name}}</p>
@@ -62,7 +62,7 @@
   		{% for item in site.data.leads.Leads3 %}
 			<div class="col-md-3">
 				<a data-toggle="collapse" href="#{{item.id}}">
-			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
 				</a>
 				<div class="name-and-role">
 					<p class="name">{{item.name}}</p>
@@ -83,7 +83,7 @@
   		{% for item in site.data.leads.Leads4 %}
 			<div class="col-md-3">
 				<a data-toggle="collapse" href="#{{item.id}}">
-			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
 				</a>
 				<div class="name-and-role">
 					<p class="name">{{item.name}}</p>
@@ -123,6 +123,7 @@
 		width: 200px !important;
 		height: 200px !important;
 		text-align:center;
+
 	}
 
 	
@@ -165,21 +166,22 @@
 </style>
 
 <script>
-function hideDescription(param){
- 	if (current == "none"){
- 		current = param;
- 	}else if(current == param){
- 		current == "none";
- 	}else{
+// function hideDescription(param){
+//  	if (current == "none"){
+//  		current = param;
+//  	}else if(current == param){
+//  		current == "none";
+//  	}else{
  
- 		// document.getElementById("#" + current).aria-expanded = false;
- 		// document.getElementById("#" + current + "a").aria-expanded = false;
- 		document.getElementById(current).className = document.getElementById(current).className.replace( /(?:^|\s)in(?!\S)/g , '' );
- 		document.getElementById(current + "a").className = document.getElementById(current + "a").className.replace( /(?:^|\s)in(?!\S)/g , '' );
- 		current = param;
- 	}
+//  		// document.getElementById("#" + current).aria-expanded = false;
+//  		// document.getElementById("#" + current + "a").aria-expanded = false;
+//  		document.getElementById(current).className = document.getElementById(current).className.replace( /(?:^|\s)in(?!\S)/g , '' );
+//  		document.getElementById(current + "a").className = document.getElementById(current + "a").className.replace( /(?:^|\s)in(?!\S)/g , '' );
+//  		current = param;
+//  	}
  
- }
+//  }
+$(hideDescription)..remove();
 </script>
 
 

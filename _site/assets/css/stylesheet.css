@@ -366,12 +366,10 @@ img.img-circle {
 	width:70%;
 	height:70%;
 	margin-left:52px;
-	border:4px solid transparent;
-}
-
-img.img-circle:hover {
+	border:3px solid;
 	border-color:#006400;
 }
+
 
 /*text below image resizing etc. and padding*/
 h4 {
