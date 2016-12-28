@@ -12,6 +12,7 @@ button.submit {
     margin-top: 16px;
     width: 100%;
     border-radius:6px;
+    border-color:green;
 }
 
 label {
@@ -51,6 +52,6 @@ p.info {
 }
 
 .glyphicon {
-    color:green;
+    color:green !important;
     font-size:1.5em;
 }

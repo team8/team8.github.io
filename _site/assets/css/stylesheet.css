@@ -89,7 +89,15 @@ li.active{
  	background-color:green !important;
  	border-radius: 3px;
  	transition: .2s;
+ 	padding-top:15px !important;
+ 	margin-top:23px !important;
+ 	margin-bottom:17px !important;
+ 	height:50px !important;
+ 	line-height:23px !important;
  }
+li.donate-li {
+	height:40px;
+}
  a.donate-button:hover {
  	background-color: #fff !important;
     color: #000 !important;
