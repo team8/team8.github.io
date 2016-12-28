@@ -1,18 +1,41 @@
 ---
-layout: home
+layout: pages
 title: Summer Camp
-permalink: /summer-camp/
+permalink: /summer-camp
 ---
 
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "/assets/css/summer-camp.stylesheet.css">
+</head>
 <!-- Body begins here -->
-<div class="container">
+<div class = "container">   
     <div class="col-md-12">
-        <br/><br/><br/><br/><br/><br/><br/>
-        <hr/>
-        {{site.data.summer-camp.Summer-Camp.paragraph}}
-        <img src="{{site.data.summer-camp.Summer-Camp.image}}"/>
+        <h2 class="summer-camp-title">Summer Camp</h2>
+        <hr class="one-hr"/>
     </div>
 </div>
+
+<div class="container">
+    <div class="col-md-6">    
+        <p class="summer-camp">{{site.data.summer-camp.Summer-camp.info}}</p>
+        <br>
+        <p class="summer-camp">{{site.data.summer-camp.Summer-camp.check-out}}</p>
+    </div>
+    <div class="col-md-6">
+         <img src="{{site.data.summer-camp.Summer-camp.group-img}}" class = "group-img "/>
+    </div>
+</div>
+<div class="container">    
+    <div class="col-md-12">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</div>
+
 <!-- Body ends here -->
 
    

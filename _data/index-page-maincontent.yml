@@ -1,16 +1,16 @@
 #For the content including the carousel/captions and AboutUs
 
 Team8:
-  image:  /assets/img/carousel/Team8.jpg
-  caption: Team 8!
+  caption: Team 8 | Paly Robotics
+  caption2: It has been an exciting year for Team 8. Watch Paly Robotics' 2016 Year in Review video <a class="paragraph-links" href="https://www.youtube.com/watch?v=ueb6V6h4ogc" target="_blank">here</a>! 
 
 Tyr:
-  image: /assets/img/carousel/Tyr.jpg
-  caption: Team 8's FIRST Stronghold Robot &#58 Tyr
+  caption: Our 2016 Robot &#58 Tyr
+  caption2: Tyr was our FIRST Stronghold Robot for the 2016 season. It used a plunger system to propel boulders into high goals.
 
 WorldChampionships:
-  image: /assets/img/carousel/WorldChampionships.jpg
   caption: 2016 FIRST World Championships
+  caption2: Team 8 proudly participated in the 2016 FIRST World Championships in St. Louis, ranking 27th place in the Curie Division.
 
 AboutUs:
   image: /assets/img/aboutus/AboutImage1.jpg
@@ -23,7 +23,7 @@ AboutFIRST:
   image: /assets/img/aboutus/AboutImageFIRST.jpg
   paragraph: The Paly Robotics team is happy to have been a part of FIRST for 20 years. FIRST, or For Inspiration and Recognition of
         Science and Technology, has a term "gracious professionalism" that we believe everyone should abide by. To read more
-        about FIRST go to their <a class="paragraph-links" href="http://www.firstinspires.org/robotics/frc">website</a>. 
+        about FIRST go to their <a class="paragraph-links" target="_blank" href="http://www.firstinspires.org/robotics/frc">website</a>. 
 
 
 

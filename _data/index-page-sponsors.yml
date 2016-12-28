@@ -3,7 +3,7 @@
 
 ---
 
-Sponsors:
+Sponsors1:
   - Google: 
     image: /assets/img/sponsors/google.jpg
     paragraph: Arguably one of the most influential tech companies of the Information Era, Google is a symbol of modern technological
@@ -21,6 +21,8 @@ Sponsors:
     paragraph: BAE Systems is a defense, security, and aerospace company from the UK. They have kindly provided Team 8 with funds
           to help us do the things we love doing.
 
+
+Sponsors2:
   - Intuitive-Surgial: 
     image: /assets/img/sponsors/intuitive-surgical.png
     paragraph: Intuitive Surgical manufactures robotic surgical machines designed for minimally invasive surgery, which are employed
@@ -38,6 +40,9 @@ Sponsors:
     paragraph: Webcor Builders is a construction contractor, headquartered in San Francisco. The support of Webcor means a lot
             to us, their impressive portfolio of building projects amazes and inspires us.
 
+
+Sponsors3:
+  
   - Nvidia: 
     image: /assets/img/sponsors/nvidia.svg
     paragraph: Nvidia is a multinational hardware and software company based in Santa Clara. Their strides in computer hardware

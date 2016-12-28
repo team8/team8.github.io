@@ -1,0 +1,14 @@
+div.first-container {
+    padding-top:150px;
+}
+h2.about-calendar {
+    font-family:'Poppins',sans-serif;
+    text-align:center;
+    font-size:45px;
+}
+.calendar{
+    height: 100%;
+}
+hr {
+    margin-bottom:40px !important;
+}

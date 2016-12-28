@@ -1,0 +1,23 @@
+div.no-marg {
+
+}
+h2.sponsor-us-h2 {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 48px;
+    margin-top: 165px;
+}
+hr {
+	margin-top:76px;
+	margin-bottom:0px;	
+}
+p.sponsor {
+	font-size: 19.5px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+	font-family: 'Poppins', sans-serif;
+	font-size:17px;
+}

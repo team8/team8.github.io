@@ -11,6 +11,8 @@
 		<!-- Bootstrap -->
 		<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
 		<link href="/assets/css/stylesheet.css" rel="stylesheet">
+		<link href="/assets/css/animate.css" rel="stylesheet">
+
 
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,14 +49,17 @@
 					<li class="dropdown links">
 						<a ref="#" class="dropdown-toggle links" data-toggle="dropdown">More<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-text" href="Calendar-page.html">Calendar</a></li>
-							<li><a class="dropdown-text" href="Resources-page.html">Resources</a></li>
-							<li><a class="dropdown-text" href="Art-page.html">Art</a></li>
-							<li><a class="dropdown-text" href="ZeroRobotics-page.html">Zero</a></li>
-							<li><a class="dropdown-text" href="#">Summer Camp</a></li>
+							<li><a class="dropdown-text" href="calendar.html">Calendar</a></li>
+							<li><a class="dropdown-text" href="resources.html">Resources</a></li>
+							<li><a class="dropdown-text" href="art.html">Art</a></li>
+							<li><a class="dropdown-text" href="zero-robotics.html">Zero</a></li>
+							<li><a class="dropdown-text" href="leads.html">Leads</a></li>
+							<li><a class="dropdown-text" href="wishlist.html">Wishlist</a></li>
+							<li><a class="dropdown-text" href="summer-camp.html">Summer Camp</a></li>
 						</ul>
 					</li>
-					<li class="links"><a class="links" href="ContactUs-page.html">Contact</a></li>
+					<li class="links"><a class="links" href="contact-us.html">Contact</a></li>
+					<li><a class="links donate-button" href="sponsor-us.html">Donate Now!</a></li>
 				</ul>
 			</div>
 		</div>
@@ -73,29 +78,32 @@
 			</ol>
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="/assets/img/carousel/Team8.jpg" class="team" alt="Team">
+				<div class="item active" >
+					<div class="fill" style="background-image:url('/assets/img/carousel/Team8.jpg');"></div>
 					<div class="container">
 						<div class="carousel-caption">
-							<h2 class="team-header">Team 8!</h2>
+							<h2 class="team-header animated fadeInDown">Team 8 | Paly Robotics</h2>
+							<p class="p-carousel-caption animated fadeInUp hidden-xs">It has been an exciting year for Team 8. Watch Paly Robotics' 2016 Year in Review video <a class="paragraph-links" href="https://www.youtube.com/watch?v=ueb6V6h4ogc" target="_blank">here</a>!</p>
 						</div>
 					</div>
 				</div>
 
-				<div class="item">
-					<img src="/assets/img/carousel/Tyr.jpg" class="tyr1" alt="Tyr">
+				<div class="item" id="bg">
+					<div class="fill" style="background-image:url('/assets/img/carousel/Tyr.jpg');"></div>
 					<div class="container">
 						<div class="carousel-caption">
-							<h2 class="team-header">Team 8's FIRST Stronghold Robot &#58 Tyr</h2>
+							<h2 class="team-header animated fadeInDown">Our 2016 Robot &#58 Tyr</h2>
+							<p class="p-carousel-caption animated fadeInUp hidden-xs">Tyr was our FIRST Stronghold Robot for the 2016 season. It used a plunger system to propel boulders into high goals.</p>
 						</div>
 					</div>
 				</div>
 
-				<div class="item">
-					<img src="/assets/img/carousel/WorldChampionships.jpg" class="World-Championship" alt="World Championship">
+				<div class="item" id="bg">
+					<div class="fill" style="background-image:url('/assets/img/carousel/WorldChampionships.jpg');"></div>
 					<div class="container">
 						<div class="carousel-caption">
-							<h2 class="team-header">2016 FIRST World Championships</h2>
+							<h2 class="team-header animated fadeInDown">2016 FIRST World Championships</h2>
+							<p class="p-carousel-caption animated fadeInUp hidden-xs">Team 8 proudly participated in the 2016 FIRST World Championships in St. Louis, ranking 27th place in the Curie Division.</p>
 						</div>
 					</div>
 				</div>
@@ -118,37 +126,37 @@
 
 
 	<div class="container">
-
+		<p id="AboutUs"></p>
 	</div>
 	<div class="container first-container">
 		<div class="col-md-12 About-us-top">
-			<hr id="AboutUs">
+			<hr>
 		</div>
 		<div class="col-md-8">
 			<h3 class="about-us">About Us</h3>
 			<p class="about-us">Paly Robotics is dedicated to enriching the education of its members through building, programming, animation, and community outreach. Our team is focused on learning new skills, which include technical skills, communication skills, leadership skills, and teamwork. We are proud to be a completely student-run team and whatever our finished products might be, they are always the result of students' work.</p>
 		</div>
 		<div class="col-md-4">
-			<img class="engineering" src="/assets/img/aboutus/AboutImage1.jpg">
+			<img class="engineering img-responsive" src="/assets/img/aboutus/AboutImage1.jpg">
 		</div>
 		<div class="col-md-5">
-			<img class="firstimage" src="/assets/img/aboutus/AboutImageFIRST.jpg">
+			<img class="firstimage img-responsive" src="/assets/img/aboutus/AboutImageFIRST.jpg">
 		</div>
 		<div class="col-md-7">
 			<h3 class="FIRST">FIRST</h3>
-			<p class="about-us">The Paly Robotics team is happy to have been a part of FIRST for 20 years. FIRST, or For Inspiration and Recognition of Science and Technology, has a term "gracious professionalism" that we believe everyone should abide by. To read more about FIRST go to their <a class="paragraph-links" href="http://www.firstinspires.org/robotics/frc">website</a>.</p>
-		</div>
-		<div class="col-md-12">
-		</div>
-		<div class="col-md-12">
-			<hr class="hr-below-first" id="Subteams">
+			<p class="about-us">The Paly Robotics team is happy to have been a part of FIRST for 20 years. FIRST, or For Inspiration and Recognition of Science and Technology, has a term "gracious professionalism" that we believe everyone should abide by. To read more about FIRST go to their <a class="paragraph-links" target="_blank" href="http://www.firstinspires.org/robotics/frc">website</a>.</p>
 		</div>
 	</div>
 	
 	<!-- (ABOUT US) ENDS HERE -->
 	<!-- (SUBTEAMS) begins here -->
-
+	<div class="col-md-12">
+		<p id="Subteams"></p>
+	</div>
 	<div class="container">
+		<div class="col-md-12">
+			<hr class="hr-below-first">
+		</div>
 		<div class="col-md-12">
 			<h3 class="subteams">Subteams</h3>
 		</div>
@@ -165,7 +173,7 @@
 		<div class="col-md-4">
 			<img class="img-circle" src="/assets/img/subteams/software.jpg">
 			<h4 class="program">Software</h4>
-			<p class="paragraph-circle">Writing code in Java and Python, the Software Team works alongside Build Team to test our robot and make it functional. In addition to autonomous and human control of the robot, they code features such as computer vision, and a dashboard to display the robot status during matches. We collaborate using Git, and publish our projects here&#58; <a href="https://github.com/team8" target="_blank">www.github.com/team8</a>.</p>
+			<p class="paragraph-circle">Writing code in Java and Python, the Software Team works alongside Build Team to test our robot and make it functional. In addition to autonomous and human control of the robot, they code features such as computer vision, and a dashboard to display the robot status during matches. We collaborate using Git, and publish our projects here&#58; <a href="https://github.com/team8" target="_blank" class="paragraph-links">www.github.com/team8</a>.</p>
 		</div>
 		<div class="col-md-4 bot-sub">
 			<img class="img-circle" src="/assets/img/subteams/art.jpg">
@@ -180,47 +188,173 @@
 		<div class="col-md-4 bot-sub">
 			<img class="img-circle" src="/assets/img/subteams/web.jpg">
 			<h4 class="web">Web</h4>
-			<p class="paragraph-circle">The Web Team is in charge of creating and maintaining <b>this beautiful website</b>, palyrobotics.com. The Web Team uses a variety of tools, including HTML, CSS, Javascript, Jekyll, Bootstrap, and Heroku, in order to update the website with the necessary information for the greater productivity of the team.</p>
+			<p class="paragraph-circle">The Web Team is in charge of creating and maintaining<b>this beautiful website</b>, palyrobotics.com. The Web Team uses a variety of tools, including HTML, CSS, Javascript, Jekyll, Bootstrap, and Heroku, in order to update the website with the necessary information for the greater productivity of the team.</p>
 		</div>
 	</div>
 
 	<!-- (SUBTEAMS) ends here -->
 
 	<!-- Sponsors begin here -->
+	<div class="col-md-12">
+		<p id="Sponsors"></p>
+	</div>
 	<div class="container">
-		<div class="col-sm-12">
-		</div>
-		<div class="col-lg-12">
-			<hr id="Sponsors">
-			<h2 class="sponsors-h2">
-				Sponsors
-			</h2>
 
-			<div class="sponsor table-responsive">
+		<div class="col-lg-12">
+			<hr>
+			<h2 class="sponsors-h2">Sponsors</h2>
+
+			<div class="col-md-12 sponsor table-responsive">
 				<!-- Table starts here -->
 				<table align="center">
-
 					<tr>
+					
 						<td> 
 							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 								<div class="flipper">
 									<div class="front">
-										<img src="" class="sponsor"/>
+										<img src="/assets/img/sponsors/google.jpg" class="sponsor"/>
 									</div>
 									<div class="back" style="background:#ffffff;">
-										<p style="text-align:center; font-size:90%;"></p>
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">Arguably one of the most influential tech companies of the Information Era, Google is a symbol of modern technological innovation. Based in nearby Mountain View, Google sponsors Team 8 as part of its mission to inspire the next generation of technological pioneers.</p>
 									
 									</div>
 								</div>
 							</div>
 						</td>
+					
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="/assets/img/sponsors/lockheed-martin.jpg" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">Lockheed Martin is a well-known industrial company and defense contractor that designs and builds satellites, as well as military aircraft and equipment. We are proud to be sponsored by a company that has made major contributions in exploring the frontiers of space and technology.</p>
+									
+									</div>
+								</div>
+							</div>
+						</td>
+					
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="/assets/img/sponsors/bae-systems.jpg" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">BAE Systems is a defense, security, and aerospace company from the UK. They have kindly provided Team 8 with funds to help us do the things we love doing.</p>
+									
+									</div>
+								</div>
+							</div>
+						</td>
+					
 					</tr>
+					<tr>
+					
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="/assets/img/sponsors/intuitive-surgical.png" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">Intuitive Surgical manufactures robotic surgical machines designed for minimally invasive surgery, which are employed in hospitals throughout the U.S. We admire their advances with robotics into the field of medicine, and are proud to be sponsored by Intuitive Surgical.</p>
+									
+									</div>
+								</div>
+							</div>
+						</td>
+					
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="/assets/img/sponsors/fenwick-west.png" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">Intuitive Surgical manufactures robotic surgical machines designed for minimally invasive surgery, which are employed in hospitals throughout the U.S. We admire their advances with robotics into the field of medicine, and are proud to be sponsored by Intuitive Surgical.</p>
+									
+									</div>
+								</div>
+							</div>
+						</td>
+					
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="/assets/img/sponsors/webcor-builders.png" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">Webcor Builders is a construction contractor, headquartered in San Francisco. The support of Webcor means a lot to us, their impressive portfolio of building projects amazes and inspires us.</p>
+									
+									</div>
+								</div>
+							</div>
+						</td>
+					
+					</tr>
+					<tr>
+					
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="/assets/img/sponsors/nvidia.svg" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">Nvidia is a multinational hardware and software company based in Santa Clara. Their strides in computer hardware are incredibly impressive, and we are proud to be sponsored by them.</p>
+									
+									</div>
+								</div>
+							</div>
+						</td>
+					
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="/assets/img/sponsors/dropbox.svg" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage and file synching to its users. Their sponsorship has made us more efficient and an overall better team.</p>
+									
+									</div>
+								</div>
+							</div>
+						</td>
+					
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="/assets/img/sponsors/solidworks.png" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing us to effectively design and prototype our robot. They also donated a powerful CAM tool that we use in conjunction with our CNC Mill and 3D Printer.</p>
+									
+									</div>
+								</div>
+							</div>
+						</td>
+					
+					</tr>
+
 				</table>
-				<!--Table ends here-->
 			</div>
 		</div>
 	</div>
+	<div class="container">
+		<div class="col-md-12">
+			<a class="paragraph-links" href="sponsor-us.html"><button class="btn btn-primary btn-block">Sponsor Us</button></a>
+		</div>
+	</div>
+	
 	<!-- Sponsor stuff ends here -->
+
 
 
 	<div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
@@ -247,5 +381,7 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/scrollspy.js"></script>
+	<script src="assets/js/konami.js"></script>
+	<script>var easter_egg = new Konami('https://www.youtube.com/watch?v=WuIS-PuKIy0');</script>
 
 </html>

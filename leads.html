@@ -1,0 +1,167 @@
+--- 
+  layout: pages 
+  title: Leads 
+  permalink: /leads 
+---
+
+<!-- Body begins here -->
+	<div class="container">
+		<
+		<h2 class="contact-us-header">
+			Leads
+		</h2>
+		<hr/>
+	</div>
+	<!-- Body ends here -->
+
+	<!-- Contact stuff begins here. Note: each for loop contains one row of leads stuff, and it goes in the format: col-3: the pictures, role, name, and col-12: the description and email-->
+	<div class="container accordion" id="accordion1">
+		<div class="row accordion-group">
+		{% for item in site.data.leads.Leads1 %}
+			<div class="col-md-3 accordion-heading">
+				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#{{item.id}}">
+			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+				</a>
+				<div class="name-and-role">
+					<p class="name">{{item.name}}</p>
+					<p class="role">{{item.role}}</p>
+				</div>
+  			</div>
+  		{% endfor %}
+  		</div>
+  		{% for item in site.data.leads.Leads1 %}
+  		<div class="col-md-12 accordion-body">
+	  		<div id="{{item.id}}" class="collapse paragraph">
+	  			<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+	  		</div>
+	  	</div>
+  		{% endfor %}
+  		<!-- end of Leads1 -->
+  		<div class="row">
+  		{% for item in site.data.leads.Leads2 %}
+			<div class="col-md-3">
+				<a data-toggle="collapse" data-parent="#collapsible" href="#{{item.id}}">
+			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+				</a>
+				<div class="name-and-role">
+					<p class="name">{{item.name}}</p>
+					<p class="role">{{item.role}}</p>
+				</div>
+  			</div>
+  		{% endfor %}
+  		</div>
+  		{% for item in site.data.leads.Leads2 %}
+  		<div class="col-md-12">
+	  			<div id="{{item.id}}" class="collapse paragraph ">
+	  				<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+	  			</div>
+	  		</div>
+  		{% endfor %}
+  		<!-- end of Leads 2 -->
+  		<div class="row">
+  		{% for item in site.data.leads.Leads3 %}
+			<div class="col-md-3">
+				<a data-toggle="collapse" data-parent="#collapsible" href="#{{item.id}}">
+			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+				</a>
+				<div class="name-and-role">
+					<p class="name">{{item.name}}</p>
+					<p class="role">{{item.role}}</p>
+				</div>
+  			</div>
+  		{% endfor %}
+  		</div>
+  		{% for item in site.data.leads.Leads3 %}
+  		<div class="col-md-12">
+	  			<div id="{{item.id}}" class="collapse paragraph ">
+	  				<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+	  			</div>
+	  		</div>
+  		{% endfor %}
+  		<!-- end of Leads 3 -->
+  		<div class="row">
+  		{% for item in site.data.leads.Leads4 %}
+			<div class="col-md-3">
+				<a data-toggle="collapse" data-parent="#collapsible" href="#{{item.id}}">
+			    	<img class="img-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onclick="hideDescription(0);">
+				</a>
+				<div class="name-and-role">
+					<p class="name">{{item.name}}</p>
+					<p class="role">{{item.role}}</p>
+				</div>
+  			</div>
+  		{% endfor %}
+  		</div>
+  		{% for item in site.data.leads.Leads4 %}
+  		<div class="col-md-12">
+	  			<div id="{{item.id}}" class="collapse paragraph ">
+	  				<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+	  			</div>
+	  		</div>
+  		{% endfor %}
+  		<!-- end of Leads 4 -->
+	</div>
+	<!-- Body ends here -->
+</body>
+
+<style>
+	div.contact-us {
+		padding: 5%;
+	}
+	div.col-md-3 {
+		text-align:center;
+	}
+	img.img-circle {
+/*		width: 100% !important;
+		height: 100% !important;*/
+/*		padding: 20px;*/
+/*		margin-left: 0px !important;
+		display: block !important;*/
+/*		max-width: 100% !important;*/
+		margin: 0 auto;
+		width: 200px !important;
+		height: 200px !important;
+		text-align:center;
+	}
+
+	
+	h2.contact-us-header {
+		text-align: center;
+		padding-top: 150px;
+		font-family: 'Poppins', sans-serif;
+		font-size: 48px;
+		color:#333;
+	}
+
+	body{
+		font-family: 'Poppins', sans-serif;
+	}
+	p.name{
+		text-align: center;
+		font-size: 25px;
+	}
+	p.role{
+		text-align: center;	
+		font-size: 15px;
+	}
+	.name-and-role{
+		padding: 20px;
+	}
+	.i{
+		display: inline;	
+	}
+	.paragraph{
+		margin: none !important;
+		border: none !important;
+		margin-top: -7px !important;
+	}
+	.paragraph-text{
+		padding: 20px;
+		color: white;
+		background-color: rgb(41,88,44);
+	}
+
+</style>
+
+
+
