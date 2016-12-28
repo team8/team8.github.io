@@ -4,6 +4,7 @@ Leads1:
     - 
         id: Kuszmaul
         name: Chris Kuszmaul
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Head Coach
         email: ckuszmaul@palyrobotics.com
         description: >
@@ -16,6 +17,7 @@ Leads1:
     -
         id: Kenny
         name: Kenneth Cheung
+        image: /assets/img/leads/kenny.jpg
         role: Team Captain
         email: kcheung@palyrobotics.com
         description: >
@@ -28,6 +30,7 @@ Leads1:
     -
         id: Simran
         name: Simran Pujji
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Assistant Captain
         email: spujji@palyrobotics.com
         description: >
@@ -40,6 +43,7 @@ Leads1:
     -
         id: Jonathan
         name: Jonathan Zwiebel
+        image: /assets/img/leads/jonathan.jpg
         role: Project Manager
         email: jzwiebel@palyrobotics.com
         description: >
@@ -54,6 +58,7 @@ Leads2:
     -
         id: Devin
         name: Devin Ardeshna
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Build Captain
         email: dardeshna@palyrobotics.com
         description: >
@@ -66,6 +71,7 @@ Leads2:
     -
         id: Nihar
         name: Nihar Mitra
+        image: /assets/img/leads/nihar.jpg
         role: Software Captain
         email: nmitra@palyrobotics.com
         description: >
@@ -77,6 +83,7 @@ Leads2:
     - 
         id: Charlotte
         name: Charlotte Brownell
+        image: /assets/img/leads/charlotte.jpg
         role: Design Captain
         email: cbrownwell@palyrobotics.com
         description: >
@@ -88,6 +95,7 @@ Leads2:
     -
         id: Annalee
         name: Annalee Soohoo
+        image: /assets/img/leads/annalee.png
         role: Business Captain
         email: asoohoo@palyrobotics.com
         description: >
@@ -101,6 +109,7 @@ Leads3:
     -
         id: Maya
         name: Maya Chin 
+        image: /assets/img/leads/maya.jpg
         role: Art Captain
         email: mchin@palyrobotics.com
         description: >
@@ -115,6 +124,7 @@ Leads3:
     -
         id: Madeline
         name: Madeline Li
+        image: /assets/img/leads/madeline.jpg
         role: Web Captain
         email: mli@palyrobotics.com
         description: >
@@ -125,6 +135,7 @@ Leads3:
     -
         id: Shota
         name: Shota Yamamoto
+        image: /assets/img/leads/shota.jpg
         role: Lab Manager
         email: syamamoto@palyrobotics.com
         description: >
@@ -139,6 +150,7 @@ Leads3:
     -
         id: Kendall     
         name: Kendall Shaw
+        image: /assets/img/leads/kendall.jpg
         role: Treasurer
         email: kshaw@palyrobotics.com
         description: >
@@ -150,6 +162,7 @@ Leads4:
     -
         id: Liam
         name: Liam Sherlock
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Competition Management
         email: lsherlock@palyrobotics.com
         description: >
@@ -161,6 +174,7 @@ Leads4:
     -
         id: Eddie
         name: Eddie Shi
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Pit Management/Safety Captain
         email: eshi@palyrobotics.com
         description: >
