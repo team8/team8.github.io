@@ -16,11 +16,11 @@
 
 	<!-- Contact stuff begins here. Note: two for loops per row. First for loop is for the pictures, roles, person, the second is for the description and email-->
 	<div class="container">
-			<div class="row">
+			<div class="row first-row">
 			{% for item in site.data.leads.Leads1 %}
 				<div class="col-md-3">
 					<a data-toggle="collapse" href="#{{item.id}}">
-				    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
+				    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255">
 					</a>
 					<div class="name-and-role">
 						<p class="name">{{item.name}}</p>
@@ -106,6 +106,11 @@
 </body>
 
 <style>
+	div.first-row {
+		/*making space between first hr and first row of pictures*/
+		margin-top:15px;
+	}
+
 	div.contact-us {
 		padding: 5%;
 	}
@@ -160,7 +165,7 @@
 	.paragraph-text{
 		padding: 20px;
 		color: white;
-		background-color: rgb(41,88,44);
+		background-color: green;
 	}
 
 	/* overiding permanent green borders in stylesheet.css */
@@ -176,22 +181,18 @@
 </style>
 
 <script>
-// function hideDescription(param){
-//  	if (current == "none"){
-//  		current = param;
-//  	}else if(current == param){
-//  		current == "none";
-//  	}else{
- 
-//  		// document.getElementById("#" + current).aria-expanded = false;
-//  		// document.getElementById("#" + current + "a").aria-expanded = false;
-//  		document.getElementById(current).className = document.getElementById(current).className.replace( /(?:^|\s)in(?!\S)/g , '' );
-//  		document.getElementById(current + "a").className = document.getElementById(current + "a").className.replace( /(?:^|\s)in(?!\S)/g , '' );
-//  		current = param;
-//  	}
- 
-//  }
-$(hideDescription)..remove();
+$(function() {
+  $(document).on("click",function (e) {
+    if (e.target.id=="DivA") {
+      $("#DivB").fadeToggle(200);
+      e.stopPropagation();
+      return false;
+    }
+    else if ($("#DivB").is(":visible")) {
+      $("#DivB").fadeOut(200);
+    }
+  });
+});
 </script>
 
 

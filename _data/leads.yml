@@ -4,7 +4,7 @@ Leads1:
     - 
         id: Kuszmaul
         name: Chris Kuszmaul
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/kuszmaul.jpg
         role: Head Coach
         email: ckuszmaul@palyrobotics.com
         description: >
@@ -30,7 +30,7 @@ Leads1:
     -
         id: Simran
         name: Simran Pujji
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/simran.jpg
         role: Assistant Captain
         email: spujji@palyrobotics.com
         description: >
@@ -95,7 +95,7 @@ Leads2:
     -
         id: Annalee
         name: Annalee Soohoo
-        image: /assets/img/leads/annalee.png
+        image: /assets/img/leads/annalee.jpg
         role: Business Captain
         email: asoohoo@palyrobotics.com
         description: >
@@ -162,7 +162,7 @@ Leads4:
     -
         id: Liam
         name: Liam Sherlock
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/liam.jpg
         role: Competition Management
         email: lsherlock@palyrobotics.com
         description: >

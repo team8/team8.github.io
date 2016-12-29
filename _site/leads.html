@@ -78,11 +78,11 @@
 
 	<!-- Contact stuff begins here. Note: two for loops per row. First for loop is for the pictures, roles, person, the second is for the description and email-->
 	<div class="container">
-			<div class="row">
+			<div class="row first-row">
 			
 				<div class="col-md-3">
 					<a data-toggle="collapse" href="#Kuszmaul">
-				    	<img class="img-circle leads-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
+				    	<img class="img-circle leads-circle" src="/assets/img/leads/kuszmaul.jpg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
 					</a>
 					<div class="name-and-role">
 						<p class="name">Chris Kuszmaul</p>
@@ -102,7 +102,7 @@
 	  		
 				<div class="col-md-3">
 					<a data-toggle="collapse" href="#Simran">
-				    	<img class="img-circle leads-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
+				    	<img class="img-circle leads-circle" src="/assets/img/leads/simran.jpg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
 					</a>
 					<div class="name-and-role">
 						<p class="name">Simran Pujji</p>
@@ -185,7 +185,7 @@
   		
 			<div class="col-md-3">
 				<a data-toggle="collapse" href="#Annalee">
-			    	<img class="img-circle leads-circle" src="/assets/img/leads/annalee.png" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
+			    	<img class="img-circle leads-circle" src="/assets/img/leads/annalee.jpg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
 				</a>
 				<div class="name-and-role">
 					<p class="name">Annalee Soohoo</p>
@@ -301,7 +301,7 @@
   		
 			<div class="col-md-3">
 				<a data-toggle="collapse" href="#Liam">
-			    	<img class="img-circle leads-circle" src="/assets/img/leads/placeholder-200x200.jpeg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
+			    	<img class="img-circle leads-circle" src="/assets/img/leads/liam.jpg" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
 				</a>
 				<div class="name-and-role">
 					<p class="name">Liam Sherlock</p>
@@ -342,6 +342,11 @@
 </body>
 
 <style>
+	div.first-row {
+		/*making space between first hr and first row of pictures*/
+		margin-top:15px;
+	}
+
 	div.contact-us {
 		padding: 5%;
 	}
@@ -396,7 +401,7 @@
 	.paragraph-text{
 		padding: 20px;
 		color: white;
-		background-color: rgb(41,88,44);
+		background-color: green;
 	}
 
 	/* overiding permanent green borders in stylesheet.css */
