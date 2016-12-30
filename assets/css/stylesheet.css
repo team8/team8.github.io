@@ -15,16 +15,6 @@ html, body{
 	background-size:cover;
 }
 
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 100%;
-  min-height: 100%;
-}
 /*bigger top nav to make room for logo*/
 #top-nav{
 	height:102.5px !important;
@@ -107,34 +97,42 @@ li.donate-li {
  li.no-green{
  	border-bottom:white solid 1px;
  }
-/*collapsing stuff*/
+/* making navbar collapse earlier */
 
-@media (min-width: 770px) and (max-width: 995px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display:inline-block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
+ @media (max-width: 1200px) {
     .navbar-header {
-        float:none;
+        float: none;
     }
-    h1 {
-    	margin-top:-40px;
+    .navbar-left,.navbar-right {
+        float: none !important;
     }
-   
-	.btn {
-		margin-bottom:18px !important;
-	}
-
-    ul.dropdown-menu {
-    	position:50px;
+    .navbar-toggle {
+        display: block;
     }
-    .glyphicon-chevron-up {
-    	padding-right:185px;
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
     }
 }
 /*making collapsed dropdown nav have a smaller height+different padding*/
