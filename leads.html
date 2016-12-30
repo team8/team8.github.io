@@ -15,8 +15,9 @@
 	<!-- Body ends here -->
 
 	<!-- Contact stuff begins here. Note: two for loops per row. First for loop is for the pictures, roles, person, the second is for the description and email-->
-	<div class="container">
-			<div class="row first-row">
+	<!-- For the desktop version, only shown on big screens. -->
+	<div class="container desktop">
+		<div class="row first-row">
 			{% for item in site.data.leads.Leads1 %}
 				<div class="col-md-3">
 					<a data-toggle="collapse" href="#{{item.id}}">
@@ -28,7 +29,6 @@
 					</div>
 	  			</div>
 	  		{% endfor %}
-	  		</div>
 	  		{% for item in site.data.leads.Leads1 %}
 	  		<div class="col-md-12">
 		  		<div id="{{item.id}}" class="collapse paragraph">
@@ -36,72 +36,150 @@
 		  		</div>
 		  	</div>
   			{% endfor %}
-  		<!-- end of Leads1 -->
-  		<div class="row">
-  		{% for item in site.data.leads.Leads2 %}
-			<div class="col-md-3">
-				<a data-toggle="collapse" href="#{{item.id}}">
-			    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
-				</a>
-				<div class="name-and-role">
-					<p class="name">{{item.name}}</p>
-					<p class="role">{{item.role}}</p>
-				</div>
-  			</div>
-  		{% endfor %}
-  		</div>
-  		{% for item in site.data.leads.Leads2 %}
-  		<div class="col-md-12">
-	  			<div id="{{item.id}}" class="collapse paragraph ">
-	  				<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
-	  			</div>
-	  		</div>
-  		{% endfor %}
-  		<!-- end of Leads 2 -->
-  		<div class="row">
-  		{% for item in site.data.leads.Leads3 %}
-			<div class="col-md-3">
-				<a data-toggle="collapse" href="#{{item.id}}">
-			    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
-				</a>
-				<div class="name-and-role">
-					<p class="name">{{item.name}}</p>
-					<p class="role">{{item.role}}</p>
-				</div>
-  			</div>
-  		{% endfor %}
-  		</div>
-  		{% for item in site.data.leads.Leads3 %}
-  		<div class="col-md-12">
-	  			<div id="{{item.id}}" class="collapse paragraph ">
-	  				<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
-	  			</div>
-	  		</div>
-  		{% endfor %}
-  		<!-- end of Leads 3 -->
-  		<div class="row">
-  		{% for item in site.data.leads.Leads4 %}
-			<div class="col-md-3">
-				<a data-toggle="collapse" href="#{{item.id}}">
-			    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block " width="255" height="255" onClick="hideDescription.close;">
-				</a>
-				<div class="name-and-role">
-					<p class="name">{{item.name}}</p>
-					<p class="role">{{item.role}}</p>
-				</div>
-  			</div>
-  		{% endfor %}
-  		</div>
-  		{% for item in site.data.leads.Leads4 %}
-  		<div class="col-md-12">
-	  			<div id="{{item.id}}" class="collapse paragraph ">
-	  				<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
-	  			</div>
 	  	</div>
-  		{% endfor %}
+
+  		<!-- end of Leads1, start of Leads2 -->
+  		<div class="row">
+			{% for item in site.data.leads.Leads2 %}
+				<div class="col-md-3">
+					<a data-toggle="collapse" href="#{{item.id}}">
+				    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255">
+					</a>
+					<div class="name-and-role">
+						<p class="name">{{item.name}}</p>
+						<p class="role">{{item.role}}</p>
+					</div>
+	  			</div>
+	  		{% endfor %}
+	  		{% for item in site.data.leads.Leads2 %}
+	  		<div class="col-md-12">
+		  		<div id="{{item.id}}" class="collapse paragraph">
+		  			<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+		  		</div>
+		  	</div>
+  			{% endfor %}
+	  	</div>
+  		<!-- end of Leads 2, start of Leads3 -->
+  		<div class="row">
+			{% for item in site.data.leads.Leads3 %}
+				<div class="col-md-3">
+					<a data-toggle="collapse" href="#{{item.id}}">
+				    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255">
+					</a>
+					<div class="name-and-role">
+						<p class="name">{{item.name}}</p>
+						<p class="role">{{item.role}}</p>
+					</div>
+	  			</div>
+	  		{% endfor %}
+	  		{% for item in site.data.leads.Leads3 %}
+	  		<div class="col-md-12">
+		  		<div id="{{item.id}}" class="collapse paragraph">
+		  			<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+		  		</div>
+		  	</div>
+  			{% endfor %}
+	  	</div>
+  		<!-- end of Leads 3, start of Leads 4 -->
+  		<div class="row">
+			{% for item in site.data.leads.Leads4 %}
+				<div class="col-md-3">
+					<a data-toggle="collapse" href="#{{item.id}}">
+				    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255">
+					</a>
+					<div class="name-and-role">
+						<p class="name">{{item.name}}</p>
+						<p class="role">{{item.role}}</p>
+					</div>
+	  			</div>
+	  		{% endfor %}
+	  		{% for item in site.data.leads.Leads4 %}
+	  		<div class="col-md-12">
+		  		<div id="{{item.id}}" class="collapse paragraph">
+		  			<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+		  		</div>
+		  	</div>
+  			{% endfor %}
+	  	</div>
+  		<!-- end of Leads 4 -->
+	</div>
+
+
+
+	<!-- For the mobile version, only shown on smol screens -->
+	<div class="container mobile">
+			<div class="row first-row">
+			{% for item in site.data.leads.Leads1 %}
+					<div class="col-md-3">
+						<a data-toggle="collapse" href="#{{item.mobile-id}}">
+						    <img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255">
+						</a>
+						<div class="name-and-role">
+							<p class="name">{{item.name}}</p>
+							<p class="role">{{item.role}}</p>
+						</div>
+					  	<div id="{{item.mobile-id}}" class="collapse paragraph">
+					  		<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+					  	</div>
+		  			</div>
+	  		{% endfor %}
+	  		</div>
+  		<!-- end of Leads1 -->
+  			<div class="row">
+			{% for item in site.data.leads.Leads2 %}
+					<div class="col-md-3">
+						<a data-toggle="collapse" href="#{{item.mobile-id}}">
+						    <img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255">
+						</a>
+						<div class="name-and-role">
+							<p class="name">{{item.name}}</p>
+							<p class="role">{{item.role}}</p>
+						</div>
+					  	<div id="{{item.mobile-id}}" class="collapse paragraph">
+					  		<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+					  	</div>
+		  			</div>
+	  		{% endfor %}
+	  		</div>
+  		<!-- end of Leads 2 -->
+  			<div class="row">
+			{% for item in site.data.leads.Leads3 %}
+					<div class="col-md-3">
+						<a data-toggle="collapse" href="#{{item.mobile-id}}">
+						    <img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255">
+						</a>
+						<div class="name-and-role">
+							<p class="name">{{item.name}}</p>
+							<p class="role">{{item.role}}</p>
+						</div>
+					  	<div id="{{item.mobile-id}}" class="collapse paragraph">
+					  		<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+					  	</div>
+		  			</div>
+	  		{% endfor %}
+	  		</div>
+  		<!-- end of Leads 3 -->
+  			<div class="row">
+			{% for item in site.data.leads.Leads4 %}
+					<div class="col-md-3">
+						<a data-toggle="collapse" href="#{{item.mobile-id}}">
+						    <img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255">
+						</a>
+						<div class="name-and-role">
+							<p class="name">{{item.name}}</p>
+							<p class="role">{{item.role}}</p>
+						</div>
+					  	<div id="{{item.mobile-id}}" class="collapse paragraph">
+					  		<p class="paragraph-text">{{item.email}}<br>{{item.description}}</p>
+					  	</div>
+		  			</div>
+	  		{% endfor %}
+	  		</div>
  
   		<!-- end of Leads 4 -->
   	</div>
+
+
 	<!-- Body ends here -->
 </body>
 
@@ -178,6 +256,23 @@
 	img.leads-circle:hover {
 		border-color:#006400 !important;
 	}
+
+	/* hiding, showing elements at certain screen sizes */
+
+	@media (min-width: 992px) and (max-width: 99999999999px) {
+		.mobile {
+			display:none;
+		}
+
+	}
+
+	@media (min-width: 15px) and (max-width: 991px) {
+		.desktop {
+			display:none;
+		}
+
+	}
+
 </style>
 
 <script>

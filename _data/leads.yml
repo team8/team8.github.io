@@ -1,8 +1,11 @@
+
+
 ---
     
 Leads1:
     - 
         id: Kuszmaul
+        mobile-id: Chris
         name: Chris Kuszmaul
         image: /assets/img/leads/kuszmaul.jpg
         role: Head Coach
@@ -16,6 +19,7 @@ Leads1:
 
     -
         id: Kenny
+        mobile-id: Cheung
         name: Kenneth Cheung
         image: /assets/img/leads/kenny.jpg
         role: Team Captain
@@ -29,6 +33,7 @@ Leads1:
 
     -
         id: Simran
+        mobile-id: Pujji
         name: Simran Pujji
         image: /assets/img/leads/simran.jpg
         role: Assistant Captain
@@ -42,6 +47,7 @@ Leads1:
 
     -
         id: Jonathan
+        mobile-id: Zwiebel
         name: Jonathan Zwiebel
         image: /assets/img/leads/jonathan.jpg
         role: Project Manager
@@ -57,6 +63,7 @@ Leads1:
 Leads2:
     -
         id: Devin
+        mobile-id: Ardeshna
         name: Devin Ardeshna
         image: /assets/img/leads/placeholder-200x200.jpeg
         role: Build Captain
@@ -70,6 +77,7 @@ Leads2:
 
     -
         id: Nihar
+        mobile-id: Mitra
         name: Nihar Mitra
         image: /assets/img/leads/nihar.jpg
         role: Software Captain
@@ -82,6 +90,7 @@ Leads2:
 
     - 
         id: Charlotte
+        mobile-id: Brownell
         name: Charlotte Brownell
         image: /assets/img/leads/charlotte.jpg
         role: Design Captain
@@ -94,6 +103,7 @@ Leads2:
 
     -
         id: Annalee
+        mobile-id: Soohoo
         name: Annalee Soohoo
         image: /assets/img/leads/annalee.jpg
         role: Business Captain
@@ -108,6 +118,7 @@ Leads2:
 Leads3:
     -
         id: Maya
+        mobile-id: Chin
         name: Maya Chin 
         image: /assets/img/leads/maya.jpg
         role: Art Captain
@@ -123,6 +134,7 @@ Leads3:
 
     -
         id: Madeline
+        mobile-id: Li
         name: Madeline Li
         image: /assets/img/leads/madeline.jpg
         role: Web Captain
@@ -134,6 +146,7 @@ Leads3:
 
     -
         id: Shota
+        mobile-id: Yamamoto
         name: Shota Yamamoto
         image: /assets/img/leads/shota.jpg
         role: Lab Manager
@@ -148,7 +161,8 @@ Leads3:
             reason he is our lab manager this year.
 
     -
-        id: Kendall     
+        id: Kendall
+        mobile-id: Shaw     
         name: Kendall Shaw
         image: /assets/img/leads/kendall.jpg
         role: Treasurer
@@ -161,6 +175,7 @@ Leads3:
 Leads4:
     -
         id: Liam
+        mobile-id: Sherlock
         name: Liam Sherlock
         image: /assets/img/leads/liam.jpg
         role: Competition Management
@@ -173,6 +188,7 @@ Leads4:
             lab, he enjoys juggling and art.
     -
         id: Eddie
+        mobile-id: Shi
         name: Eddie Shi
         image: /assets/img/leads/placeholder-200x200.jpeg
         role: Pit Management/Safety Captain
