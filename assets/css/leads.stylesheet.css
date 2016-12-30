@@ -1,0 +1,88 @@
+	div.first-row {
+		/*making space between first hr and first row of pictures*/
+		margin-top:15px;
+	}
+
+	div.contact-us {
+		padding: 5%;
+	}
+	div.col-md-3 {
+		text-align:center;
+	}
+	img.img-circle {
+		margin: 0 auto;
+		width: 200px !important;
+		height: 200px !important;
+		text-align:center;
+
+	}
+
+	
+	h2.contact-us-header {
+		text-align: center;
+		padding-top: 150px;
+		font-family: 'Poppins', sans-serif;
+		font-size: 48px;
+		color:#333;
+	}
+
+	body{
+		font-family: 'Poppins', sans-serif;
+	}
+	p.name{
+		text-align: center;
+		font-size: 25px;
+	}
+	p.role{
+		text-align: center;	
+		font-size: 15px;
+	}
+	.name-and-role{
+		padding: 20px;
+	}
+	.i{
+		display: inline;	
+	}
+	.paragraph{
+		margin: none !important;
+		border: none !important;
+		margin-top: -7px !important;
+	}
+	.paragraph-text{
+		padding: 20px;
+		color: white;
+		background-color: green;
+	}
+
+	/* overiding permanent green borders in stylesheet.css */
+	img.leads-circle {
+		width:70%;
+		height:70%;
+		border:3px solid transparent !important;
+	}
+
+	img.leads-circle:hover {
+		border-color:#006400 !important;
+	}
+
+	/* hiding, showing elements at certain screen sizes */
+	.mobile {
+		display:none;
+	}
+	.desktop {
+		display:none;
+	}
+
+	@media (min-width: 992px) and (max-width: 99999999999px) {
+		.desktop {
+			display:block;
+		}
+
+	}
+
+	@media (min-width: 15px) and (max-width: 991px) {
+		.mobile {
+			display:block;
+		}
+
+	}
