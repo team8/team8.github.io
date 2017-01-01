@@ -363,7 +363,6 @@ p.about-us {
 img.img-circle {
 	width:70%;
 	height:70%;
-	margin-left:52px;
 	border:3px solid;
 	border-color:#006400;
 }
@@ -390,6 +389,11 @@ h4.web {
 .paragraph-circle {
 	font-family: 'Poppins', sans-serif;
 	font-size:14px;
+}
+/* getting rid of -15px margin for special row */
+.special-row {
+	margin-left:0px;
+	margin-right:0px;
 }
 
 /*Subteams Zone Ends Here -----------------------------------*/
