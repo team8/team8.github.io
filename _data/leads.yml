@@ -187,7 +187,7 @@ Leads4:
         id-number: 13
         mobile-id-number: 29
         name: Eddie Shi
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/eddie.jpg
         role: Pit Management/Safety Captain
         email: eshi@palyrobotics.com
         description: >
@@ -200,7 +200,7 @@ Leads4:
         id-number: 14
         mobile-id-number: 30
         name: James Ngo
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/james.jpg
         role: Team Glue
         email: jngo@palyrobotics.com
         description: >
