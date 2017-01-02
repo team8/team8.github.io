@@ -19,6 +19,10 @@ html, body{
 #top-nav{
 	height:102.5px !important;
 }
+
+
+
+
 /*resizing logo, making it smaller, other brand stuff, font size,family, and weight, also contains right nav bar stuff*/
 #logo{
 	margin-top:17px;
@@ -26,7 +30,31 @@ html, body{
 	height:70px;
 }
 
+@media (max-width:767px) {
+	#logo{
+		margin-top:8.5px;
+		width:35px;
+		height:35px;
+	}
+	#top-nav{
+	height:51.25px !important;
+	}
 
+	.menu-button{
+	margin-top:10px !important;
+	margin-bottom:5px !important;
+	}
+
+	h1 {
+		margin-left:45px !important;
+		margin-top:-25px !important;
+		font-size:18px !important;
+	}
+	#myCarousel {
+		padding-top:51.25px !important;
+	}
+
+}
 
 h1 {          
 	margin-left:100px;     
@@ -200,8 +228,7 @@ b{
 }
 
 .menu-button{
-	margin-top:48px !important;
-	margin-bottom:;
+	margin-top:40px;
 }
 
 /*All Navbar CSS ENDS HERE-----------------------------------*/
