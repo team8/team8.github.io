@@ -4,8 +4,8 @@
     
 Leads1:
     - 
-        id: Kuszmaul
-        mobile-id: Chris
+        id-number: 0
+        mobile-id-number: 16
         name: Chris Kuszmaul
         image: /assets/img/leads/kuszmaul.jpg
         role: Head Coach
@@ -16,10 +16,9 @@ Leads1:
             where people can be who they are, enabled by the wisdom and fruits of science and engineering. He is also a 6th degree 
             black belt in AIkido, the martial art of peace. His wife teases him about this, by asking him if he is aware of the 
             definition of the word “martial.”.
-
     -
-        id: Kenny
-        mobile-id: Cheung
+        id-number: 1
+        mobile-id-number: 17
         name: Kenneth Cheung
         image: /assets/img/leads/kenny.jpg
         role: Team Captain
@@ -30,10 +29,9 @@ Leads1:
             forward to inspire new members, expand its technical abilities, and to improve its own organizational structure. Kenny 
             enjoys random facts (did you know?), Mucho Mangoes (#youdidntseethiscoming), forklifts (not a certified operator), 
             rivets (of all varieties), cargo pants o_o, and wearing his 2014 robotics polo (:kenny:).
-
     -
-        id: Simran
-        mobile-id: Pujji
+        id-number: 2
+        mobile-id-number: 18
         name: Simran Pujji
         image: /assets/img/leads/simran.jpg
         role: Assistant Captain
@@ -44,10 +42,9 @@ Leads1:
             on build projects when she can. When she is not working on robotics, she enjoys reading (and finishing homework). 
             Her favorite part of FIRST Robotics, besides build season, is attending competitions and seeing all of the robots 
             other teams made. She’s looking forward to another great year of FIRST Robotics with Team 8 :)
-
     -
-        id: Jonathan
-        mobile-id: Zwiebel
+        id-number: 3
+        mobile-id-number: 19
         name: Jonathan Zwiebel
         image: /assets/img/leads/jonathan.jpg
         role: Project Manager
@@ -62,8 +59,8 @@ Leads1:
 
 Leads2:
     -
-        id: Devin
-        mobile-id: Ardeshna
+        id-number: 4
+        mobile-id-number: 20
         name: Devin Ardeshna
         image: /assets/img/leads/devin.jpg
         role: Build Captain
@@ -76,8 +73,8 @@ Leads2:
             continue to push members to refine and improve their skills.
 
     -
-        id: Nihar
-        mobile-id: Mitra
+        id-number: 5
+        mobile-id-number: 21
         name: Nihar Mitra
         image: /assets/img/leads/nihar.jpg
         role: Software Captain
@@ -89,8 +86,8 @@ Leads2:
             as well as organize better teaching and collaborative development.
 
     - 
-        id: Charlotte
-        mobile-id: Brownell
+        id-number: 6
+        mobile-id-number: 22
         name: Charlotte Brownell
         image: /assets/img/leads/charlotte.jpg
         role: Design Captain
@@ -102,8 +99,8 @@ Leads2:
             the design team finishes the design of the robot, the part drawings are handed off to build team to manufacture the robot.
 
     -
-        id: Annalee
-        mobile-id: Soohoo
+        id-number: 7
+        mobile-id-number: 23
         name: Annalee Soohoo
         image: /assets/img/leads/annalee.jpg
         role: Business Captain
@@ -117,8 +114,8 @@ Leads2:
 
 Leads3:
     -
-        id: Maya
-        mobile-id: Chin
+        id-number: 8
+        mobile-id-number: 24
         name: Maya Chin 
         image: /assets/img/leads/maya.jpg
         role: Art Captain
@@ -133,8 +130,8 @@ Leads3:
             old by now at all. Ha. Ha. Ha.
 
     -
-        id: Madeline
-        mobile-id: Li
+        id-number: 9
+        mobile-id-number: 25
         name: Madeline Li
         image: /assets/img/leads/madeline.jpg
         role: Web Captain
@@ -145,8 +142,8 @@ Leads3:
             team, Madeline has learned a lot and hopes to continue her career on the team.
 
     -
-        id: Shota
-        mobile-id: Yamamoto
+        id-number: 10
+        mobile-id-number: 26
         name: Shota Yamamoto
         image: /assets/img/leads/shota.jpg
         role: Lab Manager
@@ -161,8 +158,8 @@ Leads3:
             reason he is our lab manager this year.
 
     -
-        id: Kendall
-        mobile-id: Shaw     
+        id-number: 11
+        mobile-id-number: 27     
         name: Kendall Shaw
         image: /assets/img/leads/kendall.jpg
         role: Treasurer
@@ -174,8 +171,8 @@ Leads3:
 
 Leads4:
     -
-        id: Liam
-        mobile-id: Sherlock
+        id-number: 12
+        mobile-id-number: 28
         name: Liam Sherlock
         image: /assets/img/leads/liam.jpg
         role: Competition Management
@@ -187,8 +184,8 @@ Leads4:
             daytrips, or feeding the whole team, Liam does it all! When he’s not planning competitions or helping around the 
             lab, he enjoys juggling and art.
     -
-        id: Eddie
-        mobile-id: Shi
+        id-number: 13
+        mobile-id-number: 29
         name: Eddie Shi
         image: /assets/img/leads/placeholder-200x200.jpeg
         role: Pit Management/Safety Captain
@@ -200,8 +197,8 @@ Leads4:
             During this coming year, he hopes to make a bigger impact on Team 8 and also make sure that everyone is safe 
             while constructing/fixing the robot.
     -
-        id: James
-        mobile-id: Ngo
+        id-number: 14
+        mobile-id-number: 30
         name: James Ngo
         image: /assets/img/leads/placeholder-200x200.jpeg
         role: Team Glue
