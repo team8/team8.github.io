@@ -83,8 +83,8 @@ div.less-marg {
     margin:0px;
 }
 
-a {
-    font-size:19.5px;
+a.paragraph-links {
+    font-size:19px;
 }
 .table {
     font-family:'Poppins', sans-serif;
