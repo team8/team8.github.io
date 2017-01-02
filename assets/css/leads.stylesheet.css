@@ -64,6 +64,7 @@
 
 	img.leads-circle:hover {
 		border-color:#006400 !important;
+		transition:0.25s;
 	}
 
 	/* hiding, showing elements at certain screen sizes */
