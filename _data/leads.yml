@@ -5,19 +5,8 @@
 Leads1:
     
     -
-        id-number: 15
-        mobile-id-number: 31
-        name: Lauren Nolen
-        image: /assets/img/leads/lauren.png
-        role: Strategic Director
-        email: lnolen@palyrobotics.com
-        description: >
-            Lauren Nolen enters her Senior year as its first Strategic Director,  her responsibilities encompass all matters that concern the team in the long term. Previously, she served for two years as the team's first 
-            business captain, building it into the award winning powerhouse it is today. She was a deans list nominee last year, and this year hopes to help the team raise its eyes to see past the worries of today.
-
-    -
-        id-number: 1
-        mobile-id-number: 17
+        id-number: 0
+        mobile-id-number: 16
         name: Kenneth Cheung
         image: /assets/img/leads/kenny.jpg
         role: Team Captain
@@ -29,8 +18,8 @@ Leads1:
             enjoys random facts (did you know?), Mucho Mangoes (#youdidntseethiscoming), forklifts (not a certified operator), 
             rivets (of all varieties), cargo pants o_o, and wearing his 2014 robotics polo (:kenny:).
     -
-        id-number: 2
-        mobile-id-number: 18
+        id-number: 1
+        mobile-id-number: 17
         name: Simran Pujji
         image: /assets/img/leads/simran.jpg
         role: Assistant Captain
@@ -42,8 +31,8 @@ Leads1:
             Her favorite part of FIRST Robotics, besides build season, is attending competitions and seeing all of the robots 
             other teams made. She’s looking forward to another great year of FIRST Robotics with Team 8 :)
     -
-        id-number: 3
-        mobile-id-number: 19
+        id-number: 2
+        mobile-id-number: 18
         name: Jonathan Zwiebel
         image: /assets/img/leads/jonathan.jpg
         role: Project Manager
@@ -54,6 +43,17 @@ Leads1:
             he ensures projects execute correctly by coordinating hours and deadlines. Jonathan was previously the programming 
             team project manager, and is now the Zero Robotics captain, robot driver, and bike project lead. Outside of robotics, 
             he enjoys playing baseball, reading about foreign policy, and programming.
+
+    -
+        id-number: 3
+        mobile-id-number: 19
+        name: Lauren Nolen
+        image: /assets/img/leads/lauren.png
+        role: Strategic Director
+        email: lnolen@palyrobotics.com
+        description: >
+            Lauren Nolen enters her Senior year as its first Strategic Director,  her responsibilities encompass all matters that concern the team in the long term. Previously, she served for two years as the team's first 
+            business captain, building it into the award winning powerhouse it is today. She was a deans list nominee last year, and this year hopes to help the team raise its eyes to see past the worries of today.
 
 
 Leads2:
@@ -208,8 +208,8 @@ Leads4:
             team act as one cohesive unit.
 
     - 
-        id-number: 0
-        mobile-id-number: 16
+        id-number: 15
+        mobile-id-number: 31
         name: Chris Kuszmaul
         image: /assets/img/leads/ckuszmaul.jpg
         role: Head Coach
