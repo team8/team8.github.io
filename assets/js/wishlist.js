@@ -4,6 +4,7 @@ var itemsObject = Object;
   var currentSelection = "1,1000000";
 
   $(document).ready(function(){
+    
     //Retrieving items...
     $.getJSON( "https://spreadsheets.google.com/feeds/list/1vWUMlrsi68jPKpUP1JCNLtbMooPm17zXeZaMf9Dw1SY/od6/public/values?alt=json", function(data) {
       itemsObject = data.feed.entry;
@@ -45,7 +46,9 @@ var itemsObject = Object;
             innerHTML += "\n<td>" + items[i]["gsx$qty"]["$t"] + "</td>";
             innerHTML += "\n<td>" + items[i]["gsx$price"]["$t"] + "</td>\n</tr>";
         }
+
         document.getElementById("csv-import").innerHTML = innerHTML;
+        document.getElementById("loader").style.display = "none";
   }
   function paginationClicked(priceRange){
 
