@@ -204,5 +204,20 @@ Leads4:
         role: Team Glue
         email: jngo@palyrobotics.com
         description: >
-            James Ngo is a senior member of Paly robotics. Returning for his fourth year, James originally joined in his freshman year as part of the programming sub team. Through his hard work and dedication, James was soon promoted to the programming team captain. He held that post for two years and has been promoted to chief glue. Now he coordinates inner team events and acts as the “glue” that helps the team act as one cohesive unit.
+            James Ngo is a senior member of Paly robotics. Returning for his fourth year, James originally joined in his freshman year as part of the programming sub team. Through his hard work and dedication, 
+            James was soon promoted to the programming team captain. He held that post for two years and has been promoted to chief glue. Now he coordinates inner team events and acts as the “glue” that helps the 
+            team act as one cohesive unit.
+
+    -
+        id-number: 15
+        mobile-id-number: 31
+        name: Lauren Nolen
+        image: /assets/img/leads/placeholder-200x200.jpeg
+        role: Strategic Director
+        email: lnolen@palyrobotics.com
+        description: >
+            Lauren Nolen enters her Senior year as its first Strategic Director,  her responsibilities encompass all matters that concern the team in the long term. Previously, she served for two years as the team's first 
+            business captain, building it into the award winning powerhouse it is today. She was a deans list nominee last year, and this year hopes to help the team raise its eyes to see past the worries of today.
+
+
 ...
