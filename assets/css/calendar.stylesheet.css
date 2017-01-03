@@ -1,6 +1,7 @@
 div.first-container {
     padding-top:150px;
 }
+
 h2.about-calendar {
     font-family:'Poppins',sans-serif;
     text-align:center;
@@ -11,4 +12,16 @@ h2.about-calendar {
 }
 hr {
     margin-bottom:40px !important;
+}
+
+ @media (max-width:767px) {
+    .first-container {
+        padding-top:71px !important;
+    }
+    h2.about-calendar{
+      font-size:30px !important;
+    }
+    hr {
+        margin-top:39px !important;
+    }
 }

@@ -1,0 +1,34 @@
+     @media (max-width:767px) {
+        h2.Resources-h2 {
+        font-size:30px !important;
+        padding-top:70px !important;
+    }
+        hr {
+        margin-top:40px !important;
+    }
+}
+
+
+    .Resources-h2 {
+        padding-top:150px;
+        font-family:'Poppins',sans-serif;
+        text-align: center;
+        font-size: 48px;
+        color:#333;
+    }
+    hr {
+      margin-top:72px;
+      margin-bottom:50px;
+    }
+
+    div#top-nav.navbar.navbar-inverse.navbar-fixed-top {
+        width:100%;
+    }
+    td {
+        font-family:'Poppins',sans-serif;
+    }
+    h3 {
+        font-family:'Poppins', sans-serif;
+        font-size: 30px;
+
+    }

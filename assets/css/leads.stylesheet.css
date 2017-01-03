@@ -27,6 +27,16 @@
 		color:#333;
 	}
 
+	@media (max-width:767px) {
+	    h2.contact-us-header {
+	        padding-top:73px;
+	        font-size:30px;
+	    }
+	    hr {
+	        margin-top:40px !important;
+	    }
+	}
+
 	body{
 		font-family: 'Poppins', sans-serif;
 	}

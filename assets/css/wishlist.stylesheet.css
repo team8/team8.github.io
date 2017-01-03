@@ -14,6 +14,18 @@
     margin-bottom: 40px !important;
   }
   
+  @media (max-width:767px) {
+    div.first-container {
+        padding-top:70px;
+    }
+    h2 {
+        font-size:30px !important;
+    }
+    hr {
+        margin-top:30px !important;
+    }
+}
+
   body {
     font-family: 'Poppins', sans-serif;
   }

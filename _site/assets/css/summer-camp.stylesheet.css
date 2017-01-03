@@ -5,6 +5,16 @@ h2.summer-camp-title {
     margin-top: 165px;
 }
 
+@media (max-width:767px) {
+    h2.summer-camp-title {
+        font-size:30px;
+        margin-top:90px;
+    }
+    hr.one-hr {
+        margin-top:40px !important;
+    }
+}
+
 h3.summer-camp-header {
 	font-family: 'Poppins', sans-serif;
 	font-size: 32px;
