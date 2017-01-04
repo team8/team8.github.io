@@ -497,7 +497,7 @@ hr.sponsorshr {
 	
 	.flipper {
 		transition: 0.75s;
-		transform-style: preserve-3d;
+		-webkit-transform-style: preserve-3d;
 		position: relative;
 	}
 	/* hide back of pane during swap */
