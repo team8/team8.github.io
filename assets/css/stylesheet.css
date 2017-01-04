@@ -473,7 +473,7 @@ hr.sponsorshr {
 		font-family: 'Poppins', sans-serif;
 		font-size: 48px;
 	}
-	/* Being flip Animation */
+	/* Begin flip Animation */
 	/* entire container, keeps perspective */
 	
 	.flip-container {
@@ -484,7 +484,7 @@ hr.sponsorshr {
 	
 	.flip-container:hover .flipper,
 	.flip-container.hover .flipper {
-		transform: rotateY(180deg);
+		-webkit-transform: rotateY(180deg);
 	}
 	
 	.flip-container,
