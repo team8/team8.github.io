@@ -66,6 +66,53 @@
     </div>
   </div>
 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.min.js"></script>
+      <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.css'/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='assets/fullcalendar/lib/jquery.min.js'></script>
+    <script src='assets/fullcalendar/lib/moment.min.js'></script>
+    <script src='assets/fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='assets/fullcalendar/gcal.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Orienta|Poppins" rel="stylesheet">
+    
+
+    <script type='text/javascript'>
+    $(document).ready(function() {
+      $(document).ready(function () {
+        $('#calendar').fullCalendar({
+          googleCalendarApiKey : 'AIzaSyDIQZLuITK90tlTtdHN4cSkdLW9aRznnL4',
+          events : {
+            googleCalendarId : 'db25n7oev1at726gljle5d784c@group.calendar.google.com'
+          },
+          eventRender: function(event, element, view) {
+            var firstThreeLetters = String(event.title.substring(0, 3));
+            console.log(firstThreeLetters);
+            switch (firstThreeLetters){
+              case "LAB":
+                element.addClass("lab-open");
+                break;
+              case "Thu":
+                element.addClass("thursday-meeting");
+                break;
+              case "Lea":
+                element.addClass("leadership-meeting");
+                break;
+              default:
+                element.addClass("miscellaneous");
+            }
+          }
+
+      });
+    });
+  });
+
+        </script>
+
 {{content}}
 
   <div class="navbar navbar-inverse navbar-static-bottom nav-bot" role="navigation">
@@ -82,30 +129,6 @@
   </div>
 </body>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="assets/js/bootstrap.min.js"></script>
-      <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.css'/>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src='assets/fullcalendar/lib/jquery.min.js'></script>
-    <script src='assets/fullcalendar/lib/moment.min.js'></script>
-    <script src='assets/fullcalendar/fullcalendar.js'></script>
-    <script type='text/javascript' src='assets/fullcalendar/gcal.js'></script>
-    <link href="https://fonts.googleapis.com/css?family=Orienta|Poppins" rel="stylesheet">
-    <script type='text/javascript'>
-    $(document).ready(function() {
-                 $(document).ready(function () {
-    $('#calendar').fullCalendar({
-        googleCalendarApiKey : 'AIzaSyDIQZLuITK90tlTtdHN4cSkdLW9aRznnL4',
-        events : {
-            googleCalendarId : 'db25n7oev1at726gljle5d784c@group.calendar.google.com'
-        }
-    });
- });
-            });
-        </script>
+
 
 </html>
