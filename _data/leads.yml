@@ -3,22 +3,10 @@
 ---
     
 Leads1:
-    - 
+    
+    -
         id-number: 0
         mobile-id-number: 16
-        name: Chris Kuszmaul
-        image: /assets/img/leads/ckuszmaul.jpg
-        role: Head Coach
-        email: ckuszmaul@palyrobotics.com
-        description: >
-            Mr. Kuszmaul grew up in Kansas, went to MIT in the 80’s, worked as a scientist at NASA in the 90’s and took care of 
-            his children and learned to be a teacher in the 2000’s.  Since 2012 he has been working to make Paly Robotics a place 
-            where people can be who they are, enabled by the wisdom and fruits of science and engineering. He is also a 6th degree 
-            black belt in AIkido, the martial art of peace. His wife teases him about this, by asking him if he is aware of the 
-            definition of the word “martial.”.
-    -
-        id-number: 1
-        mobile-id-number: 17
         name: Kenneth Cheung
         image: /assets/img/leads/kenny.jpg
         role: Team Captain
@@ -30,8 +18,8 @@ Leads1:
             enjoys random facts (did you know?), Mucho Mangoes (#youdidntseethiscoming), forklifts (not a certified operator), 
             rivets (of all varieties), cargo pants o_o, and wearing his 2014 robotics polo (:kenny:).
     -
-        id-number: 2
-        mobile-id-number: 18
+        id-number: 1
+        mobile-id-number: 17
         name: Simran Pujji
         image: /assets/img/leads/simran.jpg
         role: Assistant Captain
@@ -43,8 +31,8 @@ Leads1:
             Her favorite part of FIRST Robotics, besides build season, is attending competitions and seeing all of the robots 
             other teams made. She’s looking forward to another great year of FIRST Robotics with Team 8 :)
     -
-        id-number: 3
-        mobile-id-number: 19
+        id-number: 2
+        mobile-id-number: 18
         name: Jonathan Zwiebel
         image: /assets/img/leads/jonathan.jpg
         role: Project Manager
@@ -55,6 +43,17 @@ Leads1:
             he ensures projects execute correctly by coordinating hours and deadlines. Jonathan was previously the programming 
             team project manager, and is now the Zero Robotics captain, robot driver, and bike project lead. Outside of robotics, 
             he enjoys playing baseball, reading about foreign policy, and programming.
+
+    -
+        id-number: 3
+        mobile-id-number: 19
+        name: Lauren Nolen
+        image: /assets/img/leads/lauren.png
+        role: Strategic Director
+        email: lnolen@palyrobotics.com
+        description: >
+            Lauren Nolen enters her Senior year as its first Strategic Director,  her responsibilities encompass all matters that concern the team in the long term. Previously, she served for two years as the team's first 
+            business captain, building it into the award winning powerhouse it is today. She was a deans list nominee last year, and this year hopes to help the team raise its eyes to see past the worries of today.
 
 
 Leads2:
@@ -208,16 +207,18 @@ Leads4:
             James was soon promoted to the programming team captain. He held that post for two years and has been promoted to chief glue. Now he coordinates inner team events and acts as the “glue” that helps the 
             team act as one cohesive unit.
 
-    -
+    - 
         id-number: 15
         mobile-id-number: 31
-        name: Lauren Nolen
-        image: /assets/img/leads/placeholder-200x200.jpeg
-        role: Strategic Director
-        email: lnolen@palyrobotics.com
+        name: Chris Kuszmaul
+        image: /assets/img/leads/ckuszmaul.jpg
+        role: Head Coach
+        email: ckuszmaul@palyrobotics.com
         description: >
-            Lauren Nolen enters her Senior year as its first Strategic Director,  her responsibilities encompass all matters that concern the team in the long term. Previously, she served for two years as the team's first 
-            business captain, building it into the award winning powerhouse it is today. She was a deans list nominee last year, and this year hopes to help the team raise its eyes to see past the worries of today.
-
+            Mr. Kuszmaul grew up in Kansas, went to MIT in the 80’s, worked as a scientist at NASA in the 90’s and took care of 
+            his children and learned to be a teacher in the 2000’s.  Since 2012 he has been working to make Paly Robotics a place 
+            where people can be who they are, enabled by the wisdom and fruits of science and engineering. He is also a 6th degree 
+            black belt in AIkido, the martial art of peace. His wife teases him about this, by asking him if he is aware of the 
+            definition of the word “martial.”.
 
 ...
