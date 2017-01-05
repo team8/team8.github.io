@@ -514,12 +514,12 @@ hr.sponsorshr {
 	.front {
 		z-index: 2;
 		/* for firefox 31 */
-		transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
 	}
 	/* back, initially hidden pane */
 	
 	.back {
-		transform: rotateY(180deg);
+		-webkit-transform: rotateY(180deg);
 	}
 	/* End flip animation */
 /* Sponsor stuff ends here */
