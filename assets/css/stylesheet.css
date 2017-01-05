@@ -477,7 +477,7 @@ hr.sponsorshr {
 	/* entire container, keeps perspective */
 	
 	.flip-container {
-		perspective: 1000;
+		-webkit-perspective: 1000;
 		margin: 20px;
 	}
 	/* flip the pane when hovered */
@@ -497,6 +497,7 @@ hr.sponsorshr {
 	
 	.flipper {
 		transition: 0.75s;
+		-webkit-transition: all 0.55s ease-in-out;
 		-webkit-transform-style: preserve-3d;
 		position: relative;
 	}
@@ -504,7 +505,7 @@ hr.sponsorshr {
 	
 	.front,
 	.back {
-		backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
 		position: absolute;
 		top: 0;
 		left: 0;
