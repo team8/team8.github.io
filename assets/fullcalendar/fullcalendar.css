@@ -34,11 +34,12 @@ body .fc { /* extra precedence to overcome jqui */
 }
 
 .lab-open{
-	background-color: #009FB7 !important;
+	background-color: green !important;
 	border: none !important;
 }
+
 .thursday-meeting{
-	background-color: #8FC93A !important;
+	background-color: #009FB7 !important;
 	border: none !important;
 }
 .leadership-meeting{
