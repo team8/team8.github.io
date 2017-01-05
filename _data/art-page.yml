@@ -1,25 +1,48 @@
 ---
 Animation:
-  No-Capes: 
+  
+  -
+    title: Closing Time (2016)
+    paragraph: >
+      Our submission for the 2017 FIRST Robotics Safety Animation competition, which follows the steampunk theme of FIRST Steamworks 2017.
+    link: https://www.youtube.com/embed/Vx7fe3pU7Ww
+
+  -
+    title: What to do During a Code Red (2016)
+    paragraph: >
+      A short, animated PSA about what students should do upon the event that an active shooter comes to a school campus, commissioned by 
+      the Palo Alto High School vice-principal, Mr. Berkson, and completed in two weeks.
+    link:  https://www.youtube.com/embed/Xv9dANSA4JY
+
+  -
+    title: Persistence (2016)
+    paragraph: >
+      The animation created for the 2016 FIRST Robotics Safety Animation competition, which the Art Team, despite being unable to finish 
+      in time to submit, perserved (hence the name) and finished anyway.
+    link: https://www.youtube.com/embed/q-o916PYIZU
+
+  -
+    title: Anti-Hero (2015)
+    paragraph: >
+      The second short made by the newly established Art Team, for the Underground Society of Animators competition, and the winner of the 
+      2015 Technical Award. "To us, this animation hit every note. It had well done character animation, nice use of lighting and textures, 
+      and it had a cohesive story. Well done team!" - Judges
+    link: https://www.youtube.com/embed/djbOAmS1TRM
+
+  - 
     title: No Capes! (2014)
     paragraph: The first project by the new art team and its new team process. We were able to push a higher quality short in a much shorter period of time, even though a majority of the members had never animated before. The images are stills showcasing the detail in the set of the short.  
-    link: https://www.youtube.com/watch?v=_6dTBzbmBQ8
-    link-des: View it here!
-    img: /assets/img/art/animations/DrillPressScene.png
+    link: https://www.youtube.com/embed/_6dTBzbmBQ8
 
-  Remi:
+  -
     title: Reminiscence (2014)
     paragraph: The second short made by the same group of animators. With a combination of greater skill and advanced rendering software, the end result was way prettier. 
-    link: https://www.youtube.com/watch?v=Qrxd9191kbU
-    link-des: View it here!
-    img: /assets/img/art/animations/RoomScene.png
+    link: https://www.youtube.com/embed/Qrxd9191kbU
   
-  No-Dis:
+  -
     title: No Distractions (2013)
     paragraph: This is an animation created for the nationwide First Robotics Safety Award. It was created with a group entirely made of first year animators who had never touched 3-D animation software in their life. This animation was created just a couple months after they started learning! 
-    link: https://www.youtube.com/watch?v=Qrxd9191kbU
-    link-des: View it here!
-    img: /assets/img/art/animations/SawAndDrillScene.png
+    link: https://www.youtube.com/embed/DCFmT9InEvY
 
 
 Graph-Des:
@@ -49,15 +72,6 @@ Graph-Des-img-2:
     paragraph: A poster advertising our kickoff event to members of robotics.
     img: /assets/img/art/graphicdesign/KickOff.png
 
-  -
-    title: Name Tags
-    paragraph: Examples of name tags that people made to start familiarizing themselves with digital tools.
-    img: /assets/img/art/graphicdesign/NameTag.png
-
-  -
-    title: ID Cards
-    paragraph: An ID that will be given to each member of the robotics team.
-    img: /assets/img/art/graphicdesign/IDCard.png
     
 
 Vary: 

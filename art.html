@@ -12,49 +12,26 @@ permalink: /art
      <div class = "col-md-12">
        <h2 class="about-first">Paly Robotics Art Team</h2>
        <hr>
-       <h3 class = "Animation-title">Animation</h3>      
+       <h3 class = "Animation-title" style="padding-bottom: 20px;">Animation</h3>      
      </div>
     </div>
 <!--Elaine work done -->
     <div class="container">
-      <div class = "col-md-6">
-        <h3>{{site.data.art-page.Animation.No-Capes.title}}</h3>
-        <p>{{site.data.art-page.Animation.No-Capes.paragraph}} <a class = "paragraph-links" target= "_blank" href = "{{site.data.art-page.Animation.No-Capes.link}}">{{site.data.art-page.Animation.No-Capes.link-des}}</a></p>
-      </div>
+      {% for item in site.data.art-page.Animation %}
+        <div class = "col-md-6">
+          <h3>{{item.title}}</h3>
+          <p>{{item.paragraph}}</p>
+        </div>
     
-      <div class = "col-md-6">
-          <img class="pull-right animation-img img-responsive" src= "{{site.data.art-page.Animation.No-Capes.img}}" height = "250" width = "380">
-      </div>
-  
-      <div class="col-md-12">
-          <br>
-          <br>
-      </div>
+        <div class = "col-md-6">
+          <iframe class="pull-right video" width="854" height="480" src="{{item.link}}" frameborder="0" allowfullscreen></iframe>
+        </div>
+      {% endfor %}
 
-      <div class = "col-md-6">
-        <h3>{{site.data.art-page.Animation.Remi.title}}</h3>
-        <p>{{site.data.art-page.Animation.Remi.paragraph}} <a class="paragraph-links" target= "_blank" href = "{{site.data.art-page.Animation.No-Capes.link}}">{{site.data.art-page.Animation.No-Capes.link-des}}</a></p>
-
-      </div>
-
-      <div class = "col-md-6">
-          <img class= "pull-right animation-img img-responsive" src= "{{site.data.art-page.Animation.Remi.img}}" height = "250" width = "380">
-      </div>
-  
       <div class="col-md-12">
           <br>
           <br>
           <br>
-      </div>
-
-
-      <div class = "col-md-6 no-distract">
-        <h3>{{site.data.art-page.Animation.No-Dis.title}}</h3>
-        <p>{{site.data.art-page.Animation.No-Dis.paragraph}} <a class = "paragraph-links" target= "_blank" href = "{{site.data.art-page.Animation.No-Dis.link}}">{{site.data.art-page.Animation.No-Dis.link-des}}</a></p>
-      </div>
-    
-      <div class = "col-md-6">
-          <img class="pull-right animation-img first-img img-responsive" src= "{{site.data.art-page.Animation.No-Dis.img}}" height = "250" width = "380">
       </div>
     </div>
 
@@ -114,7 +91,18 @@ permalink: /art
   
   </div>
 </div>
-
+<style>
+.video{
+  height: 325px;
+  width: 500px;
+  padding-bottom: 50px;
+}
+.mobile.video{
+  height: 325px;
+  width: 100px;
+  padding-bottom: 50px;
+}
+</style>
  
 
 
