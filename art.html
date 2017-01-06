@@ -21,10 +21,11 @@ permalink: /art
         <div class = "col-md-6">
           <h3>{{item.title}}</h3>
           <p>{{item.paragraph}}</p>
+          <p>Click <a href="https://www.youtube.com/watch?v={{item.youtube-id}}" target="_blank">here</a> to see "{{item.title}}" on YouTube</p>
         </div>
     
         <div class = "col-md-6">
-          <iframe class="pull-right video" width="854" height="480" src="{{item.link}}" frameborder="0" allowfullscreen></iframe>
+          <iframe class="pull-right video" src="https://www.youtube.com/embed/{{item.youtube-id}}" frameborder="0" allowfullscreen></iframe>
         </div>
       {% endfor %}
 
@@ -93,16 +94,8 @@ permalink: /art
 </div>
 <style>
 .video{
-  height: 325px;
-  width: 500px;
-  padding-bottom: 50px;
-}
-.mobile.video{
-  height: 325px;
-  width: 100px;
+  height: 400px;
+  width: 100%;
   padding-bottom: 50px;
 }
 </style>
- 
-
-
