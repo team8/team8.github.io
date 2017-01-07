@@ -10,52 +10,48 @@ Sponsors1:
           innovation. Based in nearby Mountain View, Google sponsors Team 8 as part of its mission to inspire the next generation
           of technological pioneers.
 
-  - Lockheed-Martin:
-    image: /assets/img/sponsors/lockheed-martin.jpg
-    paragraph: Lockheed Martin is a well-known industrial company and defense contractor that designs and builds satellites, as
-          well as military aircraft and equipment. We are proud to be sponsored by a company that has made major contributions
-          in exploring the frontiers of space and technology.
-
-  - Bae-Systems: 
-    image: /assets/img/sponsors/bae-systems.jpg
-    paragraph: BAE Systems is a defense, security, and aerospace company from the UK. They have kindly provided Team 8 with funds
-          to help us do the things we love doing.
-
-
-Sponsors2:
-  - Intuitive-Surgial: 
+  - Intuitive-Surgical:
     image: /assets/img/sponsors/intuitive-surgical.png
     paragraph: Intuitive Surgical manufactures robotic surgical machines designed for minimally invasive surgery, which are employed
           in hospitals throughout the U.S. We admire their advances with robotics into the field of medicine, and are proud
           to be sponsored by Intuitive Surgical.
 
-  - Fenwick-West:
-    image: /assets/img/sponsors/fenwick-west.png
-    paragraph: >
-      Fenwick & West LLP is law firm based here in Silicon Valley. Their practice focuses on supporting technology companies and startups. 
-      We are excited to be sponsored by a firm that backs innovation and new technologies.
+  - Dropbox:
+    image: /assets/img/sponsors/dropbox.jpg
+    paragraph: Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage
+            and file synching to its users. Their sponsorship has made us more efficient and an overall better team.
 
-  - Webcor-Builders:
-    image: /assets/img/sponsors/webcor-builders.png
-    paragraph: Webcor Builders is a construction contractor, headquartered in San Francisco. The support of Webcor means a lot
-            to us, their impressive portfolio of building projects amazes and inspires us.
-
-
-Sponsors3:
+Sponsors2:
   
   - Nvidia: 
     image: /assets/img/sponsors/nvidia.svg
     paragraph: Nvidia is a multinational hardware and software company based in Santa Clara. Their strides in computer hardware
             are incredibly impressive, and we are proud to be sponsored by them.
-
-  - Dropbox:
-    image: /assets/img/sponsors/dropbox.svg
-    paragraph: Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage
-            and file synching to its users. Their sponsorship has made us more efficient and an overall better team.
     
   - Solidworks: 
     image: /assets/img/sponsors/solidworks.png
     paragraph: Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing us to effectively
             design and prototype our robot. They also donated a powerful CAM tool that we use in conjunction with our CNC
             Mill and 3D Printer.
+
+  - Webcor-Builders:
+    image: /assets/img/sponsors/webcor-builders.jpg
+    paragraph: Webcor Builders is a construction contractor, headquartered in San Francisco. The support of Webcor means a lot
+            to us, their impressive portfolio of building projects amazes and inspires us.
+
+Sponsors3:
+   
+  - Hassett-Hardware: 
+    image: /assets/img/sponsors/hassett-hardware.png
+    paragraph: Coming Soon!
+
+  - Landec-Co:
+    image: /assets/img/sponsors/landec.jpg
+    paragraph: Coming Soon!
+
+  - Kirks:
+    image: /assets/img/sponsors/kirks.png
+    paragraph: Coming Soon!
+
+
 ...
