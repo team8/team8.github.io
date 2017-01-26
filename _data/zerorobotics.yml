@@ -1,6 +1,6 @@
 # For the zero robotics page #
 
-zero-robotics:
+zerorobotics:
     title: Zero Robotics
     what-is-zero:
         title: What is Zero Robotics?
@@ -12,7 +12,7 @@ zero-robotics:
         img: /assets/img/zerorobotics/who-are-we-img.png
         img-caption: "The Zero Team at MIT for the 2015 Championship. Left to Right: Astronaut Mike Fincke, Bert Davies, Eric Liu, Christopher Kuszmaul (coach), Ailyn Tong, Chang Woo Ha, Jonathan Zwiebel (captain), Alvar Saenz­ Otero (SPHERES lead scientists). Not Pictured: Robert Selwyn, Benjamin Cohen-Wang"
         p1: We are a second-year Zero Robotics team that seeks to encourage software, critical thinking, leadership, and gracious professionalism within its members. Our Zero team is comprised of members from multiple Paly Robotics subteams as well as members exclusive to Zero. We use our experience from algorithms we write in FIRST to improve our Zero code, including specialized vPID satellite control. This year, in the 3D Round, we placed 30th, qualifying us for the Alliance round. We are excited to partner with teams from the around the world and hope to make it back to the ISS.
-    2015-season:
+    season-2015:
         title: 2015 Season
         img: /assets/img/zerorobotics/2015-season-img.png
         img-caption: A screenshot from SpaceSpheres, the 2016 game. Pictured are both satellites, two yellow Satellite Items, and the red Assembly Zone.
