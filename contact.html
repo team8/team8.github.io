@@ -1,0 +1,61 @@
+---
+layout: pages 
+title: Contact Us
+permalink: /contact/
+---
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/contact.stylesheet.css">
+</head>
+
+
+
+
+<!-- Body begins here -->
+
+<div class="container">
+    <div class="col-md-12">
+        <h2 class="contact-title">Contact Us</h2>
+        <hr/>
+    </div>
+    <div class="col-md-5">
+            <p class="info">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                &nbsp;&nbsp;50 Embarcadero Rd, Palo Alto, CA 94301 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(See <a class="link" href="resources">Resources</a> for map)<br>
+            </p>
+            <p class="info">
+                <span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;
+                <a class="link" href="mailto:contact@palyrobotics.com">contact@palyrobotics.com</a>
+            </p>
+    </div>
+    <div class="col-md-7">
+        <form action="https://formspree.io/contact@palyrobotics.com" method="POST">
+            <!-- Name input -->
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" name="name" class="form-control" id="NameInput" aria-describedby="nameHelp" placeholder="Enter name:" autofocus required>
+            </div>
+            <!-- End name input -->
+
+            <!-- E-Mail input -->
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" name="_replyto" type="text" class="form-control" id="EmailInput" aria-describedby="emailHelp" placeholder="Enter email:" required>
+                <p id="emailHelp" class="form-text text-muted">Your email will not be disclosed.</small>
+            </div>
+            <!-- End E-Mail input -->
+
+            <!-- Text input field -->
+            <div class="form-group">
+                <label for="exampleTextarea">Your Message</label>
+                <textarea name="input" class="form-control" id="exampleTextarea" rows="3" required></textarea>
+            </div>
+            <!-- Text input field ends here -->
+
+            <!-- Input field -->
+            <button type="submit" class="btn btn-primary submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<!-- Body ends here -->
