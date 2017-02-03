@@ -20,6 +20,7 @@ html, body{
 	height:102.5px !important;
 }
 
+/* shrinking navbar images, everything else when scrolling the page */
 
 
 
@@ -51,7 +52,7 @@ html, body{
 		font-size:18px !important;
 	}
 	#myCarousel {
-		padding-top:51.25px !important;
+		padding-top:45px !important;
 	}
 
 }
