@@ -20,6 +20,10 @@ h3.summercamp-header {
 	font-size: 32px;
 }
 
+h3.summercamp-header.sessions {
+    margin-bottom:25px;
+}
+
 h3.summercamp-header-2016 {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
