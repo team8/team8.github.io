@@ -4,7 +4,7 @@
     
 ---
     AboutTheCamp1:
-        paragraph1: This year, Paly Robotics will be offering three different weeks of our annual summer camp for incoming middle school students (incoming 6th - 9th). We hope to spark interest and start future high school students on a path in science, technology, engineering, art or math (STEAM). If you have any questions, feel free to contact us at summercamp [at] palyrobotics [dot] com.
+        paragraph1: This year, Paly Robotics will be offering two different weeks of our annual summer camp for incoming middle school students (incoming 6th - 9th). We hope to spark interest and start future high school students on a path in science, technology, engineering, art or math (STEAM). If you have any questions, feel free to contact us at summercamp [at] palyrobotics [dot] com.
         image1: /assets/img/summercamp/about-the-camp1-img.jpg
         image2: /assets/img/summercamp/aboutthecamp2-img.jpg
     AboutTheCamp2:
@@ -15,20 +15,24 @@
             title2: Counselors
             paragraph2: Student mentoring is a big part of our team’s philosophy, and we rely on passing down knowledge from the older students to the younger students. Reflecting this philosophy, our high school team members will be teaching campers about STEAM through the different aspects of the robotics team. Just as we were taught by older team members, we hope to be able to teach what we have learned to the younger generation. 
     Sessions1:
-            paragraph: We are currently waitlisting people for sessions that are full. If the waitlist is still open for a given session, please select that session during registration to be automatically added to its waitlist. If the waitlist is closed for a given session, we cannot add any more people to the waitlist for that session.
+            paragraph: Our registration will be open on Sunday. Campers will be able to sign up for one session per week.
     Sessions2:
         -
             title: Robot Design and Hardware
             img: /assets/img/summercamp/build-img.png
-            info: In the Robot Design and Hardware session, campers will experience the process of hardware engineering, from the designing phase all the way to manufacturing and assembly. Campers will learn how to work with others and explain their ideas to create a useful and mechanically sound design to complete a specific challenge. Afterwards, trained counselors will assist campers in the use of tools to safely bring their design to fruition.
+            info: In the Robot Design and Hardware camp, campers will experience the build season of a FRC robot, where teams create a robot to compete in a timed game filled with challenges. During the camp, campers will experience the usage of power tools, specialized machines, and CAD software to design and manufacture their robot, culminating in a FRC-style mini-game at the end of the week. However, most importantly, they will have the experience of innovation, problem solving, and working as a team, the more important things to succeed in the 21st century.
         -
-            title: Programming and 3D Animation
+            title: Software
             img: /assets/img/summercamp/programming-img.png
-            info: In the Programming and 3D Animation session, campers will work in Python to learn the basics of programming. There will be an introductory programming group for those without experience, as well as an advanced group for those who are already familiar with software. Additionally, campers will learn to make and animate 3D models using Autodesk Maya, a professional piece of software used by some of the biggest animation companies, including Pixar. By the end of the camp, campers will have created final projects which they will be able to bring home.
+            info: The software camp will further campers' computer science skills through projects and activities using Python 3, incorporating control flow and other computer science principles. Campers will leave the camp with an expanded knowledge of computer science and increased programming proficiency. In addition, they will gain experience with the industry standard for version control, git, as they collaborate on projects with other campers. All skill levels will be accommodated.
         -
             title: Entrepreneurship and Website Design
             img: /assets/img/summercamp/design-img.png
-            info: In the Entrepreneurship and Web Design session, campers will learn how to take a business idea from start to finish; learning the skills to pitch their business ideas to potential investors. Furthermore, campers will learn how to create websites with languages such as HTML and CSS to showcase their business ideas, using GitHub to keep track of changes in a group environment.
+            info: In the Entrepreneurship and Web Design session, campers will develop their own potential startup companies, and the marketing and advertising skills necessary to get their companies off the ground. Using languages such as HTML and CSS, students will create a website showcasing their proposals while gaining valuable coding and website management skills, as well as GitHub to keep track of changes in a group environment.
+        -
+            title: Animation and Graphic Design
+            img: /assets/img/summercamp/art-img.png
+            info: Using industry standard software such as Autodesk Maya, learn how to make 3D models and then bring them to life using animation. Explore the basics of graphic design with Adobe Illustrator, and practice your design skills. Learn about typography and how to balance compositions while getting a taste of what it’s like to design for a client. At the end of the week, students will be able to take home their very own animated short, a 3D computer modelled set of their own design, a poster, their very own personally designed pins, and whatever else they may have created.
     FAQEmail: 
         info: Our email&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>
     FAQ: 
@@ -37,7 +41,7 @@
             answer: Not at all. We hope to introduce all campers to STEAM regardless of what they already know. If they have previous experience, that is totally fine, and we will be sure to keep them engaged with interesting activities.
         -
             question: I'm confused, how does registration work?
-            answer: Don't worry, it can be confusing. We are offering the camp three different weeks, and each week, there are two different sessions to choose from. For example, a camper could choose to register for two weeks of camp. They could pick the Robot Design and Hardware session the first week, and the Entrepreneurship and Website Design session the second week.
+            answer: Don't worry, it can be confusing. We are offering the camp two different weeks, and each week, there are four different sessions to choose from. 
         -
             question: What if a session is full?
             answer: We are currently waitlisting people for sessions that are full. If the waitlist is still open for a given session, please select that session during registration to be automatically added to its waitlist. If the waitlist is closed for a given session, we cannot add any more people to the waitlist for that session.
