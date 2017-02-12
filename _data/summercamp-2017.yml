@@ -4,7 +4,7 @@
     
 ---
     AboutTheCamp1:
-        paragraph1: This year, Paly Robotics will be offering two different weeks of our annual summer camp for incoming middle school students (incoming 6th - 9th). We hope to spark interest and start future high school students on a path in science, technology, engineering, art or math (STEAM). If you have any questions, feel free to contact us at summercamp [at] palyrobotics [dot] com.
+        paragraph1: <b>Registration is now open! The link to the google form is <a class="paragraph-links" href="http://bitly.com/2kAcH3D">here</a>.</b><br><br> This year, Paly Robotics will be offering two different weeks of our annual summer camp for incoming middle school students (incoming 6th - 9th). We hope to spark interest and start future high school students on a path in science, technology, engineering, art or math (STEAM). If you have any questions, feel free to contact us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.
         image1: /assets/img/summercamp/about-the-camp1-img.jpg
         image2: /assets/img/summercamp/aboutthecamp2-img.jpg
     AboutTheCamp2:
@@ -15,7 +15,7 @@
             title2: Counselors
             paragraph2: Student mentoring is a big part of our team’s philosophy, and we rely on passing down knowledge from the older students to the younger students. Reflecting this philosophy, our high school team members will be teaching campers about STEAM through the different aspects of the robotics team. Just as we were taught by older team members, we hope to be able to teach what we have learned to the younger generation. 
     Sessions1:
-            paragraph: Our registration will be open on Sunday. Campers will be able to sign up for one session per week.
+            paragraph: Registration is now open! The link to the google form is <a class="paragraph-links" href="http://bitly.com/2kAcH3D">here</a>.
     Sessions2:
         -
             title: Robot Design and Hardware
