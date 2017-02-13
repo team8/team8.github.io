@@ -107,3 +107,8 @@ hr.special-hr {
     margin-top:40px;
 }
 
+.session-td {
+	width: 25%;
+	text-align: center;
+	vertical-align: middle !important;
+}
