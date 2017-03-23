@@ -2,7 +2,7 @@
 
 ---
     AboutTheTour:
-        paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat. Curabitur sit amet aliquam nunc. Nullam nibh nibh, malesuada fringilla dapibus at, viverra tincidunt nunc. In eu pretium mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean ante nulla, scelerisque placerat quam et, tincidunt egestas dolor. Aliquam eget lectus ultricies, ullamcorper est sed, accumsan justo. Quisque at rhoncus lacus, at molestie neque.
+        paragraph: "Paly Robotics will be hosting tours of the Silicon Valley Regional to introduce parents and students to FRC. The tour will consist of a meet & greet, a tour of the pits (the place where we fix and maintain our robots), and the stands. We invite everyone to stay and watch alliance selections and eliminations matches.<br><br><b>When:</b> Saturday, April 1, 2017 | 11:00 am to 12:15 pm<br><b>Where:</b> San Jose State University<br><b>Who:</b> All families and mentors are welcome"
         image: 
     FAQ: 
         - 
