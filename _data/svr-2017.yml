@@ -1,0 +1,21 @@
+# For the svr tours page #
+
+---
+    AboutTheTour:
+        paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat. Curabitur sit amet aliquam nunc. Nullam nibh nibh, malesuada fringilla dapibus at, viverra tincidunt nunc. In eu pretium mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean ante nulla, scelerisque placerat quam et, tincidunt egestas dolor. Aliquam eget lectus ultricies, ullamcorper est sed, accumsan justo. Quisque at rhoncus lacus, at molestie neque.
+        image: 
+    FAQ: 
+        - 
+            question: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat? 
+            answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat. 
+        -  
+            question: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat? 
+            answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat. 
+        -
+            question: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat? 
+            answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat. 
+        -   
+            question: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat?
+            answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu luctus erat. 
+
+... 
