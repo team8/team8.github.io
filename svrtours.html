@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: Silicon Valley Regional Tours
-permalink: /svr-2017/
+permalink: /svrtours/
 ---
 
  <link rel = "stylesheet" type = "text/css" href = "/assets/css/summercamp.stylesheet.css">
@@ -31,20 +31,25 @@ permalink: /svr-2017/
                 	<b>When: </b>Saturday, April 1, 2017 
 	                <ul>
 	                	<li>11:00 am to 12:15 pm: Structured guided tour of venue</li>
-	                	<li>12:15 pm to 12:30 pm: Alliance Selections (optional)</li>
-	                	<li>12:30 pm to 1:30 pm: Lunch Break (not provided, but location is close to restaurants)</li>
-	                	<li>1:30 pm onwards: Elimination Matches (Recommended)</li>
+	                	<li>12:15 pm to 12:30 pm: Alliance selection (optional)</li>
+	                	<li>12:30 pm to 1:30 pm: Lunch break (not provided, but location is close to restaurants)</li>
+	                	<li>1:30 pm onwards: Elimination matches (optional)</li>
 	                </ul>
 	            </p>
+	            </br>
 	            <p class="summercamp-2016">
-	                <b class="summercamp-2016">Where: </b><a target="_blank" class="paragraph-links" href="http://bit.ly/2mWnwxm">San Jose State University Event Center</a>
+	                <b class="summercamp-2016">Where: </b>{{site.data.svrtours.where}}
 	                <br><br>
-	                <b class="summercamp-2016">Who: </b>All families and mentors are welcome; students under the age of 14 must be accompanied by an adult chaperone. 
-                </p>
-                <p class="summercamp-2016">{{site.data.svr-2017.AboutTheTour.paragraph}}</p>
+	                <b class="summercamp-2016">Who: </b>{{site.data.svrtours.who}}
+	                <br><br>
+                	<b class="summercamp-2016">What: </b>{{site.data.svrtours.what}}</p>
+                <p class="summercamp-2016">
+                	Feel free to email Kenny Cheung (<a href="mailto:kcheung@palyrobotics.com">kcheung@palyrobotics.com</a>) with any questions.
             </div>
             <div class="col-md-4">
-            	<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=0099ff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
+            	{% for img in site.data.svrtours.images %}
+            	    <img src="{{img}}" style="width:100%;"> </br> </br>
+            	{% endfor %}
             </div>
 		</div>
 	</div>
@@ -63,6 +68,11 @@ permalink: /svr-2017/
 		</div>
 	</div>-->
 	<div class="container tab-pane fade in" id="registration">
+		<div class="col-md-12">
+            <p class="summercamp" style="text-align:center;">
+                <iframe src="https://docs.google.com/a/palyrobotics.com/forms/d/e/1FAIpQLSeqgWxsDgERsny2pDzljXJC8r0IKF80FUSZtA6kBehlxS8VBA/viewform?embedded=true" style="margin: 0 auto;display:block;" width="80%" height="720" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </p>
+        </div>
 	</div>
 </div>
 

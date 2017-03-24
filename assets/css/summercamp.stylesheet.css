@@ -112,3 +112,6 @@ hr.special-hr {
 	text-align: center;
 	vertical-align: middle !important;
 }
+b {
+	margin-left:0px !important;
+}
