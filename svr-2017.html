@@ -1,5 +1,5 @@
 ---
-layout: pages-fixed-footer
+layout: pages
 title: Silicon Valley Regional Tours
 permalink: /svr-2017/
 ---
@@ -16,7 +16,7 @@ permalink: /svr-2017/
         <div class="col-md-12">
             <ul class="nav nav-pills red">
                 <li class="active"><a class="menu" data-toggle="tab" href="#about-the-tour">About the Tour</a></li>
-                <li><a class="menu" data-toggle="tab" href="#faq">FAQ</a></li>
+                <!--<li><a class="menu" data-toggle="tab" href="#faq">FAQ</a></li>-->
                 <li><a class="menu" data-toggle="tab" href="#registration">Registration</a></li>
             </ul>
         </div>
@@ -26,15 +26,29 @@ permalink: /svr-2017/
 	<div class="container tab-pane fade in active" id="about-the-tour">
 		<br>
 		<div class="row less-marg">
-			<div class="col-md-7">
+			<div class="col-md-8">
+                <p class="summercamp-2016">
+                	<b>When: </b>Saturday, April 1, 2017 
+	                <ul>
+	                	<li>11:00 am to 12:15 pm: Structured guided tour of venue</li>
+	                	<li>12:15 pm to 12:30 pm: Alliance Selections (optional)</li>
+	                	<li>12:30 pm to 1:30 pm: Lunch Break (not provided, but location is close to restaurants)</li>
+	                	<li>1:30 pm onwards: Elimination Matches (Recommended)</li>
+	                </ul>
+	            </p>
+	            <p class="summercamp-2016">
+	                <b class="summercamp-2016">Where: </b><a target="_blank" class="paragraph-links" href="http://bit.ly/2mWnwxm">San Jose State University Event Center</a>
+	                <br><br>
+	                <b class="summercamp-2016">Who: </b>All families and mentors are welcome; students under the age of 14 must be accompanied by an adult chaperone. 
+                </p>
                 <p class="summercamp-2016">{{site.data.svr-2017.AboutTheTour.paragraph}}</p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4">
             	<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=0099ff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
             </div>
 		</div>
 	</div>
-	<div class="container tab-pane fade in" id="faq">
+	<!--<div class="container tab-pane fade in" id="faq">
 		<div class="row less-marg">
 			{% for item in site.data.svr-2017.FAQ %}
 			<div class="row less-marg">
@@ -47,7 +61,14 @@ permalink: /svr-2017/
 			</div>
 			{% endfor %}
 		</div>
-	</div>
+	</div>-->
 	<div class="container tab-pane fade in" id="registration">
 	</div>
 </div>
+
+<style>
+li {
+	font-size:19.5px !important;
+}
+
+</style>
