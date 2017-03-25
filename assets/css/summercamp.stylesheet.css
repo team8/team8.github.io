@@ -92,6 +92,10 @@ a.menu {
     margin-top: 15px;
 }
 
+a.menu-highlight {
+    background-color: #afcee9;
+}
+
 div.less-marg {
     margin:0px;
 }
