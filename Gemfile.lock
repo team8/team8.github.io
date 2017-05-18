@@ -15,7 +15,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    colorator (1.1.0)b
+    colorator (1.1.0)
     ffi (1.9.14)
     ffi (1.9.14-x64-mingw32)
     ffi (1.9.14-x86-mingw32)
@@ -70,7 +70,7 @@ DEPENDENCIES
   sinatra!
 
 RUBY VERSION
-   ruby 2.3.0p0
+   ruby 2.3.3p222
 
 BUNDLED WITH
    1.14.3

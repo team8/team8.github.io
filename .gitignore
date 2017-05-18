@@ -4,3 +4,5 @@ _site
 _site/feed.xml
 *.coffee.js
 *.DS_Store
+vendor
+.bundle
