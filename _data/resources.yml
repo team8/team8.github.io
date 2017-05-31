@@ -52,8 +52,8 @@ Links:
       link: STIMS FAQ
       des: A webpage with answers to common questions about signing up for STIMS.
 
-  Build-Files:
-    title: Build Files
+  Design-Files:
+    title: Design Files
 
     OcT:
       link: Octagon Concept CAD
@@ -68,11 +68,7 @@ Links:
 
     Leadership-Agenda:
       link: Leadership Meeting Agenda
-      des: A google document that contains notes from the most recent leadership meeting.
-
-    Leadership:
-      link: Leadership Meeting Agenda Topic Submission
-      des: Fill out this simple form to add a topic to the Monday meeting agenda!
+      des: The agenda for the upcoming leadership meeting (Mondays @ 7:30pm in Room 903).
 
 Maps:
   Location:
