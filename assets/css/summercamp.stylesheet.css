@@ -24,7 +24,7 @@ h3.summercamp-header.sessions {
     margin-bottom:25px;
 }
 
-h3.summercamp-header-2016 {
+h3.summercamp-header2 {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     margin-top:7px;
@@ -55,7 +55,7 @@ p.summercamp {
     margin-top: 30px;
     font-family: 'Poppins', sans-serif;
 }
-p.summercamp-2016 {
+p.summercamp-paragraph {
     font-size: 19.5px;
 
     margin-bottom: 20px;
@@ -82,10 +82,6 @@ a.active {
     background-color:green;
 }
 
-.red .active a,
-.red .active a:hover {
-    background-color: red;
-}
 
 a.menu {
     color:#333;

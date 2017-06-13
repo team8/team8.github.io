@@ -1,0 +1,77 @@
+---
+layout: pages
+title: Open Lab Hours
+permalink: /openlabhours/
+---
+<!-- Body begins here -->
+
+    <link rel = "stylesheet" type = "text/css" href = "/assets/css/summercamp.stylesheet.css">
+
+    <div class = "container">
+        <div class = "col-md-12">   
+            <h2 class="summercamp-title">Open Lab Hours</h2>
+            <hr class="one-hr"/>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-12">
+            <ul class="nav nav-pills">
+                <li class="active"><a class="menu" data-toggle="tab" href="#about">About</a></li>
+                <li><a class="menu" data-toggle="tab" href="#registration">Registration</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tab-content">
+    	<div class="container tab-pane fade in active" id="about">
+        <br>
+        <div class="row less-marg">
+            <div class="col-md-12">
+                <p class="paragraph">{{site.data.open-lab-hours.OpenLabHours.paragraph}}</p>
+                <p class="paragraph"><b>Dates and Times:</b><br>
+                	Thursday 6:30pm - 9pm<br>
+                	Saturday 2pm - 6pm<br>
+                	Sunday 2pm - 5pm<br>
+                </p>
+            </div>
+            <div class="col-md-12">
+            	<hr class="special-hr"/>	
+                <h3 class="summercamp-header2">What We Do</h3>
+                <p class="paragraph">{{site.data.open-lab-hours.WhatWeDo.paragraph1}}</p>
+                <p class="paragraph">{{site.data.open-lab-hours.WhatWeDo.paragraph2}}</p>
+            </div>
+            <div class="col-md-12">
+            	<hr class="special-hr"/>	
+                <h3 class="summercamp-header2">Summer Projects</h3>
+                <p class="paragraph">Below are some of the major projects that students participating in Open Lab Hours will be working on.</p>
+                <p class="paragraph">
+                <b>Off-Season First Steamworks Robot</b> <br>
+                	{{site.data.open-lab-hours.Robot.paragraph}}
+				</p>
+				<p class="paragraph">
+                <b>Summer Camp Presentation</b> <br>
+                	{{site.data.open-lab-hours.SummerCamp.paragraph}}
+				</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="container tab-pane fade in" id="registration">
+        	<br>
+        	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeE6PRdmICuhg8gfJCGTGNUdYJ66DjOj_OIw-P6HrsjvCGrxQ/viewform?embedded=true" style="margin: 0 auto;display:block;" width="80%" height="720" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+    </div>
+
+
+    <style>
+    p.paragraph {
+    	font-size: 19.5px;
+		margin-bottom: 20px;
+		font-family: 'Poppins', sans-serif;
+    }
+
+    hr.special-hr {
+    	margin-top:10px;
+    }
+
+    </style>
