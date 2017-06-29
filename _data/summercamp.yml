@@ -40,26 +40,26 @@
             question: Is previous experience required?
             answer: Not at all. We hope to introduce all campers to STEAM regardless of what they already know. If they have previous experience, that is totally fine, and we will be sure to keep them engaged with interesting activities.
         -
-            question: I'm confused, how does registration work?
-            answer: Don't worry, it can be confusing. We are offering the camp two different weeks, and each week, there are four different sessions to choose from. 
+            question: When is the camp offered and what are the different sessions?
+            answer: We are offering the camp two different weeks. Each week, there are four different sessions to choose from.  Check out the Sessions tab for more information.
         -
             question: What if a session is full?
-            answer: We are currently waitlisting people for sessions that are full. If the waitlist is still open for a given session, please select that session during registration to be automatically added to its waitlist. If the waitlist is closed for a given session, we cannot add any more people to the waitlist for that session.
+            answer: We are currently waitlisting people for sessions that are full. If the waitlist is still open for a session, please select that session during registration to be added to its waitlist. If the waitlist is closed for a session, we cannot add any more students.
         -
-            question: Where do the donations for the camp go?
-            answer: The recommended donations ($350 per week) are handled by the Palo Alto High School Robotics Boosters, which is the non-profit entity that supports the team. The boosters fund every aspect of the team, from covering summer camp costs to paying for the robot components and competition expenses. Your donation is highly appreciated.
+            question: Where do the donations for the camp go and what are they used for?
+            answer: The requested donations ($350 per week per child) are handled by the Palo Alto High School Robotics Boosters, which is the non-profit entity that supports the team. The boosters fund every aspect of the team, from covering summer camp costs to paying for the robot components and competition expenses. Your contribution is highly appreciated.
         - 
             question: Since it is a donation to a non-profit, can I receive a tax deduction?
-            answer: Yes, absolutely! The Paly Robotics Boosters will send a receipt with the tax ID number.
+            answer: Yes, absolutely! The Paly Robotics Boosters will send a donation receipt, and our EIN (Employer Identification Number) is 611682088.
         -
             question: Can I donate by mailing in a check?
-            answer: "While PayPal is the best method for donating, we also accept donations via check. You can make the check payable to Palo Alto High School Robotics Boosters Club, add Summer Camp to the memo, and mail it to: <br> Palo Alto High School Robotics Boosters Club<br>50 Embarcadero Road<br>Palo Alto, CA 94301"
+            answer: "While PayPal is the best method for donating, we also accept donations via check.  Please make the check payable to Palo Alto High School Robotics Boosters Club and add Summer Camp to the memo.  Either bring it to the first day of camp or mail it to: <br> Palo Alto High School Robotics Boosters Club<br>50 Embarcadero Road<br>Palo Alto, CA 94301"
         -
             question: Will there be adult supervision?
-            answer: Although the team is run primarily by students, we have mentors and coaches who will be there to supervise the summer camp at all times, just as they would do during normal team lab hours.
+            answer: Although the camp is run primarily by student counselors, we have mentors and coaches who will be there to supervise at all times.
         -
-            question: How is safety going to be enforced when using tools/machinery?
-            answer: Our team members are well versed in safe operation of all the machines and tools in the lab, but again, adults will be present to keep an eye on campers as well.
+            question: How is safety going to be enforced while using tools and machinery?
+            answer: Our team members are well versed in safe operation of all the machines and tools in the lab, but adults will be present to keep an eye on campers as well.
         -
             question: What is the policy regarding lunch and snacks?
             answer: Campers will have to bring their own lunch, but we will be providing nut-free snacks to campers during breaks.
@@ -68,6 +68,6 @@
             answer: More information will be sent before the camp, but you can find the location of our lab on the <a class="paragraph-links href="resources.html">Resources</a> page.
         - 
             question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
-            answer: We cannot promise anything, but membership will be decided based on interest and commitment to the team.
+            answer: We cannot promise anything, but membership will be decided in the Fall based on interest and commitment to the team.
 
 ...
