@@ -12,11 +12,7 @@ Leads1:
         role: Team Captain
         email: dardeshna@palyrobotics.com
         description: >
-            Devin joined the team in 2015 as a freshman. Initially unsure what he wanted to do, he eventually settled on being a 
-            part of the Build Team to help manufacture and assemble the robot. Sophomore year, in addition to continuing on the 
-            Build Team, Devin organized and readied the tools and supplies to take to competitions as well as kept an eye on safety 
-            while the build team was working. Throughout his Junior year, Devin hopes to bring the Build Team closer together and 
-            continue to push members to refine and improve their skills.
+            Devin joined the team as a Build Team member in 2015, and has been actively involved in robot design, fabrication and assembly ever since.  As a sophomore, he organized supplies for competition and taught the machine safety and training classes during the off-season.  The following year, as Build Captain, Devin led the effort to bring our 2017 robot design to life.  This year, with the responsibility of Team Captain, he plans to continue building the robotics team community and help younger members develop both their technical and leadership skills.
     -
         id-number: 1
         mobile-id-number: 17
@@ -120,7 +116,7 @@ Leads3:
         id-number: 9
         mobile-id-number: 25
         name: Caleb Tan
-        image: /assets/img/leads/placeholder-200x200
+        image: /assets/img/leads/caleb.jpg
         role: Webmaster
         email: ctan@palyrobotics.com
         description: >
@@ -138,53 +134,42 @@ Leads3:
     -
         id-number: 11
         mobile-id-number: 27     
-        name: Kendall Shaw
-        image: /assets/img/leads/kendall.jpg
+        name: Amy Lin
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Treasurer
-        email: kshaw@palyrobotics.com
+        email: alin@palyrobotics.com
         description: >
-            Kendall started out as an eager build team freshman and quickly showed that he was up for any challenge. As the year ended, he stepped into the role of treasurer, a position vital for keeping the team running. In the coming year, Kendall is looking forward to 
-            improving the treasury system on the team as well as continuing to be an active member of build team.
+            Coming Soon
    
 
 Leads4:
     -
         id-number: 12
         mobile-id-number: 28
-        name: Liam Sherlock
-        image: /assets/img/leads/liam.jpg
+        name: Jeffery Yu
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Competition Management
-        email: lsherlock@palyrobotics.com
+        email: jyu@palyrobotics.com
         description: >
-            Liam Sherlock is a senior member of Team 8, currently working as a competition manager. In the past, he worked 
-            as a programmer, contributing code to our central codebase. However, in this incoming year, his primary role 
-            is to plan the logistics for our regional and offseason competitions. Whether it’s booking hotels, planning 
-            daytrips, or feeding the whole team, Liam does it all! When he’s not planning competitions or helping around the 
-            lab, he enjoys juggling and art.
+            Coming Soon
     -
         id-number: 13
         mobile-id-number: 29
-        name: Eddie Shi
-        image: /assets/img/leads/eddie.jpg
+        name: Lawrence Chang
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Pit Management/Safety Captain
-        email: eshi@palyrobotics.com
+        email: lchang@palyrobotics.com
         description: >
-            Eddie joined the build subteam of Paly robotics during his freshman year. As a sophomore, he currently oversees 
-            the pit, the place where the robot gets fixed during competition, and makes sure that it is well stocked to 
-            fix the robot at anytime. He also makes sure that people are being safe when using machines or power tools. 
-            During this coming year, he hopes to make a bigger impact on Team 8 and also make sure that everyone is safe 
-            while constructing/fixing the robot.
+            Coming Soon
     -
         id-number: 14
         mobile-id-number: 30
-        name: James Ngo
-        image: /assets/img/leads/james.jpg
+        name: Elaine Liu
+        image: /assets/img/leads/placeholder-200x200.jpeg
         role: Team Glue
-        email: jngo@palyrobotics.com
+        email: elaineliu@palyrobotics.com
         description: >
-            James Ngo is a senior member of Paly robotics. Returning for his fourth year, James originally joined in his freshman year as part of the programming sub team. Through his hard work and dedication, 
-            James was soon promoted to the programming team captain. He held that post for two years and has been promoted to chief glue. Now he coordinates inner team events and acts as the “glue” that helps the 
-            team act as one cohesive unit.
+            Coming Soon
 
     - 
         id-number: 15
