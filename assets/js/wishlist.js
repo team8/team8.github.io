@@ -6,8 +6,8 @@ var itemsObject = Object;
   $(document).ready(function(){
     
     //Retrieving items...
-    $.getJSON( "https://spreadsheets.google.com/feeds/list/1vWUMlrsi68jPKpUP1JCNLtbMooPm17zXeZaMf9Dw1SY/od6/public/values?alt=json", function(data) {
-      itemsObject = data.feed.entry;
+    $.getJSON( "https://spreadsheets.google.com/feeds/list/1dJP9wr7XmPxGEo28wU5zNUAvR-EnljaTrrKOKmpOe_I/od6/public/values?alt=json", function(data) {
+      itemsObject = data.feed.entry; 
       sortItems();
     });
   });
