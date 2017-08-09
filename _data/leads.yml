@@ -124,10 +124,10 @@ Leads3:
     -
         id-number: 10
         mobile-id-number: 26
-        name: Vyomika Gupta
+        name: Elaine Liu
         image: /assets/img/leads/placeholder-200x200.jpeg
-        role: Lab Manager
-        email: vgupta@palyrobotics.com
+        role: Webmaster
+        email: elaineliu@palyrobotics.com
         description: >
             Coming Soon
 
@@ -164,13 +164,12 @@ Leads4:
     -
         id-number: 14
         mobile-id-number: 30
-        name: Elaine Liu
+        name: Vyomika Gupta
         image: /assets/img/leads/placeholder-200x200.jpeg
-        role: Team Glue
-        email: elaineliu@palyrobotics.com
+        role: Lab Manager
+        email: vgupta@palyrobotics.com
         description: >
             Coming Soon
-
     - 
         id-number: 15
         mobile-id-number: 31
