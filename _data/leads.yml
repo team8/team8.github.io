@@ -134,10 +134,10 @@ Leads3:
     -
         id-number: 11
         mobile-id-number: 27     
-        name: Amy Lin
+        name: Vyomika Gupta
         image: /assets/img/leads/placeholder-200x200.jpeg
-        role: Treasurer
-        email: alin@palyrobotics.com
+        role: Lab Manager
+        email: vgupta@palyrobotics.com
         description: >
             Coming Soon
    
@@ -146,10 +146,10 @@ Leads4:
     -
         id-number: 12
         mobile-id-number: 28
-        name: Jeffery Yu
+        name: Amy Lin
         image: /assets/img/leads/placeholder-200x200.jpeg
-        role: Competition Management
-        email: jyu@palyrobotics.com
+        role: Treasurer
+        email: alin@palyrobotics.com
         description: >
             Coming Soon
     -
@@ -164,10 +164,10 @@ Leads4:
     -
         id-number: 14
         mobile-id-number: 30
-        name: Vyomika Gupta
+        name: Jeffery Yu
         image: /assets/img/leads/placeholder-200x200.jpeg
-        role: Lab Manager
-        email: vgupta@palyrobotics.com
+        role: Competition Management
+        email: jyu@palyrobotics.com
         description: >
             Coming Soon
     - 
