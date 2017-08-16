@@ -40,11 +40,7 @@ Leads1:
         role: Strategic Director
         email: spujji@palyrobotics.com
         description: >
-            Simran Pujji is a junior entering her third year on Team 8. She joined the build subteam in her freshman year and 
-            has since held the role of co-summer camp lead and competition manager, but this hasn’t stopped her from working 
-            on build projects when she can. When she is not working on robotics, she enjoys reading (and finishing homework). 
-            Her favorite part of FIRST Robotics, besides build season, is attending competitions and seeing all of the robots 
-            other teams made. She’s looking forward to another great year of FIRST Robotics with Team 8 :)
+            Simran Pujji is a rising senior and this will be her 4th year on Paly Robotics. As the Strategic Director this year, she hopes to involve members in FLL and FTC events to set the team up to be able to host tournaments and mentor teams. As a 2017 Dean's List Winner, she's eager to work with her fellow winners and finalists on collaborative projects and to involve the team in more initiatives within FIRST. She's looking forward to another great season :)
 
 
 Leads2:
@@ -56,29 +52,23 @@ Leads2:
         role: Build Captain
         email: syamamoto@palyrobotics.com
         description: >
-            Shota Yamamoto is a junior on Team 8 and has been on the team since his sophomore year. He was originally on 
-            business team, but realized that his true passion was being more hands on with the robot. While on business, 
-            Shota helped find sponsors, and his hard work helped find the team food sponsors for build season. In addition, 
-            he was the lead for the Spirit and Stanford Concessions committees. As the year progressed, he found himself 
-            helping and organizing scouting and strategy at competitions, cage reorganization in the offseason and the PALY 
-            Robotics summer camp. Hoping to make a difference on Team 8, he delved into all work he was given, and is the 
-            reason he is our Build Captain this year.
+            Shota Yamamoto (also known as Spicyboi) is a senior on Team 8 and has been on the team since his sophomore year. He was originally on business team, but realized that his true passion was robot design and fabrication. While on business, Shota helped find sponsors, and his hard work helped find the team food sponsors for build season. As a junior he was the lab manager and purchased a 3D printer and laser cutter through the Paly district. This led to his unofficial title as the Team Maker. This year, as the Build Captain he plans to lead the effort of bringing the t shirt shooting robot design and 2018 robot design to life, along with making sure all members know that whenever something goes wrong, it's a software problem.
 
     -
         id-number: 5
         mobile-id-number: 21
         name: Eric Liu
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/eric.png
         role: Software Captain
         email: eliu@palyrobotics.com
         description: >
-            Coming soon
+            Eric is a senior who joined the team as a software(then known as programming) member during his freshman year. Starting with no programming experience, he learned quickly and soon became one of the primary programmers. As the software captain this year, he manages the development and testing of the code and ensures that every member knows that when something doesn't work, it's a build problem.
 
     - 
         id-number: 6
         mobile-id-number: 22
         name: Jacob Zajac
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/jacob.jpg
         role: Design Captain
         email: jzajac@palyrobotics.com
         description: >
@@ -88,7 +78,7 @@ Leads2:
         id-number: 7
         mobile-id-number: 23
         name: Jennifer Xu
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/jennifer.jpg
         role: Business Captain
         email: jxu@palyrobotics.com
         description: >
@@ -120,26 +110,26 @@ Leads3:
         role: Webmaster
         email: ctan@palyrobotics.com
         description: >
-            I made this website and I run it.
+            I made this website and I maintain it with my fellow webmsater over there ---->
     -
         id-number: 10
         mobile-id-number: 26
         name: Elaine Liu
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/elaine.jpg
         role: Webmaster
         email: elaineliu@palyrobotics.com
         description: >
-            Coming Soon
+            Elaine Liu is a sophomore on Paly Robotics and has been on the team since her freshman year. She discovered her passion in computer science in middle school and has since been pursuing her dreams in a STEM career by developing her potential in web. She enjoys coding in HTML & CSS and watching beautiful websites come to life through code. In her spare time, she watches a variety of shows and spends most of her time online. (XD)
 
     -
         id-number: 11
         mobile-id-number: 27     
         name: Vyomika Gupta
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/vroom.png
         role: Lab Manager
         email: vgupta@palyrobotics.com
         description: >
-            Coming Soon
+            Vyomika is a sophomore who joined Team 8 as part of the build team last year. She works with all aspects of robot production, from conceptualization to fabrication. As lab manager, she works to keep the lab as well-equipped as possible. She also enjoys pit scouting at competitions, and meeting people from other teams. When not in the lab, she dances, and tries not to procrastinate about doing homework.
    
 
 Leads4:
@@ -147,11 +137,11 @@ Leads4:
         id-number: 12
         mobile-id-number: 28
         name: Amy Lin
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/amy.jpg
         role: Treasurer
         email: alin@palyrobotics.com
         description: >
-            Coming Soon
+            Amy is a sophomore who has been on the team since the beginning of high school. Throughout her freshman year, she has worked with the tools of the trade to design and machine parts for the robot, and plans to continue working with and learning from the build team. When not with the team, she is found either drawing or reading about old men with swords.
     -
         id-number: 13
         mobile-id-number: 29
