@@ -110,7 +110,7 @@ Leads3:
         role: Webmaster
         email: ctan@palyrobotics.com
         description: >
-            I made this website and I maintain it with my fellow webmsater over there ---->
+            I made this website and I maintain it with my fellow webmaster over there ---->
     -
         id-number: 10
         mobile-id-number: 26
@@ -155,11 +155,11 @@ Leads4:
         id-number: 14
         mobile-id-number: 30
         name: Jeffery Yu
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/jeffery.jpg
         role: Competition Management
         email: jyu@palyrobotics.com
         description: >
-            Coming Soon
+            Jeffery Yu is a junior on Team 8 who joined freshman year. As the team's current Competition Manager, Jeffery ensures the survival and satiety of the team during the competition season. When not doing team related tasks, Jeffery enjoys his two and one half hours of AP US history homework every day, as well as playing trading card games all by his lonesome.
     - 
         id-number: 15
         mobile-id-number: 31
