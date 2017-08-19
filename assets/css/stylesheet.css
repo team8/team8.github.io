@@ -430,8 +430,8 @@ h4.web {
 p.sponsor-p{
 	font-size:20px;
 	font-family: 'Poppins', sans-serif;
-	margin-top:20px;
 }
+
 /*Sponsors zone ends here------------------------------------*/
 /*Buttons ---------------------------------------------------*/
 .btn {
@@ -466,7 +466,21 @@ hr.sponsorshr {
 
 /* Sponsors stuff starts here */
 	img.sponsor {
-		width: 100%;
+		max-height: 100%;  
+		max-width: 100%; 
+		width: auto;
+		height: auto;
+		position: absolute;  
+		top: 0;  
+		bottom: 0;  
+		left: 0;  
+		right: 0;  
+		margin: auto;
+	}
+	
+	p.sponsor-p {
+		display: table-cell;
+		vertical-align: middle;
 	}
 	
 	h2.sponsors-h2 {
@@ -481,7 +495,9 @@ hr.sponsorshr {
 	
 	.flip-container {
 		-webkit-perspective: 1000;
-		margin: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 15px;
 	}
 	/* flip the pane when hovered */
 	
@@ -495,6 +511,10 @@ hr.sponsorshr {
 	.back {
 		width: 280px;
 		height: 140px;
+	}
+	
+	.back {
+		display: table;
 	}
 	/* flip speed goes here */
 	
