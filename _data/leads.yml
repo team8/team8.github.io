@@ -26,11 +26,11 @@ Leads1:
         id-number: 2
         mobile-id-number: 18
         name: Eli Zucker
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/eli.jpg
         role: Project Manager
         email: ezucker@palyrobotics.com
         description: >
-            Coming Soon
+            Eli is a senior who joined the team as a Build member his freshman year. In addition to the normal fabrication skills he learned on the subteam, Eli specialized in FRC electronics, such as connecting sensors and wiring the roborio or motor controllers. Additionally, he learned TIG welding during freshman and sophomore year. Junior year, Eli took on the role of Build Project manager, and moved to become the teamwide Project Manager senior year. As Project Manager this year, Eli coordinates the work of each subteam, creates calendars, and makes sure the robot is completed on time.
 
     -
         id-number: 3
@@ -146,11 +146,11 @@ Leads4:
         id-number: 13
         mobile-id-number: 29
         name: Lawrence Chang
-        image: /assets/img/leads/placeholder-200x200.jpeg
+        image: /assets/img/leads/lawrence.jpg
         role: Pit Management/Safety Captain
         email: lchang@palyrobotics.com
         description: >
-            Coming Soon
+            Lawrence Chang is a sophomore on the Paly Robotics Team. This year, he is taking on the role of Pit Management, and is enthusiastic about keeping people and the lab safe. As he always says, "Remember to wear safety glasses!"
     -
         id-number: 14
         mobile-id-number: 30
