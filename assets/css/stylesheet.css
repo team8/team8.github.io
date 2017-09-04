@@ -130,12 +130,13 @@ li.donate-li {
  }
 /* making navbar collapse earlier */
 
- @media (max-width: 1200px) {
+ @media (max-width: 1199px) {
     .navbar-header {
         float: none;
     }
     .navbar-left,.navbar-right {
         float: none !important;
+        margin-right: 0px !important;
     }
     .navbar-toggle {
         display: block;
@@ -165,7 +166,78 @@ li.donate-li {
     .collapse.in{
         display:block !important;
     }
+	.dropdown-menu {
+		position: static !important;
+		float: none !important;
+		width: auto !important;
+		margin-top: 0 !important;
+		background-color: transparent !important;
+		border: 0 !important;
+		box-shadow: none !important;
+    }
+    
+    .navbar-nav .dropdown-menu>li>a {
+    	line-height: 20px !important;
+    }
+    .navbar-nav .dropdown-menu .dropdown-header, .navbar-nav .dropdown-menu>li>a {
+    	padding: 5px 15px 5px 25px !important;
+    	
+    }
+    
+    .navbar-inverse .navbar-nav .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .dropdown-menu>li>a:hover {
+		color: #fff !important;
+		background-color: transparent !important;
+	}
+	
+    .dropdown-menu>li>a {
+    	color: #9d9d9d !important;
+    }
+    
+    .dropdown-menu>li>a {
+    	display: block !important;
+    	clear: both !important;
+    	font-weight: 400 !important;
+    	white-space: nowrap !important;
+    }
+    
 }
+ 
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .navbar-collapse {
+        margin-top: 30px;
+        border-radius: 3px;
+        border: 0px;
+    }
+    .navbar-nav {
+        float: none!important;
+        padding: 10px;
+        margin-top: 0px;
+    }
+ 
+    a.links {
+		height:75px !important;
+		padding-top:30px !important;
+		color:#dddddd !important;
+		font-family: 'Poppins', sans-serif;
+		font-size:15px;
+	}
+	
+	a.donate-button {
+		background-color:green !important;
+		border-radius: 3px;
+		transition: .2s;
+		padding-top:15px !important;
+		margin-top:15px !important;
+		height:50px !important;
+		line-height:23px !important;
+ 	}
+	li.donate-li {
+		height: 50px !important;
+	}
+	
+}
+    
 /*making collapsed dropdown nav have a smaller height+different padding*/
 @media (max-width: 767px) {
     .navbar-nav > li > a {
@@ -186,6 +258,18 @@ li.donate-li {
     .glyphicon-chevron-up {
     	padding-right:30px;
     }
+    a.donate-button {
+		background-color:green !important;
+		border-radius: 3px;
+		transition: .2s;
+		padding-top:15px !important;
+		margin-top:15px !important;
+		height:45px !important;
+		line-height:23px !important;
+ 	}
+ 	li.donate-li {
+		height: 50px !important;
+	}
 
 }
 /*No Scrolling for navbar collapsed menu*/
@@ -197,24 +281,45 @@ li.donate-li {
     background-color:#222;
 }
 
+@media (min-width: 1200px) {
+	/*making dropdown link scroll down when clicked */
+	.dropdown .dropdown-menu {
+		-webkit-transition: all 0.4s;
+		-moz-transition: all 0.4s;
+		-ms-transition: all 0.4s;
+		-o-transition: all 0.4s;
+		transition: all 0.4s;
+
+		max-height: 0;
+		display: block;
+		overflow: hidden;
+		opacity: 0;
+	}
+
+	.dropdown.open .dropdown-menu {
+		max-height: 300px;
+		opacity: 1;
+	}
+}
+
 /*making dropdown link scroll down when clicked */
-.dropdown .dropdown-menu {
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
+	.dropdown .dropdown-menu {
+		-webkit-transition: all 0.4s;
+		-moz-transition: all 0.4s;
+		-ms-transition: all 0.4s;
+		-o-transition: all 0.4s;
+		transition: all 0.4s;
 
-    max-height: 0;
-    display: block;
-    overflow: hidden;
-    opacity: 0;
-}
+		max-height: 0;
+		display: block;
+		overflow: hidden;
+		opacity: 0;
+	}
 
-.dropdown.open .dropdown-menu {
-    max-height: 300px;
-    opacity: 1;
-}
+	.dropdown.open .dropdown-menu {
+		max-height: 300px;
+		opacity: 1;
+	}
 
 
 
