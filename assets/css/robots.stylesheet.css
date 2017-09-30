@@ -28,7 +28,7 @@ a.active {
     background-color:green;
 }
 
-/*coloring a menu + increase font size */
+/* coloring a menu + increase font size */
 a.menu {
     color:#333;
     font-size:21px;
@@ -40,12 +40,35 @@ h3 {
     margin-top:0px;
 }
 
-/*section deals with inner descriptions for the robots*/
+/* section deals with inner descriptions for the robots */
 h4 {
     text-align:left;
     margin-top:10px;
+    font-size:23px;
+    margin-bottom:15px;
 }
 
 div.inner {
     padding:0px;
+} 
+
+ul.unstyled {
+    list-style-type:none;
+    padding-left:0px;
+    font-size:16px;
+}
+
+div.row {
+    padding-left:15px;
+    padding-right:15px;
+}
+/* deals with the specifications styling*/
+span.label {
+    padding:3px 5px 3px 5px;
+    background-color:#337ab7;
+    font-size:14px;
+}
+
+li.specifications {
+    margin-bottom:9px;
 }

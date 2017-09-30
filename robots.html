@@ -1,5 +1,5 @@
 --- 
-  layout: pages 
+  layout: pages-fixed-footer 
   title: Our Robots 
   permalink: /robots/
 ---
@@ -22,21 +22,48 @@
 	  </ul>
 	</div>
 	
+	<!-- loops through each robot -->
 	<div class="tab-content">
-		<div class="tab-pane fade in active" id="2017">
-			<div class="col-md-6">
-				<h3>Vali</h3>
-				<div class="col-md-6 inner">
-					<h4>Specifications</h4>
-				</div>
-				<div class="col-md-6 inner">
-					<h4>Competition History</h4>
-				</div>
- 			</div>
+		{% for item in site.data.robots %}
+		<div class="tab-pane fade in active" id="{{item.year}}">
 			<div class="col-md-4">
-				<img class="img-responsive vali" src="{{site.data.robots.Vali.image}}">
+				<h3>{{item.title}}</h3>
+				<img class="img-responsive vali" src="{{item.image}}">
+ 			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6 inner">
+						<h4>Specifications</h4>
+						<ul class="unstyled">
+							<!-- loops through robot specifications -->
+							{% for spec in item.Specifications %}
+							<li class="specifications"><span class="label">{{spec.specname}}</span> {{spec.spec}}</li>
+							{% endfor %}
+						</ul>
+					</div>
+					<div class="col-md-6 inner">
+						<h4>Competition History</h4>
+						<ul class="unstyled">
+							<!-- loops through each competition -->
+							{% for comp in item.CompHistory %}
+							<li class="specifications"><span class="label">{{comp.competition}}</span> {{comp.achievement}}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 inner">
+						<h4>Robot Abilities</h4>
+						{% for abilities in item.RobotAbilities %}
+						<ul>
+							<li>{{abilities.ability}}
+						</ul>
+						{% endfor %}
+					</div>
+				</div>
  			</div>
 		</div>
+		{% endfor %}
 	</div>
 </div>
 

@@ -566,9 +566,7 @@ div.navbar.navbar-inverse.navbar-static-bottom {
 	margin-bottom:0px;
 	border-radius:0px;
 }
-div.icons {
-	margin-top:25px;
-}
+
 /*for the icons:twiiter, facebook*/
 
 .foot {
@@ -583,6 +581,10 @@ i.youtube {
 i.twitter{
 	color:#00aced;
 }
+i.instagram{
+	color:#ffb6cd;
+}
+
 i:hover {
 	color:#F0F0F0;
 }

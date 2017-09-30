@@ -1,6 +1,46 @@
 # For the robot page #
 
 ---
-    Vali:
-      image: /assets/img/robots/vali.gif
+    -   
+        title: Vali
+        year: "2017"
+        Specifications:
+          -
+            specname: Name 
+            spec: Vali
+          -
+            specname: Game
+            spec: Steamworks
+          - 
+            specname: Size
+            spec: 40″ W x 31″ L x 24″ H
+          -
+            specname: Weight
+            spec: 92.9 lbs
+        # history of competition for vali in 2017#
+        CompHistory:
+          - 
+            competition: Ventura Regional
+            achievement: Quarterfinalists, Creativity Award, Entrepreneurship Award
+          -
+            competition: Silicon Valley Regional
+            achievement: Finalists, Entrepreneurship Award
+          -
+            competition: Roebling Division
+            achievement: Semifinalists
+        # abilities of robot list
+        RobotAbilities:
+          -
+            ability: Max 6 gears per match
+          - 
+            ability: 10 second climb with velcro winch on elastic velcro rope
+          -
+            ability: Horizontal slider for peg and feeder station alignment
+          - 
+            ability: Octogonal bumpers on 8 wheel west coast drive
+          -
+            ability: Center and Side Peg autonomous
+
+        image: /assets/img/robots/vali.gif
+
 ...
