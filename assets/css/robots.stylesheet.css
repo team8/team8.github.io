@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* sizing for head title and hr */
 h2.robots-title {
     text-align: center;
 	font-family: 'Poppins', sans-serif;
@@ -30,5 +31,6 @@ a.active {
 /*coloring a menu + increase font size */
 a.menu {
     color:#333;
-    
+    font-size:21px;
+    margin-bottom:5px;
 }

@@ -91,7 +91,7 @@ a.links {
 
 /*green underlines on links*/
 li.links{
-	border-bottom: green transparent px;
+	border-bottom: green transparent;
 }
 li.links:hover{
 	border-bottom: green solid 5px;
