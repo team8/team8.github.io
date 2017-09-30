@@ -1,6 +1,9 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 h2.summercamp-title {
     text-align: center;
-	font-family: 'Poppins', sans-serif;
 	font-size: 48px;
     margin-top: 165px;
 }
@@ -16,7 +19,6 @@ h2.summercamp-title {
 }
 
 h3.summercamp-header {
-	font-family: 'Poppins', sans-serif;
 	font-size: 32px;
 }
 
@@ -25,13 +27,11 @@ h3.summercamp-header.sessions {
 }
 
 h3.summercamp-header2 {
-    font-family: 'Poppins', sans-serif;
     font-size: 32px;
     margin-top:7px;
 }
 
 h3.group-img-header {
-    font-family: 'Poppins', sans-serif;
 	font-size: 32px;
     margin-top: 45px !important;
     text-align: center;
@@ -53,13 +53,11 @@ img.group-img {
 p.summercamp {
     font-size: 19.5px;
     margin-top: 30px;
-    font-family: 'Poppins', sans-serif;
 }
 p.summercamp-paragraph {
     font-size: 19.5px;
 
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
 }
 hr.one-hr {
     margin-top:77px;
@@ -68,12 +66,10 @@ hr.one-hr {
 
 a.paragraph-links {
     font-size:22px;
-    font-family: 'Poppins', sans-serif;
 }
 
 li {
     font-size:22px;
-    font-family: 'Poppins', sans-serif;
 }
 li.active  {
     border-bottom:none;
@@ -88,9 +84,6 @@ a.menu {
     margin-top: 15px;
 }
 
-a.menu-highlight {
-    background-color: #afcee9;
-}
 
 div.less-marg {
     margin:0px;
@@ -99,9 +92,7 @@ div.less-marg {
 a.paragraph-links {
     font-size:19px;
 }
-.table {
-    font-family:'Poppins', sans-serif;
-}
+
 
 hr.special-hr {
     margin-top:40px;
