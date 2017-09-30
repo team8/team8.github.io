@@ -4,6 +4,7 @@
     -   
         title: Vali
         year: "2017"
+        active: "active"  # active makes one of the tabs active and the rest not active #
         Specifications:
           -
             specname: Name 
@@ -42,5 +43,46 @@
             ability: Center and Side Peg autonomous
 
         image: /assets/img/robots/vali.gif
+    -
+        title: Tyr
+        year: "2016"
+        active: ""
+        Specifications:
+          -
+            specname: Name 
+            spec: Tyr
+          -
+            specname: Game
+            spec: Stronghold
+          - 
+            specname: Size
+            spec: 40″ W x 31″ L x 24″ H
+          -
+            specname: Weight
+            spec: 92.4 lbs
+        # history of competition for tyr in 2016#
+        CompHistory:
+          - 
+            competition: Central Valley Regional
+            achievement: Finalists
+          -
+            competition: Silicon Valley Regional
+            achievement: Quarterfinalists
+          -
+            competition: Curie Division
+            achievement: ""
+        RobotAbilities:
+          -
+            ability: Capable of breaching low bar, rough terrain, moat, rock wall, cheval de frise, and ramparts
+          - 
+            ability: Can score 3 high goals per match with spring loaded pneumatic puncher
+          -
+            ability: Challenge the tower at the end of the match
+          - 
+            ability: 4 cim, 6 wheel west coast drive
+          -
+            ability: High goal or defense cross during autonomous
+
+        image: /assets/img/robots/tyr.jpg
 
 ...

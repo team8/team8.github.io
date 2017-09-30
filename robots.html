@@ -16,16 +16,15 @@
 <div class="container">
 	<div class="col-md-2">
 	  <ul class="nav nav-pills nav-stacked">
-	    <li class="active"><a class="menu" href="#2017">2017</a></li>
-	    <li><a class="menu" href="#2016">2016</a></li>
-	    <li><a class="menu" href="#2015">2015</a></li>
+	    <li class="active"><a class="menu" data-toggle="tab" href="#2017">2017</a></li>
+	    <li><a class="menu" data-toggle="tab" href="#2016">2016</a></li>
 	  </ul>
 	</div>
 	
 	<!-- loops through each robot -->
 	<div class="tab-content">
 		{% for item in site.data.robots %}
-		<div class="tab-pane fade in active" id="{{item.year}}">
+		<div class="tab-pane fade in {{item.active}}" id="{{item.year}}">
 			<div class="col-md-4">
 				<h3>{{item.title}}</h3>
 				<img class="img-responsive vali" src="{{item.image}}">
@@ -54,11 +53,11 @@
 				<div class="row">
 					<div class="col-md-12 inner">
 						<h4>Robot Abilities</h4>
-						{% for abilities in item.RobotAbilities %}
 						<ul>
-							<li>{{abilities.ability}}
+							{% for abilities in item.RobotAbilities %}
+							<li class="abilities">{{abilities.ability}}
+							{% endfor %}
 						</ul>
-						{% endfor %}
 					</div>
 				</div>
  			</div>
