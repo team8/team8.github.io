@@ -32,5 +32,20 @@ a.active {
 a.menu {
     color:#333;
     font-size:21px;
-    margin-bottom:5px;
+    margin-bottom:7px;
+}
+
+h3 {
+    font-size:33px;
+    margin-top:0px;
+}
+
+/*section deals with inner descriptions for the robots*/
+h4 {
+    text-align:left;
+    margin-top:10px;
+}
+
+div.inner {
+    padding:0px;
 }
