@@ -1,8 +1,8 @@
 h2.zerorobotics-title {
-    text-align: center;
+    text-align: left;
 	font-family: 'Poppins', sans-serif;
 	font-size: 48px;
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 h3.zerorobotics-header {
@@ -43,13 +43,13 @@ p.caption {
 }
 
 hr.one-hr {
-    margin-top: 72px !important;
     margin-bottom:0px;
 }
 hr {
     margin-top: 35px;
 }
 
+/* mobile styling for header */
 @media (max-width:767px) {
     h2.zerorobotics-title {
         font-size:30px;

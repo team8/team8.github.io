@@ -3,10 +3,10 @@
   h2.about-first {
       font-family:'Poppins',sans-serif;
       font-size:45px;
-      text-align:center;
+      text-align:left;
     }
     .first-container  {
-      padding-top:150px;
+      padding-top:120px;
     }
     .container {
       padding-left:15px;
@@ -20,6 +20,7 @@
       margin-bottom:35px;
     }
     
+    /* for mobile */
     @media (max-width:767px) {
     .first-container {
         font-size:30px;
@@ -28,6 +29,7 @@
     h2.about-first {
       font-size:30px;
     }
+
     hr {
         margin-top:40px !important;
     }

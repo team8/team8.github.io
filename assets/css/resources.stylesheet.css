@@ -10,14 +10,13 @@
 
 
     .Resources-h2 {
-        padding-top:150px;
+        padding-top:120px;
         font-family:'Poppins',sans-serif;
-        text-align: center;
+        text-align: left;
         font-size: 48px;
         color:#333;
     }
     hr {
-      margin-top:72px;
       margin-bottom:50px;
     }
 

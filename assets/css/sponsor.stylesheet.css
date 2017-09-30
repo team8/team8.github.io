@@ -2,10 +2,10 @@ div.no-marg {
 
 }
 h2.sponsor-h2 {
-	text-align: center;
+	text-align: left;
 	font-family: 'Poppins', sans-serif;
 	font-size: 48px;
-    margin-top: 165px;
+    margin-top: 140px;
 }
 h3.sponsor{
     font-family: 'Poppins', sans-serif;
@@ -13,10 +13,10 @@ h3.sponsor{
     margin-top: 35px;
 }
 hr {
-	margin-top:76px;
 	margin-bottom:0px;	
 }
 
+/* mobile reponsiveness */
 @media (max-width:767px) {
     h2.sponsor-h2 {
         font-size:30px;

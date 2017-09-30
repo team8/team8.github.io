@@ -20,13 +20,14 @@
 	
 	h2.contact-us-header {
 		margin-top:17px;
-		text-align: center;
-		padding-top: 150px;
+		text-align: left;
+		padding-top: 125px;
 		font-family: 'Poppins', sans-serif;
 		font-size: 48px;
 		color:#333;
 	}
 
+	/* for mobile */
 	@media (max-width:767px) {
 	    h2.contact-us-header {
 	        padding-top:73px;

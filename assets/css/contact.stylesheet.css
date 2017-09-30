@@ -1,13 +1,10 @@
 h2.contact-title {
-    text-align: center;
+    text-align: left;
 	font-family: 'Poppins', sans-serif;
 	font-size: 48px;
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
-hr {
-    margin-top:72px;
-}
 
     @media (max-width:767px) {
         h2.contact-title {
