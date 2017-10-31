@@ -91,7 +91,7 @@ a.links {
 
 /*green underlines on links*/
 li.links{
-	border-bottom: green transparent;
+	border-bottom: green transparent px;
 }
 li.links:hover{
 	border-bottom: green solid 5px;
@@ -443,7 +443,7 @@ div#AboutUs {
 }
 hr {
 	border:1px solid #333333;
-	margin-top:45px;
+	margin-top:75px;
 }
 
 h3.about-us {
@@ -671,7 +671,9 @@ div.navbar.navbar-inverse.navbar-static-bottom {
 	margin-bottom:0px;
 	border-radius:0px;
 }
-
+div.icons {
+	margin-top:25px;
+}
 /*for the icons:twiiter, facebook*/
 
 .foot {
@@ -686,10 +688,6 @@ i.youtube {
 i.twitter{
 	color:#00aced;
 }
-i.instagram{
-	color:#ffb6cd;
-}
-
 i:hover {
 	color:#F0F0F0;
 }
