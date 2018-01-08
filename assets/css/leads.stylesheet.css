@@ -27,6 +27,9 @@
 		color:#333;
 	}
 
+	hr {
+		margin-top:35px;
+	}
 	/* for mobile */
 	@media (max-width:767px) {
 	    h2.contact-us-header {

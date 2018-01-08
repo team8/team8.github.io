@@ -5,17 +5,20 @@ h2.contact-title {
     padding-top: 120px;
 }
 
-
-    @media (max-width:767px) {
-        h2.contact-title {
+/* for mobile */
+@media (max-width:767px) {
+    h2.contact-title {
         font-size:30px !important;
         padding-top:70px !important;
     }
-        hr {
+    hr {
         margin-top:40px !important;
     }
 }
 
+hr {
+    margin-top:35px;
+}
 
 
 button.submit {

@@ -20,6 +20,9 @@ h2.robots-title {
     }
 }
 
+hr.top-hr {
+    margin-top:35px;
+}
 /* removes green borders on the pills*/
 li.active  {
     border-bottom:none;
