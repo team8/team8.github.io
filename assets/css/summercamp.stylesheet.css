@@ -104,3 +104,8 @@ hr.special-hr {
 	text-align: center;
 	vertical-align: middle !important;
 }
+
+table.table{
+    font-family: 'Poppins', sans-serif;
+    font-size:19px;
+}

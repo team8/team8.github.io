@@ -4,70 +4,74 @@
     
 ---
     AboutTheCamp1:
-        paragraph1: This year, Paly Robotics will be offering two different weeks of our annual summer camp for incoming middle school students (incoming 6th - 9th). We hope to spark interest and start future high school students on a path in science, technology, engineering, art or math (STEAM). If you have any questions, feel free to contact us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.
-        image1: /assets/img/summercamp/about-the-camp1-img.jpg
-        image2: /assets/img/summercamp/aboutthecamp2-img.jpg
+        paragraph1: This year, Paly Robotics will be offering two weeks of our annual Paly Robotics Summer Camp for incoming 6th-9th graders. We aim to spark campers’ interests in innovation and start students on a successful path in science, technology, engineering, art, and/or math (STEAM). If you have any questions, feel free to contact us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>. 
+        paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2017 Recap Video to get a taste of what camp is like&#58;
+        image1: /assets/img/summercamp/amy-group.jpg
+        image3: /assets/img/summercamp/group.jpg
+        image4: /assets/img/summercamp/counselor.jpg
+        image2: /assets/img/summercamp/happiness.jpg
     AboutTheCamp2:
         -
-            title2: More than Robotics
-            paragraph2: When most people think about robotics, they picture machines that are controlled by computers to complete certain tasks. While building and programming robots is a big part of what we do, our team is much more than that below the surface. We have different sections of the team that focus on things such as art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the sessions offered, check out the Sessions page. 
+            title2: More than Robots
+            paragraph2: When most people think about robotics, they picture computer-controlled machines that are coded to complete certain tasks. While building and programming robots are a big part of what we do, our team provides many more opportunities outside of traditional technical fields. We have different subteams and groups that focus on other non-technical aspects, including art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the various sessions, check out the Sessions page.
         -
             title2: Counselors
-            paragraph2: Student mentoring is a big part of our team’s philosophy, and we rely on passing down knowledge from the older students to the younger students. Reflecting this philosophy, our high school team members will be teaching campers about STEAM through the different aspects of the robotics team. Just as we were taught by older team members, we hope to be able to teach what we have learned to the younger generation. 
+            paragraph2: Our team embraces and fosters a student-run philosophy, promoting student leadership as well as sustainability through having experienced veteran members pass down knowledge to younger students. Reflecting on this philosophy, our high school team members will be the counselors teaching campers and enriching their STEAM education. Just as we were mentored by older team members, we hope to be able to share what we have learned to the younger generation.
+
+    Table:
+        title: Weeks Offered
+        dates1: Week 1&#58; July 23 - 27
+        dates2: Week 2&#58; July 30 - August 3
+        time: Time
+        hour: 9 AM - 3 PM
+        location: Location
+        address: The Paly Robotics Lab (Room 903 at Palo Alto High School)
+
+
     Sessions1:
             paragraph: We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.
     Sessions2:
         -
             title: Robot Design and Hardware
-            img: /assets/img/summercamp/build-img.png
-            info: In the Robot Design and Hardware camp, campers will experience the build season of a FRC robot, where teams create a robot to compete in a timed game filled with challenges. During the camp, campers will experience the usage of power tools, specialized machines, and CAD software to design and manufacture their robot, culminating in a FRC-style mini-game at the end of the week. However, most importantly, they will have the experience of innovation, problem solving, and working as a team, the more important things to succeed in the 21st century.
+            img: /assets/img/summercamp/build-img2.png
+            info: The Robot Design and Hardware session gives campers an immersive, hands-on opportunity to design and build a robot for an FRC-style game challenge revealed at the beginning of the week. Campers will learn to ideate and iterate robot mechanisms through CAD software, power tools, and industry standard machines. They will also be motivated to innovate, solve problems, and cooperate as a team, while preparing for a competition at the end of the week. 
         -
             title: Programming
-            img: /assets/img/summercamp/programming-img.png
-            info: The programming camp will further campers' computer science skills through projects and activities using Python 3, incorporating control flow and other computer science principles. Campers will leave the camp with an expanded knowledge of computer science and increased programming proficiency. In addition, they will gain experience with the industry standard for version control, git, as they collaborate on projects with other campers. All skill levels will be accommodated.
+            img: /assets/img/summercamp/programming-img2.png
+            info: The Programming session aims to spark students’ interests in computer science and robotics. Campers new to programming will be taught common techniques and practices using Python 3, while advanced students will learn about more complex computer science concepts. To apply their newly learned knowledge, campers will end the week by using control loops and other various concepts to develop a robot. Students of all skill levels are encouraged to come, as each class will be tailored to the needs of the campers.
         -
             title: Entrepreneurship and Website Design
-            img: /assets/img/summercamp/business-img.jpg
-            info: In the Entrepreneurship and Web Design session, campers will develop their own potential startup companies, and the marketing and advertising skills necessary to get their companies off the ground. Using languages such as HTML and CSS, students will create a website showcasing their proposals while gaining valuable coding and website management skills, as well as GitHub to keep track of changes in a group environment.
+            img: /assets/img/summercamp/business-img2.png
+            info: The Entrepreneurship and Web Design session inspires campers to develop and launch their own professional startup companies. Students will learn fundamental marketing and advertising skills, as well as create plans governing finance and company growth. To showcase their business proposals, campers will also learn HTML and CSS to design their company websites, using GitHub as a resource to collaborate in a group environment.
         -
-            title: Animation and Graphic Design
-            img: /assets/img/summercamp/art-img.png
-            info: Using industry standard software such as Autodesk Maya, learn how to make 3D models and then bring them to life using animation. Explore the basics of graphic design with Adobe Illustrator, and practice your design skills. Learn about typography and how to balance compositions while getting a taste of what it’s like to design for a client. At the end of the week, students will be able to take home their very own animated short, a 3D computer modelled set of their own design, a poster, their very own personally designed pins, and whatever else they may have created.
-    FAQEmail: 
+            title: 3D Animation and Graphic Design
+            img: /assets/img/summercamp/art-img2.jpg
+            info: The 3D Animation and Graphic Design session teaches campers to create 3D models and bring them to life using industry standard software, Autodesk Maya, as well as develop graphic design skills with Adobe software. Campers will learn about typography and how to balance compositions while getting a taste of what it’s like to design for a client. At the end of the week, students will take home their very own animated short, 3D computer modelled set, poster, designs, and other creations.
+
+    FAQEmail:  
         info: Our email&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>
-    FAQ: 
+    FAQ:    
         -
             question: Is previous experience required?
-            answer: Not at all. We hope to introduce all campers to STEAM regardless of what they already know. If they have previous experience, that is totally fine, and we will be sure to keep them engaged with interesting activities.
+            answer: Not at all. Regardless of experience level, we will introduce them to STEAM and be sure to keep them well engaged with exciting activities.
         -
             question: When is the camp offered and what are the different sessions?
-            answer: We are offering the camp two different weeks. Each week, there are four different sessions to choose from.  Check out the Sessions tab for more information.
-        -
-            question: What if a session is full?
-            answer: We are currently waitlisting people for sessions that are full. If the waitlist is still open for a session, please select that session during registration to be added to its waitlist. If the waitlist is closed for a session, we cannot add any more students.
-        -
-            question: Where do the donations for the camp go and what are they used for?
-            answer: The requested donations ($350 per week per child) are handled by the Palo Alto High School Robotics Boosters, which is the non-profit entity that supports the team. The boosters fund every aspect of the team, from covering summer camp costs to paying for the robot components and competition expenses. Your contribution is highly appreciated.
-        - 
-            question: Since it is a donation to a non-profit, can I receive a tax deduction?
-            answer: Yes, absolutely! The Paly Robotics Boosters will send a donation receipt, and our EIN (Employer Identification Number) is 611682088.
-        -
-            question: Can I donate by mailing in a check?
-            answer: "While PayPal is the best method for donating, we also accept donations via check.  Please make the check payable to Palo Alto High School Robotics Boosters Club and add Summer Camp to the memo.  Either bring it to the first day of camp or mail it to: <br> Palo Alto High School Robotics Boosters Club<br>50 Embarcadero Road<br>Palo Alto, CA 94301"
+            answer: We are offering the camp the week of July 23rd and the week of July 30th. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
         -
             question: Will there be adult supervision?
-            answer: Although the camp is run primarily by student counselors, we have mentors and coaches who will be there to supervise at all times.
+            answer: Rest assured, while the camp is run primarily by student counselors, we have mentors and coaches who will be there to supervise at all times.
         -
             question: How is safety going to be enforced while using tools and machinery?
             answer: Our team members are well versed in safe operation of all the machines and tools in the lab, but adults will be present to keep an eye on campers as well.
-        -
+        - 
             question: What is the policy regarding lunch and snacks?
             answer: Campers will have to bring their own lunch, but we will be providing nut-free snacks to campers during breaks.
-        - 
+        -
             question: Where is the robotics lab?
-            answer: More information will be sent before the camp, but you can find the location of our lab on the <a class="paragraph-links href="resources.html">Resources</a> page.
-        - 
+            answer: More information will be sent before the camp, but you can find the location of our lab on the Resources page.
+        -
             question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
-            answer: We cannot promise anything, but membership will be decided in the Fall based on interest and commitment to the team.
-
+            answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.
+           
+            
 ...
