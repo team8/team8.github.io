@@ -9,7 +9,7 @@
         image1: /assets/img/summercamp/amy-group.JPG
         image3: /assets/img/summercamp/group.JPG
         image4: /assets/img/summercamp/counselors.jpg
-        image2: /assets/img/summercamp/happiness.jpg
+        image2: /assets/img/summercamp/morethanrobots.png
     AboutTheCamp2:
         title2: More than Robots
         paragraph2: When most people think about robotics, they picture computer-controlled machines that are coded to complete certain tasks. While building and programming robots are a big part of what we do, our team provides many more opportunities outside of traditional technical fields. We have different subteams and groups that focus on other non-technical aspects, including art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the various sessions, check out the Sessions page.
@@ -30,10 +30,10 @@
             paragraph: We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.
     Sessions2:
         title: Robot Design and Hardware
-        img: /assets/img/summercamp/build-img2.png
+        img: /assets/img/summercamp/build-img3.png
         info: The Robot Design and Hardware session gives campers an immersive, hands-on opportunity to design and build a robot for an FRC-style game challenge revealed at the beginning of the week. Campers will learn to ideate and iterate robot mechanisms through CAD software, power tools, and industry standard machines. They will also be motivated to innovate, solve problems, and cooperate as a team, while preparing for a competition at the end of the week. 
         title1: Programming
-        img1: /assets/img/summercamp/programming-img2.png
+        img1: /assets/img/summercamp/programming-img3.png
         info1: The Programming session aims to spark students’ interests in computer science and robotics. Campers new to programming will be taught common techniques and practices using Python 3, while advanced students will learn about more complex computer science concepts. To apply their newly learned knowledge, campers will end the week by using control loops and other various concepts to develop a robot. Students of all skill levels are encouraged to come, as each class will be tailored to the needs of the campers.
         title2: Entrepreneurship and Website Design
         img2: /assets/img/summercamp/business-img2.png
