@@ -29,27 +29,35 @@ permalink: /summercamp/
 <div class="tab-content">
     <!-- About the Camp Starts here -->
     <div class="container tab-pane fade in active" id="about-the-camp">
-        <br>
+        
         <div class="row less-marg">
             <div class="col-md-7">
-            <br>
-            <br>
+                <br>
                 <p class="summercamp-paragraph">{{site.data.summercamp.AboutTheCamp1.paragraph1}}</p>
-                <br>
-                
-            
-                <br>
-                <img class="img-responsive" src="{{site.data.summercamp.AboutTheCamp1.image3}}">
-
-                <br>
-                
                 <br>
             </div>
             <div class="col-md-5">
                 <img class="img-responsive" src="{{site.data.summercamp.AboutTheCamp1.image1}}">
                 <br>
                 <br>
+            </div>
 
+            <div class="col-md-12">
+                <hr class="special-hr">
+                <br>
+            <br>
+            </div>
+
+             <div class="col-md-7">  
+                <br>
+                <br>
+                <img class="img-responsive" src="{{site.data.summercamp.AboutTheCamp1.image3}}">
+                <br>
+                <br>
+            </div>
+            
+            <div class="col-md-5">
+                
                 <br>
                 <br>
                 <table class="table table-bordered">
@@ -69,40 +77,62 @@ permalink: /summercamp/
                     </tbody>
 
                 </table>
-                <br>
-                <br>
+                
+                
+                
                 
                 
             </div>
             <div class="col-md-12">
+                <hr class="special-hr">
+                <br>
+            <br>
+            </div>
+
+            <div class="col-md-12">
+
                 <p class="summercamp-paragraph">{{site.data.summercamp.AboutTheCamp1.paragraph2}}</p>
-                <iframe width="1150" height="450" src="https://www.youtube.com/embed/nH3X21I68ac" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="1115" height="450" src="https://www.youtube.com/embed/nH3X21I68ac" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <br>
             </div>
             
             <div class="col-md-12">
-                <hr class="special-hr">
+                <hr class="special-hr"><br><br>
             </div>
         </div>
         <div class="row less-marg">
-            <br><br>
+            
             <div class="col-md-4">
-                <br>
-                <br>
-                <br>
+                <br><br><br>
                 <img class="img-responsive" src="{{site.data.summercamp.AboutTheCamp1.image2}}">
-                <br>
-                <br>
-                <br>
-
-                <img class="img-responsive" src="{{site.data.summercamp.AboutTheCamp1.image4}}">
+              
             </div>
-        {% for item in site.data.summercamp.AboutTheCamp2 %}
             <div class="col-md-8">
-                <h3 class="summercamp-header2">{{item.title2}}</h3>
-                <p class="summercamp-paragraph">{{item.paragraph2}}</p>
+                <h3 class="summercamp-header2">{{site.data.summercamp.AboutTheCamp2.title2}}</h3>
+                <p class="summercamp-paragraph">{{site.data.summercamp.AboutTheCamp2.paragraph2}}</p>
+                
             </div>
+           </div> 
+           
+        <div class="col-md-12">
+                <hr class="special-hr">
+                <br>
             <br>
-        {% endfor %}
+        </div>    
+        <div class="row less-marg">
+            <div class="col-md-4">
+                <br><br><br>
+                <img class="img-responsive" src="{{site.data.summercamp.AboutTheCamp1.image4}}">
+
+            </div>
+        
+            <div class="col-md-8">
+                <h3 class="summercamp-header2">{{site.data.summercamp.AboutTheCamp2.title3}}</h3>
+                <p class="summercamp-paragraph">{{site.data.summercamp.AboutTheCamp2.paragraph3}}</p>
+                
+            </div>
+
+            
         </div>
     </div>
 
@@ -138,20 +168,75 @@ permalink: /summercamp/
             <hr class="special-hr">
             <br>
         </div>
-        {% for item in site.data.summercamp.Sessions2 %}
-            <div class="row less-marg">   
-                <div class="col-md-6">
-                    <h3 class="summercamp-header2">{{item.title}}</h3>
-                    <p class="summercamp">{{item.info}}</p>
-                    <br>
-                </div>
-
-                <div class="col-md-6">
-                    <img src="{{item.img}}" class = "summercamp"/><br><br>
-                </div>
+        
+        <!--Sessions-->
+        <div class="row less-marg">   
+            <div class="col-md-6">
+                <h3 class="summercamp-header2">{{site.data.summercamp.Sessions2.title}}</h3>
+                <p class="summercamp">{{site.data.summercamp.Sessions2.info}}</p>
                 
             </div>
-        {% endfor %}
+
+            <div class="col-md-6">
+                <img src="{{site.data.summercamp.Sessions2.img}}" class = "summercamp"/><br><br>
+            </div>
+            
+                
+        </div>
+        <div class="col-md-12">
+                <hr class="special-hr">
+                <br><br>
+            </div>
+        <div class="row less-marg">   
+            <div class="col-md-6">
+                <h3 class="summercamp-header2">{{site.data.summercamp.Sessions2.title1}}</h3>
+                <p class="summercamp">{{site.data.summercamp.Sessions2.info1}}</p>
+                
+            </div>
+
+            <div class="col-md-6">
+                <img src="{{site.data.summercamp.Sessions2.img1}}" class = "summercamp"/><br><br>
+            </div>
+            
+                
+        </div>
+        <div class="col-md-12">
+                <hr class="special-hr">
+                <br><br>
+        </div>
+
+        <div class="row less-marg">   
+            <div class="col-md-6">
+                <h3 class="summercamp-header2">{{site.data.summercamp.Sessions2.title2}}</h3>
+                <p class="summercamp">{{site.data.summercamp.Sessions2.info2}}</p>
+                
+            </div>
+
+            <div class="col-md-6">
+                <img src="{{site.data.summercamp.Sessions2.img2}}" class = "summercamp"/><br><br>
+            </div>
+            
+                
+        </div>
+        <div class="col-md-12">
+                <hr class="special-hr">
+                <br><br>
+            </div>
+
+        <div class="row less-marg">   
+            <div class="col-md-6">
+                <h3 class="summercamp-header2">{{site.data.summercamp.Sessions2.title3}}</h3>
+                <p class="summercamp">{{site.data.summercamp.Sessions2.info3}}</p>
+                
+            </div>
+
+            <div class="col-md-6">
+                <img src="{{site.data.summercamp.Sessions2.img3}}" class = "summercamp"/><br><br>
+            </div>
+            
+                
+        </div>
+        
     </div>
     <!-- FAQ starts here -->
     <div class="container tab-pane fade in" id="faq">

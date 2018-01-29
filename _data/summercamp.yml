@@ -11,12 +11,10 @@
         image4: /assets/img/summercamp/counselors.jpg
         image2: /assets/img/summercamp/happiness.jpg
     AboutTheCamp2:
-        -
-            title2: More than Robots
-            paragraph2: When most people think about robotics, they picture computer-controlled machines that are coded to complete certain tasks. While building and programming robots are a big part of what we do, our team provides many more opportunities outside of traditional technical fields. We have different subteams and groups that focus on other non-technical aspects, including art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the various sessions, check out the Sessions page.
-        -
-            title2: Counselors
-            paragraph2: Our team embraces and fosters a student-run philosophy, promoting student leadership as well as sustainability through having experienced veteran members pass down knowledge to younger students. Reflecting on this philosophy, our high school team members will be the counselors teaching campers and enriching their STEAM education. Just as we were mentored by older team members, we hope to be able to share what we have learned to the younger generation.
+        title2: More than Robots
+        paragraph2: When most people think about robotics, they picture computer-controlled machines that are coded to complete certain tasks. While building and programming robots are a big part of what we do, our team provides many more opportunities outside of traditional technical fields. We have different subteams and groups that focus on other non-technical aspects, including art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the various sessions, check out the Sessions page.
+        title3: Counselors
+        paragraph3: Our team embraces and fosters a student-run philosophy, promoting student leadership as well as sustainability through having experienced veteran members pass down knowledge to younger students. Reflecting on this philosophy, our high school team members will be the counselors teaching campers and enriching their STEAM education. Just as we were mentored by older team members, we hope to be able to share what we have learned to the younger generation.
 
     Table:
         title: Weeks Offered
@@ -31,22 +29,18 @@
     Sessions1:
             paragraph: We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.
     Sessions2:
-        -
-            title: Robot Design and Hardware
-            img: /assets/img/summercamp/build-img2.png
-            info: The Robot Design and Hardware session gives campers an immersive, hands-on opportunity to design and build a robot for an FRC-style game challenge revealed at the beginning of the week. Campers will learn to ideate and iterate robot mechanisms through CAD software, power tools, and industry standard machines. They will also be motivated to innovate, solve problems, and cooperate as a team, while preparing for a competition at the end of the week. 
-        -
-            title: Programming
-            img: /assets/img/summercamp/programming-img2.png
-            info: The Programming session aims to spark students’ interests in computer science and robotics. Campers new to programming will be taught common techniques and practices using Python 3, while advanced students will learn about more complex computer science concepts. To apply their newly learned knowledge, campers will end the week by using control loops and other various concepts to develop a robot. Students of all skill levels are encouraged to come, as each class will be tailored to the needs of the campers.
-        -
-            title: Entrepreneurship and Website Design
-            img: /assets/img/summercamp/business-img2.png
-            info: The Entrepreneurship and Web Design session inspires campers to develop and launch their own professional startup companies. Students will learn fundamental marketing and advertising skills, as well as create plans governing finance and company growth. To showcase their business proposals, campers will also learn HTML and CSS to design their company websites, using GitHub as a resource to collaborate in a group environment.
-        -
-            title: 3D Animation and Graphic Design
-            img: /assets/img/summercamp/art-img2.JPG
-            info: The 3D Animation and Graphic Design session teaches campers to create 3D models and bring them to life using industry standard software, Autodesk Maya, as well as develop graphic design skills with Adobe software. Campers will learn about typography and how to balance compositions while getting a taste of what it’s like to design for a client. At the end of the week, students will take home their very own animated short, 3D computer modelled set, poster, designs, and other creations.
+        title: Robot Design and Hardware
+        img: /assets/img/summercamp/build-img2.png
+        info: The Robot Design and Hardware session gives campers an immersive, hands-on opportunity to design and build a robot for an FRC-style game challenge revealed at the beginning of the week. Campers will learn to ideate and iterate robot mechanisms through CAD software, power tools, and industry standard machines. They will also be motivated to innovate, solve problems, and cooperate as a team, while preparing for a competition at the end of the week. 
+        title1: Programming
+        img1: /assets/img/summercamp/programming-img2.png
+        info1: The Programming session aims to spark students’ interests in computer science and robotics. Campers new to programming will be taught common techniques and practices using Python 3, while advanced students will learn about more complex computer science concepts. To apply their newly learned knowledge, campers will end the week by using control loops and other various concepts to develop a robot. Students of all skill levels are encouraged to come, as each class will be tailored to the needs of the campers.
+        title2: Entrepreneurship and Website Design
+        img2: /assets/img/summercamp/business-img2.png
+        info2: The Entrepreneurship and Web Design session inspires campers to develop and launch their own professional startup companies. Students will learn fundamental marketing and advertising skills, as well as create plans governing finance and company growth. To showcase their business proposals, campers will also learn HTML and CSS to design their company websites, using GitHub as a resource to collaborate in a group environment.
+        title3: 3D Animation and Graphic Design
+        img3: /assets/img/summercamp/art-img2.JPG
+        info3: The 3D Animation and Graphic Design session teaches campers to create 3D models and bring them to life using industry standard software, Autodesk Maya, as well as develop graphic design skills with Adobe software. Campers will learn about typography and how to balance compositions while getting a taste of what it’s like to design for a client. At the end of the week, students will take home their very own animated short, 3D computer modelled set, poster, designs, and other creations.
 
     FAQEmail:  
         info: Our email&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>
