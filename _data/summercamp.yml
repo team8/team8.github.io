@@ -33,13 +33,13 @@
         img: /assets/img/summercamp/build-img3.png
         info: The Robot Design and Hardware session gives campers an immersive, hands-on opportunity to design and build a robot for an FRC-style game challenge revealed at the beginning of the week. Campers will learn to ideate and iterate robot mechanisms through CAD software, power tools, and industry standard machines. They will also be motivated to innovate, solve problems, and cooperate as a team, while preparing for a competition at the end of the week. 
         title1: Programming
-        img1: /assets/img/summercamp/programming-img3.png
+        img1: /assets/img/summercamp/programming.png
         info1: The Programming session aims to spark students’ interests in computer science and robotics. Campers new to programming will be taught common techniques and practices using Python 3, while advanced students will learn about more complex computer science concepts. To apply their newly learned knowledge, campers will end the week by using control loops and other various concepts to develop a robot. Students of all skill levels are encouraged to come, as each class will be tailored to the needs of the campers.
         title2: Entrepreneurship and Website Design
-        img2: /assets/img/summercamp/business-img2.png
+        img2: /assets/img/summercamp/entreweb.png
         info2: The Entrepreneurship and Web Design session inspires campers to develop and launch their own professional startup companies. Students will learn fundamental marketing and advertising skills, as well as create plans governing finance and company growth. To showcase their business proposals, campers will also learn HTML and CSS to design their company websites, using GitHub as a resource to collaborate in a group environment.
         title3: 3D Animation and Graphic Design
-        img3: /assets/img/summercamp/art-img.png
+        img3: /assets/img/summercamp/art.png
         info3: The 3D Animation and Graphic Design session teaches campers to create 3D models and bring them to life using industry standard software, Autodesk Maya, as well as develop graphic design skills with Adobe software. Campers will learn about typography and how to balance compositions while getting a taste of what it’s like to design for a client. At the end of the week, students will take home their very own animated short, 3D computer modelled set, poster, designs, and other creations.
 
     FAQEmail:  
