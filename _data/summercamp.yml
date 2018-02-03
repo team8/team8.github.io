@@ -24,6 +24,8 @@
         hour: 9 AM - 3 PM
         location: Location
         address: The Paly Robotics Lab (Room 903 at Palo Alto High School)
+        payment: Payment Information
+        finance: The fee will be $350 per camper, per session. Financial aid will be offered.    
 
 
     Sessions1:
