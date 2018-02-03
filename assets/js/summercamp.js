@@ -35,14 +35,11 @@ $(".previous").click(function(){
 
 $("fieldset input, fieldset textarea").on("click keyup", function() {
 
-    if($(".other-choice").first().is(':checked')
-) {
+    if($(".other-choice").first().is(':checked')) {
         $(".other-choice-text").removeClass("optional")
-        console.log("hu")
     }
     else {
         $(".other-choice-text").addClass("optional")
-        console.log("ho")
     }
     
     var empty = false;
