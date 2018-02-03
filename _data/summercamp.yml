@@ -46,7 +46,10 @@
 
     FAQEmail:  
         info: Our email&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>
-    FAQ:    
+    FAQ:  
+        -
+            question: Is it required to attend both sessions?
+            answer: No. We understand your that your summer time is very valuable, so it is not required to attend both sessions. You may opt for one or the other.
         -
             question: Is previous experience required?
             answer: Not at all. Regardless of experience level, we will introduce them to STEAM and be sure to keep them well engaged with exciting activities.
