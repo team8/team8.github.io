@@ -66,6 +66,17 @@
         -
             question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
             answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.
-           
-            
+        - 
+            question: How much is the registration fee for this summer camp this year?
+            answer: This year, Paly Robotics Summer Camp will have a required fee of $350 per session for each camper. Those in need financial aid will be accommodated.
+        -    
+            question: What is the recommended method of payment?
+            answer: Paypal is our ideal method of payment, but we are also accepting checks. They may be written to Palo Alto High School Robotics Boosters and mailed to 50 Embarcadero Rd, Palo Alto, CA 94301.
+        -    
+            question: What is the cancellation policy?
+            answer: As we understand that plans often change over the summer, we will fully refund any registration cancellations before June 1st. Any cancellations made the day of or afterwards will involve a $175 fee.  However, if the situation arises in which you cancel after July 16th, we unfortunately will not be able to refund you.
+        -    
+            question: Is it possible for me to receive financial aid?
+            answer: Yes, you will be able to request financial aid through the registration form.     
 ...
+
