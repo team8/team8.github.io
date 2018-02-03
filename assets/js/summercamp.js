@@ -62,21 +62,41 @@ $("fieldset input, fieldset textarea").on("click keyup", function() {
     }
 });
 
-$(".session-checkbox").click(function() {
+$(".register-checkbox").click(function() {
     var date = $(this).val().substr(0, $(this).val().indexOf(':'));
     if (this.checked) {
-        $(".session-checkbox").each(function() {
+        $(".register-checkbox").each(function() {
             if($(this).val().search(date) != -1 && !this.checked) {
                 $(this).prop("disabled", true)
             }
         });
     }
     else {
-        $(".session-checkbox").each(function() {
+        $(".register-checkbox").each(function() {
             if($(this).val().search(date) != -1) {
                 $(this).prop("disabled", false)
             }
         });
+    }
+    
+});
+
+$(".session-checkbox").click(function() {
+
+    if ($(".register-checkbox:checked").length > 0) {
+        $(".register").show()
+        $(".register-only").removeClass("optional")
+        $(".register-only").first().closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
+        $(".waitlist").hide()
+    }
+    else if ($(".waitlist-checkbox:checked").length > 0) {
+        $(".register").hide()
+        $(".register-only").addClass("optional")
+        $(".register-only").first().closest("fieldset").find(".next, .submit").removeAttr('disabled');
+        $(".waitlist").show()
+    }
+    else {
+        $(this).closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
     }
     
 });
