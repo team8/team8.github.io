@@ -112,3 +112,127 @@ table.table{
 }
 
 
+/*form styles*/
+form {
+    position: relative;
+    margin-top: 30px;
+}
+
+fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*buttons*/
+.action-button {
+    width: 100px;
+    background: green;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+.action-button:active:hover:not([disabled]) {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px green;
+}
+
+.action-button:disabled {
+    width: 100px;
+    background: lightgray;
+    font-weight: bold;
+    color: white;
+    border: 0 none; !important
+    border-radius: 25px;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+
+
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+    
+    text-align: center;
+    padding: 0;
+
+}
+
+#progressbar li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 20%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    background: lightgray;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1; /*put it behind the numbers*/
+
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: green !important;
+    color: white;
+
+}
+
+.form-check-label {
+    font-weight: normal; !important
+}
+
+.help-text {
+    font-size: 12px;
+    display: block;
+    font-weight: normal; !important
+}
