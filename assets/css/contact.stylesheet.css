@@ -13,7 +13,14 @@ h2.contact-title {
     }
     hr {
         margin-top:40px !important;
+    }  
+    p.info {
+        font-size:14px !important;
     }
+    a.link {
+        font-size:14px !important;
+    }
+
 }
 
 hr {
@@ -61,7 +68,9 @@ a.link {
 p.info {
     font-family: 'Poppins', sans-serif;
     font-size:16px;
-    margin-top:55px !important;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .glyphicon {
