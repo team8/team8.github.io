@@ -1,0 +1,89 @@
+---
+layout: pages
+title: Silicon Valley Regional Tours
+permalink: /svrtours/
+---
+
+ <link rel = "stylesheet" type = "text/css" href = "/assets/css/summercamp.stylesheet.css">
+
+ <div class = "container">
+        <div class = "col-md-12">   
+        	<br>
+            <h2 class="summercamp-title">FIRST Experience: Silicon Valley Regional Tours</h2>
+            <hr class="one-hr"/>
+        </div>
+ </div>
+  <div class="container summer-2016">
+        <div class="col-md-12">
+            <ul class="nav nav-pills red">
+                <li class="active"><a class="menu" data-toggle="tab" href="#about-the-tour">About the Tour</a></li>
+                <!--<li><a class="menu" data-toggle="tab" href="#faq">FAQ</a></li>-->
+                <li><a class="menu menu-highlight" data-toggle="tab" href="#registration">Register Here</a></li>
+            </ul>
+        </div>
+  </div>
+
+<div class="tab-content">
+	<div class="container tab-pane fade in active" id="about-the-tour">
+		<br>
+		<div class="row less-marg">
+			<div class="col-md-8">
+                <p class="summercamp-2016">
+                	<b>When: </b>Saturday, March 31st, 2018 
+                </p>
+
+                <p style = "text-indent: 40px;">Tour #1: 10:15 am to 11:00 am</p>
+						
+				<p style = "text-indent: 80px;">Sign up: <a href="https://goo.gl/forms/xuCh2CE0TI1KZaCm2" target="_blank">here</a></p>
+	                
+	            <p style = "text-indent: 40px;">Tour #2: 11:15 am to 12:00 pm</p>
+
+	            <p style = "text-indent: 80px;">Sign up: <a href="https://goo.gl/forms/Yb0b0d68v9NfrJVi2" target="_blank">here</a></p>
+	               
+	            
+	            </br>
+	            <p class="summercamp-2016">
+	                <b class="summercamp-2016">Where: </b>{{site.data.svrtours.where}}
+	                <br><br>
+	                <b class="summercamp-2016">Who: </b>{{site.data.svrtours.who}}
+	                <br><br>
+                	<b class="summercamp-2016">What: </b>{{site.data.svrtours.what}}</p>
+                <p class="summercamp-2016">
+                	Feel free to email <a href="mailto:kcheung@palyrobotics.com">outreach@palyrobotics.com</a> with any questions.
+            </div>
+            <div class="col-md-4">
+            	{% for img in site.data.svrtours.images %}
+            	    <img src="{{img}}" style="width:100%;"> </br> </br>
+            	{% endfor %}
+            </div>
+		</div>
+	</div>
+	<!--<div class="container tab-pane fade in" id="faq">
+		<div class="row less-marg">
+			{% for item in site.data.svr-2017.FAQ %}
+			<div class="row less-marg">
+				<div class="col-md-12">
+					<h3 class="summercamp-header">{{item.question}}</h3>
+				</div>
+				<div class="col-md-12">
+					<p class="summercamp">{{item.answer}}</p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>-->
+	<div class="container tab-pane fade in" id="registration">
+		<div class="col-md-12">
+            <p class="summercamp" style="text-align:center;">
+                <iframe src="https://docs.google.com/a/palyrobotics.com/forms/d/e/1FAIpQLSeqgWxsDgERsny2pDzljXJC8r0IKF80FUSZtA6kBehlxS8VBA/viewform?embedded=true" style="margin: 0 auto;display:block;" width="80%" height="720" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </p>
+        </div>
+	</div>
+</div>
+
+<style>
+li {
+	font-size:19.5px !important;
+}
+
+</style>
