@@ -422,10 +422,13 @@ p.p-carousel-caption {
 	font-family:'Poppins', sans-serif;
 	text-align:left;
 }
+
+@media (max-width: 1260px) {
+	p.p-carousel-caption {
+		font-size:21px;
+	}
+}
 @media (max-width: 650px) {
-    .p-carousel-caption {
-        font-size:15px; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
     h2.team-header {
     	font-size:24px;
     }
