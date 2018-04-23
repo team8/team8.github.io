@@ -1,10 +1,47 @@
 # For the robot page #
 
 ---
+    -
+        title: Forseti
+        year: "2018"
+        active: "active" # active makes one of the tabs active and the rest not active #
+        Specifications:
+          -
+            specname: Name
+            spec: Forseti
+          - 
+            specname: Game
+            spec: Power Up
+          - 
+            specname: Size
+            spec: 32″ W x 27″ L 
+          - 
+            specname: Weight
+            spec: ~114 lbs
+        # history of competition for vali in 2017 #
+        CompHistory:
+          -
+            competition: Arizona North Regional
+            achievement: Quarterfinalists, Entrepreneurship Award
+          -
+            competition: Silicon Valley Regional 
+            achievement: Semifinalists
+        # abilities of robot list
+        RobotAbilities:
+          -
+            ability: 8 wheel west coast drive powered by 8x 775Pro. Max speed of 16 ft/sec
+          -             
+            ability: 3 stage cascading elevator with paracord rigging. Can score cubes in the scale even when tipped in favor of the opposing alliance
+          -
+            ability: 4” Andymark compliant wheels on 4 bar setup for versatile intake of Power Cubes in multiple configurations
+          - 
+            ability: 2 cube switch autonomous, single cube scale autonomous 
+        
+        image: /assets/img/robots/forseti.png
     -   
         title: Vali
         year: "2017"
-        active: "active"  # active makes one of the tabs active and the rest not active #
+        active: ""  
         Specifications:
           -
             specname: Name 
@@ -18,7 +55,7 @@
           -
             specname: Weight
             spec: 92.9 lbs
-        # history of competition for vali in 2017#
+        # history of competition for vali in 2017 #
         CompHistory:
           - 
             competition: Ventura Regional
