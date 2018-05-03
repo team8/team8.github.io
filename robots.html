@@ -29,6 +29,9 @@
 			<div class="col-md-4">
 				<h3>{{item.title}}</h3>
 				<img class="img-responsive vali" src="{{item.image}}">
+				{% if item.title == "Forseti" %}
+				<button type="button" class="btn btn-primary">Toggle Elevator</button>
+				{% endif %}
  			</div>
 			<div class="col-md-6">
 				<div class="row">

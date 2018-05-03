@@ -14,7 +14,7 @@
             spec: Power Up
           - 
             specname: Size
-            spec: 32″ W x 27″ L 
+            spec: 32″ W x 27″ L x 42.6/99.5″ H
           - 
             specname: Weight
             spec: ~114 lbs
@@ -37,7 +37,7 @@
           - 
             ability: 2 cube switch autonomous, single cube scale autonomous 
         
-        image: /assets/img/robots/forseti.png
+        image: /assets/img/robots/forseti.jpg
     -   
         title: Vali
         year: "2017"

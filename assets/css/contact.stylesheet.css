@@ -2,7 +2,7 @@ h2.contact-title {
     text-align: left;
 	font-family: 'Poppins', sans-serif;
 	font-size: 48px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 /* for mobile */
@@ -24,7 +24,7 @@ h2.contact-title {
 }
 
 hr {
-    margin-top:35px;
+    margin-top:30px;
 }
 
 

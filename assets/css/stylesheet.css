@@ -3,6 +3,7 @@
 /*full  pics*/
 html, body{
 	height:100%;
+	font-family: 'Poppins', sans-serif;
 }
 .carousel, .item, .active{
 	height:100%;
@@ -19,7 +20,7 @@ html, body{
 
 /*bigger top nav to make room for logo*/
 #top-nav{
-	height:102.5px !important;
+	height:85.5px !important;
 }
 
 /* shrinking navbar images, everything else when scrolling the page */
@@ -28,7 +29,7 @@ html, body{
 
 /*resizing logo, making it smaller, other brand stuff, font size,family, and weight, also contains right nav bar stuff*/
 #logo{
-	margin-top:17px;
+	margin-top:8px;
 	width:70px;
 	height:70px;
 }
@@ -64,7 +65,6 @@ h1 {
 	margin-top:-45px;
 	vertical-align:bottom;
 	color:white; 
-	font-family: 'Poppins', sans-serif;
 	font-size:23px;
 } 
 
@@ -72,21 +72,17 @@ a.active.home {
     padding-top:40px !important;
     height:100px !important;
     color:#dddddd !important;
-    font-family: 'Poppins', sans-serif;
     font-size:15px;
 }
 
 a.links {
-	height:100px !important;
-	padding-top:44px !important;
+	height:50px !important;
+	padding-top:35px !important;
 	color:#dddddd !important;
-	font-family: 'Poppins', sans-serif;
 	font-size:15px;
 }
 .dropdown-text {
-	font-family: 'Poppins', sans-serif;
 	font-size:13.5px;
-
 }
 
 /*green underlines on links*/
@@ -103,16 +99,15 @@ li.active{
  }
  a.links{
  	background-color:#222 !important;
- 	height:85px !important;
+ 	height:65px !important;
  }
  /* green box for DONATE NOW! button */
  a.donate-button {
  	background-color:green !important;
  	border-radius: 3px;
  	transition: .2s;
- 	padding-top:15px !important;
- 	margin-top:27px !important;
- 	margin-bottom:17px !important;
+ 	padding-top:13px !important;
+ 	margin-top:20px !important;
  	height:50px !important;
  	line-height:23px !important;
  }
@@ -205,7 +200,7 @@ li.donate-li {
 @media (min-width: 768px) and (max-width: 1200px) {
 
     .navbar-collapse {
-        margin-top: 30px;
+        margin-top: 14px;
         border-radius: 3px;
         border: 0px;
     }
@@ -216,26 +211,25 @@ li.donate-li {
     }
  
     a.links {
-		height:75px !important;
+		height:60px !important;
 		padding-top:30px !important;
-		color:#dddddd !important;
-		font-family: 'Poppins', sans-serif;
+		color:white !important;
 		font-size:15px;
 	}
-	
+
 	a.donate-button {
 		background-color:green !important;
 		border-radius: 3px;
 		transition: .2s;
-		padding-top:15px !important;
-		margin-top:15px !important;
+		padding-top:13px !important;
+		margin-top:13px !important;
 		height:50px !important;
 		line-height:23px !important;
- 	}
+	 }
+	 
 	li.donate-li {
 		height: 50px !important;
 	}
-	
 }
     
 /*making collapsed dropdown nav have a smaller height+different padding*/
@@ -245,7 +239,7 @@ li.donate-li {
     	padding-bottom: 10px !important;
     }
     a.dropdown-toggle.links {
-    	height:50px !important;
+    	height:40px !important;
     }
     a.home{
     	height:50px !important;
@@ -327,7 +321,7 @@ li.donate-li {
 /*making dropdown menu and other links centered and button too*/
 
 
-b{
+b {
 	margin-left:5px !important;
 }
 
@@ -336,7 +330,7 @@ b{
 }
 
 .menu-button{
-	margin-top:40px;
+	margin-top:30px;
 }
 
 /*All Navbar CSS ENDS HERE-----------------------------------*/
@@ -404,7 +398,6 @@ b{
 
 /*Adding captions*/
 h2.team-header {
-	font-family: 'Poppins', sans-serif;	
 	color:white;
 	font-size:50px;
 	text-align:left;
@@ -419,7 +412,6 @@ h2.team-header {
 
 p.p-carousel-caption {
 	font-size:25px;
-	font-family:'Poppins', sans-serif;
 	text-align:left;
 }
 
@@ -446,16 +438,13 @@ div#AboutUs {
 }
 hr {
 	border:1px solid #333333;
-	margin-top:75px;
 }
 
 h3.about-us {
-	font-family: 'Poppins', sans-serif;
 	font-size:45px;
 }
 .FIRST{
 	padding-top:50px;
-	font-family: 'Poppins', sans-serif;
 	font-size:40px;
 }
 
@@ -464,7 +453,6 @@ h3.about-us {
 }
 
 p.about-us {
-	font-family: 'Poppins', sans-serif;
 	font-size:20px;
 	padding-top:15px;
 }
@@ -490,7 +478,6 @@ p.about-us {
 
 .subteams {
 	text-align:center;
-	font-family: 'Poppins', sans-serif;
 	font-size:45px;
 	margin-top:10px;
 	margin-bottom:50px;
@@ -507,7 +494,7 @@ img.img-circle {
 /*text below image resizing etc. and padding*/
 h4 {
 	text-align:center;
-	font-family: 'Poppins', sans-serif;
+	
 	margin-top:20px;
 }
 
@@ -523,7 +510,7 @@ h4.web {
 }
 /*Paragraph Stuff*/
 .paragraph-circle {
-	font-family: 'Poppins', sans-serif;
+	
 	font-size:14px;
 }
 /* getting rid of -15px margin for special row */
@@ -537,28 +524,25 @@ h4.web {
 
 p.sponsor-p{
 	font-size:20px;
-	font-family: 'Poppins', sans-serif;
 }
 
 /*Sponsors zone ends here------------------------------------*/
 /*Buttons ---------------------------------------------------*/
-.btn {
+.btn-green {
     padding: 20px;
     background-color: green;
     color: #f1f1f1;
     border-color:#222;
-    font-family: 'Poppins', sans-serif;
     border-radius: 0;
     font-size:20px;
     transition: .2s;
 }
 
 /* On hover, the color of .btn will transition to white with black text */
-.btn:hover, .btn:focus {
+.btn-green:hover, .btn-green:focus {
     border: 1px solid #333;
     background-color: #fff;
     color: #000;
-    font-family: 'Poppins', sans-serif;
 }
 hr.sponsorshr {
 	margin-top:37px;
@@ -595,7 +579,7 @@ hr.sponsorshr {
 		text-align: center;
 		padding-top: 60px;
 		padding-bottom: 40px;
-		font-family: 'Poppins', sans-serif;
+		
 		font-size: 48px;
 	}
 	/* Begin flip Animation */
@@ -664,7 +648,6 @@ hr.sponsorshr {
 }
 
 p.footer{
-	font-family: 'Poppins', sans-serif;
 	color:white;
 	font-size:12px;
 	margin-top:15px;
@@ -696,23 +679,29 @@ i:hover {
 }
 i {
 	margin-left:7px;
-
 }
 /*for arrow*/
 span.glyphicon-chevron-up {
 	color:green;
 	font-size:23px;
-	padding-left:18px;
+	text-align:center;
 }
 h5 {
 	margin-top:0px;
-	padding-left:6px;
-	font-family: 'Poppins', sans-serif;
+	
 	color:white;
 	padding-bottom:35px;
+	text-align:center;
 }
 a.glyph {
 	text-decoration:none;
+	text-align:center;
+}
+
+div.to-top {
+	width:50%;
+	margin: 0 auto;
+	text-align:center;
 }
 
 
