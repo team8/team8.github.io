@@ -28,9 +28,11 @@
 		<div class="tab-pane fade in {{item.active}}" id="{{item.year}}">
 			<div class="col-md-4">
 				<h3>{{item.title}}</h3>
-				<div><img class="img-responsive robot" src="{{item.image}}"></div>
 				{% if item.title == "Forseti" %}
+				<div><img class="img-responsive forseti" src="{{item.image}}"></div>
 				<button id="{{item.image2}}" type="button" class="btn btn-primary forseti" onclick="switchImageForseti(this.id)">Toggle Elevator</button>
+				{% else %}
+				<div><img class="img-responsive" src="{{item.image}}"></div>
 				{% endif %}
  			</div>
 			<div class="col-md-6">
@@ -72,11 +74,11 @@
 
 <script>
 	function switchImageForseti(image){
-		var prevImage = $('img.robot').attr('src');
+		var prevImage = $('img.forseti').attr('src');
 		$('button.forseti').attr('id', prevImage);
-		$('img.robot').parent().fadeOut(200, function() {
-			$('img.robot').attr('src', image); 
-			$(this).fadeIn(200);
+		$('img.forseti').parent().fadeOut(150, function() {
+			$('img.forseti').attr('src', image); 
+			$(this).fadeIn(150);
 		});
 	}
 </script>
