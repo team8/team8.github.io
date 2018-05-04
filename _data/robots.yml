@@ -38,6 +38,7 @@
             ability: 2 cube switch autonomous, single cube scale autonomous 
         
         image: /assets/img/robots/forseti.jpg
+        image2: /assets/img/robots/forseti2.png
     -   
         title: Vali
         year: "2017"

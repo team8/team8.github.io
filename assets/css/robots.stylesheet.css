@@ -79,3 +79,13 @@ span.label {
 li.specifications {
     margin-bottom:9px;
 }
+/* styling toggle elevator button */
+.btn-primary:focus {
+	outline: none;
+}
+.btn-primary:active {
+	outline: none !important;
+}
+.btn-primary {
+    margin-top:15px;
+}

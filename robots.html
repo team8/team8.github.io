@@ -28,9 +28,9 @@
 		<div class="tab-pane fade in {{item.active}}" id="{{item.year}}">
 			<div class="col-md-4">
 				<h3>{{item.title}}</h3>
-				<img class="img-responsive vali" src="{{item.image}}">
+				<div><img class="img-responsive robot" src="{{item.image}}"></div>
 				{% if item.title == "Forseti" %}
-				<button type="button" class="btn btn-primary">Toggle Elevator</button>
+				<button id="{{item.image2}}" type="button" class="btn btn-primary forseti" onclick="switchImageForseti(this.id)">Toggle Elevator</button>
 				{% endif %}
  			</div>
 			<div class="col-md-6">
@@ -70,5 +70,15 @@
 	</div>
 </div>
 
+<script>
+	function switchImageForseti(image){
+		var prevImage = $('img.robot').attr('src');
+		$('button.forseti').attr('id', prevImage);
+		$('img.robot').parent().fadeOut(200, function() {
+			$('img.robot').attr('src', image); 
+			$(this).fadeIn(200);
+		});
+	}
+</script>
 
 			<!--<div class="sketchfab-embed-wrapper"><iframe width="480" height="300" src="https://sketchfab.com/models/f20cfe650e484c748ef532f702fd8d0b/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe></div>-->
