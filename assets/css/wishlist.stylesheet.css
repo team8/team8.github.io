@@ -1,17 +1,15 @@
   div.first-container {
-    padding-top: 150px;
-    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
   }
   
   h2 {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 45px;
   }
   
   hr {
-    margin-top:65px;
-    margin-bottom: 40px !important;
+    margin-top:17px;
+    margin-bottom: 20px !important;
   }
   
   @media (max-width:767px) {

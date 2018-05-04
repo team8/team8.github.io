@@ -3,9 +3,11 @@ div.first-container {
 }
 
 h2.about-calendar {
-    font-family:'Poppins',sans-serif;
     text-align:left;
     font-size:45px;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
 }
 .calendar{
     height: 100%;

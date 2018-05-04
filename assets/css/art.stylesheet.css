@@ -1,7 +1,6 @@
 /* stylesheet only for art page */
 
   h2.about-first {
-      font-family:'Poppins',sans-serif;
       font-size:45px;
       text-align:left;
     }
@@ -13,7 +12,6 @@
       padding-right:15px;
     }
     p{
-      font-family:'Poppins',sans-serif;
       font-size:20px;
     }
     hr {
@@ -23,17 +21,16 @@
     
     /* for mobile */
     @media (max-width:767px) {
-    .first-container {
+      .first-container {
+          font-size:30px;
+          padding-top:71px;
+      }
+      h2.about-first {
         font-size:30px;
-        padding-top:71px;
+      }
     }
-    h2.about-first {
-      font-size:30px;
-    }
-
 
     h3{
-      font-family: 'Poppins',sans-serif;
       font-size: 35px;
       margin-bottom:20px;
     }

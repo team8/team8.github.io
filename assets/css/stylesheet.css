@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,600');
 
 /*full  pics*/
 html, body{
 	height:100%;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .carousel, .item, .active{
 	height:100%;
@@ -22,10 +22,6 @@ html, body{
 #top-nav{
 	height:85.5px !important;
 }
-
-/* shrinking navbar images, everything else when scrolling the page */
-
-
 
 /*resizing logo, making it smaller, other brand stuff, font size,family, and weight, also contains right nav bar stuff*/
 #logo{
@@ -315,11 +311,11 @@ li.donate-li {
 		opacity: 1;
 	}
 
+/* make navbar bottom fixed to bottom of page */
 
 
 
 /*making dropdown menu and other links centered and button too*/
-
 
 b {
 	margin-left:5px !important;
