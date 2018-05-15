@@ -22,8 +22,11 @@ Links:
       twitter-link: Paly Robotics Twitter
       des: The Paly Robotics Twitter page, which contains bite-sized updates for the team.
 
-  Bus-Plan: 
-    title: Business Plans
+  Documents: 
+    title: Team Documents
+    
+    Handbook: Paly Robotics Team Handbook
+    Handbook-Des:  The Paly Robotics Team Handbook, which covers general team organization and key policies.
 
     Bus-Plan: Paly Robotics Business Plan
     Bus-Des: The Paly Robotics FRC Business Plan, which outlines various aspects of our team, from our mission statement to future plans.
@@ -85,7 +88,7 @@ Links:
 
     Documentation:
       link: Team 8 Scouting Documentation
-      des: The documentation for the team 8 scouting system. 
+      des: The documentation for the Team 8 scouting system. 
 
 Maps:
   Location:
