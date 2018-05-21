@@ -317,7 +317,7 @@ li.donate-li {
 
 /*making dropdown menu and other links centered and button too*/
 
-b {
+b.caret {
 	margin-left:5px !important;
 }
 
