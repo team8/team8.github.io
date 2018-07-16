@@ -4,39 +4,39 @@
 ---
 
 Sponsors1:
-  - Apple:
-    image: /assets/img/sponsors/apple.png
-    paragraph: Apple is debatably the largest and most established consumer electronics company in the world. Ever since the release of the first iPhone in June 2007, Apple has been spearheading the mobile movement and innovating new solutions for our everyday lives.
+  - Dropbox:
+    image: /assets/img/sponsors/dropbox.jpg
+    paragraph: Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage
+            and file syncing to its users. Their sponsorship has made us more efficient and an overall better team.
 
   - Google: 
     image: /assets/img/sponsors/google.jpg
     paragraph: Easily one of the most influential tech companies of the Information Era, Google is a symbol of modern technological
           innovation. Based in nearby Mountain View, Google sponsors Team 8 as part of its mission to inspire the next generation
           of technological pioneers.
+    
+  - Nvidia: 
+    image: /assets/img/sponsors/nvidia.svg
+    paragraph: Nvidia is a multinational hardware and software company based in Santa Clara. Their strides in computer hardware
+            are incredibly impressive, and we are proud to be sponsored by them.
 
+
+Sponsors2:
   - Intuitive-Surgical:
     image: /assets/img/sponsors/intuitive-surgical.png
     paragraph: Intuitive Surgical manufactures robotic surgical machines designed for minimally invasive surgery, which are employed
           in hospitals throughout the U.S. We admire their advances with robotics into the field of medicine, and are proud
           to be sponsored by Intuitive Surgical.
-
-Sponsors2:
-
-  - Dropbox:
-    image: /assets/img/sponsors/dropbox.jpg
-    paragraph: Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage
-            and file syncing to its users. Their sponsorship has made us more efficient and an overall better team.
-  
-  - Nvidia: 
-    image: /assets/img/sponsors/nvidia.svg
-    paragraph: Nvidia is a multinational hardware and software company based in Santa Clara. Their strides in computer hardware
-            are incredibly impressive, and we are proud to be sponsored by them.
     
   - Solidworks: 
     image: /assets/img/sponsors/solidworks.png
     paragraph: Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing us to effectively
             design and prototype our robot. They also donated a powerful CAM tool that we use in conjunction with our CNC
             Mill and 3D Printer.
+            
+  - Qualcomm:
+    image: /assets/img/sponsors/qualcomm.png
+    paragraph: Coming soon!
 
 Sponsors3:
   - Webcor-Builders:
