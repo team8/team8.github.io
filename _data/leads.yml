@@ -7,171 +7,167 @@ Leads1:
     -
         id-number: 0
         mobile-id-number: 16
-        name: Devin Ardeshna
-        image: /assets/img/leads/devin.jpg
-        role: Team Captain
-        email: dardeshna@palyrobotics.com
+        name: Bryan Yang
+        image: /assets/img/leads/bryan.jpg
+        role: Team Co-Captain
+        email: byang@palyrobotics.com
         description: >
-            Devin joined the team as a Build Team member in 2015, and has been actively involved in robot design, fabrication and assembly ever since.  As a sophomore, he organized supplies for competition and taught the machine safety and training classes during the off-season.  The following year, as Build Captain, Devin led the effort to bring our 2017 robot design to life.  This year, with the responsibility of Team Captain, he plans to continue building the robotics team community and help younger members develop both their technical and leadership skills.
+            Bryan joined the team in his freshman year as one of the three recruits onto the newly formed design team, quickly becoming familiar with the design process. In sophomore year, he worked as a design lead, helping to coordinate CAD assignments and create recruitment curriculum. In the following year, as the design project manager, he helped keep the robot on schedule, worked with previous design captain (Jacob) to swear the robot worked in CAD, and fostered a strong learning environment on design team. This year, as the Technical Team Co-captain, he plans to continue working on creating a good team community for all members, as well as helping the team grow their technical and leadership skills.
     -
         id-number: 1
         mobile-id-number: 17
-        name: Annalee Soohoo
-        image: /assets/img/leads/annalee.jpg
-        role: Assistant Captain
-        email: asoohoo@palyrobotics.com
+        name: Jennifer Xu
+        image: /assets/img/leads/jenniferx.jpg
+        role: Team Co-Captain
+        email: jxu@palyrobotics.com
         description: >
-            Annalee is a senior who joined Paly Robotics her sophomore year. Last year she was the Business Captain, photography lead, and a Dean’s List Semifinalist. The Assistant Captain works with the Team Captain to cover administrative responsibilities, works with the Project Manager to establish milestones and deadlines, and works with leadership to ensure team resources are not overextended or being wasted. Annalee is interested in technology, economics, and entrepreneurship. Because of her time on Team 8, she now knows how to operate a laser cutter, and is beginning to learn to code!
+            Jennifer Xu is Junior on Team 8 who joined her freshman year. She became the FIRST Project Manager for Business her sophomore year as one of the few members left, and worked with the then business captain(Annalee Soohoo) to build business team into an entrepreneurship award powerhouse. As Business Captain, Jennifer is in charge of projects relating to sponsorships, awards, and outreach. She currently holds the record for most years spent on business(3), and during that time she developed an unhealthy interest in formats, fonts, and presentations.
     -
         id-number: 2
         mobile-id-number: 18
-        name: Eli Zucker
-        image: /assets/img/leads/eli.jpg
+        name: Eddie Shi
+        image: /assets/img/leads/placeholder.jpeg
         role: Project Manager
-        email: ezucker@palyrobotics.com
+        email: eshi@palyrobotics.com
         description: >
-            Eli is a senior who joined the team as a Build member his freshman year. In addition to the normal fabrication skills he learned on the subteam, Eli specialized in FRC electronics, such as connecting sensors and wiring the roborio or motor controllers. Additionally, he learned TIG welding during freshman and sophomore year. Junior year, Eli took on the role of Build Project manager, and moved to become the teamwide Project Manager senior year. As Project Manager this year, Eli coordinates the work of each subteam, creates calendars, and makes sure the robot is completed on time.
-
+            
     -
         id-number: 3
         mobile-id-number: 19
-        name: Simran Pujji
-        image: /assets/img/leads/simran.jpg
-        role: Strategic Director
-        email: spujji@palyrobotics.com
+        name: Kathleen Krier
+        image: /assets/img/leads/placeholder.jpeg
+        role: Head Coach
+        email: kkrier@palyrobotics.com
         description: >
-            Simran Pujji is a rising senior and this will be her 4th year on Paly Robotics. As the Strategic Director this year, she hopes to involve members in FLL and FTC events to set the team up to be able to host tournaments and mentor teams. As a 2017 Dean's List Winner, she's eager to work with her fellow winners and finalists on collaborative projects and to involve the team in more initiatives within FIRST. She's looking forward to another great season :)
-
+            
 
 Leads2:
     -
         id-number: 4
         mobile-id-number: 20
-        name: Shota Yamamoto
-        image: /assets/img/leads/shota.jpg
+        name: Lawrence Chang
+        image: /assets/img/leads/lawrence.jpg
         role: Build Captain
-        email: syamamoto@palyrobotics.com
+        email: lchang@palyrobotics.com
         description: >
-            Shota Yamamoto (also known as Spicyboi) is a senior on Team 8 and has been on the team since his sophomore year. He was originally on business team, but realized that his true passion was robot design and fabrication. While on business, Shota helped find sponsors, and his hard work helped find the team food sponsors for build season. As a junior he was the lab manager and purchased a 3D printer and laser cutter through the Paly district. This led to his unofficial title as the Team Maker. This year, as the Build Captain he plans to lead the effort of bringing the t shirt shooting robot design and 2018 robot design to life, along with making sure all members know that whenever something goes wrong, it's a software problem.
+            Lawrence Chang is a sophomore on the Paly Robotics Team. This year, he is taking on the role of Pit Management, and is enthusiastic about keeping people and the lab safe. As he always says, "Remember to wear safety glasses!"
 
     -
         id-number: 5
         mobile-id-number: 21
-        name: Eric Liu
-        image: /assets/img/leads/eric.png
+        name: Robbie Selwyn
+        image: /assets/img/leads/placeholder.jpeg
         role: Software Captain
-        email: eliu@palyrobotics.com
+        email: rselwyn@palyrobotics.com
         description: >
-            Eric is a senior who joined the team as a software(then known as programming) member during his freshman year. Starting with no programming experience, he learned quickly and soon became one of the primary programmers. As the software captain this year, he manages the development and testing of the code and ensures that every member knows that when something doesn't work, it's a build problem.
+            
 
     - 
         id-number: 6
         mobile-id-number: 22
-        name: Jacob Zajac
-        image: /assets/img/leads/jacob.jpg
+        name: Cyrus Xu
+        image: /assets/img/leads/placeholder.jpeg
         role: Design Captain
-        email: jzajac@palyrobotics.com
+        email: cxu@palyrobotics.com
         description: >
-            Jacob is a senior who joined the team as a Build member his freshman year.  He learned about the hardware side of FRC and became proficient with the tools of a machinist, including the CNC mill, lathe, and duct tape.  After his sophomore year, Jacob decided he wanted to get more involved in the actual design process, and so he joined the Design Team.  He quickly taught himself how to CAD in Solidworks, and as the subteam’s project manager, made sure everything was completed to his satisfaction and on time.  As the Design Captain, Jacob leads the mechanical design effort and ensures that his fellow designers have all the resources they need to CAD quickly and efficiently.  He will also swear it worked in CAD.
-
+            
     -
         id-number: 7
         mobile-id-number: 23
-        name: Jennifer Xu
-        image: /assets/img/leads/jennifer.jpg
+        name: Annie Chen
+        image: /assets/img/leads/placeholder.jpeg
         role: Business Captain
-        email: jxu@palyrobotics.com
+        email: achen@palyrobotics.com
         description: >
-            Jennifer Xu is Junior on Team 8 who joined her freshman year. She became the FIRST Project Manager for Business her sophomore year as one of the few members left, and worked with the then business captain(Annalee Soohoo) to build business team into an entrepreneurship award powerhouse. As Business Captain, Jennifer is in charge of projects relating to sponsorships, awards, and outreach. She currently holds the record for most years spent on business(3), and during that time she developed an unhealthy interest in formats, fonts, and presentations.
-
+            
 
 Leads3:
     -
         id-number: 8
         mobile-id-number: 24
-        name: Maya Chin 
-        image: /assets/img/leads/maya.jpg
+        name: Aruna Anderson 
+        image: /assets/img/leads/placeholder.jpeg
         role: Art Captain
-        email: mchin@palyrobotics.com
+        email: aanderson@palyrobotics.com
         description: >
-            Maya is a senior who joined Paly Robotics her freshman year as an animator and storyboard artist, 
-            eventually becoming the Art Project Manager her sophomore year, before having to take up the mantle of Art 
-            Captain when both her predecessors were brutally murdered. When not holding serious meetings at Tin Pot or 
-            Kirk’s with the Art Team Leadership, she spends her time doing odd-jobs for Paly Theatre and her APUSH 
-            homework. And yes, it is very funny that her name is Maya and the Art Team uses Autodesk Maya. In fact, it's 
-            so funny that you should definitely make that joke to her face for the 9,999th time, because it hasn’t gotten 
-            old by now at all. Ha. Ha. Ha.
-
     -
         id-number: 9
         mobile-id-number: 25
-        name: Caleb Tan
-        image: /assets/img/leads/caleb.jpg
-        role: Webmaster
-        email: ctan@palyrobotics.com
+        name: Nina Hunt
+        image: /assets/img/leads/placeholder.jpeg
+        role: Treasurer
+        email: nhunt@palyrobotics.com
         description: >
-            I made this website and I maintain it with my fellow webmaster over there ---->
     -
         id-number: 10
-        mobile-id-number: 26
+        mobile-id-number: 26   
+        name: Kyla Fu
+        image: /assets/img/leads/placeholder.jpeg
+        role: Lab Manager
+        email: kfu@palyrobotics.com
+        description: >
+    -
+        id-number: 11
+        mobile-id-number: 27
+        name: Spencer Soohoo
+        image: /assets/img/leads/spencer.jpg
+        role: Pit Management/Safety Captain
+        email: ssoohoo@palyrobotics.com
+        description: >
+            Spencer is a sophmore on the team who joined as a build member his freshman year. He found a love in robot design, hardware and fabrication, particulary turning parts with the lathe and welding. Outside of robotics he enjoys water polo, backpacking, and making personal projects, such as his shopping cart go kart.
+Leads4:
+    -
+        id-number: 12
+        mobile-id-number: 28
+        name: Jennifer Zwiebel
+        image: /assets/img/leads/jenniferz.jpg
+        role: Competition Management
+        email: jzwiebel@palyrobotics.com
+        description: >
+            Jennifer Zwiebel is a junior who joined Team 8 her freshman year. Her role as competition manager includes preserving the team sanity during competitions and running around very stressed but happy. What she has most enjoyed about being on Paly Robotics is getting to explore the different aspects of the team.
+
+    -
+        id-number: 13
+        mobile-id-number: 29
+        name: Emma Jiang
+        image: /assets/img/leads/emma.png
+        role: Strategy/Scouting Lead
+        email: ejiang@palyrobotics.com
+        description: >
+           Emma Jiang (also known as Emu) is a junior who joined the team as a Design member in her freshman year. During build season, she works on robot strategy, prototyping, and CAD, as well as trains new scouts. At competition, she can be found discussing strategy with her co-lead Caleb or in the stands scouting matches. In her free time, she writes, draws, and makes memes.
+    -
+        id-number: 14
+        mobile-id-number: 30
+        name: Caleb Tan
+        image: /assets/img/leads/caleb.jpg
+        role: Webmaster & Strategy/Scouting Lead
+        email: ctan@palyrobotics.com
+        description: >
+            I made this website and I maintain it with my fellow webmaster over there! → <br>
+            I also work on match strategy and scouting during competitions with my colleague over on the left! ↩
+
+    -
+        id-number: 15
+        mobile-id-number: 31
         name: Elaine Liu
         image: /assets/img/leads/elaine.jpg
         role: Webmaster
         email: elaineliu@palyrobotics.com
         description: >
             Elaine Liu is a sophomore on Paly Robotics and has been on the team since her freshman year. She discovered her passion in computer science in middle school and has since been pursuing her dreams in a STEM career by developing her potential in web. She enjoys coding in HTML & CSS and watching beautiful websites come to life through code. In her spare time, she watches a variety of shows and spends most of her time online. (XD)
-
-    -
-        id-number: 11
-        mobile-id-number: 27     
-        name: Vyomika Gupta
-        image: /assets/img/leads/vroom.png
-        role: Lab Manager
-        email: vgupta@palyrobotics.com
-        description: >
-            Vyomika is a sophomore who joined Team 8 as part of the build team last year. She works with all aspects of robot production, from conceptualization to fabrication. As lab manager, she works to keep the lab as well-equipped as possible. She also enjoys pit scouting at competitions, and meeting people from other teams. When not in the lab, she dances, and tries not to procrastinate about doing homework.
-   
-
-Leads4:
-    -
-        id-number: 12
-        mobile-id-number: 28
-        name: Amy Lin
-        image: /assets/img/leads/amy.jpg
-        role: Treasurer
-        email: alin@palyrobotics.com
-        description: >
-            Amy is a sophomore who has been on the team since the beginning of high school. Throughout her freshman year, she has worked with the tools of the trade to design and machine parts for the robot, and plans to continue working with and learning from the build team. When not with the team, she is found either drawing or reading about old men with swords.
-    -
-        id-number: 13
-        mobile-id-number: 29
-        name: Lawrence Chang
-        image: /assets/img/leads/lawrence.jpg
-        role: Pit Management/Safety Captain
-        email: lchang@palyrobotics.com
-        description: >
-            Lawrence Chang is a sophomore on the Paly Robotics Team. This year, he is taking on the role of Pit Management, and is enthusiastic about keeping people and the lab safe. As he always says, "Remember to wear safety glasses!"
-    -
-        id-number: 14
-        mobile-id-number: 30
-        name: Jeffery Yu
-        image: /assets/img/leads/jeffery.jpg
-        role: Competition Management
-        email: jyu@palyrobotics.com
-        description: >
-            Jeffery Yu is a junior on Team 8 who joined freshman year. As the team's current Competition Manager, Jeffery ensures the survival and satiety of the team during the competition season. When not doing team related tasks, Jeffery enjoys his two and one half hours of AP US history homework every day, as well as playing trading card games all by his lonesome.
-    - 
-        id-number: 15
-        mobile-id-number: 31
-        name: Chris Kuszmaul
-        image: /assets/img/leads/ckuszmaul.jpg
-        role: Head Coach
-        email: ckuszmaul@palyrobotics.com
-        description: >
-            Mr. Kuszmaul grew up in Kansas, went to MIT in the 80’s, worked as a scientist at NASA in the 90’s and took care of 
-            his children and learned to be a teacher in the 2000’s.  Since 2012 he has been working to make Paly Robotics a place 
-            where people can be who they are, enabled by the wisdom and fruits of science and engineering. He is also a 6th degree 
-            black belt in Aikido, the martial art of peace. His wife teases him about this, by asking him if he is aware of the 
-            definition of the word “martial.”.
+ 
+    # - 
+    #     id-number: 15
+    #     mobile-id-number: 31
+    #     name: Chris Kuszmaul
+    #     image: /assets/img/leads/ckuszmaul.jpg
+    #     role: Head Coach
+    #     email: ckuszmaul@palyrobotics.com
+    #     description: >
+    #         Mr. Kuszmaul grew up in Kansas, went to MIT in the 80’s, worked as a scientist at NASA in the 90’s and took care of 
+    #         his children and learned to be a teacher in the 2000’s.  Since 2012 he has been working to make Paly Robotics a place 
+    #         where people can be who they are, enabled by the wisdom and fruits of science and engineering. He is also a 6th degree 
+    #         black belt in Aikido, the martial art of peace. His wife teases him about this, by asking him if he is aware of the 
+    #         definition of the word “martial.”.
 
 ...
