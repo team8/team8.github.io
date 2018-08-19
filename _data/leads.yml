@@ -26,7 +26,7 @@ Leads1:
         id-number: 2
         mobile-id-number: 18
         name: Eddie Shi
-        image: /assets/img/leads/placeholder.jpeg
+        image: /assets/img/leads/eddie.jpg
         role: Project Manager
         email: eshi@palyrobotics.com
         description: >
@@ -66,20 +66,20 @@ Leads2:
         id-number: 6
         mobile-id-number: 22
         name: Cyrus Xu
-        image: /assets/img/leads/placeholder.jpeg
+        image: /assets/img/leads/cyrus.jpg
         role: Design Captain
         email: cxu@palyrobotics.com
         description: >
-            
+            Cyrus is a junior at Paly who joined design freshman year. During build season, he leads CAD development & leads CAD development. In his free time, he studies for analysis, cads cool models, and sleeps. 
     -
         id-number: 7
         mobile-id-number: 23
         name: Annie Chen
-        image: /assets/img/leads/placeholder.jpeg
+        image: /assets/img/leads/annie.jpg
         role: Business Captain
         email: achen@palyrobotics.com
         description: >
-            
+            Annie joined Team 8 as a Business member her freshman year, and has been actively involved in sponsorships, awards, and outreach ever since — last year, Annie was the Business Project Manager; this year, as the Business Captain, she plans to not only increase sponsorship revenue and continue the team’s Entrepreneurship Award legacy, but also expand outreach efforts. She has a lot of experience in this area, as she established the Lego Robotics Summer Program and has been leading it for the past two years. Additionally, Annie was a Co-Lead of the 2018 Paly Robotics Summer Camp. Overall, Annie is looking forward to a successful and unforgettable year! (If she can stop playing Surviv with a banana slug.)
 
 Leads3:
     -
@@ -102,10 +102,11 @@ Leads3:
         id-number: 10
         mobile-id-number: 26   
         name: Kyla Fu
-        image: /assets/img/leads/placeholder.jpeg
+        image: /assets/img/leads/kyla.jpg
         role: Lab Manager
         email: kfu@palyrobotics.com
         description: >
+            Kyla Fu is a sophomore who joined the Paly Robotics Team as a design member her freshman year. As Lab Manager, she keeps the lab organized and improves the lab for better function.
     -
         id-number: 11
         mobile-id-number: 27
