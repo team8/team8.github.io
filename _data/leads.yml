@@ -21,7 +21,7 @@ Leads1:
         role: Team Co-Captain
         email: jxu@palyrobotics.com
         description: >
-            Jennifer Xu is Junior on Team 8 who joined her freshman year. She became the FIRST Project Manager for Business her sophomore year as one of the few members left, and worked with the then business captain(Annalee Soohoo) to build business team into an entrepreneurship award powerhouse. As Business Captain, Jennifer is in charge of projects relating to sponsorships, awards, and outreach. She currently holds the record for most years spent on business(3), and during that time she developed an unhealthy interest in formats, fonts, and presentations.
+            Jennifer Xu is senior on Team 8 who joined her freshman year. She became the FIRST Project Manager for Business her sophomore year as one of the few members left, and worked with the then business captain (Annalee Soohoo) to build business team into an entrepreneurship award powerhouse. As Business Captain, Jennifer is in charge of projects relating to sponsorships, awards, and outreach. She currently holds the record for most years spent on business(3), and during that time she developed an unhealthy interest in formats, fonts, and presentations.
     -
         id-number: 2
         mobile-id-number: 18
@@ -50,7 +50,7 @@ Leads2:
         role: Build Captain
         email: lchang@palyrobotics.com
         description: >
-            Lawrence Chang is a sophomore on the Paly Robotics Team. This year, he is taking on the role of Pit Management, and is enthusiastic about keeping people and the lab safe. As he always says, "Remember to wear safety glasses!"
+            Lawrence Chang is a junior on the Paly Robotics Team. This year, he is taking on the role of Pit Management, and is enthusiastic about keeping people and the lab safe. As he always says, "Remember to wear safety glasses!"
 
     -
         id-number: 5
@@ -70,7 +70,7 @@ Leads2:
         role: Design Captain
         email: cxu@palyrobotics.com
         description: >
-            Cyrus is a junior at Paly who joined design freshman year. During build season, he leads CAD development & leads CAD development. In his free time, he studies for analysis, cads cool models, and sleeps. 
+            Cyrus is a junior at Paly who joined design freshman year. During build season, he leads robot design & CAD development. In his free time, he also studies for analysis, cads cool models, and sleeps. 
     -
         id-number: 7
         mobile-id-number: 23
@@ -79,7 +79,7 @@ Leads2:
         role: Business Captain
         email: achen@palyrobotics.com
         description: >
-            Annie joined Team 8 as a Business member her freshman year, and has been actively involved in sponsorships, awards, and outreach ever since — last year, Annie was the Business Project Manager; this year, as the Business Captain, she plans to not only increase sponsorship revenue and continue the team’s Entrepreneurship Award legacy, but also expand outreach efforts. She has a lot of experience in this area, as she established the Lego Robotics Summer Program and has been leading it for the past two years. Additionally, Annie was a Co-Lead of the 2018 Paly Robotics Summer Camp. Overall, Annie is looking forward to a successful and unforgettable year! (If she can stop playing Surviv with a banana slug.)
+            Annie joined Team 8 as a Business member her freshman year, and has been actively involved in sponsorships, awards, and outreach ever since — last year, Annie was the Business Project Manager; this year, as the Business Captain, she plans to not only increase sponsorship revenue and continue the team’s Entrepreneurship Award legacy, but also expand outreach efforts. She has a lot of experience in this area, as she established the Lego Robotics Summer Program and has been leading it for the past two years. Additionally, Annie was a Co-Lead of the 2018 Paly Robotics Summer Camp. Overall, Annie is looking forward to a successful and unforgettable year!
 
 Leads3:
     -
@@ -94,10 +94,11 @@ Leads3:
         id-number: 9
         mobile-id-number: 25
         name: Nina Hunt
-        image: /assets/img/leads/placeholder.jpeg
+        image: /assets/img/leads/nina.jpg
         role: Treasurer
         email: nhunt@palyrobotics.com
         description: >
+            Nina Hunt is a sophomore who joined Team 8 as a build member in her freshman year. Her job as treasurer includes keeping track of team budgets, purchasing materials, and staring at long lists of numbers. She also enjoys playing her guitar, drawing, and painting.
     -
         id-number: 10
         mobile-id-number: 26   
@@ -155,7 +156,7 @@ Leads4:
         role: Webmaster
         email: elaineliu@palyrobotics.com
         description: >
-            Elaine Liu is a sophomore on Paly Robotics and has been on the team since her freshman year. She discovered her passion in computer science in middle school and has since been pursuing her dreams in a STEM career by developing her potential in web. She enjoys coding in HTML & CSS and watching beautiful websites come to life through code. In her spare time, she watches a variety of shows and spends most of her time online. (XD)
+            Elaine Liu is a junior on Paly Robotics and has been on the team since her freshman year. She discovered her passion in computer science in middle school and has since been pursuing her dreams in a STEM career by developing her potential in web. She enjoys coding in HTML & CSS and watching beautiful websites come to life through code. In her spare time, she watches a variety of shows and spends most of her time online. (XD)
  
     # - 
     #     id-number: 15
