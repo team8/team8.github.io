@@ -12,7 +12,7 @@ Leads1:
         role: Team Co-Captain
         email: byang@palyrobotics.com
         description: >
-            Bryan joined the team in his freshman year as one of the three recruits onto the newly formed design team, quickly becoming familiar with the design process. In sophomore year, he worked as a design lead, helping to coordinate CAD assignments and create recruitment curriculum. In the following year, as the design project manager, he helped keep the robot on schedule, worked with previous design captain (Jacob) to swear the robot worked in CAD, and fostered a strong learning environment on design team. This year, as the Technical Team Co-captain, he plans to continue working on creating a good team community for all members, as well as helping the team grow their technical and leadership skills.
+            Bryan joined the team in his freshman year as one of three recruits onto the newly formed design team, quickly becoming familiar with the design process. In sophomore and junior year, he worked as a design lead and project manager, helping coordinate CAD assignments, work with previous design captain (Jacob Zajac) to swear that the robot worked in CAD, and foster a strong learning environment on design. This year, as the Team Co-captain, he plans to continue working on creating a good team community for all members, as well as helping the team grow their technical and leadership skills. In his spare time, Bryan enjoys scale modeling, taking naps, and occasionally a bit of volleyball.    
     -
         id-number: 1
         mobile-id-number: 17
@@ -30,7 +30,7 @@ Leads1:
         role: Project Manager
         email: eshi@palyrobotics.com
         description: >
-            
+            Eddie is a senior who has been on the build subteam since his freshman year. Starting off as a build recruit, he eventually became the pit manager his sophomore year and the build project manager his senior year. This year, Eddie plans to use his past experience to keep Build, Design, and Software team on a strict timeline in order to get the robot completed on time during this build season.
     -
         id-number: 3
         mobile-id-number: 19
@@ -86,10 +86,11 @@ Leads3:
         id-number: 8
         mobile-id-number: 24
         name: Aruna Anderson 
-        image: /assets/img/leads/placeholder.jpeg
+        image: /assets/img/leads/aruna.jpg
         role: Art Captain
         email: aanderson@palyrobotics.com
         description: >
+            Aruna is a sophomore who joined paly robotics art in her freshman year because of her interest in the 3d software maya. In art, she enjoys 3d modeling and texturing the most. She is really excited for the year to come and hopes to expand her knowledge in maya and graphic design.
     -
         id-number: 9
         mobile-id-number: 25
