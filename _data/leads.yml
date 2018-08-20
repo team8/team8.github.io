@@ -35,11 +35,11 @@ Leads1:
         id-number: 3
         mobile-id-number: 19
         name: Kathleen Krier
-        image: /assets/img/leads/placeholder.jpeg
+        image: /assets/img/leads/krier.jpg
         role: Head Coach
         email: kkrier@palyrobotics.com
         description: >
-            
+            Kathleen Krier is the new head coach of Paly Robotics this year. She sought out Palo Alto High School because of the quality of the teaching, and the heavy parent involvement and high expectations. She is well-versed in the fields of computer science, math, engineering, and robotics, and has many years of experience in the FIRST program. She is looking forward to working with Paly Robotics in the upcoming season!
 
 Leads2:
     -
@@ -50,7 +50,7 @@ Leads2:
         role: Build Captain
         email: lchang@palyrobotics.com
         description: >
-            Lawrence Chang is a junior on the Paly Robotics Team. This year, he is taking on the role of Pit Management, and is enthusiastic about keeping people and the lab safe. As he always says, "Remember to wear safety glasses!"
+            Lawrence Chang is a junior on the Paly Robotics Team that joined build team in his freshman year. In his sophomore year, he took on the role of pit manager and safety captain. This year, he is the Build Captain, where he’ll be working on leading the manufacturing and assembly processes. If you catch him in the lab, you will probably hear him say “Always Remember to wear safety glasses!”
 
     -
         id-number: 5
@@ -60,7 +60,7 @@ Leads2:
         role: Software Captain
         email: rselwyn@palyrobotics.com
         description: >
-            
+            Robbie is a senior on Paly Robotics. He joined the team his freshman year, and he is now the Software captain.
 
     - 
         id-number: 6
@@ -114,7 +114,7 @@ Leads3:
         mobile-id-number: 27
         name: Spencer Soohoo
         image: /assets/img/leads/spencer.jpg
-        role: Pit Management/Safety Captain
+        role: Pit Manager/Safety Captain
         email: ssoohoo@palyrobotics.com
         description: >
             Spencer is a sophmore on the team who joined as a build member his freshman year. He found a love in robot design, hardware and fabrication, particulary turning parts with the lathe and welding. Outside of robotics he enjoys water polo, backpacking, and making personal projects, such as his shopping cart go kart.
@@ -124,7 +124,7 @@ Leads4:
         mobile-id-number: 28
         name: Jennifer Zwiebel
         image: /assets/img/leads/jenniferz.jpg
-        role: Competition Management
+        role: Competition Manager
         email: jzwiebel@palyrobotics.com
         description: >
             Jennifer Zwiebel is a junior who joined Team 8 her freshman year. Her role as competition manager includes preserving the team sanity during competitions and running around very stressed but happy. What she has most enjoyed about being on Paly Robotics is getting to explore the different aspects of the team.
