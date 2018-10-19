@@ -34,13 +34,12 @@ Leads1:
     -
         id-number: 3
         mobile-id-number: 19
-        name: Kathleen Krier
-        image: /assets/img/leads/krier.jpg
+        name: --
+        image: /assets/img/leads/placeholder.jpeg
         role: Head Coach
-        email: kkrier@palyrobotics.com
+        email: --
         description: >
-            Kathleen Krier is the new head coach of Paly Robotics this year. She sought out Palo Alto High School because of the quality of the teaching, and the heavy parent involvement and high expectations. She is well-versed in the fields of computer science, math, engineering, and robotics, and has many years of experience in the FIRST program. She is looking forward to working with Paly Robotics in the upcoming season!
-
+            The Head Coach position is currently in transition.
 Leads2:
     -
         id-number: 4
@@ -56,7 +55,7 @@ Leads2:
         id-number: 5
         mobile-id-number: 21
         name: Robbie Selwyn
-        image: /assets/img/leads/placeholder.jpeg
+        image: /assets/img/leads/robbie.jpg
         role: Software Captain
         email: rselwyn@palyrobotics.com
         description: >
