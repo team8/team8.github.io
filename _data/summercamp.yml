@@ -52,7 +52,7 @@
             answer: No. We understand your that your summer time is very valuable, so it is not required to attend both sessions. You may opt for one or the other.
         -
             question: Is previous experience required?
-            answer: Not at all. Regardless of experience level, we will introduce them to STEAM and be sure to keep them well engaged with exciting activities.
+            answer: Not at all. Our camp will have activities for campers to participate in regardless of previous experience. We just ask that you come with an open mind and are ready to learn. 
         -
             question: When is the camp offered and what are the different sessions?
             answer: We are offering the camp the week of July 23rd and the week of July 30th. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
@@ -60,14 +60,14 @@
             question: Will there be adult supervision?
             answer: Rest assured, while the camp is run primarily by student counselors, we have mentors and coaches who will be there to supervise at all times.
         -
-            question: How is safety going to be enforced while using tools and machinery?
-            answer: Our team members are well versed in safe operation of all the machines and tools in the lab, but adults will be present to keep an eye on campers as well.
+            question: How will safety be ensured while working with machines and tools?
+            answer: Our team has well-established safety regulations as well as certified adults who will be present throughout the camp to ensure that proper safety protocols are being met.
         - 
-            question: What is the policy regarding lunch and snacks?
-            answer: Campers will have to bring their own lunch, but we will be providing nut-free snacks to campers during breaks.
+            question: What is the lunch and snack policy?
+            answer: Campers will have to bring their own lunches, but nut-free snacks will be provided during the first break of the day.
         -
             question: Where is the robotics lab?
-            answer: More information will be sent before the camp, but you can find the location of our lab on the Resources page.
+            answer: More information will be sent before the camp, but you can find a map of the location <a target=”_blank” href="/resources/">here</a>.
         -
             question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
             answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.
@@ -81,7 +81,7 @@
             question: What is the cancellation policy?
             answer: As we understand that plans often change over the summer, we will fully refund any registration cancellations before June 1st. Any cancellations made the day of or afterwards will incur a fee of $175 per session.  However, if the situation arises in which you cancel after July 16th, we unfortunately will not be able to refund you.
         -    
-            question: Is it possible for me to receive financial aid?
-            answer: Yes, you will be able to request financial aid through the registration form.     
+            question: Do you provide financial aid?
+            answer: Yes, we provide financial aid with no questions asked. If you would like to apply, please send an email to <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.
 ...
 
