@@ -32,7 +32,7 @@
             paragraph: We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.
     Sessions2:
         title: Robot Design and Hardware
-        img: /assets/img/summercamp/build-img3.png
+        img: /assets/img/summercamp/build-img.png
         info: The Robot Design and Hardware session gives campers an immersive, hands-on opportunity to design and build a robot for an FRC-style game challenge revealed at the beginning of the week. Campers will learn to ideate and iterate robot mechanisms through CAD software, power tools, and industry standard machines. They will also be motivated to innovate, solve problems, and cooperate as a team, while preparing for a competition at the end of the week. 
         title1: Programming
         img1: /assets/img/summercamp/programming.png
@@ -41,7 +41,7 @@
         img2: /assets/img/summercamp/entreweb.png
         info2: The Entrepreneurship and Web Design session inspires campers to develop and launch their own professional startup companies. Students will learn fundamental marketing and advertising skills, as well as create plans governing finance and company growth. To showcase their business proposals, campers will also learn HTML and CSS to design their company websites, using GitHub as a resource to collaborate in a group environment.
         title3: 3D Animation and Graphic Design
-        img3: /assets/img/summercamp/art.png
+        img3: /assets/img/summercamp/art-img.png
         info3: The 3D Animation and Graphic Design session teaches campers to create 3D models and bring them to life using industry standard software, Autodesk Maya, as well as develop graphic design skills with Adobe software. Campers will learn about typography and how to balance compositions while getting a taste of what it’s like to design for a client. At the end of the week, students will take home their very own animated short, 3D computer modelled set, poster, designs, and other creations.
 
     FAQEmail:  
@@ -71,9 +71,6 @@
         -
             question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
             answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.
-        - 
-            question: How much is the registration fee for this summer camp this year?
-            answer: This year, Paly Robotics Summer Camp will have a required fee of $350 per session for each camper. Those in need financial aid will be accommodated.
         -    
             question: What is the recommended method of payment?
             answer: Paypal (or credit/debit card via PayPal) is our ideal method of payment, but if you would like to mail us a check, they may be written to Palo Alto High School Robotics Boosters and mailed to 50 Embarcadero Rd, Palo Alto, CA 94301.
