@@ -18,14 +18,14 @@
 
     Table:
         title: Weeks Offered
-        dates1: Week 1&#58; July 23 - 27
-        dates2: Week 2&#58; July 30 - August 3
+        dates1: Week 1&#58; July 22 - 26
+        dates2: Week 2&#58; July 29 - August 2
         time: Time
         hour: 9 AM - 3 PM
         location: Location
         address: The Paly Robotics Lab (Room 903 at Palo Alto High School)
         payment: Payment Information
-        finance: The fee will be $350 per camper, per session. Financial aid will be offered.    
+        finance: The fee is $390 per camper, per session. We offer an early bird price of $350 until January 31st. Financial aid will be offered with no questions asked.    
 
 
     Sessions1:
@@ -33,7 +33,7 @@
     Sessions2:
         title: Robot Design and Hardware
         img: /assets/img/summercamp/build-img.png
-        info: The Robot Design and Hardware session gives campers an immersive, hands-on opportunity to design and build a robot for an FRC-style game challenge revealed at the beginning of the week. Campers will learn to ideate and iterate robot mechanisms through CAD software, power tools, and industry standard machines. They will also be motivated to innovate, solve problems, and cooperate as a team, while preparing for a competition at the end of the week. 
+        info: The Robot Design and Hardware session gives campers an immersive and hands-on experience designing and building a competitive robot. Robots will be created to compete in a FIRST Robotics Competition style game challenge revealed at the beginning of the week. In order to ideate and iterate their robots’ mechanisms, campers will learn to use 3D modeling software, power tools, and industry standard machines. Members of Paly Robotics will be working with campers and motivating them to problem solve, cooperate as a team, and prepare for an engaging tournament at the end of the week. 
         title1: Programming
         img1: /assets/img/summercamp/programming.png
         info1: The Programming session aims to spark students’ interests in computer science and robotics. Campers new to programming will be taught common techniques and practices using Python 3, while advanced students will learn about more complex computer science concepts. To apply their newly learned knowledge, campers will end the week by using control loops and other various concepts to develop a robot. Students of all skill levels are encouraged to come, as each class will be tailored to the needs of the campers.
@@ -55,7 +55,7 @@
             answer: Not at all. Our camp will have activities for campers to participate in regardless of previous experience. We just ask that you come with an open mind and are ready to learn. 
         -
             question: When is the camp offered and what are the different sessions?
-            answer: We are offering the camp the week of July 23rd and the week of July 30th. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
+            answer: We are offering the camp the week of July 22rd and the week of July 29th. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
         -
             question: Will there be adult supervision?
             answer: Rest assured, while the camp is run primarily by student counselors, we have mentors and coaches who will be there to supervise at all times.
