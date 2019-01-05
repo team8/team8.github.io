@@ -14,53 +14,45 @@ Sponsors1:
     paragraph: Easily one of the most influential tech companies of the Information Era, Google is a symbol of modern technological
           innovation. Based in nearby Mountain View, Google sponsors Team 8 as part of its mission to inspire the next generation
           of technological pioneers.
-    
-  - Nvidia: 
-    image: /assets/img/sponsors/nvidia.svg
-    paragraph: Nvidia is a multinational hardware and software company based in Santa Clara. Their strides in computer hardware
-            are incredibly impressive, and we are proud to be sponsored by them.
 
-
-Sponsors2:
-  - Intuitive-Surgical:
-    image: /assets/img/sponsors/intuitive-surgical.png
-    paragraph: Intuitive Surgical manufactures robotic surgical machines designed for minimally invasive surgery, which are employed
-          in hospitals throughout the U.S. We admire their advances with robotics into the field of medicine, and are proud
-          to be sponsored by Intuitive Surgical.
-    
   - Solidworks: 
     image: /assets/img/sponsors/solidworks.png
     paragraph: Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing us to effectively
             design and prototype our robot. They also donated a powerful CAM tool that we use in conjunction with our CNC
-            Mill and 3D Printer.
-            
-  - Qualcomm:
-    image: /assets/img/sponsors/qualcomm.png
+            Mill and 3D Printer.  
+
+Sponsors2:
+  - Monsanto:
+    image: /assets/img/sponsors/monsanto.png
     paragraph: Coming soon!
 
-Sponsors3:
-  - Webcor-Builders:
-    image: /assets/img/sponsors/webcor-builders.jpg
-    paragraph: Webcor Builders is a construction contractor, headquartered in San Francisco. The support of Webcor means a lot
-            to us, their impressive portfolio of building projects amazes and inspires us.
-   
   - D&K: 
     image: /assets/img/sponsors/d&k.gif
     paragraph: D&K Precision Sheet Metal is a family owned sheet metal shop that has been delivering the highest quality sheet metal products to Silicon Valley companies since 1981. Located in the San Francisco South Bay, D&K sponsors Team 8 by fabricating custom sheet metal parts for robot builds. 
 
-  - Landec-Co:
-    image: /assets/img/sponsors/landec.jpg
-    paragraph: Landec has a diverse portfolio of companies in various industries, with the mission to create innovative products that support everyone’s unique health and wellness journey. They strive to be an innovative leader in the markets they serve, and influence Team 8 through their presence in various markets such as their approach in the biomedical technology field.
+  - Arm:
+    image: /assets/img/sponsors/arm.png
+    paragraph: Coming soon!
 
-Sponsors4:
-  - Hassett-Hardware:
-    image: /assets/img/sponsors/hassett-hardware.png
-    paragraph:  Hassett Ace Hardware is a family-owned hardware store in the Bay Area. They are a part of the ACE cooperative because of their belief in ACE values such as innovation, clear communication, strong relationships and networks, and strong advocacy. Their support is greatly beneficial to our team in our robot-building process.
-
+Sponsors3:
   - Kirks:
     image: /assets/img/sponsors/kirks.png
     paragraph:  Kirk's Steakburgers sponsors Team 8 by providing us with delicious burgers to keep us fed during build season.
-  - Zume-Pizza:
-    image: /assets/img/sponsors/zume-pizza.png
-    paragraph: "Zume Pizza is a pizzeria based in Mountain View, CA, and is a pioneer in the pizza delivery industry. Utilizing advanced, industrial robots, Zume Pizza delivers on-demand pizza to anyplace in the Bay Area. Team 8 is not only inspired by their usage of robots in the modern culinary field, but delighted by their tasty pizzas as well."
+  - Western-Digital:
+    image: /assets/img/sponsors/westerndigital.png
+    paragraph: Coming soon!
+  - 
+  # - Landec-Co:
+  #   image: /assets/img/sponsors/landec.jpg
+  #   paragraph: Landec has a diverse portfolio of companies in various industries, with the mission to create innovative products that support everyone’s unique health and wellness journey. They strive to be an innovative leader in the markets they serve, and influence Team 8 through their presence in various markets such as their approach in the biomedical technology field.
+
+# Sponsors4:
+#   # - Hassett-Hardware:
+#   #   image: /assets/img/sponsors/hassett-hardware.png
+#   #   paragraph:  Hassett Ace Hardware is a family-owned hardware store in the Bay Area. They are a part of the ACE cooperative because of their belief in ACE values such as innovation, clear communication, strong relationships and networks, and strong advocacy. Their support is greatly beneficial to our team in our robot-building process.
+
+
+#   - Zume-Pizza:
+#     image: /assets/img/sponsors/zume-pizza.png
+#     paragraph: "Zume Pizza is a pizzeria based in Mountain View, CA, and is a pioneer in the pizza delivery industry. Utilizing advanced, industrial robots, Zume Pizza delivers on-demand pizza to anyplace in the Bay Area. Team 8 is not only inspired by their usage of robots in the modern culinary field, but delighted by their tasty pizzas as well."
 ...
