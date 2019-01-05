@@ -46,19 +46,10 @@
 
     FAQEmail:  
         info: Our email&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>
-    FAQ:  
-        -
-            question: Is it required to attend both sessions?
-            answer: No. We understand your that your summer time is very valuable, so it is not required to attend both sessions. You may opt for one or the other.
+    FAQ: 
         -
             question: Is previous experience required?
             answer: Not at all. Our camp will have activities for campers to participate in regardless of previous experience. We just ask that you come with an open mind and are ready to learn. 
-        -
-            question: When is the camp offered and what are the different sessions?
-            answer: We are offering the camp the week of July 22rd and the week of July 29th. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
-        -
-            question: Will there be adult supervision?
-            answer: Rest assured, while the camp is run primarily by student counselors, we have mentors and coaches who will be there to supervise at all times.
         -
             question: How will safety be ensured while working with machines and tools?
             answer: Our team has well-established safety regulations as well as certified adults who will be present throughout the camp to ensure that proper safety protocols are being met.
@@ -69,16 +60,25 @@
             question: Where is the robotics lab?
             answer: More information will be sent before the camp, but you can find a map of the location <a target=”_blank” href="/resources/">here</a>.
         -
-            question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
-            answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.
-        -    
-            question: What is the recommended method of payment?
-            answer: Paypal (or credit/debit card via PayPal) is our ideal method of payment, but if you would like to mail us a check, they may be written to Palo Alto High School Robotics Boosters and mailed to 50 Embarcadero Rd, Palo Alto, CA 94301.
+            question: Is it required to attend both weeks?
+            answer: It is not required to attend both weeks.  The curriculum in each session is repeated each week.
+        -
+            queston: How much is the registration fee for this summer camp this year?
+            answer: This year, Paly Robotics Summer Camp will have a required fee of $390 per session for each camper. Those that sign up in January will receive an early bird discount, making the fee $350. Those in need financial aid will be accommodated.
+        -
+            question: When is the camp offered and what are the different sessions?
+            answer: We are offering the camp the week of July 22rd and the week of July 29th. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
         -    
             question: What is the cancellation policy?
             answer: As we understand that plans often change over the summer, we will fully refund any registration cancellations before June 1st. Any cancellations made the day of or afterwards will incur a fee of $175 per session.  However, if the situation arises in which you cancel after July 16th, we unfortunately will not be able to refund you.
         -    
             question: Do you provide financial aid?
             answer: Yes, we provide financial aid with no questions asked. If you would like to apply, please send an email to <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.
+        -    
+            question: What is the recommended method of payment?
+            answer: Paypal (or credit/debit card via PayPal) is our ideal method of payment, but if you would like to mail us a check, they may be written to Palo Alto High School Robotics Boosters and mailed to 50 Embarcadero Rd, Palo Alto, CA 94301.
+        -
+            question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
+            answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.
 ...
 
