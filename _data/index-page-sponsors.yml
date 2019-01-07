@@ -24,7 +24,7 @@ Sponsors1:
 Sponsors2:
   - Monsanto:
     image: /assets/img/sponsors/monsanto.png
-    paragraph: Coming soon!
+    paragraph: Feeding the world since 1901, Monsanto is one of the world’s largest agricultural biotechnology companies. Through the Monsanto Fund, which provides over $20 million for community enrichment and agricultural development programs worldwide, the company helps Team 8 prosper and grow.
 
   - D&K: 
     image: /assets/img/sponsors/d&k.gif
@@ -32,7 +32,7 @@ Sponsors2:
 
   - Arm:
     image: /assets/img/sponsors/arm.png
-    paragraph: Coming soon!
+    paragraph: ARM Architecture is one of the leading producers of RISC architectures for computer processors, which are used to power businesses around the globe. Paly Robotics is proud to share ARM’s goal of driving innovation with technology and our partnership helps us realize this dream.
 
 Sponsors3:
   - Kirks:
@@ -40,7 +40,7 @@ Sponsors3:
     paragraph:  Kirk's Steakburgers sponsors Team 8 by providing us with delicious burgers to keep us fed during build season.
   - Western-Digital:
     image: /assets/img/sponsors/westerndigital.png
-    paragraph: Coming soon!
+    paragraph: Based out of Silicon Valley in San Jose, Western Digital specializes in hard disk drive manufacturing and data storage. Western Digital has been in the electronic business since 1970, and Team 8 is proud to partner with such a prestigious and experienced company.
   - 
   # - Landec-Co:
   #   image: /assets/img/sponsors/landec.jpg
