@@ -63,6 +63,11 @@ $("fieldset input, fieldset textarea").on("click keyup", function() {
 });
 
 $(".register-checkbox").click(function() {
+    if ($(".session-checkbox:checked").length != 0 ) {
+        $(".register").show()
+        $(".register-only").first().closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
+        $(".waitlist").show()
+    } 
     // var date = $(this).val().substr(0, $(this).val().indexOf(':'));
     // if (this.checked) {
     //     $(".register-checkbox").each(function() {
@@ -82,7 +87,11 @@ $(".register-checkbox").click(function() {
 });
 
 $(".session-checkbox").click(function() {
-
+    if ($(".register-checkbox:checked").length == 0 ) {
+        $(".register").hide()
+        $(".register-only").first().closest("fieldset").find(".next, .submit").removeAttr('disabled');
+        $(".waitlist").show()
+    } 
     // if ($(".register-checkbox:checked").length > 0) {
     //     $(".register").show()
     //     // $(".register-only").removeClass("optional")
