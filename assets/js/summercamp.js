@@ -66,7 +66,7 @@ $(".register-checkbox").click(function() {
     if ($(".session-checkbox:checked").length != 0 ) {
         $(".register").show()
         $(".register-only").first().closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
-        $(".waitlist").show()
+        $(".waitlist").hide()
     } 
     // var date = $(this).val().substr(0, $(this).val().indexOf(':'));
     // if (this.checked) {
