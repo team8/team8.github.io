@@ -54,6 +54,10 @@ $("fieldset input, fieldset textarea").on("click keyup", function() {
             empty = true;
         }
     });
+    
+    if($(this).closest("fieldset").find(".session-checkbox").length > 0 && $(this).closest("fieldset").find(".session-checkbox:checked").length == 0) {
+        empty = true;
+    }
 
     if (empty) {
        $(this).closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
