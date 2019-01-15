@@ -62,51 +62,24 @@ $("fieldset input, fieldset textarea").on("click keyup", function() {
     }
 });
 
-$(".register-checkbox").click(function() {
-    if ($(".session-checkbox:checked").length != 0 ) {
-        $(".register").show()
-        $(".register-only").first().closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
-        $(".waitlist").hide()
-    } 
-    // var date = $(this).val().substr(0, $(this).val().indexOf(':'));
-    // if (this.checked) {
-    //     $(".register-checkbox").each(function() {
-    //         if($(this).val().search(date) != -1 && !this.checked) {
-    //             $(this).prop("disabled", true)
-    //         }
-    //     });
-    // }
-    // else {
-    //     $(".register-checkbox").each(function() {
-    //         if($(this).val().search(date) != -1) {
-    //             $(this).prop("disabled", false)
-    //         }
-    //     });
-    // }
-    
-});
 
 $(".session-checkbox").click(function() {
-    if ($(".register-checkbox:checked").length == 0 ) {
+
+    if ($(".register-checkbox:checked").length > 0) {
+        $(".register").show()
+        $(".register-only").removeClass("optional")
+        $(".register-only").first().closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
+        $(".waitlist").hide()
+    }
+    else if ($(".waitlist-checkbox:checked").length > 0) {
         $(".register").hide()
+        $(".register-only").addClass("optional")
         $(".register-only").first().closest("fieldset").find(".next, .submit").removeAttr('disabled');
         $(".waitlist").show()
-    } 
-    // if ($(".register-checkbox:checked").length > 0) {
-    //     $(".register").show()
-    //     // $(".register-only").removeClass("optional")
-    //     $(".register-only").first().closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
-    //     $(".waitlist").hide()
-    // }
-    // else if ($(".waitlist-checkbox:checked").length > 0) {
-    //     $(".register").hide()
-    //     // $(".register-only").addClass("optional")
-    //     $(".register-only").first().closest("fieldset").find(".next, .submit").removeAttr('disabled');
-    //     $(".waitlist").show()
-    // }
-    // else {
-    //     $(this).closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
-    // }
+    }
+    else {
+        $(this).closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
+    }
     
 });
 
