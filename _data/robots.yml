@@ -1,10 +1,49 @@
 # For the robot page #
 
 ---
+    - 
+        title: Víðarr (VIH-dar)
+        year: "2019"
+        active: "active"
+        Specifications:
+          - 
+            specname: Name
+            spec: Víðarr
+          -
+            specname: Game
+            spec: Deep Space
+          - 
+            specname: Weight
+            spec: 123.7 lbs
+        # history of competition for Vidar in 2019 #
+        CompHistory:
+          -
+            competition: Del Mar Regional
+            achievement: Semifinalists, Entrepreneurship Award, Dean's List 
+          -
+            competition: Great Northern Regional
+            achievement: ""
+          -
+            competition: Silicon Valley Regional
+            achievement: ""
+        # abilities of robot list
+        RobotAbilities:
+          -
+            ability: 8 traction wheel west coast drive powered by 6x NEOs. Theoretical speed of 19.5 ft/sec. 
+          -             
+            ability: 2 stage continuous elevator with Dyneema rigging. Can score hatches and cargo on all three levels of cargo and rocket ship.
+          -
+            ability: Touch-it-own-it cargo intake with 2″ mecanums powered by one 775pro.
+          -
+            ability: Uses rack and pinion mounted under carriage to extend hatch intake mechanism and push cargo into flywheels. 
+          - 
+            ability: Vision target tracking to adjust robot turning when aligning to loading station and cargo/rocket ship bays.
+                  
+        image: /assets/img/robots/vidar.jpg
     -
         title: Forseti
         year: "2018"
-        active: "active" # active makes one of the tabs active and the rest not active #
+        active: "" # active makes one of the tabs active and the rest not active #
         Specifications:
           -
             specname: Name
@@ -18,7 +57,7 @@
           - 
             specname: Weight
             spec: ~114 lbs
-        # history of competition for vali in 2017 #
+        # history of competition for Forseti in 2018 #
         CompHistory:
           -
             competition: Arizona North Regional
