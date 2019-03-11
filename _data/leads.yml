@@ -34,12 +34,12 @@ Leads1:
     -
         id-number: 3
         mobile-id-number: 19
-        name: --
-        image: /assets/img/leads/placeholder.jpeg
+        name: Keith Worrell
+        image: /assets/img/leads/keith.jpeg
         role: Head Coach
         email: --
         description: >
-            The Head Coach position is currently in transition.
+            Keith Worrell is the current head coach for Paly Robotics.
 Leads2:
     -
         id-number: 4
@@ -84,12 +84,12 @@ Leads3:
     -
         id-number: 8
         mobile-id-number: 24
-        name: Aruna Anderson 
-        image: /assets/img/leads/aruna.jpg
+        name: Amy Yu
+        image: /assets/img/leads/placeholder.jpeg
         role: Art Captain
-        email: aanderson@palyrobotics.com
+        email: ayu@palyrobotics.com
         description: >
-            Aruna is a sophomore who joined paly robotics art in her freshman year because of her interest in the 3d software maya. In art, she enjoys 3d modeling and texturing the most. She is really excited for the year to come and hopes to expand her knowledge in maya and graphic design.
+            Amy Yu is the current art captain for Paly Robotics.
     -
         id-number: 9
         mobile-id-number: 25
@@ -148,15 +148,15 @@ Leads4:
             I made this website and I maintain it with my fellow webmaster over there! → <br>
             I also work on match strategy and scouting during competitions with my colleague over on the left! ↩
 
-    -
-        id-number: 15
-        mobile-id-number: 31
-        name: Elaine Liu
-        image: /assets/img/leads/elaine.jpg
-        role: Webmaster
-        email: elaineliu@palyrobotics.com
-        description: >
-            Elaine Liu is a junior on Paly Robotics and has been on the team since her freshman year. She discovered her passion in computer science in middle school and has since been pursuing her dreams in a STEM career by developing her potential in web. She enjoys coding in HTML & CSS and watching beautiful websites come to life through code. In her spare time, she watches a variety of shows and spends most of her time online. (XD)
+    # -
+    #     id-number: 15
+    #     mobile-id-number: 31
+    #     name: Elaine Liu
+    #     image: /assets/img/leads/elaine.jpg
+    #     role: Webmaster
+    #     email: elaineliu@palyrobotics.com
+    #     description: >
+    #         Elaine Liu is a junior on Paly Robotics and has been on the team since her freshman year. She discovered her passion in computer science in middle school and has since been pursuing her dreams in a STEM career by developing her potential in web. She enjoys coding in HTML & CSS and watching beautiful websites come to life through code. In her spare time, she watches a variety of shows and spends most of her time online. (XD)
  
     # - 
     #     id-number: 15
