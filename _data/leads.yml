@@ -109,16 +109,6 @@ Leads3:
         description: >
             Kyla Fu is a sophomore who joined the Paly Robotics Team as a design member her freshman year. As Lab Manager, she keeps the lab organized and improves the lab for better function.
     -
-        id-number: 11
-        mobile-id-number: 27
-        name: Spencer Soohoo
-        image: /assets/img/leads/spencer.jpg
-        role: Pit Manager/Safety Captain
-        email: ssoohoo@palyrobotics.com
-        description: >
-            Spencer is a sophmore on the team who joined as a build member his freshman year. He found a love in robot design, hardware and fabrication, particulary turning parts with the lathe and welding. Outside of robotics he enjoys water polo, backpacking, and making personal projects, such as his shopping cart go kart.
-Leads4:
-    -
         id-number: 12
         mobile-id-number: 28
         name: Jennifer Zwiebel
@@ -127,7 +117,16 @@ Leads4:
         email: jenniferzwiebel@palyrobotics.com
         description: >
             Jennifer Zwiebel is a junior who joined Team 8 her freshman year. Her role as competition manager includes preserving the team sanity during competitions and running around very stressed but happy. What she has most enjoyed about being on Paly Robotics is getting to explore the different aspects of the team.
-
+#    -
+#         id-number: 11
+#         mobile-id-number: 27
+#         name: Spencer Soohoo
+#         image: /assets/img/leads/spencer.jpg
+#         role: Pit Manager/Safety Captain
+#         email: ssoohoo@palyrobotics.com
+#         description: >
+#             Spencer is a sophmore on the team who joined as a build member his freshman year. He found a love in robot design, hardware and fabrication, particulary turning parts with the lathe and welding. Outside of robotics he enjoys water polo, backpacking, and making personal projects, such as his shopping cart go kart. 
+Leads4:
     -
         id-number: 13
         mobile-id-number: 29
