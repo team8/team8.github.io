@@ -51,13 +51,16 @@ Sponsors3:
   #   image: /assets/img/sponsors/landec.jpg
   #   paragraph: Landec has a diverse portfolio of companies in various industries, with the mission to create innovative products that support everyone’s unique health and wellness journey. They strive to be an innovative leader in the markets they serve, and influence Team 8 through their presence in various markets such as their approach in the biomedical technology field.
 
-# Sponsors4:
-#   # - Hassett-Hardware:
-#   #   image: /assets/img/sponsors/hassett-hardware.png
-#   #   paragraph:  Hassett Ace Hardware is a family-owned hardware store in the Bay Area. They are a part of the ACE cooperative because of their belief in ACE values such as innovation, clear communication, strong relationships and networks, and strong advocacy. Their support is greatly beneficial to our team in our robot-building process.
+Sponsors4:
+  # - Hassett-Hardware:
+  #   image: /assets/img/sponsors/hassett-hardware.png
+  #   paragraph:  Hassett Ace Hardware is a family-owned hardware store in the Bay Area. They are a part of the ACE cooperative because of their belief in ACE values such as innovation, clear communication, strong relationships and networks, and strong advocacy. Their support is greatly beneficial to our team in our robot-building process.
 
 
-#   - Zume-Pizza:
-#     image: /assets/img/sponsors/zume-pizza.png
-#     paragraph: "Zume Pizza is a pizzeria based in Mountain View, CA, and is a pioneer in the pizza delivery industry. Utilizing advanced, industrial robots, Zume Pizza delivers on-demand pizza to anyplace in the Bay Area. Team 8 is not only inspired by their usage of robots in the modern culinary field, but delighted by their tasty pizzas as well."
+  # - Zume-Pizza:
+  #   image: /assets/img/sponsors/zume-pizza.png
+  #   paragraph: "Zume Pizza is a pizzeria based in Mountain View, CA, and is a pioneer in the pizza delivery industry. Utilizing advanced, industrial robots, Zume Pizza delivers on-demand pizza to anyplace in the Bay Area. Team 8 is not only inspired by their usage of robots in the modern culinary field, but delighted by their tasty pizzas as well."
+  - Nvidia:
+    image: /assets/img/sponsors/nvidia.jpg
+    paragraph: Coming soon!
 ...
