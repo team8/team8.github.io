@@ -35,18 +35,18 @@ Sponsors2:
     paragraph: ARM Architecture is one of the leading producers of RISC architectures for computer processors, which are used to power businesses around the globe. Paly Robotics is proud to share ARM’s goal of driving innovation with technology and our partnership helps us realize this dream.
 
 Sponsors3:
-  - Kirks:
-    image: /assets/img/sponsors/kirks.png
-    paragraph:  Kirk's Steakburgers sponsors Team 8 by providing us with delicious burgers to keep us fed during build season.
-  
-  - Western-Digital:
-    image: /assets/img/sponsors/westerndigital.png
-    paragraph: Based out of Silicon Valley in San Jose, Western Digital specializes in hard disk drive manufacturing and data storage. Western Digital has been in the electronic business since 1970, and Team 8 is proud to partner with such a prestigious and experienced company.
-  
   - Monsanto:
     image: /assets/img/sponsors/monsanto.png
     paragraph: Feeding the world since 1901, Monsanto is one of the world’s largest agricultural biotechnology companies. Through the Monsanto Fund, which provides over $20 million for community enrichment and agricultural development programs worldwide, the company helps Team 8 prosper and grow.
 
+  - Emotiv:
+    image: /assets/img/sponsors/emotiv.png
+    paragraph: Emotiv sponsors Team 8 with free Electroencephalography (EEG) software for reading brainwaves. We are actively using their technology to develop a solution to allow a disabled individual to communicate with his mind. <a href="https://www.emotiv.com/" target="_blank">Website</a>
+
+  - Western-Digital:
+    image: /assets/img/sponsors/westerndigital.png
+    paragraph: Based out of Silicon Valley in San Jose, Western Digital specializes in hard disk drive manufacturing and data storage. Western Digital has been in the electronic business since 1970, and Team 8 is proud to partner with such a prestigious and experienced company.
+  
   # - Landec-Co:
   #   image: /assets/img/sponsors/landec.jpg
   #   paragraph: Landec has a diverse portfolio of companies in various industries, with the mission to create innovative products that support everyone’s unique health and wellness journey. They strive to be an innovative leader in the markets they serve, and influence Team 8 through their presence in various markets such as their approach in the biomedical technology field.
@@ -60,6 +60,10 @@ Sponsors4:
   # - Zume-Pizza:
   #   image: /assets/img/sponsors/zume-pizza.png
   #   paragraph: "Zume Pizza is a pizzeria based in Mountain View, CA, and is a pioneer in the pizza delivery industry. Utilizing advanced, industrial robots, Zume Pizza delivers on-demand pizza to anyplace in the Bay Area. Team 8 is not only inspired by their usage of robots in the modern culinary field, but delighted by their tasty pizzas as well."
+  - Kirks:
+    image: /assets/img/sponsors/kirks.png
+    paragraph:  Kirk's Steakburgers sponsors Team 8 by providing us with delicious burgers to keep us fed during build season.
+  
   - Nvidia:
     image: /assets/img/sponsors/nvidia.jpg
     paragraph: Coming soon!
