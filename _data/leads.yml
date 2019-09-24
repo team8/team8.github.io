@@ -54,6 +54,9 @@ Leads2:
         image: /assets/img/leads/cyrus.jpg
         role: Technical Director
         email: cxu@palyrobotics.com
+        description: >
+            Cyrus is a junior at Paly who joined design freshman year. During build season, he leads robot design & CAD development. In his free time, he also studies for analysis, cads cool models, and sleeps. 
+
     -
         id-number: 5
         mobile-id-number: 21
