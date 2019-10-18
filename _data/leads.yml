@@ -46,15 +46,6 @@ Leads1:
             Cyrus has been on the team since freshman year, and served as design captain last year. He has had extensive experience in robot design & CAD development, and has created everything from drivetrains to intakes. As technical director this year, he oversees all design and fabrication operations, facilitating robot progress during build season. In his free time, he enjoys watching YouTube and learning new CAD software.
 
 Leads2:
-    -
-        id-number: 4
-        mobile-id-number: 24
-        name: Keith Worrell
-        image: /assets/img/leads/keith.jpeg
-        role: Head Coach
-        email: keith.worrell@gmail.com
-        description: >
-            Keith Worrell is the current head coach for Paly Robotics.
 
     -
         id-number: 5
@@ -86,7 +77,6 @@ Leads2:
         description: >
             Jonathon is a junior who joined the team on build as a freshman. During build season, he works to ensure the functionality of the electronics for the robot.
 
-Leads3:  
     - 
         id-number: 8
         mobile-id-number: 28
@@ -97,6 +87,7 @@ Leads3:
         description: >
             Griffin Zajac is a junior who joined the Paly Robotics Design team his freshman year. As the Design Captain this year, he is responsible for leading the mechanical design of the robot — taking it from concept to complex CAD and handing off to Build for fabrication and assembly — and overseeing the Design team.
 
+Leads3:  
     - 
         id-number: 9
         mobile-id-number: 29
@@ -126,8 +117,6 @@ Leads3:
         email: jenniferzwiebel@palyrobotics.com
         description: >
             Jennifer Z, 'Jen Z', is a senior who joined the team as a freshman. Her sophomore year, she decided to switch to the Business Team and has been contributing to fundraising and awards ever since. Last year, she was the team competition manager.
-
-Leads4:    
     - 
         id-number: 12
         mobile-id-number: 32
@@ -138,6 +127,7 @@ Leads4:
         description: >
             A sophomore on the team, Nicholas joined Team 8 his freshman year as a member of business team, working on awards, business plans, and sponsorships throughout the year. This year, as Business PM, Nicholas works to ensure that the awards and grant processes go as efficiently as possible.
 
+Leads4:    
     -
         id-number: 13
         mobile-id-number: 33
@@ -167,9 +157,6 @@ Leads4:
         email: ctan@palyrobotics.com
         description: >
             Caleb joined Team 8 as a Web member in his freshman year. He began by creating simple websites for the team, and is now the lead developer for the team's scouting applications and infrastructure. This year, he is captaining the newly-added Strategy & Scouting team and he hopes to further Team 8's scouting capabilities with the help of several motivated recruits.
-    
-
-Leads5:
     - 
         id-number: 16
         mobile-id-number: 36
@@ -180,6 +167,8 @@ Leads5:
         description: >
             Arundhati Parikh is a sophomore and second year member of the build subteam on Team 8. As treasurer, she is responsible for making and keeping track of purchases, as well as managing team budgets. In her free time, she likes to draw, paint, and sometimes play Dragonvale.
 
+
+Leads5:
     -
         id-number: 17
         mobile-id-number: 37   
@@ -196,7 +185,7 @@ Leads5:
         name: Julian Kobayashi
         image: /assets/img/leads/julian.jpg
         role: Pit Manager
-        email: 
+        email: jkobayashi@palyrobotics.com
         description: >
             Julian Kobayashi is a sophomore design team member for Paly Robotics. He is currently the pit manager and safety captain, 
             in charge of managing the pit during competitions and ensuring that pit rotations run smoothly. 
@@ -210,5 +199,13 @@ Leads5:
         email: vliao@palyrobotics.com
         description: >
             Victoria Liao is a sophomore who joined Paly Robotics during her freshman year. As competition manager, she organizes the logistics of the team’s competitions, making sure that that they go as smoothly as possible. She also enjoys painting, playing music, and writing in her spare time.
-
+    -
+        id-number: 4
+        mobile-id-number: 24
+        name: Keith Worrell
+        image: /assets/img/leads/keith.jpeg
+        role: Head Coach
+        email: keith.worrell@gmail.com
+        description: >
+            Keith Worrell is the current head coach for Paly Robotics.
 ...
