@@ -27,11 +27,11 @@ Business:
   image: /assets/img/subteams/business.jpg
   paragraph: >
     The Business Team has ensured the financial sustainability of the team since its inception in 2015. Business Team oversees all corporate sponsorships, fundraising, outreach, awards, and public relations efforts. Every year we develop business, sponsorship, and diversity plans. 
-    <br></br>Business Team has won the Entrepreneurship Award 6x: Central Valley Regional 2015, Silicon Valley Regional 2015, CalGames 2016, Ventura Regional 2017, Silicon Valley Regional 2017, Arizona North Regional 2018
+    <br></br>Business Team has won the Entrepreneurship Award 7x: Central Valley Regional 2015, Silicon Valley Regional 2015, CalGames 2016, Ventura Regional 2017, Silicon Valley Regional 2017, Arizona North Regional 2018, Del Mar Regional 2019
 
-Web: 
-  image: /assets/img/subteams/web.jpg
-  paragraph: The Web Team is in charge of creating and maintaining<b>this beautiful website</b>, palyrobotics.com. The Web Team uses
-        a variety of tools, including HTML, CSS, Javascript, Jekyll, Bootstrap, and Heroku, in order to update the website with
-        the necessary information for the greater productivity of the team.
+SS: 
+  image: /assets/img/subteams/ss.jpg
+  paragraph: The Strategy and Scouting Team is in charge of creating a web-based system for the team to use while scouting and planning out matches at competition. They are also responsible for helping determine the objectives of the robot at the beginning of each season.
+        
+
 ...

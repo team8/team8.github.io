@@ -36,22 +36,7 @@ Links:
 
     Sus-Plan: Paly Robotics Sustainability Plan
     Sus-Des: The Paly Robotics Sustainability Plan, which analyzes our growth, mitigation of possible threats, and sustainability for the coming years.
-
-
-  Team-Forms:
-    title: Team Forms
-
-    Parent-Workplace-Surv: 
-      link: Parent Workplace Survey
-      des: Help Paly Robotics get sponsors by telling us where your parents work.
-
-    Mailing:
-      link: Mailing List Sign-Up
-      des: If you aren't part of the robotics mailing list, sign up here.
-
-    Media: 
-      link: Media Waivers
-      des: Fill out a media waver and turn it in so we can use pictures of you.
+    
 
   Comp:
     title: Competition
@@ -67,17 +52,6 @@ Links:
     STIMS-FAQ:
       link: STIMS FAQ
       des: A webpage with answers to common questions about signing up for STIMS.
-
-  Design-Files:
-    title: Design Files
-
-    OcT:
-      link: Octagon Concept CAD
-      des: A concept CAD for a octagonal drivetrain.
-
-    Six:
-      link: Six Wheel Concept
-      des: A concept CAD for a 6-wheel drivetrain.
 
   Miscellaneous:
     title: Miscellaneous
