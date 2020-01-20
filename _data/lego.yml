@@ -5,12 +5,12 @@ lego:
     what-is-lrsp:
         title: What is LRSP?
         p1: >
-            English: The Lego Robotics Summer Program is an annual, week-long camp hosted by Paly Robotics that is completely free of charge. Throughout the program, Paly Robotics team members teach campers the basics of building and programming Lego robotics using Lego Mindstorms. At the end of the week, campers will showcase the knowledge they have gained from the program by using their robots to compete in a mini-competition.
+            The Lego Robotics Summer Program (LRSP) is an annual, week-long camp hosted by Paly Robotics that is completely free of charge. The program is meant for elementary and middle school students. Throughout the program, Paly Robotics team members teach campers the basics of building and programming Lego robots using Lego Mindstorms software. At the end of the week, campers will showcase the knowledge they have gained from the program by using their robots to compete in a mini-competition.
         p2: >
-            Español: El Programa de Verano de Lego Robótica es un campamento anual de una semana organizado por Paly Robotics que es completamente gratuito. A lo largo del programa, los miembros del equipo de Paly Robotics enseñan a los campistas los conceptos básicos de la construcción y programación de robots Lego utilizando Lego Mindstorms software. Al final de la semana, los campistas mostrarán el conocimiento que obtuvieron del programa al usar sus robots para competir en una mini competencia.
+            El Programa de Verano de Lego Robótica es un campamento anual de una semana organizado por Paly Robotics que es completamente gratis. El programa es para los estudiantes de la escuela primaria y secundaria (elementary and middle school). Durante el programa, los miembros del equipo de Paly Robotics enseñan a los campistas los conceptos básicos de la construcción y programación de robots Lego utilizando Lego Mindstorms software. Al final de la semana, los campistas mostrarán el conocimiento que obtuvieron del programa al usar sus robots para competir en una mini competencia.
     register:
         title: "Registration"
         img: >
             /assets/img/summercamp/legorobotics.png
         p1: >
-            Dates and Times: July 6-10 from 9am - 12pm<br>The registration link is <a target="_blank" href="http://tinyurl.com/palylrsp" class="paragraph-links">here</a>.
+            Dates and Times: July 6-10 from 9am - 12pm<br>The registration link is <a target="_blank" href="https://forms.gle/SNrvwEF5qQz6oy2b8" class="paragraph-links">here</a>.
