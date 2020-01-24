@@ -3,49 +3,63 @@
 
 ---
 
+
 Sponsors1:
-  - Dropbox:
-    image: /assets/img/sponsors/dropbox.jpg
-    paragraph: Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage
-            and file syncing to its users. Their sponsorship has made us more efficient and an overall better team.
-
-  - Google: 
-    image: /assets/img/sponsors/google.jpg
-    paragraph: Easily one of the most influential tech companies of the Information Era, Google is a symbol of modern technological
-          innovation. Based in nearby Mountain View, Google sponsors Team 8 as part of its mission to inspire the next generation
-          of technological pioneers.
-
   - Apple:
     image: /assets/img/sponsors/apple.svg
     paragraph: Instantly recognizable across the globe for the revolutionary iPhone, Apple is arguably one of the most influential companies of the 21st century. Based in neighboring Cupertino, Apple continues to find new ways to innovate, including partnering with Team 8.
+  
+  - BayerFund:
+    image: /assets/img/sponsors/BayerFund.png
+    paragraph: Coming Soon!
+ 
+  - KLA Foundation:
+    image: /assets/img/sponsors/KLA.png
+    paragraph: Coming Soon!
 
+  # - Google: 
+  #   image: /assets/img/sponsors/google.jpg
+  #   paragraph: Easily one of the most influential tech companies of the Information Era, Google is a symbol of modern technological
+  #         innovation. Based in nearby Mountain View, Google sponsors Team 8 as part of its mission to inspire the next generation
+  #         of technological pioneers.
+
+  
 Sponsors2:
-  - Solidworks: 
-    image: /assets/img/sponsors/solidworks.png
-    paragraph: Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing us to effectively
-            design and prototype our robot. They also donated a powerful CAM tool that we use in conjunction with our CNC
-            Mill and 3D Printer.  
-
-  - D&K: 
-    image: /assets/img/sponsors/d&k.gif
-    paragraph: D&K Precision Sheet Metal is a family owned sheet metal shop that has been delivering the highest quality sheet metal products to Silicon Valley companies since 1981. Located in the San Francisco South Bay, D&K sponsors Team 8 by fabricating custom sheet metal parts for robot builds. 
-
   - Arm:
     image: /assets/img/sponsors/arm.png
     paragraph: ARM Architecture is one of the leading producers of RISC architectures for computer processors, which are used to power businesses around the globe. Paly Robotics is proud to share ARM’s goal of driving innovation with technology and our partnership helps us realize this dream.
 
-Sponsors3:
-  - Monsanto:
-    image: /assets/img/sponsors/monsanto.png
-    paragraph: Feeding the world since 1901, Monsanto is one of the world’s largest agricultural biotechnology companies. Through the Monsanto Fund, which provides over $20 million for community enrichment and agricultural development programs worldwide, the company helps Team 8 prosper and grow.
+  - TEConnectivity:
+    image: /assets/img/sponsors/TEconnectivity.png
+    paragraph: Coming Soon!
+  
+  - Baesystems:
+    image: /assets/img/sponsors/Baesystems.png
+    paragraph: Coming Soon!
 
+ 
+  
+Sponsors3:
+  
+  # - Monsanto:
+  #   image: /assets/img/sponsors/monsanto.png
+  #   paragraph: Feeding the world since 1901, Monsanto is one of the world’s largest agricultural biotechnology companies. Through the Monsanto Fund, which provides over $20 million for community enrichment and agricultural development programs worldwide, the company helps Team 8 prosper and grow.
+  - IntuitiveFoundation:
+    image: /assets/img/sponsors/Intuitive_Foundation.png
+    paragraph: Coming Soon!
+
+  - Dropbox:
+    image: /assets/img/sponsors/dropbox.jpg
+    paragraph: Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage
+            and file syncing to its users. Their sponsorship has made us more efficient and an overall better team.
   - Emotiv:
     image: /assets/img/sponsors/emotiv.png
     paragraph: Emotiv sponsors Team 8 with free Electroencephalography (EEG) software for reading brainwaves. We are actively using their technology to develop a solution to allow a disabled individual to communicate with his mind. <a href="https://www.emotiv.com/" target="_blank">Website</a>
-
-  - Western-Digital:
-    image: /assets/img/sponsors/westerndigital.png
-    paragraph: Based out of Silicon Valley in San Jose, Western Digital specializes in hard disk drive manufacturing and data storage. Western Digital has been in the electronic business since 1970, and Team 8 is proud to partner with such a prestigious and experienced company.
+  
+ 
+  # - Western-Digital:
+  #   image: /assets/img/sponsors/westerndigital.png
+  #   paragraph: Based out of Silicon Valley in San Jose, Western Digital specializes in hard disk drive manufacturing and data storage. Western Digital has been in the electronic business since 1970, and Team 8 is proud to partner with such a prestigious and experienced company.
   
   # - Landec-Co:
   #   image: /assets/img/sponsors/landec.jpg
@@ -55,16 +69,38 @@ Sponsors4:
   # - Hassett-Hardware:
   #   image: /assets/img/sponsors/hassett-hardware.png
   #   paragraph:  Hassett Ace Hardware is a family-owned hardware store in the Bay Area. They are a part of the ACE cooperative because of their belief in ACE values such as innovation, clear communication, strong relationships and networks, and strong advocacy. Their support is greatly beneficial to our team in our robot-building process.
+  - D&K: 
+    image: /assets/img/sponsors/d&k.gif
+    paragraph: D&K Precision Sheet Metal is a family owned sheet metal shop that has been delivering the highest quality sheet metal products to Silicon Valley companies since 1981. Located in the San Francisco South Bay, D&K sponsors Team 8 by fabricating custom sheet metal parts for robot builds. 
 
-
+  - Solidworks: 
+    image: /assets/img/sponsors/solidworks.png
+    paragraph: Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing us to effectively
+            design and prototype our robot. They also donated a powerful CAM tool that we use in conjunction with our CNC
+            Mill and 3D Printer.  
   # - Zume-Pizza:
   #   image: /assets/img/sponsors/zume-pizza.png
   #   paragraph: "Zume Pizza is a pizzeria based in Mountain View, CA, and is a pioneer in the pizza delivery industry. Utilizing advanced, industrial robots, Zume Pizza delivers on-demand pizza to anyplace in the Bay Area. Team 8 is not only inspired by their usage of robots in the modern culinary field, but delighted by their tasty pizzas as well."
+  
+  - Markforged:
+    image: /assets/img/sponsors/markforged.png
+    paragraph: Coming Soon!
+  # - Nvidia:
+  #   image: /assets/img/sponsors/nvidia.jpg
+  #   paragraph: Coming Soon!
+
+  
+  
+
+Sponsors5:
   - Kirks:
     image: /assets/img/sponsors/kirks.png
     paragraph:  Kirk's Steakburgers sponsors Team 8 by providing us with delicious burgers to keep us fed during build season.
   
-  - Nvidia:
-    image: /assets/img/sponsors/nvidia.jpg
-    paragraph: Coming soon!
+
+  
+  - AsianBox:
+    image: /assets/img/sponsors/Asiain_Box.jpeg
+    paragraph: Coming Soon!
+  
 ...

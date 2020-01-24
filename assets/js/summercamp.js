@@ -35,11 +35,18 @@ $(".previous").click(function(){
 
 $("fieldset input, fieldset textarea").on("click keyup", function() {
 
-    if($(".other-choice").first().is(':checked')) {
-        $(".other-choice-text").removeClass("optional")
+    if($(".other-choice-1").first().is(':checked')) {
+        $(".other-choice-text-1").removeClass("optional")
     }
     else {
-        $(".other-choice-text").addClass("optional")
+        $(".other-choice-text-1").addClass("optional")
+    }
+    
+    if($(".other-choice-2").first().is(':checked')) {
+        $(".other-choice-text-2").removeClass("optional")
+    }
+    else {
+        $(".other-choice-text-2").addClass("optional")
     }
     
     var empty = false;
