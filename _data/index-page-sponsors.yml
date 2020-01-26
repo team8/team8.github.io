@@ -11,11 +11,14 @@ Sponsors1:
   
   - BayerFund:
     image: /assets/img/sponsors/BayerFund.png
-    paragraph: Coming Soon!
+    paragraph: With more than 150 years of history, Bayer is one of the world’s primary life science groups, developing technologies for pharmaceuticals, crop sciences, and consumer health. Their philanthropic branch, the Bayer Fund, supports many FIRST teams, including Team 8, helping to shape the next generation of engineers.
+
  
   - KLA Foundation:
     image: /assets/img/sponsors/KLA.png
-    paragraph: Coming Soon!
+    paragraph: KLA is a Bay Area corporation that researches, creates, and produces semiconductor equipment, electron and photon optics, sensor technology, machine learning, and data analytics. Their work ushers forth advancements in pioneering fields, such as autonomous cars, space exploration, and VR experiences. Team 8 is inspired by the KLA model of innovation and their motto of “keep looking ahead”; we are thrilled to be sponsored by their KLA Foundation.
+
+
 
   # - Google: 
   #   image: /assets/img/sponsors/google.jpg
@@ -31,11 +34,13 @@ Sponsors2:
 
   - TEConnectivity:
     image: /assets/img/sponsors/TEconnectivity.png
-    paragraph: Coming Soon!
+    paragraph: Consumer electronics company TE Connectivity manufactures sensors and connectors able to function in harsh environments, enabling advancements in fields such as transportation, industrial applications, and medical technology. Named among 'World's Most Admired Companies' by FORTUNE, TE Connectivity’s work focuses on developing technology for a connected and sustainable future. Paly Robotics is grateful to be one of the many FIRST Robotics teams supported by TE Connectivity. 
+
   
   - Baesystems:
     image: /assets/img/sponsors/Baesystems.png
-    paragraph: Coming Soon!
+    paragraph: BAE Systems is an international company that produces defense and security technology, covering air, land, maritime, and online domains. They invest in improving the future workforce by offering grants to FLL, FTC, and FRC teams, including Paly Robotics.
+
 
  
   
@@ -46,7 +51,8 @@ Sponsors3:
   #   paragraph: Feeding the world since 1901, Monsanto is one of the world’s largest agricultural biotechnology companies. Through the Monsanto Fund, which provides over $20 million for community enrichment and agricultural development programs worldwide, the company helps Team 8 prosper and grow.
   - IntuitiveFoundation:
     image: /assets/img/sponsors/Intuitive_Foundation.png
-    paragraph: Coming Soon!
+    paragraph: Intuitive Surgical creates robotic-assisted systems that enable doctors to perform minimally invasive surgeries. While revolutionizing healthcare through technology, Intuitive Surgical also reaches out to the community through their Intuitive Foundation, which supports FRC teams through donations and invitations to tour their company sites. Alumni of Team 8 have cited visits to Intuitive Surgical’s headquarters as one of their most exciting high school experiences.  
+
 
   - Dropbox:
     image: /assets/img/sponsors/dropbox.jpg
