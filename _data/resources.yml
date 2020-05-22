@@ -71,7 +71,11 @@ Links:
 
     Documentation:
       link: Team 8 Scouting Documentation
-      des: The documentation for the Team 8 scouting system. 
+      des: The documentation for the Team 8 scouting system.
+    
+    News-Letter:
+      link: News Letter
+      des: Subscribe to our newsletter.
 
 Maps:
   Location:
