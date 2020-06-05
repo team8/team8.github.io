@@ -7,85 +7,84 @@ Leads1:
     -
         id-number: 0
         mobile-id-number: 20
-        name: Lawrence Chang
-        image: /assets/img/leads/lawrence.jpg
-        role: Team Captain
-        email: lchang@palyrobotics.com
+        name: Nina Hunt
+        image: /assets/img/leads/nina.jpg
+        role: Co-Captain
+        email: nhunt@palyrobotics.com
         description: >
-            Lawrence Chang is a senior on the Paly Robotics Team that joined build team in his freshman year. In his sophomore year, he took on the role of pit manager and safety captain, and later became build captain in
-            his junior year. As a senior, he is the Team Captain, where he’ll be leading everything from administrative work to robot design and assembly.
+            
+
     -
         id-number: 1
         mobile-id-number: 21
-        name: Annie Chen
-        image: /assets/img/leads/annie.jpg
-        role: Assistant Captain
-        email: achen@palyrobotics.com
+        name: Amy Yu
+        image: /assets/img/leads/amy.jpg
+        role: Co-Captain
+        email: ayu@palyrobotics.com
         description: >
-            Annie joined Team 8 as a Business member her freshman year, and has been actively involved in sponsorships, awards, and outreach ever since — 
-            her sophomore year, Annie was the Business Project Manager; last year, she was the Business Captain; this year, as the Assistant Captain, she plans to work towards broader team-wide goals, including directing community outreach, helping the nontechnical subteams, and developing student leadership. Furthermore, Annie established and led the Lego Robotics Summer Program for the past 3 years, was a Co-Lead of the 2018 Paly Robotics Summer Camp, and started 4 FLL teams in the past year.
+            
 
     -
         id-number: 2
         mobile-id-number: 22
-        name: Amy Lin
-        image: /assets/img/leads/amy.png
-        role: Project Manager
-        email: alin@palyrobotics.com
+        name: Griffin Zajac
+        image: /assets/img/leads/griffin.jpg
+        role: Technical Director
+        email: griffin.c.zajac@gmail.com
         description: >
-            Amy Lin is a senior who joined the build team in her freshman year. She was the team’s treasurer as a sophomore and the electronics lead as a junior. As the team project manager this year, she will be ensuring that progress on robot-related technical projects and tasks is tracked.
+            
 
     -
-        id-number: 3
+        id-number: 9
         mobile-id-number: 23
-        name: Cyrus Xu
-        image: /assets/img/leads/cyrus.jpg
-        role: Technical Director
-        email: cxu@palyrobotics.com
+        name: Kyla Fu
+        image: /assets/img/leads/kyla.jpg
+        role: Design Captain
+        email: fu.kyla@gmail.com
         description: >
-            Cyrus has been on the team since freshman year, and served as design captain last year. He has had extensive experience in robot design & CAD development, and has created everything from drivetrains to intakes. As technical director this year, he oversees all design and fabrication operations, facilitating robot progress during build season. In his free time, he enjoys watching YouTube and learning new CAD software.
+            
 
 Leads2:
 
     -
         id-number: 5
-        mobile-id-number: 25
-        name: Nina Hunt
-        image: /assets/img/leads/nina.jpg
+        mobile-id-number: 25   
+        name: Taiki Yamamoto
+        image: /assets/img/leads/taiki.jpg
         role: Build Captain
-        email: nhunt@palyrobotics.com
+        email: tyamamoto.palyrobotics@gmail.com
         description: >
-            Nina Hunt is a junior who joined Team 8 as a build member in her freshman year, and became the team's treasurer her sophomore year. She is now this year's build captain, and is excited for build season! She especially enjoys teaching and electronics, and spending time with build team.
+            
 
     - 
         id-number: 6
         mobile-id-number: 26
-        name: Andrew Pham
-        image: /assets/img/leads/andrew.jpg
-        role: Build Project Manager
-        email: am.phamer@gmail.com
+        name: Aditya Oberai
+        image: 
+        role: Software Captain
+        email: 
         description: >
-            Andrew is a junior who joined the build subteam his freshman year. In his summer going into junior year, he co-lead the robot design and hardware camp. He is now the build project manager, where he will manage deadlines and fabrication to make sure the robot is finished in time.
+            
     
     -
         id-number: 7
         mobile-id-number: 27
-        name: Jonathon Youngquist
-        image: /assets/img/leads/jonathon.jpg
-        role: Electronics Lead
-        email: jonathon.yy@gmail.com
+        name: Xiaohan Li
+        image: /assets/img/leads/xiaohan.jpg
+        role: Art Captain
+        email: xiaohanli1012@gmail.com
         description: >
-            Jonathon is a junior who joined the team on build as a freshman. During build season, he works to ensure the functionality of the electronics for the robot.
+            
 
     - 
         id-number: 8
         mobile-id-number: 28
-        name: Griffin Zajac
-        image: /assets/img/leads/griffin.jpg
-        role: Design Captain
-        email: griffin.c.zajac@gmail.com
+        name: Nicholas Shinghal
+        image: /assets/img/leads/nicholas.jpg
+        role: Business Captain
+        email: nickshinghal@gmail.com
         description: >
-            Griffin Zajac is a junior who joined the Paly Robotics Design team his freshman year. As the Design Captain this year, he is responsible for leading the mechanical design of the robot — taking it from concept to complex CAD and handing off to Build for fabrication and assembly — and overseeing the Design team.
+            
 
 Leads3:  
     - 
@@ -96,116 +95,34 @@ Leads3:
         role: Design Project Manager
         email: fu.kyla@gmail.com
         description: >
-            Kyla Fu is a junior who joined Paly Robotics Team as a Design member her freshman year. During her sophmore year, she took up the role of Lab Manager. Now as a junior, she is Design’s Project Manager where she helps organize the subteam and keep members on task.
+            
 
     -
         id-number: 10
         mobile-id-number: 30
-        name: Jason Liu
-        image: /assets/img/leads/jason.jpg
-        role: Software Captain
-        email: jliu@palyrobotics.com
+        name: Ryan Lee
+        image: 
+        role: Lab Manager
+        email: 
         description: >
-            Jason Liu is a senior who joined the software team in his freshman year. As a junior, he was the software project manager, and also ran Paly Robotic's annual summer camp as one of its co-leads. This year, Jason is the team's software captain, in charge of the development and testing of the software that runs on our robots.
+            
     
     -
         id-number: 11
         mobile-id-number: 31
-        name: Jennifer Zwiebel
-        image: /assets/img/leads/jennifer.jpg
-        role: Business Captain
-        email: jenniferzwiebel@palyrobotics.com
+        name: Malika Bowers
+        image: 
+        role: Pit Manager
+        email: 
         description: >
-            Jennifer Z, 'Jen Z', is a senior who joined the team as a freshman. Her sophomore year, she decided to switch to the Business Team and has been contributing to fundraising and awards ever since. Last year, she was the team competition manager.
+            
     - 
         id-number: 12
         mobile-id-number: 32
-        name: Nicholas Shinghal
-        image: /assets/img/leads/nicholas.jpg
-        role: Business Project Manager
-        email: nickshinghal@gmail.com
+        name: Ashley Qiu
+        image: 
+        role: Competition Manger
+        email: 
         description: >
-            A sophomore on the team, Nicholas joined Team 8 his freshman year as a member of business team, working on awards, business plans, and sponsorships throughout the year. This year, as Business PM, Nicholas works to ensure that the awards and grant processes go as efficiently as possible.
-
-Leads4:    
-    -
-        id-number: 13
-        mobile-id-number: 33
-        name: Amy Yu
-        image: /assets/img/leads/amy.jpg
-        role: Art Captain
-        email: ayu@palyrobotics.com
-        description: >
-            Amy Yu is a junior who joined the team in her freshman year as an Art recruit, mainly focused in graphic design. In her sophomore year, she became Art project project manager and worked with then team co-captain to bring quality merchandise and branding to the team — including a online webstore for merchandise. This year, she plans to expand the merchandise store and help Art team to explore various forms of animation. In her free time, Amy likes to make portraits, play the ukulele and stare at cute animals.
-    
-    -
-        id-number: 14
-        mobile-id-number: 34
-        name: Xiaohan Li
-        image: /assets/img/leads/xiaohan.jpg
-        role: Art Project Manager
-        email: xiaohanli1012@gmail.com
-        description: >
-            Xiaohan Li is a sophomore on Art team that joined in her freshman year. As Art PM, she mainly manages the production process of Art team’s animations.
-
-    -
-        id-number: 15
-        mobile-id-number: 35
-        name: Caleb Tan
-        image: /assets/img/leads/caleb.jpg
-        role: Strategy & Scouting Captain
-        email: ctan@palyrobotics.com
-        description: >
-            Caleb joined Team 8 as a Web member in his freshman year. He began by creating simple websites for the team, and is now the lead developer for the team's scouting applications and infrastructure. This year, he is captaining the newly-added Strategy & Scouting team and he hopes to further Team 8's scouting capabilities with the help of several motivated recruits.
-    - 
-        id-number: 16
-        mobile-id-number: 36
-        name: Arundhati Parikh
-        image: /assets/img/leads/arundhati.jpg
-        role: Treasurer
-        email: treasurer@palyrobotics.com
-        description: >
-            Arundhati Parikh is a sophomore and second year member of the build subteam on Team 8. As treasurer, she is responsible for making and keeping track of purchases, as well as managing team budgets. In her free time, she likes to draw, paint, and sometimes play Dragonvale.
-
-
-Leads5:
-    -
-        id-number: 17
-        mobile-id-number: 37   
-        name: Taiki Yamamoto
-        image: /assets/img/leads/taiki.jpg
-        role: Lab Manager
-        email: tyamamoto.palyrobotics@gmail.com
-        description: >
-            Taiki Yamamoto is a sophomore who joined Team 8 as a build member in his freshman year. 
-            His jobs as the Lab Manager includes keeping the lab in its best condition and improving the lab environment.
-    - 
-        id-number: 18
-        mobile-id-number: 38
-        name: Julian Kobayashi
-        image: /assets/img/leads/julian.jpg
-        role: Pit Manager
-        email: jkobayashi@palyrobotics.com
-        description: >
-            Julian Kobayashi is a sophomore design team member for Paly Robotics. He is currently the pit manager and safety captain, 
-            in charge of managing the pit during competitions and ensuring that pit rotations run smoothly. 
-    
-    -
-        id-number: 19
-        mobile-id-number: 39
-        name: Victoria Liao
-        image: /assets/img/leads/victoria.jpg
-        role: Competition Manager
-        email: vliao@palyrobotics.com
-        description: >
-            Victoria Liao is a sophomore who joined Paly Robotics during her freshman year. As competition manager, she organizes the logistics of the team’s competitions, making sure that that they go as smoothly as possible. She also enjoys painting, playing music, and writing in her spare time.
-    -
-        id-number: 4
-        mobile-id-number: 24
-        name: Keith Worrell
-        image: /assets/img/leads/keith.jpeg
-        role: Head Coach
-        email: keith.worrell@gmail.com
-        description: >
-            Keith Worrell is the current head coach for Paly Robotics.
+            
 ...
