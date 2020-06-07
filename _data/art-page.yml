@@ -1,5 +1,20 @@
 ---
+Merchandise:
+  -
+    title: Paly Robotics T-Shirt
+    paragraph: >
+      Official Paly Robotics T-Shirt
+    img: /assets/img/art/merchandise/tshirt.png
+  -
+    title: Paly Robotics Popsocket
+    paragraph: > 
+      Official Paly Robotics Popsocket
+    img: /assets/img/art/merchandise/popsocket.png
+
 Animation:
+  title: Animations
+
+Animation-vid:
   
   -
     title: How to Recharge (2020)

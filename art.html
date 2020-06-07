@@ -6,92 +6,110 @@ permalink: /art/
 
 
 <link href="/assets/css/art.stylesheet.css" rel="stylesheet">
- 
-<!--Animation Starts -->
-    <div class = "container first-container">
-     <div class = "col-md-12">
-       <h2 class="about-first">Paly Robotics Art Team</h2>
-       <hr>
-       <h3 class = "Animation-title" style="padding-bottom: 20px;">Animation</h3>      
-     </div>
-    </div>
-<!--Elaine work done -->
-    <div class="container">
-      {% for item in site.data.art-page.Animation %}
-        <div class = "col-md-6">
-          <h3>{{item.title}}</h3>
-          <p>{{item.paragraph}}</p>
-          <p>Click <a href="https://www.youtube.com/watch?v={{item.youtube-id}}" target="_blank">here</a> to see "{{item.title}}" on YouTube</p>
-        </div>
-    
-        <div class = "col-md-6">
-          <iframe class="pull-right video" src="https://www.youtube.com/embed/{{item.youtube-id}}" frameborder="0" allowfullscreen></iframe>
-<!--          <iframe class="pull-right video" src="https://www.youtube.com/embed/{{item.youtube-id}}" frameborder="0" allowfullscreen></iframe>-->
-        </div>
-      {% endfor %}
 
-    </div>
-
-<!--Graphic Design Section-->
-   
-<!--Elaine Idea-->
-  <div class="container">
-      <div class="col-md-12">
-        <hr>
-        <h3 class="Animation-title">{{site.data.art-page.Graph-Des.title}}</h3><br>
-      </div>
-  </div>
-    <div class="container">
-      {% assign pic = 0 %}
-      {% for item in site.data.art-page.Graph-Des-img %}
-          <div class="col-md-4 extra-padding">
-              <img class="img-responsive" src="{{item.img}}">
-              <h4>{{item.title}}</h4>
-              <p class="paragraph-circle">{{item.paragraph}}</p>
-          </div>
-      {% endfor %}
-    </div>  
-
-
-    <div class="container">
-      {% assign pic = 0 %}
-      {% for item in site.data.art-page.Graph-Des-img-2 %}
-          <div class="col-md-4 extra-padding">
-              <img class="img-responsive" src="{{item.img}}">
-              <h4>{{item.title}}</h4>
-              <p class="paragraph-circle">{{item.paragraph}}</p>
-          </div>
-      {% endfor %}
-    </div>
- 
-  
-  <div class="container">
-    <div class="col-md-12">
-      <hr class = "padding">
-    </div>
-  </div>   
-  <!--Idea ends-->
-<!--StoryTelling Starts-->
-
-  <div class = "container">
-    
-        <div class = "col-md-6 your-mom">
-          
-          <h3 class>{{site.data.art-page.Vary.title}}</h3>
-          <p>{{site.data.art-page.Vary.paragraph}}</p>
-        </div>
-      
-
-        <div class = "col-md-6">
-            <img class="pull-right img-responsive" src= "{{site.data.art-page.Vary.img}}" height = "280" width = "450">
-        </div>
-  
+<div class="container first-container">
+  <div class="col-md-12">
+    <h2 class="about-first">Paly Robotics Art Team</h2>
+    <hr>
+    <h3 class="Animation-title" style="padding-bottom: 20px;">Merchandise</h3>
   </div>
 </div>
+<!-- Merchandise Section -->
+<div class="container">
+  {% for item in site.data.art-page.Merchandise %}
+  <div class="col-md-6">
+    <img class="img-responsive" src="{{item.img}}">
+    <h5>{{item.title}}</h5>
+    <p class="paragraph-circle">{{item.paragraph}}</p>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Animation Section -->
+<div class="container">
+  <div class="col-md-12">
+    <hr>
+    <h3 class="Animation-title">{{site.data.art-page.Animation.title}}</h3><br>
+  </div>
+</div>
+<div class="container">
+  {% for item in site.data.art-page.Animation-vid %}
+  <div class="col-md-6">
+    <h3>{{item.title}}</h3>
+    <p>{{item.paragraph}}</p>
+    <p>Click <a href="https://www.youtube.com/watch?v={{item.youtube-id}}" target="_blank">here</a> to see
+      "{{item.title}}" on YouTube</p>
+  </div>
+
+  <div class="col-md-6">
+    <iframe class="pull-right video" src="https://www.youtube.com/embed/{{item.youtube-id}}" frameborder="0"
+      allowfullscreen></iframe>
+    <!--          <iframe class="pull-right video" src="https://www.youtube.com/embed/{{item.youtube-id}}" frameborder="0" allowfullscreen></iframe>-->
+  </div>
+  {% endfor %}
+
+</div>
+
+<!--Graphic Design Section-->
+
+<!--Elaine Idea-->
+<div class="container">
+  <div class="col-md-12">
+    <hr>
+    <h3 class="Animation-title">{{site.data.art-page.Graph-Des.title}}</h3><br>
+  </div>
+</div>
+<div class="container">
+  {% assign pic = 0 %}
+  {% for item in site.data.art-page.Graph-Des-img %}
+  <div class="col-md-4 extra-padding">
+    <img class="img-responsive" src="{{item.img}}">
+    <h4>{{item.title}}</h4>
+    <p class="paragraph-circle">{{item.paragraph}}</p>
+  </div>
+  {% endfor %}
+</div>
+
+
+<div class="container">
+  {% assign pic = 0 %}
+  {% for item in site.data.art-page.Graph-Des-img-2 %}
+  <div class="col-md-4 extra-padding">
+    <img class="img-responsive" src="{{item.img}}">
+    <h4>{{item.title}}</h4>
+    <p class="paragraph-circle">{{item.paragraph}}</p>
+  </div>
+  {% endfor %}
+</div>
+
+
+<div class="container">
+  <div class="col-md-12">
+    <hr class="padding">
+  </div>
+</div>
+<!--Idea ends-->
+<!--StoryTelling Starts-->
+
+<div class="container">
+
+  <div class="col-md-6 your-mom">
+
+    <h3 class>{{site.data.art-page.Vary.title}}</h3>
+    <p>{{site.data.art-page.Vary.paragraph}}</p>
+  </div>
+
+
+  <div class="col-md-6">
+    <img class="pull-right img-responsive" src="{{site.data.art-page.Vary.img}}" height="280" width="450">
+  </div>
+
+</div>
+</div>
 <style>
-.video{
-  height: 400px;
-  width: 100%;
-  padding-bottom: 50px;
-}
+  .video {
+    height: 400px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
 </style>
