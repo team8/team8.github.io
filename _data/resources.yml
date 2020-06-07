@@ -77,6 +77,17 @@ Links:
       link: News Letter
       des: Subscribe to our newsletter.
 
+  Merchandise:
+    title: Merchandise
+
+    T-shirts:
+      link: T-shirts
+      des: Buy some of our T-shirts
+
+    Pop-Sockets:
+      link: Pop sockets
+      des: Buy some of our pop-sockets
+
 Maps:
   Location:
     head: Map to location
