@@ -18,11 +18,12 @@ permalink: /art/
 <div class="container">
   {% for item in site.data.art-page.Merchandise %}
   <div class="col-md-6">
-    <img class="img-responsive" src="{{item.img}}">
+    <img class="img-responsive" src="{{item.img}}"  style="padding-left: 75px">
     <h5>{{item.title}}</h5>
-    <p class="paragraph-circle">{{item.paragraph}}</p>
-    <p class="paragraph-circle">Click <a href="{{item.amazon-id}}" target="_blank">here</a> to see
-      "{{item.title}}" on Amazon</p>
+    <!-- <p class="paragraph-circle">{{item.paragraph}} <a href="{{item.amazon-id}}" target="_blank">{{item.paragraph}}</a></p> -->
+    <a href="{{item.amazon-id}}" target="_blank" style="margin-left: 160px">{{item.paragraph}}</a>
+    <!-- <p class="paragraph-circle">Click <a href="{{item.amazon-id}}" target="_blank">here</a> to see
+      "{{item.title}}" on Amazon</p> -->
   </div>
   {% endfor %}
 </div>
@@ -93,7 +94,7 @@ permalink: /art/
 <!--Idea ends-->
 <!--StoryTelling Starts-->
 
-<div class="container">
+<!-- <div class="container">
 
   <div class="col-md-6 your-mom">
 
@@ -106,7 +107,7 @@ permalink: /art/
     <img class="pull-right img-responsive" src="{{site.data.art-page.Vary.img}}" height="280" width="450">
   </div>
 
-</div>
+</div> -->
 </div>
 <style>
   .video {
