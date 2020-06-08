@@ -5,11 +5,13 @@ Merchandise:
     paragraph: >
       Official Paly Robotics T-Shirt
     img: /assets/img/art/merchandise/tshirt.png
+    amazon-id: https://www.amazon.com/dp/B07R4C3BPN
   -
     title: Paly Robotics Popsocket
     paragraph: > 
       Official Paly Robotics Popsocket
     img: /assets/img/art/merchandise/popsocket.png
+    amazon-id: https://www.amazon.com/Official-Paly-Robotics-Team-Socket/dp/B07R6391K1/ref=sr_1_1?keywords=Paly+Robotics+Team+8&qid=1556582872&s=gateway&sr=8-1-spell
 
 Animation:
   title: Animations
