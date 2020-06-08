@@ -2,9 +2,46 @@
 
 ---
     - 
+        title: Nari
+        year: "2020"
+        active: "active"
+        Specifications:
+          - 
+            specname: Name
+            spec: Nari
+          -
+            specname: Game
+            spec: Infinite Recharge
+          - 
+            specname: Weight
+            spec: 123.3 lbs
+        # history of competition for Vidar in 2019 #
+        CompHistory:
+          -
+            competition: Utah Regional
+            achievement: Winners, Quality Award
+        # abilities of robot list
+        RobotAbilities:
+          -
+            ability: 6x Andymark Hi-grip wheel west coast drive powered by 4x Falcon 500s. Theoretical top speed of 13.5 ft/sec
+          -             
+            ability: 5 ball linear indexer with “V” configured belts for internal ball singulating
+          -
+            ability: Virtual 4-bar intake utilizes stationary sprocket and chain system to fold inwards when stowed or impacted
+          -
+            ability: Uses a pneumatically adjusted hood with 3 positions and 2x NEO motors to consistently shoot power cells from anywhere between the front of the control panel and the target zone
+          - 
+            ability: Telescoping climber enables sub 5 sec. climb when the switch is tipped or stationary
+          - 
+            ability: Limelight provides the distance to the target, enabling our shooter to determine an appropriate target flywheel velocity
+          - 
+            ability: LED animations enable better driver and operator synchronization used to indicate bot alignment, climber lock, power cell pickup, ball launches and more.
+                  
+        image: /assets/img/robots/nari.png
+    - 
         title: Víðarr (VIH-dar)
         year: "2019"
-        active: "active"
+        active: ""
         Specifications:
           - 
             specname: Name
@@ -22,10 +59,10 @@
             achievement: Semifinalists, Entrepreneurship Award, Dean's List 
           -
             competition: Great Northern Regional
-            achievement: ""
+            achievement: Quarterfinalists, Autonomus Award
           -
             competition: Silicon Valley Regional
-            achievement: ""
+            achievement: Semifinalists, Gracious Professionalism
         # abilities of robot list
         RobotAbilities:
           -
