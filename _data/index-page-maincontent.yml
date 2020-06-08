@@ -7,10 +7,6 @@ Robot:
   caption: Our 2020 Robot&#58 Nari
   caption2: Nari is our robot for the 2020 Infinite Recharge season. He is capable of scoring power cells in the upper levels of the power port and climbing on the shield generator switch bar.
 
-SummerCamp:
-  caption: 2020 Summer Camp
-  caption2: Team 8 is excited for our upcoming summer camp, which will have Robot Design and Hardware, Programming, Entrepreneurship, and Art sessions! For more information see the summer camp page.
-
 AboutUs:
   image: /assets/img/aboutus/AboutImage1.jpg
   paragraph: Paly Robotics is dedicated to enriching the education of its members through building, programming, animation, and community

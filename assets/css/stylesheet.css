@@ -486,6 +486,10 @@ img.img-circle {
 	height:70%;
 }
 
+img.small-img-circle {
+	width: 45%;
+	height: 45%;
+}
 
 /*text below image resizing etc. and padding*/
 h4 {
