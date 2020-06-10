@@ -12,7 +12,7 @@ Leads1:
         role: Co-Captain
         email: nhunt@palyrobotics.com
         description: >
-            
+            Coming Soon!
 
     -
         id-number: 1
@@ -44,7 +44,7 @@ Leads1:
         role: Design Captain
         email: fu.kyla@gmail.com
         description: >
-            
+            Coming Soon!
 
 Leads2:
 
@@ -56,17 +56,17 @@ Leads2:
         role: Build Captain
         email: tyamamoto.palyrobotics@gmail.com
         description: >
-            
+            Coming Soon!
 
     - 
         id-number: 6
         mobile-id-number: 26
         name: Aditya Oberai
-        image: 
+        image: /assets/img/leads/no_icon.png
         role: Software Captain
         email: 
         description: >
-            
+            Coming Soon!
     
     -
         id-number: 7
@@ -76,7 +76,7 @@ Leads2:
         role: Art Captain
         email: xiaohanli1012@gmail.com
         description: >
-            
+            Coming Soon!
 
     - 
         id-number: 8
@@ -86,38 +86,38 @@ Leads2:
         role: Business Captain
         email: nickshinghal@gmail.com
         description: >
-            
+            Coming Soon!
 
 Leads3:  
     - 
         id-number: 9
         mobile-id-number: 29
-        name: Keith Worell
-        image: 
+        name: Keith Worrell
+        image: /assets/img/leads/no_icon.png
         role: Head Coach
         email: 
         description: >
-            
+            Coming Soon!
 
     -
         id-number: 10
         mobile-id-number: 30
         name: Ryan Lee
-        image: 
+        image: /assets/img/leads/no_icon.png
         role: Lab Manager
         email: 
         description: >
-            
+           Coming Soon! 
     
     -
         id-number: 11
         mobile-id-number: 31
         name: Malika Bowers
-        image: 
+        image: /assets/img/leads/no_icon.png
         role: Pit Manager
         email: 
         description: >
-            
+            Coming Soon!
     - 
         id-number: 12
         mobile-id-number: 32
