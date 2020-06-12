@@ -62,11 +62,11 @@ Leads2:
         id-number: 6
         mobile-id-number: 26
         name: Aditya Oberai
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/aditya.jpg
         role: Software Captain
-        email: 
+        email: aboerai@palyrobotics.com
         description: >
-            Coming Soon!
+            Aditya Oberai is a sophomore on Paly Robotics with the position of Software Captain. His job is to deliver the software aspect of the robot by communicating with the other subteams and effectively managing the Software subteam. For fun, Aditya often programs in his free time and is also an avid electronics hobbyist as well.
     
     -
         id-number: 7
@@ -95,7 +95,7 @@ Leads3:
         name: Keith Worrell
         image: /assets/img/leads/no_icon.png
         role: Head Coach
-        email: 
+        email: kworrel@palyrobotics.com
         description: >
             Coming Soon!
 
@@ -105,7 +105,7 @@ Leads3:
         name: Ryan Lee
         image: /assets/img/leads/no_icon.png
         role: Lab Manager
-        email: 
+        email: rlee@palyrobotics.com
         description: >
            Coming Soon! 
     
@@ -115,7 +115,7 @@ Leads3:
         name: Malika Bowers
         image: /assets/img/leads/no_icon.png
         role: Pit Manager
-        email: 
+        email: mbowers@palyrobotics.com
         description: >
             Coming Soon!
     - 
@@ -124,7 +124,7 @@ Leads3:
         name: Ashley Qiu
         image: /assets/img/leads/ashley.jpg
         role: Competition Manger
-        email: 
+        email: aqui@palyrobotics.com
         description: >
             Ashley Qiu joined Paly Robotics' business team as a sophomore, and has been helping with applying for grants and awards. As the competition manager, she is responsible for the behind-the-scenes organizing and planning of competitions throughout the year.
             
