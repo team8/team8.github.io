@@ -76,7 +76,7 @@ Leads2:
         role: Art Captain
         email: xiaohanli1012@gmail.com
         description: >
-            Coming Soon!
+            Xiaohan Li is a junior on Art team who joined in her freshman year. In the past year, she has worked as the Art Project Manager to direct the production process for Art team’s animations. This year, as Art Captain, Xiaohan hopes to pursue more outreach opportunities and continue to expand upon Art team’s animation capabilities.
 
     - 
         id-number: 8
@@ -103,11 +103,11 @@ Leads3:
         id-number: 10
         mobile-id-number: 30
         name: Ryan Lee
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/ryan.jpg
         role: Lab Manager
         email: rlee@palyrobotics.com
         description: >
-           Coming Soon! 
+           Ryan Lee is a sophomore who joined Paly Robotics as a build recruit freshman year. As Lab Manager, Ryan works towards maintaining and improving the work environment in addition to ensuring that all machines are properly working
     
     -
         id-number: 11
