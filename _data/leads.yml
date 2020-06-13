@@ -103,11 +103,11 @@ Leads3:
         id-number: 10
         mobile-id-number: 30
         name: Ryan Lee
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/ryan.jpg
         role: Lab Manager
         email: rlee@palyrobotics.com
         description: >
-           Coming Soon! 
+           Ryan Lee is a sophomore who joined Paly Robotics as a build recruit freshman year. As Lab Manager, Ryan works towards maintaining and improving the work environment in addition to ensuring that all machines are properly working
     
     -
         id-number: 11
