@@ -3,7 +3,7 @@
 title:  Zoom Workshops
 description:
     > 
-        Paly Robotics is happy to announce that we will be hosting bi-weekly Zoom workshops for middle schoolers covering STEAM subjects used in robotics! These workshops are completely free of charge. Keep an eye out for sessions that cover more topics later in the summer! We hope to see you there!
+        Paly Robotics hosted 22 Zoom workshops surrounding entrepreneurship, software, graphic design and animation. Check out the lessons on our Youtube channel!
 
 entrepreneurshipWorkshop:
     title: >
@@ -65,17 +65,35 @@ Entreprenuership:
         Entreprenuership
     lesson1: Day 1
     lesson2: Day 2
+    lesson3: Day 3
+    lesson4: Day 4
+    lesson5: Workshop Finished!
+    lesson6: Workshop Finished!
+    lesson7: Workshop Finished!
+    lesson8: Workshop Finished!
 
 Software:
     title: >
         Software
     lesson1: Day 1
     lesson2: Day 2
+    lesson3: Day 3
+    lesson4: Day 4
+    lesson5: Day 5
+    lesson6: Day 6 
+    lesson7: Day 7 
+    lesson8: Day 8 
 
 Art:
     title: >
         Art
-    lesson1: Day1
+    lesson1: Day 1
     lesson2: Day 2
+    lesson3: Day 3
+    lesson4: Workshop Finished!
+    lesson5: Workshop Finished!
+    lesson6: Workshop Finished!
+    lesson7: Workshop Finished!
+    lesson8: Workshop Finished!
 
 
