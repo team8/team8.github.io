@@ -5,64 +5,11 @@ description:
     > 
         Paly Robotics hosted 22 Zoom workshops surrounding entrepreneurship, software, graphic design and animation. Check out the lessons on our Youtube channel!
 
-entrepreneurshipWorkshop:
-    title: >
-        Entrepreneurship
-    overview: >
-        Interested in starting a business or exploring entrepreneurship in robotics? We will teach you the basic skills you need! Each class will cover a different entrepreneurship topic, from writing mission statements to improving presentation skills. 
-    register: >
-        <a href="https://forms.gle/g9PAsiYAgon4UH6S8" target="_blank">Waitlist</a>
-    p1: >
-        Session 1: <br>
-        6/4/20 4:00-4:30pm <br>
-        6/6/20 4:00-4:30pm <br>
-        6/11/20 4:00-4:30pm <br>
-        6/13/20 4:00-4:30pm <br>
-        6/18/20 4:00-4:30pm <br>
-    p2: >
-        Session 2: <br>
-        6/4/20 5:20-6:00pm <br>
-        6/6/20 5:20-6:00pm <br>
-        6/11/20 5:20-6:00pm <br>
-        6/13/20 5:20-6:00pm <br>
-        6/18/20 5:20-6:00pm <br>
-
-softwareWorkshop:
-    title: >
-        Software
-    overview: >
-        As well as this description: Paly Robotics’ Software Zoom Lessons will teach middle schoolers Python coding and its applications to robotics through 9 sessions, with lessons increasing in complexity over time. Each lesson will cover a specific topic, ranging from conditionals to a rock-paper-scissors vs. computer game. Please visit the registration form for the full list of topics
-    register: >
-        <a href="https://forms.gle/DyLyg33N1d5XTmNr9" target="_blank">Signup</a>
-    p1: >
-        Session 1: <br>
-        7/13/20 3pm-4:45pm <br>
-        7/15/20 3pm-4:45pm <br>
-        7/17/20 3pm-4:45pm <br>
-        7/20/20 3pm-4:45pm <br>
-        7/22/20 3pm-4:45pm <br>
-        7/24/20 3pm-4:45pm <br>
-        7/27/20 3pm-4:45pm <br>
-        7/29/20 3pm-4:45pm <br>
-        7/31/20 3pm-4:45pm <br>
-
-artWorkshop:
-    title: >
-        Art
-    overview: >
-        As well as this description: Animation and Graphic Design lessons give students an overview of the concepts behind creating animations and effective designs. Students will learn the basics of the production process for animations, as well as art and design principles such as typography, composition, and color theory, and how they are used in the professional world.
-
-    register: >
-        <a href="https://forms.gle/4Hm6siH94GVEfkSWA" target="_blank">Signup</a>
-    p1: >
-        Session 1: <br>
-        7/1/20 4pm-5pm <br>
-        7/8/20 4pm-5pm <br>
-        7/10/20 4pm-5pm <br>
-
 Entreprenuership: 
     title: >
         Entreprenuership
+    description: >
+        Entreprenuership - Interested in starting a business or exploring entrepreneurship in robotics? We will teach you the basic skills you need! Each class will cover a different entrepreneurship topic, from writing mission statements to improving presentation skills.
     lesson1: Day 1
     lesson2: Day 2
     lesson3: Day 3
@@ -75,6 +22,8 @@ Entreprenuership:
 Software:
     title: >
         Software
+    description: >
+        Software - Paly Robotics’ Software Zoom Lessons will teach middle schoolers Python coding and its applications to robotics through 9 sessions, with lessons increasing in complexity over time. Each lesson will cover a specific topic, ranging from conditionals to a rock-paper-scissors vs. computer game. Please visit the registration form for the full list of topics
     lesson1: Day 1
     lesson2: Day 2
     lesson3: Day 3
@@ -87,6 +36,8 @@ Software:
 Art:
     title: >
         Art
+    description: >
+        Art - Animation and Graphic Design lessons give students an overview of the concepts behind creating animations and effective designs. Students will learn the basics of the production process for animations, as well as art and design principles such as typography, composition, and color theory, and how they are used in the professional world.
     lesson1: Day 1
     lesson2: Day 2
     lesson3: Day 3
