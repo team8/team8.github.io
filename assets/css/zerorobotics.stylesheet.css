@@ -41,10 +41,19 @@ hr {
     margin-top:27px;
     margin-bottom:0px;
 }
-
-table {
-    align-items: center;
+th.heading {
+    text-align: center; 
+    height: 60px; 
+    vertical-align:middle; 
+    background-color: green; 
+    font-size: 30px; 
+    width: 33%
 }
+td.cell {
+    text-align: center; height: 60px; vertical-align: middle
+}
+
+
 
 /* mobile styling for header */
 @media (max-width:767px) {

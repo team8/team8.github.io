@@ -52,11 +52,11 @@ Leads2:
         id-number: 5
         mobile-id-number: 25   
         name: Taiki Yamamoto
-        image: /assets/img/leads/taiki.jpg
+        image: /assets/img/leads/taiki2.jpg
         role: Build Captain
         email: tyamamoto@palyrobotics.com
         description: >
-            Coming Soon!
+            Taiki Yamamoto is a junior who joined the Paly Robotics team as a build member in his freshman year making contributions towards the robot. In his sophomore year, he was the Lab Manager working with the team to make the lab as best an environment it could be through the organization of tools and machines as well as making the most efficient and effective work space. As the Lab Manager he contributed to the facilitating of new machines such as the CNC Router, Markforged 3D Printer, and Finger Brake. Now, as the Build Captain, he strives to continue working with Build Team to manufacture another successful robot and create a welcoming space for everyone to have a meaningful experience.
 
     - 
         id-number: 6
