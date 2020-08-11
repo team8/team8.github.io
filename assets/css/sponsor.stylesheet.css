@@ -37,3 +37,15 @@ p.sponsorship {
 ul {
 	font-size:17px;
 }
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: green;
+    border-radius: 10px;
+    margin: 5px;
+}
