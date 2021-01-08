@@ -15,7 +15,7 @@ gem "jekyll", "3.3.0"
 gem "minima", "~> 2.0"
 
 
-gem "rack"
+gem "rack", "~> 2.2"
 gem "sinatra", github: "sinatra"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
