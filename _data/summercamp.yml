@@ -4,9 +4,9 @@
     
 ---
     AboutTheCamp1:
-        message: "IMPORTANT UPDATE: Every year, our top priority has been the health and safety of our campers and counselors. After assessing the situation, it is extremely unlikely that school facilities will be reopened by the time the camp is scheduled to occur. Due to the current situation of COVID-19 and the collaborative nature of curriculums, we mindfully have decided to cancel this year’s Paly Robotics Summer camp. Feel free to email summercamp@palyrobotics.com if you have any questions."
-        paragraph1: #<b>Registration is now closed.</b><br>
-                    - This year, Paly Robotics will be offering two weeks of our annual Paly Robotics Summer Camp for incoming 6th-9th graders. We aim to spark campers’ interests in innovation and start students on a successful path in science, technology, engineering, art, and/or math (STEAM). If you have any questions, feel free to contact us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>. 
+        message: "IMPORTANT UPDATE: Due to the COVID-19 pandemic, Paly Robotics Summer Camp will be online for Summer 2021. We have updated our curriculum to provide an exciting experience for our campers and have also reduced pricing to reflect the online format."
+        paragraph1: Registration will open on January 23rd at 12 pm
+                    - For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions. 
         paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2017 Recap Video to get a taste of what camp is like&#58;
         image1: /assets/img/summercamp/group2.jpeg
         image3: /assets/img/summercamp/group.JPG
@@ -20,15 +20,16 @@
 
     Table:
         title: Weeks Offered
-        dates1: Week 1&#58; July 20 - July 24
-        dates2: Week 2&#58; July 27 - July 31
+        dates1: Week 1&#58; July 26 - July 30
+        dates2: Week 2&#58; August 2 - August 6
         time: Time
-        hour: 9 AM - 3 PM
+        hour: 10 AM - 3 PM
         location: Location
-        address: Paly Robotics Lab (Room 903 at Palo Alto High School)
+        address: Remote Instruction via Zoom
+        age: Age
+        grades: Incoming 6th to 9th graders
         payment: Cost
-        finance: $405 per camper, per session (please email us if you are in need of financial aid)
-
+        finance: $325 per camper, per session (please email us if you are in need of financial aid)
 
     Sessions1:
         paragraph: We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.

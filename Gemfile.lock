@@ -1,24 +1,24 @@
 GIT
   remote: git://github.com/sinatra/sinatra.git
-  revision: 004daf4922af6ee7a7a87982f3040768e428209e
+  revision: ad4e974ebbe41046854bee2159be3b554740400d
   specs:
-    rack-protection (2.0.0.beta2)
+    rack-protection (2.1.0)
       rack
-    sinatra (2.0.0.beta2)
-      mustermann (= 1.0.0.beta2)
-      rack (~> 2.0)
-      rack-protection (= 2.0.0.beta2)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
       tilt (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
-    ffi (1.9.14)
-    ffi (1.9.14-x64-mingw32)
-    ffi (1.9.14-x86-mingw32)
+    ffi (1.14.2)
+    ffi (1.14.2-x64-mingw32)
+    ffi (1.14.2-x86-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.3.0)
       addressable (~> 2.4)
@@ -31,31 +31,38 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.8.0)
+    jekyll-feed (0.11.0)
       jekyll (~> 3.3)
-    jekyll-sass-converter (1.4.0)
+    jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-watch (1.5.0)
-      listen (~> 3.0, < 3.1)
-    kramdown (1.12.0)
+    jekyll-watch (1.5.1)
+      listen (~> 3.0)
+    kramdown (1.17.0)
     liquid (3.0.6)
-    listen (3.0.8)
+    listen (3.4.0)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
+    mercenary (0.3.6)
+    minima (2.1.1)
+      jekyll (~> 3.3)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    pathutil (0.16.2)
+      forwardable-extended (~> 2.6)
+    public_suffix (4.0.6)
+    rack (2.2.3)
+    rb-fsevent (0.10.4)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    rouge (1.11.1)
+    ruby2_keywords (0.0.2)
+    safe_yaml (1.0.5)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    mercenary (0.3.6)
-    minima (2.0.0)
-    mustermann (1.0.0.beta2)
-    pathutil (0.14.0)
-      forwardable-extended (~> 2.6)
-    public_suffix (2.0.4)
-    rack (2.0.1)
-    rb-fsevent (0.9.8)
-    rb-inotify (0.9.7)
-      ffi (>= 0.5.0)
-    rouge (1.11.1)
-    safe_yaml (1.0.4)
-    sass (3.4.22)
-    tilt (2.0.5)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
@@ -66,7 +73,7 @@ DEPENDENCIES
   jekyll (= 3.3.0)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
-  rack
+  rack (~> 2.2)
   sinatra!
 
 RUBY VERSION
