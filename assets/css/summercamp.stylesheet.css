@@ -28,6 +28,12 @@ h3.summercamp-header2 {
     margin-top:7px;
 }
 
+h3.summercamp-faq-header {
+	font-size: 32px;
+	margin-top: 0.9em;
+}
+
+
 h3.group-img-header {
 	font-size: 32px;
     margin-top: 45px !important;
@@ -53,9 +59,12 @@ p.summercamp {
 }
 p.summercamp-paragraph {
     font-size: 19.5px;
-
     margin-bottom: 20px;
 }
+p.summercamp-faq {
+	font-size: 19.5px;
+}
+
 hr.top-hr {
     margin-top: 30px;
     margin-bottom:0px;

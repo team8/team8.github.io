@@ -5,8 +5,7 @@
 ---
     AboutTheCamp1:
         message: "Due to the COVID-19 pandemic, <b>Paly Robotics Summer Camp will be online for Summer 2021.</b> We have updated our curriculum to provide an exciting experience for our campers and have also reduced pricing to reflect the online format."
-        paragraph1: <b>Registration will open on January 30th at 12 pm</b>
-                    - For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions. 
+        paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions. 
         paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2017 Recap Video to get a taste of what camp is like&#58;
         image1: /assets/img/summercamp/group2.jpeg
         image3: /assets/img/summercamp/group.JPG
@@ -69,7 +68,7 @@
             answer: We are offering the camp the week of July 26th and the week of Aug 2nd. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
         -
             question: How will camp be done online?
-            answer: This year's camp will be held via Zoom. Each day of camp, campers join a Zoom call hosted by their counselors. The counselors will be actively engaging campers throughout the day. Counselors will offer live instruction time, peer collaboration time and self-paced project development time.<br><br>Because of the challenges of online learning, we would appreciate the cooperation of campers to keep the camp environment for all campers by staying on the Zoom call and on task throughout the day, as this will be vital to the success of the camp for all.<br><br>We encourage supervising your child during camp hours if they are likely to go off-task to ensure that they are getting the best experience possible, and to allow other campers to do so as well.
+            answer: This year's camp will be held via Zoom. Each day of camp, campers join a Zoom call hosted by their counselors. The counselors will be actively engaging campers throughout the day. Counselors will offer live instruction time, peer collaboration time and self-paced project development time.<span style="vertical-align:-37%">&nbsp;</span><br/>Because of the challenges of online learning, we would appreciate the cooperation of campers to keep the camp environment for all campers by staying on the Zoom call and on task throughout the day, as this will be vital to the success of the camp for all.<span style="vertical-align:-37%">&nbsp;</span><br/>We encourage supervising your child during camp hours if they are likely to go off-task to ensure that they are getting the best experience possible, and to allow other campers to do so as well.
         -    
             question: What if we have technical problems?
             answer: We will provide instructions on how to use Zoom and counselors will monitor <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> closely to help resolve technical difficulties if they arise. Most work will be done via Zoom, so each camper will need a free Zoom account to participate in camp. 
@@ -82,6 +81,9 @@
         -    
             question: What methods of payment are accepted?
             answer: We accept payment through PayPal or credit/debit card via PayPal. If you are unable to pay using either of these options, please contact us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.
+        -    
+            question: When do I need to pay by?
+            answer: Please pay as soon as you register using the PayPal button on the confirmation page. All camp registrations that do not have payment accounted for within two weeks of signing up will be cancelled following a three day email notice.
         -
             question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
             answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.

@@ -22,7 +22,7 @@ permalink: /summercamp/
                 <li class="active"><a class="menu" data-toggle="tab" href="#about-the-camp">About the Camp</a></li>
                 <li><a class="menu" data-toggle="tab" href="#sessions">Sessions</a></li>
                 <li><a class="menu" data-toggle="tab" href="#faq">FAQ</a></li>
-                <!-- <li><a class="menu" data-toggle="tab" href="#registration">Registration</a></li> -->
+                <li><a class="menu" data-toggle="tab" href="#registration">Registration</a></li>
             </ul>
         </div>
     </div>
@@ -130,19 +130,19 @@ permalink: /summercamp/
                         <th colspan="4" style="font-size: 120%">Week 1 (July 26 - July 30)</th>
                     </tr>
                     <tr>
-                        <td class="session-td">Robot Design and Hardware<br/><b></b></td>
-                        <td class="session-td">Programming<br/><b></b></td>
-                        <td class="session-td">Entrepreneurship and Web Design<br/><b></b></td>
-                        <td class="session-td">Animation and Graphic Design<br/><b></b></td>
+                        <td class="session-td">Robot Design and Hardware<br/><b>(Registration Open)</b></td>
+                        <td class="session-td">Programming<br/><b>(Registration Open)</b></td>
+                        <td class="session-td">Entrepreneurship and Web Design<br/><b>(Registration Open)</b></td>
+                        <td class="session-td">Animation and Graphic Design<br/><b>(Registration Open)</b></td>
                     </tr>
                     <tr>
                         <th colspan="4" style="font-size: 120%">Week 2 (August 2 - August 6)</th>
                     </tr>
                     <tr>
-                        <td class="session-td">Robot Design and Hardware<br/><b></b></td>
-                        <td class="session-td">Programming<br/><b></b></td>
-                        <td class="session-td">Entrepreneurship and Web Design<br/><b></b></td>
-                        <td class="session-td">Animation and Graphic Design<br/><b></b></td>
+                        <td class="session-td">Robot Design and Hardware<br/><b>(Registration Open)</b></td>
+                        <td class="session-td">Programming<br/><b>(Registration Open)</b></td>
+                        <td class="session-td">Entrepreneurship and Web Design<br/><b>(Registration Open)</b></td>
+                        <td class="session-td">Animation and Graphic Design<br/><b>(Registration Open)</b></td>
                     </tr>
                 </tbody>
             </table>
@@ -227,18 +227,20 @@ permalink: /summercamp/
         <div class="col-md-12">
         <p class="summercamp">{{site.data.summercamp.FAQEmail.info}}</p>
         {% for item2 in site.data.summercamp.FAQ %}
-            <h3 class="summercamp-header">{{item2.question}}</h3>
-            <p class="summercamp">{{item2.answer}}</p>
+            <h3 class="summercamp-faq-header">{{item2.question}}</h3>
+            <p class="summercamp-faq">{{item2.answer}}</p>
         {% endfor %}
         </div>
     </div>
+    
+    <!-- Registration starts here -->
     <div class="container tab-pane fade in" id="registration">
 
         <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
         <iframe src="#" id="no-target" name="no-target" style="display:none;"></iframe>
 
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSe_hj5Hx8hel8U_c227mWmn0dSX5FatZQFEhxkvrlK4RZ8wCA/formResponse" method="POST" id="ss-form" class="" target="no-target" autocomplete="on" onsubmit="">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfKRzh785jcLjSAQcou7d9dyvZII1b12XMLyvLKEDCm5nyY9w/formResponse" method="POST" id="ss-form" class="" target="no-target" autocomplete="on" onsubmit="">
 
         <p style="padding-bottom: 15px; text-align: center;"><b>Please reload the page before beginning registration.</b></p>
         <ul id="progressbar">
@@ -332,9 +334,11 @@ permalink: /summercamp/
             </div>
         </div>
         
+        <hr>
+        	
         <div class="form-group">
             <label>T-Shirt Size
-            <span class="help-text">The shirts tend to run small.</span></label>
+            <span class="help-text">The shirts tend to run small, so most students are generally an Adult S or Adult M. Unfortunately, we will not be able to exchange t-shirts sizes this year.</span></label>
             <div class="form-check"> 
                 <input class="form-check-input" type="radio" name="entry.1630961562" value="Youth Small" id="group_1630961562_1">
                 <label class="form-check-label" for="group_1630961562_1">Youth Small</label>
@@ -372,7 +376,37 @@ permalink: /summercamp/
                 <label class="form-check-label" for="group_1630961562_9">Adult XXL</label>
             </div>
         </div>
-
+		
+		<span class="help-text" style="margin-bottom:1em">We will be shipping camp t-shirts to this address. You may choose not to provide an address, however we won’t be able to send a t-shirt home then.  Please email us after registering if you have further questions.</span>
+		
+		<div class="form-group">
+            <label for="entry_1293393523">Address Line 1</label>
+            <input class="form-control optional" type="text" name="entry.1293393523" value="" id="entry_1293393523">
+        </div>
+        
+        <div class="form-group">
+            <label for="entry_360632342">Address Line 2</label>
+            <input class="form-control optional" type="text" name="entry.360632342" value="" id="entry_360632342">
+        </div>
+        <div class="row">
+			<div class="form-group col-md-6">
+				<label for="entry_1643763974">City</label>
+				<input class="form-control optional" type="text" name="entry.1643763974" value="" id="entry_1643763974">
+			</div>
+		
+			<div class="form-group col-md-4">
+				<label for="entry_239373612">State</label>
+				<input class="form-control optional" type="text" name="entry.239373612" value="" id="entry_239373612">
+			</div>
+		
+			<div class="form-group col-md-2">
+				<label for="entry_1248855804">Zip Code</label>
+				<input class="form-control optional" type="text" name="entry.1248855804" value="" id="entry_1248855804">
+			</div>
+        </div>
+        
+        <hr>
+        
         <div class="form-group">
             <label for="entry_1344111339">Parent First Name</label>
             <input class="form-control" type="text" name="entry.1344111339" value="" id="entry_1344111339">
@@ -400,105 +434,94 @@ permalink: /summercamp/
 
         <fieldset>
 
-        <!-- <span class="help-text">Descriptions of each session offered can be found on the Sessions page. Please do
+        <p>Descriptions of each session offered can be found on the Sessions page. Please do
         not register for more than one session a week. Sessions that are offered multiple times will cover the
-        same material.</span> -->
+        same material.</p>
         
+        <!-- Registration -->
         <div class="form-group">
-            <label for="entry_1627134799">Which week 1 (July 20 - July 24) session would you like to sign up for?</label>
-            <!--
+            <label for="entry_1627134799">Which week 1 (July 26 - July 30) session would you like to sign up for?</label>
             <div class="form-check">
                 <input class="form-check-input  session-checkbox register-checkbox optional" type="radio" name="entry.1627134799" value="Robot Design and Hardware" id="group_1627134799_1">
                 <label class="form-check-label" for="group_1627134799_1">Robot Design and Hardware</label>
             </div>
-            -->
-            <!-- <div class="form-check">
+            <div class="form-check">
                 <input class="form-check-input  session-checkbox register-checkbox optional" type="radio" name="entry.1627134799" value="Programming" id="group_1627134799_2">
                 <label class="form-check-label" for="group_1627134799_2">Programming</label>
-            </div> -->
+            </div>
             <div class="form-check">
                 <input class="form-check-input  session-checkbox register-checkbox optional" type="radio" name="entry.1627134799" value="Entrepreneurship and Website Design" id="group_1627134799_3">
                 <label class="form-check-label" for="group_1627134799_3">Entrepreneurship and Website Design</label>
             </div>
-            <!-- <div class="form-check">
+            <div class="form-check">
                 <input class="form-check-input  session-checkbox register-checkbox optional" type="radio" name="entry.1627134799" value="Animation and Graphic Design" id="group_1627134799_4">
                 <label class="form-check-label" for="group_1627134799_4">Animation and Graphic Design</label>
-            </div> -->
+            </div>
         </div>
         <div class="form-group">
-            <label for="entry_814607865">Which week 2 (July 27 - July 31) session would you like to sign up for?</label>
-            <!--
+            <label for="entry_814607865">Which week 2 (August 2 - August 6) session would you like to sign up for?</label>
             <div class="form-check">
                 <input class="form-check-input  session-checkbox register-checkbox optional" type="radio" name="entry.814607865" value="Robot Design and Hardware" id="group_814607865_1">
                 <label class="form-check-label" for="group_814607865_1">Robot Design and Hardware</label>
             </div>
-            -->
-            <!-- <div class="form-check">
+            <div class="form-check">
                 <input class="form-check-input  session-checkbox register-checkbox optional" type="radio" name="entry.814607865" value="Programming" id="group_814607865_2">
                 <label class="form-check-label" for="group_814607865_2">Programming</label>
             </div>
-             -->
             <div class="form-check">
                 <input class="form-check-input  session-checkbox register-checkbox optional" type="radio" name="entry.814607865" value="Entrepreneurship and Website Design" id="group_814607865_3">
                 <label class="form-check-label" for="group_814607865_3">Entrepreneurship and Website Design</label>
             </div>
-            <!--
             <div class="form-check">
                 <input class="form-check-input  session-checkbox register-checkbox optional" type="radio" name="entry.814607865" value="Animation and Graphic Design" id="group_814607865_4">
                 <label class="form-check-label" for="group_814607865_4">Animation and Graphic Design</label>
             </div>
-            -->
         </div>
+        
+        <!-- Waitlist -->
+        <!--
         <div class="form-group">
-            <label for="entry_453345807">Which week 1 (July 20 - July 24) session(s) would you like to be waitlisted for (Optional)?</label>
-<!--             
+            <label for="entry_453345807">Which week 1 (July 26 - July 30) session(s) would you like to be waitlisted for (Optional)?</label>    
             <div class="form-check">
                 <input class="form-check-input session-checkbox waitlist-checkbox optional" type="checkbox" name="entry.453345807" value="Robot Design and Hardware" id="group_453345807_1">
                 <label class="form-check-label" for="group_453345807_1">Robot Design and Hardware</label>
-            </div> -->
-            
+            </div>
             <div class="form-check">
                 <input class="form-check-input session-checkbox waitlist-checkbox optional" type="checkbox" name="entry.453345807" value="Programming" id="group_453345807_2">
                 <label class="form-check-label" for="group_453345807_2">Programming</label>
             </div>
-            <!-- <div class="form-check">
+            <div class="form-check">
                 <input class="form-check-input session-checkbox waitlist-checkbox optional" type="checkbox" name="entry.453345807" value="Entrepreneurship and Website Design" id="group_453345807_3">
                 <label class="form-check-label" for="group_453345807_3">Entrepreneurship and Website Design</label>
-            </div> -->
+            </div>
             <div class="form-check">
                 <input class="form-check-input session-checkbox waitlist-checkbox optional" type="checkbox" name="entry.453345807" value="Animation and Graphic Design" id="group_453345807_4">
                 <label class="form-check-label" for="group_453345807_4">Animation and Graphic Design</label>
             </div>
-           
-        </div> 
-
+        </div>
         <div class="form-group">
-            <label for="entry_180472513">Which week 2 (July 27 - July 31) session(s) would you like to be waitlisted for (Optional)?</label>
-            <!-- <div class="form-check">
+            <label for="entry_180472513">Which week 2 (August 2 - August 6) session(s) would you like to be waitlisted for (Optional)?</label>
+            <div class="form-check">
                 <input class="form-check-input session-checkbox waitlist-checkbox optional" type="checkbox" name="entry.180472513" value="Robot Design and Hardware" id="group_180472513_1">
                 <label class="form-check-label" for="group_180472513_1">Robot Design and Hardware</label>
-            </div> -->
-            
+            </div>
             <div class="form-check">
                 <input class="form-check-input session-checkbox waitlist-checkbox optional" type="checkbox" name="entry.180472513" value="Programming" id="group_180472513_2">
                 <label class="form-check-label" for="group_180472513_2">Programming</label>
             </div>
-           
-            <!--
             <div class="form-check">
                 <input class="form-check-input session-checkbox waitlist-checkbox optional" type="checkbox" name="entry.180472513" value="Entrepreneurship and Website Design" id="group_180472513_3">
                 <label class="form-check-label" for="group_180472513_3">Entrepreneurship and Website Design</label>
             </div>
-            -->
             <div class="form-check">
                 <input class="form-check-input session-checkbox waitlist-checkbox optional" type="checkbox" name="entry.180472513" value="Animation and Graphic Design" id="group_180472513_4">
                 <label class="form-check-label" for="group_180472513_4">Animation and Graphic Design</label>
             </div>
-
         </div>
+        -->
 
         <div class="form-group">
-            <label>Did your child attend Paly Robotics Summer Camp 2019?</label>
+            <label>Has your child previously attended Paly Robotics Summer Camp?</label>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="entry.945612220" value="Yes" id="group_945612220_1">
                 <label class="form-check-label" for="group_945612220_1">Yes</label>
@@ -518,21 +541,21 @@ permalink: /summercamp/
         <fieldset>
         
         <div class="form-group waitlist">
-        <label for="entry_1566736572">Payment Options
-            <span class="help-text">There is no need to pay for upfront to be put on the waitlist for a session. Payment will be handled via email coordination when a spot opens up.</span></label>
+        
+        	<p>There is no need to pay for upfront to be put on the waitlist for a session. Payment will be handled via email coordination when a spot opens up.</p>
+        
         </div>
 
         <div class="form-group register">
-            <label for="entry_1566736572">Payment Options
-            <span class="help-text">Please confirm that you will pay the fee ($405 per session per camper) via the PayPal link on the next page. <b>If you signed up for a waitlisted session, then you do not need to pay the fee for that session until receiving a spot.</b></br>If you are unable to pay through PayPal or with a credit/debit card via PayPal, please contact us via email.  If you need financial aid, please also contact us by email.</span></label>
+        	
+        	<p>Please confirm that you will pay the fee ($325 per session per camper) via the PayPal button on the next page. <b>If you signed up for a waitlisting session, then you do not need to pay the fee for that session until receiving a spot.</b></p>
+        	<p>If you are unable to pay through PayPal or with a credit/debit card via PayPal, please finish registering and contact us via email. If you need financial aid, please also finish registering and contact us by email.</p>
+            
             <div class="form-check">
                 <input class="form-check-input register-only" type="radio" name="entry.1566736572" value="I will pay the full amount via PayPal" id="group_1566736572_1">
                 <label class="form-check-label" for="group_1566736572_1">I will pay the full amount via PayPal</label>
             </div>
-            <div class="form-check">
-                <input class="form-check-input register-only" type="radio" name="entry.1566736572" value="I will request financial aid via email" id="group_1566736572_2">
-                <label class="form-check-label" for="group_1566736572_2">I will request financial aid via email</label>
-            </div>
+            
          </div>
 
         <input type="button" name="previous" class="previous action-button" value="Previous"/>
@@ -542,7 +565,7 @@ permalink: /summercamp/
 
         <fieldset>
             <div class="row register">
-                <p>Thank you for signing up. Please pay the camp fee ($405 per session per camper) via the PayPal button below.</p>
+                <p>Thank you for signing up. Please pay the camp fee via the PayPal button below. Simply donate the owed amount, which is <b>$325 for one session and $650 for two sessions</b>. You can pay directly through PayPal or with a credit/debit card via PayPal.</p>
 
                 <p>However, please do not pay for waitlisting sessions upfront. Payment will be handled via email coordination when a spot opens up.</p>
 
@@ -551,9 +574,7 @@ permalink: /summercamp/
                 <p>An automated confirmation email should be sent shortly. Please contact us if you never get this email.</p>
 
                 <p>If you have any questions, feel free to check out the FAQ page or contact us at <a href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.</p>
-                
-                <p>This PayPal link will take you to a donation page, which is how we are collecting payment. Simply donate the owed amount, which is <b>$405 for one session and $810 for two sessions</b>. You can pay directly through PayPal or with a credit/debit card via PayPal.</p>
-                
+                                
                 <center><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#38;hosted_button_id=E97TMT658F8BE" target="_blank">
                 <img src="/assets/img/summercamp/image.png"  style="width:92px;height:29px;border:0;">
                 </a></center>

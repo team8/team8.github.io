@@ -1,8 +1,5 @@
 
-//jQuery time
 var current_fs, next_fs, previous_fs; //fieldsets
-var left, opacity, scale; //fieldset properties which we will animate
-var animating; //flag to prevent quick multi-click glitches
 
 $(".next, .submit").click(function(){
 	
@@ -35,13 +32,13 @@ $(".previous").click(function(){
 
 $("fieldset input, fieldset textarea").on("click keyup", function() {
 
+	// Automatically selects "other" option if the text box is clicked
     if($(".other-choice-1").first().is(':checked')) {
         $(".other-choice-text-1").removeClass("optional")
     }
     else {
         $(".other-choice-text-1").addClass("optional")
     }
-    
     if($(".other-choice-2").first().is(':checked')) {
         $(".other-choice-text-2").removeClass("optional")
     }
@@ -50,30 +47,37 @@ $("fieldset input, fieldset textarea").on("click keyup", function() {
     }
     
     var empty = false;
+    
+    // Checks that all non-optional text fields are filled out
     $(this).closest("fieldset").find("input[type='text']:not(.optional), textarea:not(.optional)").each(function() {
         if ($.trim($(this).val()) == '') {
             empty = true;
         }
     });
     
+    // Checks that all non-optional multiple choice questions are filled out
     $(this).closest("fieldset").find("input[type='radio']:not(.optional), input[type='checkbox']:not(.optional)").each(function() {
         if ($("[name='"+$(this).attr('name')+"']:checked").length == 0) {
             empty = true;
         }
     });
     
+    // Checks that at least one session is selected (either register or waitlist)
     if($(this).closest("fieldset").find(".session-checkbox").length > 0 && $(this).closest("fieldset").find(".session-checkbox:checked").length == 0) {
         empty = true;
     }
 
+	// Disables the next button if there is an empty field
     if (empty) {
        $(this).closest("fieldset").find(".next, .submit").attr('disabled', 'disabled');
     } else {
        $(this).closest("fieldset").find(".next, .submit").removeAttr('disabled');
     }
+    
 });
 
-
+// Determines which subsequent pages to show the user based on their session selection
+// Makes payment questions optional if the user is only waitlisting
 $(".session-checkbox").click(function() {
 
     if ($(".register-checkbox:checked").length > 0) {
@@ -94,6 +98,7 @@ $(".session-checkbox").click(function() {
     
 });
 
+// Disables all next buttons on page load
 $( document ).ready( function() {
     $(".next, .submit").prop("disabled", true)
 });
