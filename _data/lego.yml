@@ -9,8 +9,16 @@ lego:
         p2: >
             El Programa de Verano de Lego Robótica es un campamento anual de una semana organizado por Paly Robotics que es completamente gratis. El programa es para los estudiantes de la escuela primaria y secundaria (elementary and middle school). Durante el programa, los miembros del equipo de Paly Robotics enseñan a los campistas los conceptos básicos de la construcción y programación de robots Lego utilizando Lego Mindstorms software. Al final de la semana, los campistas mostrarán el conocimiento que obtuvieron del programa al usar sus robots para competir en una mini competencia.
     register:
-        title: "Registration"
+        title1: "<b>About</b>"
+        title2: "<b>Dates and times</b>"
+        title3: "<b>Registration</b>"
         img: >
-            /assets/img/summercamp/legorobotics.png
+            /assets/img/summercamp/LRSP.jpeg
+        img2: >
+            /assets/img/summercamp/lrsp2.jpeg
         p1: >
-            Dates and Times: July 6-10 from 9am - 12pm<br>The registration link is <a target="_blank" href="https://forms.gle/SNrvwEF5qQz6oy2b8" class="paragraph-links">here</a>.
+            Paly Robotics will be hosting our 4th annual LRSP (Lego Robotics Summer Program) camp, a free program created to spread STEAM learning completely free of charge. This year, we have adapted the curriculum to be online and students will learn design principles and digital design through project-based activities. The program is made for students in elementary and middle school, especially grades 4-6.
+        p2: >
+            Dates and Times: From June 21st to 25th from 9:30am to 12pm<br>No registration cost is required. 
+        p3: >
+            Please register using the following <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyM_W-T6oSjnY_RgqkwMpvrJPwR-lc8rUKrEiAdpvoEzYR5g/viewform">form</a>, and please contact <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">czhang@palyrobotics.com</a> with any questions!
