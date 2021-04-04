@@ -218,6 +218,22 @@ permalink: /
 					</td>
 					{% endfor %}
 					</tr>
+					<tr>
+						{% for item in site.data.index-page-sponsors.Sponsors6 %}
+						<td> 
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img src="{{item.image}}" class="sponsor"/>
+									</div>
+									<div class="back" style="background:#ffffff;">
+										<p style="text-align:center; font-size:90%;" class="sponsor-p">{{item.paragraph}}</p>
+									</div>
+								</div>
+							</div>
+						</td>
+						{% endfor %}
+						</tr>
 				</table>
 			</div>
 		</div>
