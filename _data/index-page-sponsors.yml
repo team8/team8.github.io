@@ -106,12 +106,7 @@ Sponsors5:
     paragraph: Robby Technologies is a company located in Palo Alto that creates self-driving vehicles to deliver food and packages. They have graciously donated a multitude of tools and materials to Paly Robotics. 
   
 
-Sponsors6: 
-  // blank space so Emotive is centered 
-  - Blank:
-    image: null
-    paragraph: null
-
+Sponsors6:
   - Emotiv:
     image: /assets/img/sponsors/emotiv.png
     paragraph: Emotiv sponsored Team 8 with free Electroencephalography (EEG) software for reading brainwaves. We used their technology to develop a solution to allow a quadraplegic individual to communicate with his mind.
