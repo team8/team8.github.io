@@ -93,6 +93,10 @@ Links:
       link: Pop sockets
       des: Buy some of our pop-sockets
 
+    Merchandise-Store:
+      link: Store link
+      des: Buy some of our merchandise
+
 Maps:
   Location:
     head: Map to location

@@ -12,6 +12,12 @@ Merchandise:
       Official Paly Robotics Popsocket
     img: /assets/img/art/merchandise/popsocket.png
     amazon-id: https://www.amazon.com/Official-Paly-Robotics-Team-Socket/dp/B07R6391K1/ref=sr_1_1?keywords=Paly+Robotics+Team+8&qid=1556582872&s=gateway&sr=8-1-spell
+  # -
+  #   title: Paly Robotics Merch
+  #   paragraph: >
+  #     Official Paly Robotics Merch Store
+  #   img: /assets/img/art/merchandise/avatar.png
+  #   amazon-id: https://www.redbubble.com/people/Team8RoboMerch/explore?page=1&sortOrder=recent  
 
 Animation:
   title: Animations
