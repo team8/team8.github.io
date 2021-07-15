@@ -1,0 +1,92 @@
+# For the summer camp page #
+
+
+    
+---
+    AboutTheCamp1:
+        message1: "<b>IMPORTANT UPDATE:</b> Due to recent changes in the state, county, and school guidelines for the COVID-19 pandemic, <b>we will be holding Paly Robotics Summer Camp in-person, outdoors on the Paly campus for summer 2021.</b>"
+        message2: "We have updated our curriculum and look forward to providing an exciting in-person camp experience for our campers this summer!"
+        paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions. 
+        paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2017 Recap Video to get a taste of what camp is like&#58;
+        image1: /assets/img/summercamp/group2.jpeg
+        image3: /assets/img/summercamp/group.JPG
+        image4: /assets/img/summercamp/entreweb.png
+        image2: /assets/img/summercamp/programming.png
+    AboutTheCamp2:
+        title2: More than Robots
+        paragraph2: When most people think about robotics, they picture computer-controlled machines that are coded to complete certain tasks. While building and programming robots are a big part of what we do, our team provides many more opportunities outside of traditional technical fields. We have different subteams and groups that focus on other non-technical aspects, including art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the various sessions, check out the Sessions page.
+        title3: Counselors
+        paragraph3: Our team embraces and fosters a student-run philosophy, promoting student leadership as well as sustainability through having experienced veteran members pass down knowledge to younger students. Reflecting on this philosophy, our high school team members will be the counselors teaching campers and enriching their STEAM education. Just as we were mentored by older team members, we hope to be able to share what we have learned to the younger generation.
+
+    Table:
+        title: Weeks Offered
+        dates1: Week 1&#58; July 26 - July 30
+        dates2: Week 2&#58; August 2 - August 6
+        time: Time
+        hour: 10 AM - 3 PM
+        location: Location
+        address: In-person instruction on the Paly Campus, utilizing outdoor spaces (restroom access will be available during camp hours)
+
+        age: Age
+        grades: Incoming 6th to 9th graders
+        payment: Cost
+        finance: $325 per camper, per session (please email us if you are in need of financial aid)
+
+    Sessions1:
+        paragraph: We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.
+    Sessions2:
+        title: Robot Design and Hardware
+        img: /assets/img/summercamp/build-img.png
+        info: In the Robot Design and Hardware session, campers will be given the engaging, hands-on experience of designing and building a competitive robot. These robots will be created to complete a FIRST Robotics Competition-style game challenge, which will be revealed at the beginning of the week. In order to ideate and iterate upon their robots’ mechanisms, campers will learn how to use power tools and industry-standard machines. Members of Paly Robotics will be working with campers throughout the process to help them problem-solve, cooperate as a team, and prepare for an exciting tournament at the end of the week.
+        title1: Programming
+        img1: /assets/img/summercamp/programming.png
+        info1: The Programming session seeks to ignite an interest in computer science through its applications in robotics. Using Python, campers will dive deep into the various aspects of robot development through hands-on experience in controlling our team’s competition bots. From driving the robot to utilizing vision pipelines, by the end of the course, all students will have learned new concepts and have the technical know-how to write functional robot code. All levels of experience are encouraged to come, with a unique curriculum for both new programmers and advanced ones.
+        title2: Entrepreneurship and Website Design
+        img2: /assets/img/summercamp/entreweb.png
+        info2: The Entrepreneurship and Web Design session gives campers an overview of business-related dealings with curriculum that covers how to develop and launch their own professional startup companies. Campers will learn fundamental skills such as marketing and advertising, as well as create plans regarding finance and company growth. To showcase their business proposals at the end of the week, campers will also learn HTML, CSS, and Git to design their company websites.
+        title3: Animation and Graphic Design
+        img3: /assets/img/summercamp/art-img.png
+        info3: The Animation and Graphic Design session gives campers an overview of animation while cultivating a design-based skill set. Campers will learn the basics of animation, as well as art and design principles such as typography and composition through the lens of graphic design. At the end of the week, campers will have created an animated short, movie poster, and merchandise design, among other projects.
+    FAQEmail:  
+        info: Our email&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>
+    FAQ: 
+        -
+            question: What age group is served by the camp?
+            answer: The camp is for students entering 6th - 9th grade in Fall of 2021. Campers will be working with counselors and other students via small group discussions and break-out sessions so it is important they are able to stay focused the entire time and engage with their groups.
+        -
+            question: Who are the instructors?
+            answer: Our instructors are members of the Paly Robotics team. They are experienced in the specific session subject matter and are eager to share their knowledge and passion for the subject with your camper.
+        -
+            question: Is previous experience required?
+            answer: Not at all. Our camp will have activities for campers to participate in regardless of previous experience. We just ask that you come with an open mind and are ready to learn. 
+        -
+            question: Is it required to attend both weeks?
+            answer: It is not required to attend both weeks.  The curriculum in each session is repeated each week.
+        -
+            question: How much is the registration fee for this summer camp this year?
+            answer: The registration fee is $325 per camper, per session. Please register first and then email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you are in need of financial aid.
+        -
+            question: When is the camp offered and what are the different sessions?
+            answer: We are offering the camp the week of July 26th and the week of Aug 2nd. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
+        -
+            question: How will camp be done outdoors?
+            answer: This year's camp will be held on the Paly campus in designated outdoor spaces. We are planning to have canopies for shade along with tables and chairs set up. The counselors will be actively engaging campers throughout the day. We will have instruction time, project development time, and time for fun, physical activity.
+        -    
+            question: What COVID-19 safety guidelines will be followed ?
+            answer: We will follow all state, county, and school COVID-19 guidelines as of the start date of each week of camp. As the guidelines are currently changing and evolving weekly, we will send out the exact details before the start of each week of camp so parents and campers are aware of all guidelines that will be implemented (masks, social distancing, etc.). We are committed to the safety of all campers and counselors, and thus will carefully follow the recommended guidelines at the time of camp.
+        -    
+            question: What is the cancellation policy?
+            answer: As we understand that plans often change over the summer, we will refund any registration cancellations before June 7th. There is a processing fee of $12.05 per 1 week of camp payment. Any cancellations made the day of or afterwards will incur a fee of $200 per session. However, if the situation arises in which you cancel after July 5th, we unfortunately will not be able to refund you.
+        -    
+            question: Do you provide financial aid?
+            answer: Yes, we will provide financial aid if needed. Please register first, and then email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.
+        -    
+            question: What methods of payment are accepted?
+            answer: We accept payment through PayPal or credit/debit card via PayPal. If you are unable to pay using either of these options, please contact us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.
+        -    
+            question: When do I need to pay by?
+            answer: Please pay as soon as you register using the PayPal button on the confirmation page. All camp registrations that do not have payment accounted for within two weeks of signing up will be cancelled following a three day email notice.
+        -
+            question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
+            answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.
+...
