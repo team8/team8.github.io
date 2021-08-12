@@ -29,11 +29,11 @@ Leads1:
         id-number: 2
         mobile-id-number: 22
         name: Arundhati Parikh
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/aparikh.jpg
         role: Technical Director
         email: aparikh@palyrobotics.com
         description: >
-            Coming soon...
+            Arundhati Parikh is a senior who joined the build subteam (responsible for robot fabrication and assembly) on Paly Robotics her freshman year. In her sophomore year, as treasurer, she carefully managed team finances and communicated with parent boosters to procure supplies and materials for the team. Additionally, through the pandemic, she co-led an outreach project with disability support organisation AbilityPath. Now, as Technical Director, Arundhati is responsible for technical project management, including the timely completion of the robot, and is committed to ensuring that deadlines are met. She also hopes to continue making Paly Robotics a safe and welcoming environment for everyone!
             
 
     -
@@ -56,7 +56,7 @@ Leads2:
         role: Art Captain
         email: mkelly@palyrobotics.com
         description: >
-            Coming soon...
+            Madeleine Kelly is a senior on art team who joined Team 8 as a sophomore. They recently brought a digital merchandise store to life and assist in the production of animations. This year they hope to reach a broader audience in the community for outreach projects.
 
     - 
         id-number: 6
@@ -103,11 +103,11 @@ Leads3:
         id-number: 10
         mobile-id-number: 30
         name: Aditya Ramanathan
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/aramanathan.jpg
         role: Strategy & Scouting Captain
         email: aramanathan@palyrobotics.com
         description: >
-           Coming soon...
+           Aditya Ramanathan is a junior who joined Paly Robotics as a Strategy and Scouting recruit. As a sophomore, he was the strategy lead. Now as the Strategy and Scouting captain, he works with other members of his team to develop match strategies and a scouting system.
     
     -
         id-number: 11
@@ -137,7 +137,7 @@ Leads4:
         role: Treasurer
         email: saufrichtig@palyrobotics.com
         description: >
-            Coming soon...
+            Susanna Aufrichtig is a sophomore who joined Team 8 as a design member during her freshman year. As treasurer, her job is to account for the team budget, purchase items, and make reimbursements. Susanna hopes to create an organized environment where the team can receive necessary resources quickly, promoting team efficiency and helping everything run smoothly.
 
     -
         id-number: 14
@@ -145,9 +145,9 @@ Leads4:
         name: Ashley Qiu
         image: /assets/img/leads/aqiu.jpg
         role: Competition Manager
-        email: aqui@palyrobotics.com
+        email: aqiu@palyrobotics.com
         description: >
-           Ashley Qiu is senior who joined buisnness team in her sophomore year. As competition manager, she helps plan and organize the logistics behind both off-season and build seasons competitions. She has also been an active business team member since joining Team 8.
+           Ashley Qiu is senior who joined business team in her sophomore year. As competition manager, she helps plan and organize the logistics behind both off-season and build seasons competitions. She has also been an active business team member since joining Team 8.
     
     -
         id-number: 15
@@ -162,9 +162,9 @@ Leads4:
         id-number: 16
         mobile-id-number: 36
         name: Evan Seki
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/eseki.jpg
         role: Electronics Lead
-        email: eseki@palyrobotics.com
+        email: naveseki@gmail.com
         description: >
-            Coming soon...
+            Evan Seki is a senior who joined the team as a build member during his freshman year. As electronics lead he is responsible for ensuring that robot is wired correctly and runs smoothly during the competitions, fixing any issue that may occur.
 ...
