@@ -82,11 +82,11 @@ Leads2:
         id-number: 8
         mobile-id-number: 28
         name: Shalen Ardeshna
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/sardeshna.jpg
         role: Design Captain
         email: sardeshna@palyrobotics.com
         description: >
-            Coming soon...
+            Shalen Ardeshna is a junior who joined the Design Team on Paly Robotics as a freshman. In addition to actively participating in all subteam learning and projects, as a sophomore, he also co-led the team’s outreach initiative with AbilityPath, a local disability support organization, and co-lead our team’s summer camp for 2021, adapting it to run during the COVID-19 pandemic. As Design Captain, Shalen leads the team responsible for designing the robot, which entails transforming it from concept to detailed CAD that the Build Team then uses for manufacturing and assembly. This year, he aims to streamline the design process and continue encouraging an inclusive, supportive environment within the team.
 
 Leads3:  
     - 
@@ -123,7 +123,7 @@ Leads3:
         mobile-id-number: 32
         name: Risha Suvarna
         image: /assets/img/leads/no_icon.png
-        role: Pit Manger
+        role: Pit Manger and Safety Captain
         email: rsuvarna@palyrobotics.com
         description: >
             Coming soon...
@@ -133,7 +133,7 @@ Leads4:
         id-number: 13
         mobile-id-number: 33
         name: Susanna Aufrichtig
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/saufrichtig.jpg
         role: Treasurer
         email: saufrichtig@palyrobotics.com
         description: >
