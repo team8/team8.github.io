@@ -113,20 +113,20 @@ Leads3:
         id-number: 11
         mobile-id-number: 31
         name: Shanna Deivanayagam 
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/sdeivanayagam.jpg
         role: Lab Manager
         email: sdeivanayagam@palyrobotics.com
         description: >
-            Coming soon...
+            Shanna Deivanayagam is a sophomore who joined Paly Robotics as a build member in her freshman year. As lab manager, she is responsible for making sure the lab is safe and that all the machines are running smoothly.
     - 
         id-number: 12
         mobile-id-number: 32
         name: Risha Suvarna
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/rsuvarna.png
         role: Pit Manger and Safety Captain
         email: rsuvarna@palyrobotics.com
         description: >
-            Coming soon...
+            Risha Suvarna is a sophomore who joined Paly Robotics her freshman year as a build member. Currently, she is Pit Manager and Safety Captain. As Pit Manager, she works to ensure that the pit is running smoothly and efficiently throughout competitions. Her goal as Safety Captain is to ensure that all safety protocols are followed and that the lab is a safe environment.
             
 Leads4:  
     - 
@@ -153,11 +153,11 @@ Leads4:
         id-number: 15
         mobile-id-number: 35
         name: Julian Kobayashi 
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/jkobayashi.jpeg
         role: Media Coordinator
         email: jkobayashi@palyrobotics.com
         description: >
-            Coming soon...
+            Julian Kobayashi is a senior who joined the team as a build member his freshman year. As media lead, he is in charge of creating many videos for the teams including the robot reveal, the year in review, and chairmans.
     - 
         id-number: 16
         mobile-id-number: 36
