@@ -8,10 +8,10 @@ Mentors1:
         id-number: 0
         mobile-id-number: 20
         name: Ed Law <br> Head Mentor
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/mentors/ed.JPG
         email: nhunt@palyrobotics.com
         description: >
-            Coming to the Bay Area from HoF Team 2834, which Ed Law founded and coached, as a mentor, he complements our student-run philosophy by prioritizing student growth and turning mistakes into learning opportunities. His advice has helped Team 8 distinguish the “needs” versus “wants” of robot components and make informed decisions regarding mechanism prioritization, and also provided a direction for outreach and strategy to grow in the long term, helping create a “Five Year Plan” to map out future outreach operations. To further sustainability and success in the long run, Mr. Law helped three alumni of the class of 2019 transition into mentors, encouraging a team culture of giving back and continuing the cycle of mentorship.
+            Coming to the Bay Area from HoF Team 2834, which Ed Law founded and coached, as a mentor, he complements our student-run philosophy by prioritizing student learning. His advice has helped Team 8 distinguish the “needs” versus “wants” and make informed decisions regarding robot mechanism prioritization. He also provided directions for outreach and strategy to grow in the long term, helping create a “Five Year Plan” to map out future outreach initiatives. To further sustainability and success in the long run, Mr. Law encouraged recent alumni to transition into mentors, fostering a team culture of giving back and continuing the cycle of mentorship.
     
     -
         id-number: 1
@@ -59,7 +59,7 @@ Mentors2:
         image: /assets/img/mentors/devin.jpg
         email: nhunt@palyrobotics.com
         description: >
-            Devin graduated from Paly in 2018 and was Team Captain as a senior.  He is currently in his last year at the University of Michigan studying Mechanical and Electrical Engineering, and he is also a lead on Michigan’s Baja SAE project team.   As a mentor for Paly Robotics, Devin helps out remotely on robot design and software.  He also provides advice on team operations and long-term planning.  Devin hopes to enable students to learn about whatever piques their curiosity, and he enjoys coming back to visit the lab when he can.
+            Devin graduated from Paly in 2018 and was Team Captain as a senior. He is currently a masters student at Stanford studying Mechanical Engineering. As a mentor for Paly Robotics, Devin helps out remotely on robot design and software. He also provides advice on team operations and long-term planning. Devin hopes to enable students to learn about whatever piques their curiosity, and he enjoys coming back to visit the lab when he can.
 
     -
         id-number: 6
