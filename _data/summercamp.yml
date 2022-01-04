@@ -4,8 +4,8 @@
     
 ---
     AboutTheCamp1:
-        message1: "<b>IMPORTANT UPDATE:</b> Due to recent changes in the state, county, and school guidelines for the COVID-19 pandemic, <b>we will be holding Paly Robotics Summer Camp in-person, outdoors on the Paly campus for summer 2021.</b>"
-        message2: "We have updated our curriculum and look forward to providing an exciting in-person camp experience for our campers this summer!"
+        message1: "We will be holding Paly Robotics Summer Camp in-person, indoors and outdoors on the Paly campus for summer 2022."
+        message2: "Registration will open on Sunday, January 30th at 12 pm."
         paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions. 
         paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2017 Recap Video to get a taste of what camp is like&#58;
         image1: /assets/img/summercamp/group2.jpeg
@@ -20,17 +20,17 @@
 
     Table:
         title: Weeks Offered
-        dates1: Week 1&#58; July 26 - July 30
-        dates2: Week 2&#58; August 2 - August 6
+        dates1: Week 1&#58; June 20 - June 24
+        dates2: Week 2&#58; June 27 - July 1
         time: Time
-        hour: 10 AM - 3 PM
+        hour: 9 am - 3 pm
         location: Location
-        address: In-person instruction on the Paly Campus, utilizing outdoor spaces (restroom access will be available during camp hours)
+        address: Palo Alto High School
 
         age: Age
         grades: Incoming 6th to 9th graders
         payment: Cost
-        finance: $325 per camper, per session (please email us if you are in need of financial aid)
+        finance: $405 per camper, per session (please email us if you are in need of financial aid)
 
     Sessions1:
         paragraph: We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.
@@ -52,7 +52,7 @@
     FAQ: 
         -
             question: What age group is served by the camp?
-            answer: The camp is for students entering 6th - 9th grade in Fall of 2021. Campers will be working with counselors and other students via small group discussions and break-out sessions so it is important they are able to stay focused the entire time and engage with their groups.
+            answer: The camp is for students entering 6th - 9th grade in Fall of 2022. Campers will be working with counselors and other students via small group discussions and break-out sessions so it is important they are able to stay focused the entire time and engage with their groups.
         -
             question: Who are the instructors?
             answer: Our instructors are members of the Paly Robotics team. They are experienced in the specific session subject matter and are eager to share their knowledge and passion for the subject with your camper.
@@ -64,19 +64,18 @@
             answer: It is not required to attend both weeks.  The curriculum in each session is repeated each week.
         -
             question: How much is the registration fee for this summer camp this year?
-            answer: The registration fee is $325 per camper, per session. Please register first and then email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you are in need of financial aid.
+            answer: The registration fee is $405 per camper, per session. Please register first and then email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you are in need of financial aid.
         -
             question: When is the camp offered and what are the different sessions?
-            answer: We are offering the camp the week of July 26th and the week of Aug 2nd. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
-        -
-            question: How will camp be done outdoors?
-            answer: This year's camp will be held on the Paly campus in designated outdoor spaces. We are planning to have canopies for shade along with tables and chairs set up. The counselors will be actively engaging campers throughout the day. We will have instruction time, project development time, and time for fun, physical activity.
+            answer: We are offering the camp the week of July 20th and the week of June 27th. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
         -    
             question: What COVID-19 safety guidelines will be followed ?
             answer: We will follow all state, county, and school COVID-19 guidelines as of the start date of each week of camp. As the guidelines are currently changing and evolving weekly, we will send out the exact details before the start of each week of camp so parents and campers are aware of all guidelines that will be implemented (masks, social distancing, etc.). We are committed to the safety of all campers and counselors, and thus will carefully follow the recommended guidelines at the time of camp.
         -    
             question: What is the cancellation policy?
-            answer: As we understand that plans often change over the summer, we will refund any registration cancellations before June 7th. There is a processing fee of $12.05 per 1 week of camp payment. Any cancellations made the day of or afterwards will incur a fee of $200 per session. However, if the situation arises in which you cancel after July 5th, we unfortunately will not be able to refund you.
+            answer: |
+                As we understand that plans often change over the summer, we will refund any registration cancellations before May 16th with a processing fee of $12.05 per 1 week of camp payment.
+                Any cancellations made after May 16th will incur a fee of $200 per session. However, if the situation arises in which you cancel after June 6th, we unfortunately will not be able to refund you.
         -    
             question: Do you provide financial aid?
             answer: Yes, we will provide financial aid if needed. Please register first, and then email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>.
@@ -88,5 +87,5 @@
             answer: Please pay as soon as you register using the PayPal button on the confirmation page. All camp registrations that do not have payment accounted for within two weeks of signing up will be cancelled following a three day email notice.
         -
             question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
-            answer: Team membership is evaluated on the interest and commitment a student shows in during their freshman evaluation period. We cannot promise that summer camp will have an impact in our decision.
+            answer: Team membership is evaluated on the interest and commitment a student shows during their freshman evaluation period. We cannot promise that summer camp will have an impact on our decision.
 ...
