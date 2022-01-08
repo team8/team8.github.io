@@ -8,10 +8,9 @@
         message2: "Registration will open on Sunday, January 30th at 12 pm."
         paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions. 
         paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2017 Recap Video to get a taste of what camp is like&#58;
-        image1: /assets/img/summercamp/group2.jpeg
-        image2: /assets/img/summercamp/morethanrobots.png
-        image3: /assets/img/summercamp/group.JPG
-        image4: /assets/img/summercamp/counselors.jpg
+        image1: /assets/img/summercamp/front-page.jpg
+        image2: /assets/img/summercamp/more-than-robots.jpg
+        image3: /assets/img/summercamp/counselors.JPG
     AboutTheCamp2:
         title2: More than Robots
         paragraph2: When most people think about robotics, they picture computer-controlled machines that are coded to complete certain tasks. While building and programming robots are a big part of what we do, our team provides many more opportunities outside of traditional technical fields. We have different subteams and groups that focus on other non-technical aspects, including art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the various sessions, check out the Sessions page.
@@ -36,13 +35,13 @@
         paragraph: We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.
     Sessions2:
         title: Robot Design and Hardware
-        img: /assets/img/summercamp/build-img.png
+        img: /assets/img/summercamp/rdh.jpg
         info: In the Robot Design and Hardware session, campers will be given the engaging, hands-on experience of designing and building a competitive robot. These robots will be created to complete a FIRST Robotics Competition-style game challenge, which will be revealed at the beginning of the week. In order to ideate and iterate upon their robots’ mechanisms, campers will learn how to use power tools and industry-standard machines. Members of Paly Robotics will be working with campers throughout the process to help them problem-solve, cooperate as a team, and prepare for an exciting tournament at the end of the week.
         title1: Programming
-        img1: /assets/img/summercamp/programming.png
+        img1: /assets/img/summercamp/programming.JPG
         info1: The Programming session seeks to ignite an interest in computer science through its applications in robotics. Using Python, campers will dive deep into the various aspects of robot development through hands-on experience in controlling our team’s competition bots. From driving the robot to utilizing vision pipelines, by the end of the course, all students will have learned new concepts and have the technical know-how to write functional robot code. All levels of experience are encouraged to come, with a unique curriculum for both new programmers and advanced ones.
         title2: Entrepreneurship and Website Design
-        img2: /assets/img/summercamp/entreweb.png
+        img2: /assets/img/summercamp/entre-web.JPG
         info2: The Entrepreneurship and Web Design session gives campers an overview of business-related dealings with curriculum that covers how to develop and launch their own professional startup companies. Campers will learn fundamental skills such as marketing and advertising, as well as create plans regarding finance and company growth. To showcase their business proposals at the end of the week, campers will also learn HTML, CSS, and Git to design their company websites.
         title3: Animation and Graphic Design
         img3: /assets/img/summercamp/art-img.png
