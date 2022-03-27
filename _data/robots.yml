@@ -2,9 +2,49 @@
 
 ---
     - 
+        title: Alvaldi
+        year: "2022"
+        active: "active"
+        Specifications:
+          - 
+            specname: Name
+            spec: Alvaldi
+          -
+            specname: Game
+            spec: Rapid React
+          - 
+            specname: Weight
+            spec: 117.0 lbs
+        # history of competition for Vidar in 2019 #
+        CompHistory:
+          -
+            competition: Monterey Bay Regional
+            achievement: Semifinalists, Innovation in Control Award
+          -
+            competition: Ventura County Regional
+            achievement: Quarterfinalists
+        # abilities of robot list
+        RobotAbilities:
+          -
+            ability: 6x 4 in. Andymark Hi-grip wheel west coast drive powered by 4x Falcon 500s. Theoretical top speed of 15.91 ft/sec
+          -             
+            ability: Motor actuated intake with 4 in. mecanum wheels to vector cargo and a secondary set of 2 in. compliant wheels
+          -
+            ability: L-shaped indexer that can store 2 cargo and can transition cargo to the shooter or expel it through the intake.
+          -
+            ability: 2, 4 in. colson wheels with continuous hood which allows the robot to shoot anywhere on the field.
+          - 
+            ability: 180 degree turret powered by a NEO motor to reduce cycle times.
+          - 
+            ability: 2 sets of climber arms with passive hooks. 1 pair of 3-stage active active telescoping arms and 1 par of swinger arms actuated by a gas shock. Capable of reaching the traversal rung.
+          - 
+            ability: Limelight provides the distance to the hub, allowing our shooter and turret to determine an appropriate target flywheel velocity, hood angle, and turret angle to accurately score cargo into the upper hub.
+                  
+        image: /assets/img/robots/alvaldi.png
+    - 
         title: Nari
         year: "2020"
-        active: "active"
+        active: ""
         Specifications:
           - 
             specname: Name
