@@ -18,10 +18,10 @@
         # history of competition for Vidar in 2019 #
         CompHistory:
           -
-            competition: Monterey Bay Regional
+            competition: Ventura County Regional
             achievement: Semifinalists, Innovation in Control Award
           -
-            competition: Ventura County Regional
+            competition: Monterey Bay Regional
             achievement: Quarterfinalists
         # abilities of robot list
         RobotAbilities:
