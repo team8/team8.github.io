@@ -4,12 +4,12 @@ Team8:
   caption: Team 8 | Paly Robotics
   caption2: Team 8 competed it at the Utah Regional and won first place and a ticket to the Houston World Championships! We loved playing with our alliance partners Team 1410 (The Kraken) and Team 3245 (Ravens)!
 Robot:
-  caption: Our 2020-2021 Robot&#58 Nari
-  caption2: Nari is our robot for the 2020-2021 Infinite Recharge season. He is capable of scoring power cells in the upper levels of the power port and climbing on the shield generator switch bar.
+  caption: Our 2021-2022 Robot&#58 Alvaldi
+  caption2: Alvaldi is our robot for the 2021-2022 Rapid React season. He is capable of scoring cargo in the upper hub and climbing to the traversal rung.
 
 SummerCamp:
   caption: Paly Robotics Summer Camp
-  caption2: Paly Robotics hosts a yearly summer camp in order to introduce younger generations to STEAM and robotics. Get more information on our <a target="_blank" href="/summercamp">Camp Page</a>.
+  caption2: Paly Robotics hosts a yearly summer camp in order to introduce younger generations to STEAM and robotics. Get more information on our <a href="/summercamp">Camp Page</a>.
 
 AboutUs:
   image: /assets/img/aboutus/AboutImage1.jpg
