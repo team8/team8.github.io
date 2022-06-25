@@ -7,33 +7,33 @@ Leads1:
     -
         id-number: 0
         mobile-id-number: 20
-        name: Taiki Yamamoto
-        image: /assets/img/leads/tyamamoto.jpg
+        name: Shalen Ardeshna
+        image: /assets/img/leads/sardeshna.jpg
         role: Co-Captain
-        email: tyamamoto@palyrobotics.com
+        email: sardeshna@palyrobotics.com
         description: >
-            Taiki Yamamoto is a senior who joined the Paly Robotics team as a build member in his freshman year making contributions towards the robot. In his sophomore year, he was the Lab Manager working with the team to make the lab as best an environment it could be through the organization of tools and machines as well as making the most efficient and effective work space. During his junior year, as the Build Captain, he led the Build Team through the pandemic year by modifying recruitment curriculum and machine teaching to ensure the sustainability of the team. Now, as the Team Co-Captain, he aims to lead the team through a successful year. He loves the team environment and hopes to create great opportunities for team members that he experienced as a younger member.
+            Coming soon!
 
     -
         id-number: 1
         mobile-id-number: 21
-        name: Nicholas Shinghal
-        image: /assets/img/leads/nshinghal.jpg
+        name: Brennen Ho
+        image: /assets/img/leads/bho.jpg
         role: Co-Captain
-        email: nshinghal@palyrobotics.com
+        email: bho@palyrobotics.com
         description: >
-            Nicholas Shinghal is a senior who joined Team 8 as a freshman, working with Business Team on finding fundraising opportunities while helping write the team’s business plans and awards materials. Nicholas worked with the team’s sponsorship and awards processes as Business Project Manager and Business Captain while pursuing outreach initiatives such as the team’s partnership with the Imagination Lab School and its free Zoom lessons, and also presents Chairmans at competition. This year, as team co-captain, he aims to continue promoting outreach both within and beyond the local community and create a team environment in which all students can excel.
+            Coming soon!
             
 
     -
         id-number: 2
         mobile-id-number: 22
-        name: Arundhati Parikh
-        image: /assets/img/leads/aparikh.jpg
+        name: Dalia Antebi
+        image: /assets/img/leads/no_icon.png
         role: Technical Director
-        email: aparikh@palyrobotics.com
+        email: dantebi@palyrobotics.com
         description: >
-            Arundhati Parikh is a senior who joined the build subteam (responsible for robot fabrication and assembly) on Paly Robotics her freshman year. In her sophomore year, as treasurer, she carefully managed team finances and communicated with parent boosters to procure supplies and materials for the team. Additionally, through the pandemic, she co-led an outreach project with disability support organisation AbilityPath. Now, as Technical Director, Arundhati is responsible for technical project management, including the timely completion of the robot, and is committed to ensuring that deadlines are met. She also hopes to continue making Paly Robotics a safe and welcoming environment for everyone!
+            Coming soon!
             
 
     -
@@ -51,54 +51,53 @@ Leads2:
     -
         id-number: 5
         mobile-id-number: 25   
-        name: Madeleine Kelly
-        image: /assets/img/leads/mkelly.jpg
+        name: Ariana Cao
+        image: /assets/img/leads/no_icon.png
         role: Art Captain
-        email: mkelly@palyrobotics.com
+        email: acao@palyrobotics.com
         description: >
-            Madeleine Kelly is a senior on art team who joined Team 8 as a sophomore. They recently brought a digital merchandise store to life and assist in the production of animations. This year they hope to reach a broader audience in the community for outreach projects.
+            Coming soon!
 
     - 
         id-number: 6
         mobile-id-number: 26
-        name: Ryan Lee
-        image: /assets/img/leads/rlee.jpg
+        name: Malika Bowers
+        image: /assets/img/leads/no_icon.png
         role: Build Captain
-        email: rlee@palyrobotics.com
+        email: mbowers@palyrobotics.com
         description: >
-            Ryan Lee is a junior who joined Paly Robotics as a build recruit freshman year. In his sophomore year, Ryan served as the team’s Lab Manager, working to ensure a safe and highly effective lab environment. Notably, he worked with leadership to facilitate a safe return to the lab during the COVID-19 pandemic. As Build Captain, Ryan manages the Build Subteam as well as the machining and assembly of the robot. One of his central goals this year is to develop sustainability in the team’s robot manufacturing skillset.
+            Coming soon!
     
     -
         id-number: 7
         mobile-id-number: 27
-        name: Victoria Liao
-        image: /assets/img/leads/vliao.jpg
+        name: Caroline Zhang
+        image: /assets/img/leads/no_icon.png
         role: Business Captain
-        email: vliao@palyrobotics.com
+        email: czhang@palyrobotics.com
         description: >
-            Joining Paly Robotics her freshman year, Victoria Liao has since worked with the rest of Business Team to find various fundraising opportunities and write the team’s business plans and awards materials. In her sophomore year, she acted as the team’s Competition Manager, organizing competition logistics and later continuing her leadership journey as Business Project Manager during her junior year. As this year’s Business Captain, Victoria aims to expand upon the team’s fundraising and outreach initiatives, continuing to work with the rest of Business to foster a bright and sustainable team future.
+            Coming soon!
 
     - 
         id-number: 8
         mobile-id-number: 28
-        name: Shalen Ardeshna
-        image: /assets/img/leads/sardeshna.jpg
+        name: Susanna Aufrichtig
+        image: /assets/img/leads/saufrichtig.jpg
         role: Design Captain
-        email: sardeshna@palyrobotics.com
+        email: saufrichtig@palyrobotics.com
         description: >
-            Shalen Ardeshna is a junior who joined the Design Team on Paly Robotics as a freshman. In addition to actively participating in all subteam learning and projects, as a sophomore, he also co-led the team’s outreach initiative with AbilityPath, a local disability support organization, and co-lead our team’s summer camp for 2021, adapting it to run during the COVID-19 pandemic. As Design Captain, Shalen leads the team responsible for designing the robot, which entails transforming it from concept to detailed CAD that the Build Team then uses for manufacturing and assembly. This year, he aims to streamline the design process and continue encouraging an inclusive, supportive environment within the team.
+            Coming soon!
 
 Leads3:  
     - 
         id-number: 9
         mobile-id-number: 29
-        name: Alexis Kim
-        image: /assets/img/leads/akim.jpg
+        name: Luca Manoloche
+        image: /assets/img/leads/no_icon.png
         role: Software Captain
-        email: akim@palyrobotics.com
+        email: lmanoloche@palyrobotics.com
         description: >
-            Alexis Kim is a junior who has been on Paly Robotics since her freshman year. As the software captain, she is responsible for managing the code that controls the robot’s actions. This year, she hopes to maintain a clean and efficient codebase while promoting a collaborative and safe environment for everyone.
-
+            Coming soon!
     -
         id-number: 10
         mobile-id-number: 30
@@ -112,59 +111,59 @@ Leads3:
     -
         id-number: 11
         mobile-id-number: 31
-        name: Shanna Deivanayagam 
-        image: /assets/img/leads/sdeivanayagam.jpg
+        name: Ryan Stonich
+        image: /assets/img/leads/no_icon.png
         role: Lab Manager
-        email: sdeivanayagam@palyrobotics.com
+        email: rstonich@palyrobotics.com
         description: >
-            Shanna Deivanayagam is a sophomore who joined Paly Robotics as a build member in her freshman year. As lab manager, she is responsible for making sure the lab is safe and that all the machines are running smoothly.
+            Coming soon!
     - 
         id-number: 12
         mobile-id-number: 32
-        name: Risha Suvarna
-        image: /assets/img/leads/rsuvarna.png
+        name: Evan Chang
+        image: /assets/img/leads/no_icon.png
         role: Pit Manger and Safety Captain
-        email: rsuvarna@palyrobotics.com
+        email: echang@palyrobotics.com
         description: >
-            Risha Suvarna is a sophomore who joined Paly Robotics her freshman year as a build member. Currently, she is Pit Manager and Safety Captain. As Pit Manager, she works to ensure that the pit is running smoothly and efficiently throughout competitions. Her goal as Safety Captain is to ensure that all safety protocols are followed and that the lab is a safe environment.
+            Coming soon!
             
 Leads4:  
     - 
         id-number: 13
         mobile-id-number: 33
-        name: Susanna Aufrichtig
-        image: /assets/img/leads/saufrichtig.jpg
+        name: Tony Liang
+        image: /assets/img/leads/no_icon.png
         role: Treasurer
-        email: saufrichtig@palyrobotics.com
+        email: tliang@palyrobotics.com
         description: >
-            Susanna Aufrichtig is a sophomore who joined Team 8 as a design member during her freshman year. As treasurer, her job is to account for the team budget, purchase items, and make reimbursements. Susanna hopes to create an organized environment where the team can receive necessary resources quickly, promoting team efficiency and helping everything run smoothly.
+            Coming soon!
 
     -
         id-number: 14
         mobile-id-number: 34
-        name: Ashley Qiu
-        image: /assets/img/leads/aqiu.jpg
+        name: Thomas Pham
+        image: /assets/img/leads/no_icon.png
         role: Competition Manager
-        email: aqiu@palyrobotics.com
+        email: tpham@palyrobotics.com
         description: >
-           Ashley Qiu is senior who joined business team in her sophomore year. As competition manager, she helps plan and organize the logistics behind both off-season and build seasons competitions. She has also been an active business team member since joining Team 8.
+           Coming soon!
     
     -
         id-number: 15
         mobile-id-number: 35
-        name: Julian Kobayashi 
-        image: /assets/img/leads/jkobayashi.jpeg
-        role: Media Coordinator
-        email: jkobayashi@palyrobotics.com
+        name: Ryan Lee
+        image: /assets/img/leads/rlee.jpg
+        role: Media Director
+        email: rlee@palyrobotics.com
         description: >
-            Julian Kobayashi is a senior who joined the team as a build member his freshman year. As media lead, he is in charge of creating many videos for the teams including the robot reveal, the year in review, and chairmans.
+            Coming soon!
     - 
         id-number: 16
         mobile-id-number: 36
-        name: Evan Seki
-        image: /assets/img/leads/eseki.jpg
+        name: Sawyer Mickelsen
+        image: /assets/img/leads/no_icon.png
         role: Electronics Lead
-        email: naveseki@gmail.com
+        email: 
         description: >
-            Evan Seki is a senior who joined the team as a build member during his freshman year. As electronics lead he is responsible for ensuring that robot is wired correctly and runs smoothly during the competitions, fixing any issue that may occur.
+            Coming soon!
 ...
