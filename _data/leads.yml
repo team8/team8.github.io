@@ -18,7 +18,7 @@ Leads1:
         id-number: 1
         mobile-id-number: 21
         name: Brennen Ho
-        image: /assets/img/leads/bho.jpg
+        image: /assets/img/leads/bho.png
         role: Co-Captain
         email: bho@palyrobotics.com
         description: >
@@ -86,7 +86,7 @@ Leads2:
         role: Design Captain
         email: saufrichtig@palyrobotics.com
         description: >
-            Coming soon!
+            Susanna Aufrichtig is a junior who joined the Design subteam of Team 8 during her freshman year. As a sophomore, she served as Treasurer, standardizing formatting and creating guides to simplify purchase documentation. Now, as Design Captain, she manages the strategic design and CAD of our 2023 robot by overseeing designers and communicating with other technical leads. She aims to improve the sustainability of knowledge through new teaching paths and cultivate an enthusiastic and supportive environment within Design. 
 
 Leads3:  
     - 
@@ -109,12 +109,12 @@ Leads3:
            Coming soon!
     
     -
-        id-number: 15
-        mobile-id-number: 35
-        name: Ryan Lee
-        image: /assets/img/leads/rlee.jpg
-        role: Media Director
-        email: rlee@palyrobotics.com
+        id-number: 11
+        mobile-id-number: 31
+        name: Ryan Stonich
+        image: /assets/img/leads/no_icon.png
+        role: Lab Manager
+        email: rstonich@palyrobotics.com
         description: >
             Coming soon!
     - 
@@ -127,43 +127,43 @@ Leads3:
         description: >
             Coming soon!
             
-# Leads4:  
-#     - 
-#         id-number: 13
-#         mobile-id-number: 33
-#         name: Tony Liang
-#         image: /assets/img/leads/no_icon.png
-#         role: Treasurer
-#         email: tliang@palyrobotics.com
-#         description: >
-#             Coming soon!
+Leads4:  
+    - 
+        id-number: 13
+        mobile-id-number: 33
+        name: Tony Liang
+        image: /assets/img/leads/no_icon.png
+        role: Treasurer
+        email: tliang@palyrobotics.com
+        description: >
+            Coming soon!
 
-#     -
-#         id-number: 14
-#         mobile-id-number: 34
-#         name: Thomas Pham
-#         image: /assets/img/leads/no_icon.png
-#         role: Competition Manager
-#         email: tpham@palyrobotics.com
-#         description: >
-#            Coming soon!
+    -
+        id-number: 14
+        mobile-id-number: 34
+        name: Thomas Pham
+        image: /assets/img/leads/no_icon.png
+        role: Competition Manager
+        email: tpham@palyrobotics.com
+        description: >
+           Coming soon!
     
-#     -
-#         id-number: 15
-#         mobile-id-number: 35
-#         name: Ryan Lee
-#         image: /assets/img/leads/rlee.jpg
-#         role: Media Director
-#         email: rlee@palyrobotics.com
-#         description: >
-#             Coming soon!
-#     - 
-#         id-number: 16
-#         mobile-id-number: 36
-#         name: Kyle Li
-#         image: /assets/img/leads/no_icon.png
-#         role: Social Media Lead
-#         email: 
-#         description: >
-#             Coming soon!
+    -
+        id-number: 15
+        mobile-id-number: 35
+        name: Ryan Lee
+        image: /assets/img/leads/rlee.jpg
+        role: Media Director
+        email: rlee@palyrobotics.com
+        description: >
+            Coming soon!
+    - 
+        id-number: 16
+        mobile-id-number: 36
+        name: Kyle Li
+        image: /assets/img/leads/no_icon.png
+        role: Social Media Manager
+        email: 
+        description: >
+            Coming soon!
 ...
