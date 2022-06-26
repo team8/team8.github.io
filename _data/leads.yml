@@ -112,11 +112,11 @@ Leads3:
         id-number: 11
         mobile-id-number: 31
         name: Ryan Stonich
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/rstonich.png
         role: Lab Manager
         email: rstonich@palyrobotics.com
         description: >
-            Coming soon!
+            Ryan Stonich is a sophomore who joined Paly Robotics as a freshman and worked on the fabrication of build season robots. Now, as Lab Manager, he aims to maintain the proper organization, efficiency and team environment by supporting a clean and welcoming lab space.
     - 
         id-number: 12
         mobile-id-number: 32
@@ -141,10 +141,10 @@ Leads4:
     -
         id-number: 14
         mobile-id-number: 34
-        name: Thomas Pham
-        image: /assets/img/leads/no_icon.png
-        role: Competition Manager
-        email: tpham@palyrobotics.com
+        name: Kyle Li
+        image: /assets/img/leads/kli.jpg
+        role: Social Media Manager
+        email: kli@gmail.com
         description: >
            Coming soon!
     
@@ -160,9 +160,9 @@ Leads4:
     - 
         id-number: 16
         mobile-id-number: 36
-        name: Kyle Li
+        name: Aditya Ramanathan
         image: /assets/img/leads/no_icon.png
-        role: Social Media Manager
+        role: Drive Coach
         email: 
         description: >
             Coming soon!
