@@ -101,10 +101,10 @@ Leads3:
     -
         id-number: 10
         mobile-id-number: 30
-        name: Aditya Ramanathan
-        image: /assets/img/leads/aramanathan.jpg
+        name: Zachary Brandt
+        image: /assets/img/leads/no_icon.png
         role: Strategy & Scouting Captain
-        email: aramanathan@palyrobotics.com
+        email: zbrandt@palyrobotics.com
         description: >
            Coming soon!
     
