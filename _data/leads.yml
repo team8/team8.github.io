@@ -72,11 +72,11 @@ Leads2:
         id-number: 7
         mobile-id-number: 27
         name: Caroline Zhang
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/czhang.jpg
         role: Business Captain
         email: czhang@palyrobotics.com
         description: >
-            Coming soon!
+            Caroline is a senior who is dedicated to spreading STEAM in the community to inspire others. In her freshman year, she established the team’s Zoom Workshops initiative to teach students entrepreneurship, programming, and graphic design & animation during the lockdown. Since then, Caroline has been leading LEGO Robotics Summer Program, increasing access by teaching historically underrepresented students across the Bay Area how to design, build, and program their own EV3 robots. As Business Captain, Caroline leads Business Team in grants, sponsorships, and competition awards applications while creating a positive team culture.
 
     - 
         id-number: 8
@@ -144,7 +144,7 @@ Leads4:
         name: Kyle Li
         image: /assets/img/leads/kli.jpg
         role: Social Media Manager
-        email: kli@gmail.com
+        email: kli@palyrobotics.com
         description: >
            Coming soon!
     
@@ -163,7 +163,7 @@ Leads4:
         name: Aditya Ramanathan
         image: /assets/img/leads/no_icon.png
         role: Drive Coach
-        email: 
+        email: aramanathan@palyrobotics.com
         description: >
-            Coming soon!
+            Aditya Ramanathan is a senior who joined Paly Robotics as a Strategy & Scouting member in his freshman year. In his sophomore year, Aditya served as the teams's strategy lead, and in his junior year, he served as the Strategy & Scouting Captain and the Drive Coach. As the Drive Coach this year as well, Aditya is responsible for organizing drive practices and creating match strategies. Now, he hopes to continue leading driveteam with a positive attitude and pass his knowledge down to future members interested in strategy.
 ...
