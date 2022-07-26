@@ -52,11 +52,11 @@ Leads2:
         id-number: 5
         mobile-id-number: 25   
         name: Ariana Cao
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/acao.png
         role: Art Captain
         email: acao@palyrobotics.com
         description: >
-            Coming soon!
+            Ariana Cao is a senior who joined the Paly Robotics team as an art member in her sophomore year during the pandemic, creating designs for Team 8's merch and contributing to animations. In her junior year, she co-lead the Paly Robotics summer camp, organizing spaces and supplies, talking to parents, leading counselors, and ensuring things ran smoothly. As Art Captain, she aims to lead the team to create successful animations and merch, as well as continue to expand the team’s knowledge of animation and graphic design.
 
     - 
         id-number: 6
@@ -97,7 +97,7 @@ Leads3:
         role: Software Captain
         email: lmanoloche@palyrobotics.com
         description: >
-            Coming soon!
+            Luca Manolache is a senior who joined Paly Robotics his freshman year as a software member. As Software Project Manager during his junior year, he co-led all software team operations and managed assignments and coding. As Software Captain, Luca will to expand the teaching available to members while fostering better code.
     -
         id-number: 10
         mobile-id-number: 30
