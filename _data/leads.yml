@@ -120,11 +120,11 @@ Leads3:
         id-number: 12
         mobile-id-number: 32
         name: Evan Chang
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/echang.jpg
         role: Pit Manger and Safety Captain
         email: echang@palyrobotics.com
         description: >
-            Coming soon!
+            Evan Chang is a sophomore who joined Paly Robotics as a build freshmen and helped fabricate the robot. This year as the Safety Captain he hopes to maintain a safe environment in lab throughout the year. As Pit Manager, he hopes to keep an easy to use and organized pit for competitions.
             
 Leads4:  
     - 
@@ -140,12 +140,12 @@ Leads4:
     -
         id-number: 14
         mobile-id-number: 34
-        name: Kyle Li
-        image: /assets/img/leads/kli.jpg
-        role: Social Media Manager
-        email: kli@palyrobotics.com
+        name: Thomas Pham
+        image: /assets/img/leads/tpham.jpg
+        role: Competition Manager
+        email: tpham@palyrobotics.com
         description: >
-           Coming soon!
+           Thomas Pham is a junior who joined Paly Robotics his sophomore year as a business member. As a recruit, he worked on obtaining funding for the team and presenting to non-technical judges. As competition manger, he intends on creating a cordial environment and well-organizing transportation, rooming, and meals for an enjoyable competition season.
     
     -
         id-number: 15
@@ -160,7 +160,7 @@ Leads4:
         id-number: 16
         mobile-id-number: 36
         name: Aditya Ramanathan
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/aramanathan.jpg
         role: Drive Coach
         email: aramanathan@palyrobotics.com
         description: >
