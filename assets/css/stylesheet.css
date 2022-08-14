@@ -262,13 +262,13 @@ li.donate-li {
 	}
 
 }
-/*No Scrolling for navbar collapsed menu*/
+/*Scrolling for navbar collapsed menu*/
 
 .navbar-collapse.in {
     overflow: hidden;
-    max-height: none !important;
-    height: auto !important;
+    max-height: auto !important;
     background-color:#222;
+	overflow-y: scroll !important;
 }
 
 @media (min-width: 1200px) {
