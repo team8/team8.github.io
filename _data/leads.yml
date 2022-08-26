@@ -62,11 +62,11 @@ Leads2:
         id-number: 6
         mobile-id-number: 26
         name: Malika Bowers
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/mbowers.jpg
         role: Build Captain
         email: mbowers@palyrobotics.com
         description: >
-            Coming soon!
+            Malika is a senior who joined the Build subteam as a freshman. During her sophomore year, she served as Pit Manager and Safety Captain. As Build Captain, she oversees prototyping, fabrication, and assembly of the teams robots as well as leads off-season projects. She hopes to foster an efficient, dedicated, and inviting environment within Build and help expand the team’s technical knowledge.
     
     -
         id-number: 7
@@ -160,7 +160,7 @@ Leads4:
         id-number: 16
         mobile-id-number: 36
         name: Aditya Ramanathan
-        image: /assets/img/leads/aramanathan.jpg
+        image: /assets/img/leads/aramanathan.png
         role: Drive Coach
         email: aramanathan@palyrobotics.com
         description: >
