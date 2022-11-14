@@ -2,87 +2,71 @@
 
 ---
     
-Mentors1:
+Mentors:
     
     -
-        id-number: 0
-        mobile-id-number: 20
-        name: Ed Law <br> Head Mentor
-        image: /assets/img/mentors/ed.JPG
-        email: nhunt@palyrobotics.com
+        name: Ed Law
+        image: /assets/img/mentors/ed.jpg
+        role: Head Mentor
         description: >
             Coming to the Bay Area from HoF Team 2834, which Ed Law founded and coached, as a mentor, he complements our student-run philosophy by prioritizing student learning. His advice has helped Team 8 distinguish the “needs” versus “wants” and make informed decisions regarding robot mechanism prioritization. He also provided directions for outreach and strategy to grow in the long term, helping create a “Five Year Plan” to map out future outreach initiatives. To further sustainability and success in the long run, Mr. Law encouraged recent alumni to transition into mentors, fostering a team culture of giving back and continuing the cycle of mentorship.
     
     -
-        id-number: 1
-        mobile-id-number: 21
         name: Jim Barbera
-        image: /assets/img/leads/no_icon.png
-        email: nhunt@palyrobotics.com
+        image: /assets/img/mentors/jim.jpg
         description: >
-            Mr. Barbera is a Palo Alto High School alumni from the class of ’79, who now looks at RF and Microwave technology in defense electronics, satellite communications, outdoor WiFi, and electric vehicle charging stations as a Systems Engineer at ChargePoint Inc. After his son joined Team 8 in 2016, he saw how much he could do for the lab and machine shop in terms of workspace improvements, and decided to help out the team. One of his favorite memories with us is working with the pit team on the new portable pit. Mr. Barbera’s time on Team 8 has brought members tons of knowledge on the newly acquired equipment. His vision for team 8’s future is one where it continues the tradition of Gracious Professionalism, teamwork, innovation, and enthusiasm that make his mentor experience inspiring.
-      
+            Mr. Barbera is a Palo Alto High School alumni from the class of '79, who now looks at RF and Microwave technology in defense electronics, satellite communications, outdoor WiFi, and electric vehicle charging stations as a Systems Engineer at ChargePoint Inc. After his son joined Team 8 in 2016, he saw how much he could do for the lab and machine shop in terms of workspace improvements, and decided to help out the team. One of his favorite memories with us is working with the pit team on the new portable pit. Mr. Barbera's time on Team 8 has brought members tons of knowledge on the newly acquired equipment. His vision for team 8's future is one where it continues the tradition of Gracious Professionalism, teamwork, innovation, and enthusiasm that make his mentor experience inspiring.
+    
     -
-        id-number: 2
-        mobile-id-number: 20
-        name: Dan Martin
-        image: /assets/img/mentors/dan.jpg
-        email: nhunt@palyrobotics.com
-        description: >
-            For my son Peter, being on Team 8 was best part of his high school experience. My own background is in engineering, orthopedic surgery, basic machining, and orthopedic devices. My personal experience connects me to the kids' safe independent creative experience. The biggest concern of parents is safety, but I have found that team members exercise good judgement and exercise adequate internal safety controls. We can safely turn them loose to do great things.
-
-    -
-        id-number: 3
-        mobile-id-number: 22
-        name: Min Xu
-        image: /assets/img/leads/no_icon.png
-        email: nhunt@palyrobotics.com
-        description: >
-            Min Xu is a software engineer with a computer architecture background. He discovered FRC and Team 8 through his son Cyrus, a graduated member of the team. As a software engineer, Mr. Xu helps the software team to develop their robot code more efficiently. In his experience and involvement as a mentor, Mr. Xu has learned the importance of ‘enabling’ the entire team by providing supervision during lab hours and helping manage team finance and is now the Boosters Club President. He plans to continue to help the team in both SW (Solidworks) mentoring as well as being an enabler to help the team learn through the FRC process.
-
-Mentors2:
-
-
-    -
-        id-number: 4
-        mobile-id-number: 23
-        name: Merilee Soohoo
-        image: /assets/img/leads/no_icon.png
-        email: nhunt@palyrobotics.com
-        description: >
-            Spending time volunteering in her children’s schools and the Ravenswood School District, Merilee Soohoo stayed connected to her love of education. She loved seeing her daughter fall in love with the robotics team and began helping the team in 2015. Her son, who is also very involved with team 8, has made this team a real Soohoo family endeavor. Watching the students take charge of this team in a “startup” like atmosphere is super energizing and makes her feel happy to be of help to the team members.
-
-    -
-        id-number: 5
-        mobile-id-number: 24
         name: Devin Ardeshna
         image: /assets/img/mentors/devin.jpg
-        email: nhunt@palyrobotics.com
         description: >
-            Devin graduated from Paly in 2018 and was Team Captain as a senior. He is currently a masters student at Stanford studying Mechanical Engineering. As a mentor for Paly Robotics, Devin helps out remotely on robot design and software. He also provides advice on team operations and long-term planning. Devin hopes to enable students to learn about whatever piques their curiosity, and he enjoys coming back to visit the lab when he can.
+            Devin graduated from Paly in 2018 and is currently finishing his master's degree in Mechanical Engineering at Stanford. As a mentor for Paly Robotics, Devin helps out on robot design and software development. He also provides advice on team operations and long-term planning. Devin's goal is to equip students with the resources and tools needed to explore whichever topics pique their curiosity. He enjoys coming to the robotics lab and working with students when he can.
 
     -
-        id-number: 6
-        mobile-id-number: 25
         name: Bryan Yang
-        image: /assets/img/mentors/bryan.jpeg
-        email: nhunt@palyrobotics.com
+        image: /assets/img/mentors/bryan.jpg
         description: >
-            Bryan graduated from Paly in 2019 and was Team Captain in his senior year. He is currently attending UC Berkeley studying Mechanical Engineering and EECS, and he is also a mechanical lead on CalSol, Berkeley's solar car project team. Bryan mentors Paly Robotics in person and remotely on robot design/hardware as well as miscellaneous logistical and administrative tasks. He hopes to help younger students explore and develop their interests through the wide variety of opportunities that FRC has to offer.
+            Bryan graduated from Paly in 2019 and was Team Captain in his senior year. He is currently at UC Berkeley studying Mechanical Engineering. Bryan mentors Paly Robotics on strategy and robot design. He hopes to help younger students explore and develop their interests through the wide variety of opportunities that FRC has to offer.
+    
+    -
+        name: Robbie Selwyn
+        image: /assets/img/mentors/robbie.jpg
+        description: >
+            Robbie is a BS/MS student at Stanford University, where he studies computer science.  He has been involved with Paly Robotics since graduating in 2019.  As a mentor, Robbie has stayed involved with many of the areas he led when he was on the team, working primarily with the software team, the strategy & scouting team, as well as the driveteam.
 
     -
-        id-number: 7
-        mobile-id-number: 26
-        name: Robbie Selwyn
-        image: /assets/img/leads/no_icon.png
-        email: nhunt@palyrobotics.com
+        name: Quintin Dwight
+        image: /assets/img/mentors/no_icon.png
         description: >
-          Coming Soon!
+            
 
+    -
+        name: Jason Liu
+        image: /assets/img/mentors/no_icon.png
+        description: >
+            
 
+    -
+        name: Caleb Tan
+        image: /assets/img/mentors/no_icon.png
+        description: >
+            
 
-
+    -
+        name: Nina Hunt
+        image: /assets/img/mentors/no_icon.png
+        description: >
+            
     
-        
-
-
+    -
+        name: Jeremy Huang
+        image: /assets/img/mentors/no_icon.png
+        description: >
+            
+    
+    -
+        name: Griffin Zajac
+        image: /assets/img/mentors/no_icon.png
+        description: >
+            

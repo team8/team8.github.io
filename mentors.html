@@ -20,91 +20,63 @@ permalink: /mentors/
 
 <!-- Contact stuff begins here. Note: two for loops per row. First for loop is for the pictures, roles, person, the second is for the description and email-->
 <!-- For the desktop version, only shown on big screens. -->
+{% assign num_columns = 4 %}
+{% assign num_rows = site.data.mentors.Mentors.size | plus: num_columns | minus: 1 | divided_by: num_columns %}
+
 <div class="container visible-lg visible-md hidden-sm">
+	{% for row in (1..num_rows) %}
+	{% assign start = row | minus: 1 | times: num_columns %}
+	{% assign sub_array = site.data.mentors.Mentors | slice : start, num_columns %}
+	{% if row == 1 %}
 	<div class="row first-row">
-		{% for item in site.data.mentors.Mentors1 %}
-		<div class="col-md-3">
-			<a data-toggle="collapse" href="#{{item.id-number}}">
-				<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block"
-					width="255" height="255" onclick="test({{item.id-number}})">
-			</a>
-			<div class="name-and-role">
-				<p class="name">{{item.name}}</p>
-			</div>
-		</div>
-		{% endfor %}
-		{% for item in site.data.mentors.Mentors1 %}
-		<div class="col-md-12">
-			<div id="{{item.id-number}}" class="collapse paragraph">
-				<p class="paragraph-text">{{item.description}}</p>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
-
-	<!-- end of Mentors 1 -->
+	{% else %}
 	<div class="row">
-		{% for item in site.data.mentors.Mentors2 %}
+	{% endif %}
+		{% for item in sub_array %}
 		<div class="col-md-3">
-			<a data-toggle="collapse" href="#{{item.id-number}}">
+			<a data-toggle="collapse" href="#{{start | plus: forloop.index}}">
 				<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block"
-					width="255" height="255" onclick="test({{item.id-number}})">
+					width="255" height="255" onclick="test({{start | plus: forloop.index}})">
 			</a>
 			<div class="name-and-role">
 				<p class="name">{{item.name}}</p>
+				<p class="role">{{item.role}}</p>
 			</div>
 		</div>
 		{% endfor %}
-		{% for item in site.data.mentors.Mentors2 %}
+		{% for item in sub_array %}
 		<div class="col-md-12">
-			<div id="{{item.id-number}}" class="collapse paragraph">
+			<div id="{{start | plus: forloop.index}}" class="collapse paragraph">
 				<p class="paragraph-text">{{item.description}}</p>
 			</div>
 		</div>
 		{% endfor %}
 	</div>
-
-	<!-- end of Mentors 2 -->
+	{% endfor %}
+	<!-- end of Mentors -->
 </div>
-
 
 
 <!-- For the mobile version, only shown on small; screens -->
 <div class="container mobile">
 	<div class="row first-row">
-		{% for item in site.data.mentors.Mentors1 %}
+		{% for item in site.data.mentors.Mentors %}
 		<div class="col-md-3">
-			<a data-toggle="collapse" href="#{{item.mobile-id-number}}">
+			<a data-toggle="collapse" href="#{{forloop.index | plus: 100}}">
 				<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block"
-					width="255" height="255" onclick="test({{item.mobile-id-number}})">
+					width="255" height="255" onclick="test({{forloop.index | plus: 100}})">
 			</a>
 			<div class="name-and-role">
 				<p class="name">{{item.name}}</p>
+				<p class="role">{{item.role}}</p>
 			</div>
-			<div id="{{item.mobile-id-number}}" class="collapse paragraph">
+			<div id="{{forloop.index | plus: 100}}" class="collapse paragraph">
 				<p class="paragraph-text">{{item.description}}</p>
 			</div>
 		</div>
 		{% endfor %}
 	</div>
-	<!-- end of Mentors 1 -->
-	<div class="row">
-		{% for item in site.data.mentors.Mentors2 %}
-		<div class="col-md-3">
-			<a data-toggle="collapse" href="#{{item.mobile-id-number}}">
-				<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block"
-					width="255" height="255" onclick="test({{item.mobile-id-number}})">
-			</a>
-			<div class="name-and-role">
-				<p class="name">{{item.name}}</p>
-			</div>
-			<div id="{{item.mobile-id-number}}" class="collapse paragraph">
-				<p class="paragraph-text">{{item.description}}</p>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
-	<!-- end of Mentors 2 -->
+	<!-- end of Mentors -->
 </div>
 
 
