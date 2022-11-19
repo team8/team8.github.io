@@ -42,12 +42,6 @@ Mentors:
             
 
     -
-        name: Jason Liu
-        image: /assets/img/mentors/no_icon.png
-        description: >
-            
-
-    -
         name: Caleb Tan
         image: /assets/img/mentors/no_icon.png
         description: >
@@ -67,6 +61,7 @@ Mentors:
     
     -
         name: Griffin Zajac
-        image: /assets/img/mentors/no_icon.png
+        image: /assets/img/mentors/griffin.jpg
         description: >
+            Griffin graduated from Paly in 2021 and held the positions of Design Captain and Technical Director while on the team. He is currently studying Mechanical Engineering and EECS at UC Berkeley. Griffin mentors Paly Robotics on strategic design and game analysis, and hopes to inspire a love of robotics, engineering, and collaboration in Team 8's students.
             

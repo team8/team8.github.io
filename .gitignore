@@ -6,3 +6,4 @@ _site/feed.xml
 *.DS_Store
 vendor
 .bundle
+.vscode
