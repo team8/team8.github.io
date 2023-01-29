@@ -4,8 +4,8 @@
     
 ---
     AboutTheCamp1:
-        message1: We are planning to hold 2 weeks of Paly Robotics Summer Camp 2023 in-person, both indoors and outdoors.
-        message2: Registration will be available in the coming weeks.
+        message1: We are planning to hold 2 weeks of Paly Robotics Summer Camp 2023 at our lab space.
+        message2: Registration will open on February 11 at 12 pm.
         paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions. 
         paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2017 Recap Video to get a taste of what camp is like&#58;
         image1: /assets/img/summercamp/front-page.jpg
@@ -19,8 +19,8 @@
 
     Table:
         title: Weeks Offered
-        dates1: Dates and registration information will be posted in the coming days!
-        dates2: Week 2&#58; June 27 - July 1
+        dates1: "Week 1: June 5th - 9th"
+        dates2: "Week 2: June 12th - 16th"
         time: Time
         hour: 9 am - 3 pm
         location: Location
