@@ -264,12 +264,12 @@ permalink: /
 
 
 	<script>
-		// 1/20th chance of displaying a...different...image on the carousel on page load
+		// 1/40th chance of displaying a...different...image on the carousel on page load
 		window.onload = function() {
 			var num = getRandomInt(20);
 			var otherNum = getRandomInt(2) == 0 ? 1410 : 1868;
 			if (num == 8 && otherNum == 1410) {
-				document.getElementById("team-image").style.backgroundImage = "url('/assets/img/carousel/winners.jpg')";
+				document.getElementById("team-image").style.backgroundImage = "url('/assets/img/carousel/robot-tipping.gif')";
 			}
 		};
 		function getRandomInt(max) {
