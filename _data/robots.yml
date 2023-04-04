@@ -2,9 +2,47 @@
 
 ---
     - 
+        title: Eir
+        year: "2023"
+        active: "active"
+        Specifications:
+          - 
+            specname: Name
+            spec: Eir
+          -
+            specname: Game
+            spec: Charged Up
+          - 
+            specname: Weight
+            spec: 115.0 lbs
+        # history of competition for Vidar in 2019 #
+        CompHistory:
+          -
+            competition: Utah Regional
+            achievement: Semifinalists, Sustainability Award, Dean's List
+          -
+            competition: Idaho Regional
+            achievement: Semifinalists
+        # abilities of robot list
+        RobotAbilities:
+          -
+            ability: Four SDS MK4i swerve modules powered by Falcon 500s with a theoretical top speed of 16.3 ft/sec; 26.5" x 26.5" frame perimeter
+          -             
+            ability: Two-roller intake on a chain and sprocket pivot for grabbing cones and cubes from ground and substation in any orientation
+          -
+            ability: Double-jointed arm with pneumatic cylinder actuated bottom pivot and motor driven top pivot powered by 2x NEOs at a 182.25:1 overall reduction
+          -
+            ability: Uses two Limelight 3s to align to the vision tape by combining the yaw measurements of each Limelight for extra accuracy
+          - 
+            ability: Accounts for the force of gravity as arm moves by recalculating the center of mass based on the rotation of the intake while using procedurally generated trajectories to move both arm joints
+          - 
+            ability: LED animations indicate whether going to position for intaking/scoring cones vs. cubes as well as communicate with the human player what game piece to put in
+                            
+        image: /assets/img/robots/eir.png
+    - 
         title: Alvaldi
         year: "2022"
-        active: "active"
+        active: ""
         Specifications:
           - 
             specname: Name
