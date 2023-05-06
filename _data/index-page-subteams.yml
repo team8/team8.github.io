@@ -14,7 +14,7 @@ Build:
         help create the final product.
 Software:
   image: /assets/img/subteams/software.jpg
-  paragraph: Writing code in Java and Python, the Software Team works alongside Build Team to test our robot and make it functional. In addition to autonomous and human control of the robot, they code features such as computer vision, and a dashboard to display the robot status during matches. We collaborate using Git, and publish our projects here&#58; <a href="https://github.com/team8" target="_blank" class="paragraph-links">www.github.com/team8</a>.
+  paragraph: Writing code in Java and Python, the Software Team works alongside Build Team to test our robot and make it functional. In addition to autonomous and human control of the robot, they code features such as computer vision, and a dashboard to display the robot status during matches. They are also responsible for creating strategies to optimize the team’s performance at competitions, developing applications for data collection and analysis. We collaborate using Git, and publish our projects here&#58; <a href="https://github.com/team8" target="_blank" class="paragraph-links">www.github.com/team8</a>.
 
 Art:
   image: /assets/img/subteams/art.jpg
