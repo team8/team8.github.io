@@ -14,20 +14,14 @@ Build:
         help create the final product.
 Software:
   image: /assets/img/subteams/software.jpg
-  paragraph: Writing code in Java and Python, the Software and Scouting Team works alongside Build Team to test our robot and make it functional. In addition to autonomous and human control of the robot, they code features such as computer vision, and a dashboard to display the robot status during matches. They are also responsible for creating strategies to optimize the team’s performance at competitions, developing applications for data collection and analysis. We collaborate using Git, and publish our projects here&#58; <a href="https://github.com/team8" target="_blank" class="paragraph-links">www.github.com/team8</a>.
+  paragraph: Writing code in Java and Python, the Software and Scouting Team works alongside Build Team to test our robot and make it functional. In addition to autonomous and human control of the robot, they code features such as computer vision and a dashboard to display the robot status during matches. They are also responsible for developing applications for data collection and analysis. We publish our projects here&#58; <a href="https://github.com/team8" target="_blank" class="paragraph-links">www.github.com/team8</a>.
 
 Art:
   image: /assets/img/subteams/art.jpg
   paragraph: The Art Team manages the team's public image with an emphasis on professional animation and graphic design. With Adobe Illustrator, Art Team designs our custom merchandise, such as t-shirts, banners, posters, and buttons. During the Build Season, their focus is on the FIRST Safety and Digital Animation awards, using Blender animation software and Premiere Pro to make the magic happen.
 
-SS: 
-  image: /assets/img/subteams/ss.jpg
-  paragraph: The Strategy and Scouting Team is in charge of creating a web-based system for the team to use while scouting and planning out matches at competition. They are also responsible for helping determine the objectives of the robot at the beginning of each season.
-
 Business:
   image: /assets/img/subteams/business.jpg
   paragraph: >
-    The Business Team has ensured the financial sustainability of the team since its inception in 2015. Business Team oversees all corporate sponsorships, fundraising, outreach, awards, and public relations efforts. Every year we develop business, sponsorship, and diversity plans. 
-    <br></br>Business Team has won the Entrepreneurship Award 7x: Central Valley Regional 2015, Silicon Valley Regional 2015, CalGames 2016, Ventura Regional 2017, Silicon Valley Regional 2017, Arizona North Regional 2018, Del Mar Regional 2019
-
+    The Business Team has ensured the financial sustainability of the team, winning the Entrepreneurship Award seven times since its inception in 2015. Business Team oversees all corporate sponsorships, fundraising, outreach, awards, and public relations efforts. Every year we develop business, sponsorship, and diversity plans.
 ...
