@@ -7,12 +7,12 @@ Leads1:
     -
         id-number: 0
         mobile-id-number: 20
-        name: Shalen Ardeshna
-        image: /assets/img/leads/sardeshna.jpg
+        name: Susanna Aufrichtig
+        image: /assets/img/leads/no_icon.png
         role: Co-Captain
-        email: sardeshna@palyrobotics.com
+        email: saufrichtig@palyrobotics.com
         description: >
-            Shalen Ardeshna is a senior who joined the Design Team on Paly Robotics as a freshman. In addition to actively participating in all subteam projects, as a sophomore, he also co-led the team’s outreach initiative with AbilityPath, a local disability support organization, and co-lead our team’s summer camp for 2021, adapting it to run during the COVID-19 pandemic. As Design Captain, Shalen led the team responsible for designing the robot, which entailed transforming it from concept to detailed CAD for manufacturing and assembly. This year as Team Co-Captain, he aims to improve team efficiency and continue encouraging an inclusive, supportive environment within the team.
+          Coming soon!
 
     -
         id-number: 1
@@ -44,19 +44,19 @@ Leads1:
         role: Head Coach
         email: kworrell@palyrobotics.com
         description: >
-            Keith Worrell is in his fifth year coaching the Palo Alto High School Robotics Program, and third year as Head Coach, supporting both Paly Robotics, FRC Team 8 and Paly VEX Robotics, VEX Team 4008. He is a Paly Robotics alumni, Distinguished Toastmaster, and WGU Graduate with over 20 years of experience serving the PAUSD community through Special Education support. He firmly believes in the principles of Facilitative Leadership in promoting excellence within the team alongside the Core Values of FIRST. When not on campus or in the lab, you will find him hiking, cycling, swimming, or cooking with his family.
+            Keith Worrell is in his sixth year coaching the Palo Alto High School Robotics Program, and third year as Head Coach, supporting both Paly Robotics, FRC Team 8 and Paly VEX Robotics, VEX Team 4008. He is a Paly Robotics alumni, Distinguished Toastmaster, and WGU Graduate with over 20 years of experience serving the PAUSD community through Special Education support. He firmly believes in the principles of Facilitative Leadership in promoting excellence within the team alongside the Core Values of FIRST. When not on campus or in the lab, you will find him hiking, cycling, swimming, or cooking with his family.
 
 Leads2:
 
     -
         id-number: 5
         mobile-id-number: 25   
-        name: Ariana Cao
-        image: /assets/img/leads/acao.png
+        name: Sarabeth Huang
+        image: /assets/img/leads/no_icon.png
         role: Art Captain
-        email: acao@palyrobotics.com
+        email: shuang@palyrobotics.com
         description: >
-            Ariana Cao is a senior who joined the Paly Robotics team as an art member in her sophomore year during the pandemic, creating designs for Team 8's merch and contributing to animations. In her junior year, she co-lead the Paly Robotics summer camp, organizing spaces and supplies, talking to parents, leading counselors, and ensuring things ran smoothly. As Art Captain, she aims to lead the team to create successful animations and merch, as well as continue to expand the team’s knowledge of animation and graphic design.
+           Coming soon!
 
     - 
         id-number: 6
@@ -71,33 +71,33 @@ Leads2:
     -
         id-number: 7
         mobile-id-number: 27
-        name: Caroline Zhang
-        image: /assets/img/leads/czhang.jpg
+        name: Christie Hong
+        image: /assets/img/leads/no_icon.png
         role: Business Captain
-        email: czhang@palyrobotics.com
+        email: chong@palyrobotics.com
         description: >
-            Caroline is a senior who is dedicated to spreading STEAM in the community to inspire others. In her freshman year, she established the team’s Zoom Workshops initiative to teach students entrepreneurship, programming, and graphic design & animation during the lockdown. Since then, Caroline has been leading LEGO Robotics Summer Program, increasing access by teaching historically underrepresented students across the Bay Area how to design, build, and program their own EV3 robots. As Business Captain, Caroline leads Business Team in grants, sponsorships, and competition awards applications while creating a positive team culture.
+            Coming soon!
 
     - 
         id-number: 8
         mobile-id-number: 28
-        name: Susanna Aufrichtig
-        image: /assets/img/leads/saufrichtig.jpg
+        name: Alex Bradford
+        image: /assets/img/leads/no_icon.png
         role: Design Captain
-        email: saufrichtig@palyrobotics.com
+        email: abradford@palyrobotics.com
         description: >
-            Susanna Aufrichtig is a junior who joined the Design subteam of Team 8 during her freshman year. As a sophomore, she served as Treasurer, standardizing formatting and creating guides to simplify purchase documentation. Now, as Design Captain, she manages the strategic design and CAD of our 2023 robot by overseeing designers and communicating with other technical leads. She aims to improve the sustainability of knowledge through new teaching paths and cultivate an enthusiastic and supportive environment within Design. 
+             Coming soon!
 
 Leads3:  
     - 
         id-number: 9
         mobile-id-number: 29
-        name: Luca Manolache
+        name: Zach Szeto
         image: /assets/img/leads/no_icon.png
         role: Software Captain
-        email: lmanolache@palyrobotics.com
+        email: zszeto@palyrobotics.com
         description: >
-            Luca Manolache is a senior who joined Paly Robotics his freshman year as a software member. As Software Project Manager during his junior year, he co-led all software team operations and managed assignments and coding. As Software Captain, Luca will to expand the teaching available to members while fostering better code.
+          Zach Szeto is a junior who joined Paly Robotics in his freshman year as a software member, programming and testing the robot. In his junior year, he became the driver, controlling the robot drivetrain during competitions. As Software Captain, he aims to expand the teaching curriculum while facilitating the development of code.
     -
         id-number: 10
         mobile-id-number: 30
@@ -110,12 +110,12 @@ Leads3:
     -
         id-number: 11
         mobile-id-number: 31
-        name: Ryan Stonich
-        image: /assets/img/leads/rstonich.png
+        name: Yuna Jeong
+        image: /assets/img/leads/no_icon.png
         role: Lab Manager
-        email: rstonich@palyrobotics.com
+        email: yjeong@palyrobotics.com
         description: >
-            Ryan Stonich is a sophomore who joined Paly Robotics as a freshman and worked on the fabrication of build season robots. Now, as Lab Manager, he aims to maintain the proper organization, efficiency and team environment by supporting a clean and welcoming lab space.
+            Yuna is a sophomore who joined the team as a freshman. As a member of the Build subteam, she fabricated numerous parts for the robot during Build season. As lab manager this year, she hopes to maintain an organized, clean, and efficient working space. She is also the operator of the driveteam.
     - 
         id-number: 12
         mobile-id-number: 32
@@ -124,24 +124,24 @@ Leads3:
         role: Pit Manager and Safety Captain
         email: mqin@palyrobotics.com
         description: >
-            Description coming soon!
+            Coming soon!
             
 Leads4:  
     - 
         id-number: 13
         mobile-id-number: 33
-        name: Tony Liang
+        name: Hana Kapadia
         image: /assets/img/leads/no_icon.png
         role: Treasurer
-        email: tliang@palyrobotics.com
+        email: hkapadia@palyrobotics.com
         description: >
-            Tony Liang is a sophomore who joined Paly Robotics his freshman year as a design member, learning the fundamentals of machining and robot parts in the build team. As the treasurer, Tony hopes to maintain an organized budget and be efficient with the spendings.
+           Coming soon!
 
     -
         id-number: 14
         mobile-id-number: 34
         name: Tony Chung
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/tchung.jpg
         role: Competition Manager
         email: tchung@palyrobotics.com
         description: >
@@ -150,19 +150,19 @@ Leads4:
     -
         id-number: 15
         mobile-id-number: 35
-        name: Ryan Lee
-        image: /assets/img/leads/rlee.png
+        name: Justun Kim
+        image: /assets/img/leads/no_icon.png
         role: Media Director
-        email: rlee@palyrobotics.com
+        email: jkim@palyrobotics.com
         description: >
-            Ryan Lee is a senior who joined Paly Robotics as a Build member in his freshman year. In his sophomore year, Ryan served as the team’s Lab Manager, and in his junior year, he served as the ç Captain. As the Media Director this year, Ryan is responsible for directing the team’s visual content. He hopes to standardize and ensure consistency in the team’s visual media presence this coming year and into the future.
+            Justun Kim is a junior who joined Paly Robotics as a Business member in his freshman year. As the Media Director this year, Justun is responsible for directing the team’s visual content. He hopes to increase the team's media presence and ensure consistency in the team’s visual representation this coming year and into the future.
     - 
         id-number: 16
         mobile-id-number: 36
-        name: Aditya Ramanathan
-        image: /assets/img/leads/aramanathan.png
+        name: Aleksey Valouev
+        image: /assets/img/leads/no_icon.png
         role: Drive Coach
-        email: aramanathan@palyrobotics.com
+        email: avalouev@palyrobotics.com
         description: >
-            Aditya Ramanathan is a senior who joined Paly Robotics as a Strategy & Scouting member in his freshman year. In his sophomore year, Aditya served as the teams's strategy lead, and in his junior year, he served as the Strategy & Scouting Captain and the Drive Coach. As the Drive Coach this year as well, Aditya is responsible for organizing drive practices and creating match strategies. Now, he hopes to continue leading driveteam with a positive attitude and pass his knowledge down to future members interested in strategy.
+          Coming soon!
 ...
