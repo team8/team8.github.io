@@ -17,12 +17,12 @@ Leads1:
     -
         id-number: 1
         mobile-id-number: 21
-        name: Brennen Ho
-        image: /assets/img/leads/bho.jpg
+        name: Thomas Pham
+        image: /assets/img/leads/tpham.jpg
         role: Co-Captain
-        email: bho@palyrobotics.com
+        email: tpham@palyrobotics.com
         description: >
-            Brennen Ho is a senior who joined Paly Robotics his freshman year as a build member. Starting sophomore year, Brennen led Team 8’s FLL outreach with the goal of engaging local students and fostering an interest in robotics. As Build Project Manager during his junior year, he co-led all build team operations and managed robot fabrication and assembly. He was also a session lead for Team 8’s annual summer camp and oversaw all off-season robot demonstrations in the local Palo Alto community. As Team Co-Captain, Brennen hopes to expand the opportunities available to members while fostering a positive and diverse team environment.
+            Thomas Pham is a senior who joined Paly Robotics during his sophomore year as a business member. As a recruit, he worked on obtaining funding for the team and presenting to non-technical judges. As Competition Manager during his junior year, Thomas planned transportation, supervision, rooming, and meals and managed logistics during competitions. He also led Team 8's annual summer camp and co-managed all off-season robot demonstrations in the local Palo community. As Team Co-Captain, Thomas hopes to improve parent involvement and outreach while fostering a positive team environment.
             
 
     -
@@ -101,12 +101,12 @@ Leads3:
     -
         id-number: 10
         mobile-id-number: 30
-        name: Zachary Brandt
-        image: /assets/img/leads/zbrandt.png
-        role: Strategy & Scouting Captain
-        email: zbrandt@palyrobotics.com
+        name: Alexander Deisseroth
+        image: /assets/img/leads/xdeisseroth.jpg
+        role: Scouting Lead
+        email: adeisseroth@palyrobotics.com
         description: >
-           Zachary Brandt is a senior who joined Paly Robotics as a Strategy and Scouting member in his freshman year. As the Strategy and Scouting captain this year, Zachary is responsible for creating the team’s scouting system and leading scouting at competitions. He hopes to enhance the team’s competition strategy this coming year and into the future.     
+            Alexander (Xander) Deisseroth is a sophomore who joined Paly Robotics in freshman year. Xander is a member of Software and Scouting, and was selected to lead the scouting side of the subteam after his first build season. As Scouting Lead, he plans to carry on the subteam’s mission of innovative data collection and analysis into future build seasons.
     -
         id-number: 11
         mobile-id-number: 31
@@ -140,12 +140,12 @@ Leads4:
     -
         id-number: 14
         mobile-id-number: 34
-        name: Thomas Pham
-        image: /assets/img/leads/tpham.jpg
+        name: Tony Chung
+        image: /assets/img/leads/no_icon.png
         role: Competition Manager
-        email: tpham@palyrobotics.com
+        email: tchung@palyrobotics.com
         description: >
-           Thomas Pham is a junior who joined Paly Robotics his sophomore year as a business member. As a recruit, he worked on obtaining funding for the team and presenting to non-technical judges. As competition manger, he intends on creating a cordial environment and well-organizing transportation, rooming, and meals for an enjoyable competition season.
+           Tony Chung is a junior who joined Paly Robotics his sophomore year as a business member. As a recruit, he worked on obtaining funding for the team and presenting to non-technical judges. As competition manger, he intends on creating a cordial environment and well-organizing transportation, rooming, and meals for an enjoyable competition season.
     
     -
         id-number: 15

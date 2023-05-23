@@ -8,14 +8,18 @@ Sponsors1:
   - BayerFund:
     image: /assets/img/sponsors/BayerFund.png
     paragraph: With more than 150 years of history, Bayer is one of the world’s primary life science groups, developing technologies for pharmaceuticals, crop sciences, and consumer health. Their philanthropic branch, the Bayer Fund, supports many FIRST teams, including Team 8, helping to shape the next generation of engineers.
-  
-  - KLA Foundation:
-    image: /assets/img/sponsors/KLA.png
-    paragraph: KLA researches and creates semiconductor equipment, electron and photon optics, sensor technology, machine learning, and data analytics. Their work ushers forth advancements in pioneering fields such as autonomous cars, space exploration, and VR experiences. Team 8 is inspired by their model of innovation and is thrilled to be sponsored by them.
 
-  - TEConnectivity:
-    image: /assets/img/sponsors/TEconnectivity.png
-    paragraph: TE Connectivity manufactures sensors and connectors able to function in harsh environments, enabling advancements in fields like industrial applications and medical technology. Named among 'World's Most Admired Companies' by FORTUNE, TE Connectivity’s work focuses on developing technology for a connected and sustainable future. Paly Robotics is grateful to be supported by them.
+  - First NorCal:
+    image: /assets/img/sponsors/firstnorcal.png
+    paragraph: FIRST NorCal is a program dedicated to furthering the education of the next generation in STEM. With nearly 7000 active students, FIRST NorCal allows kids in California to access crucial experience in robotics. Its partership with Team 8 bolsters our learning.
+
+  - Dropbox:
+    image: /assets/img/sponsors/dropbox.jpg
+    paragraph: Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage and file syncing to its users. Their sponsorship has made us more efficient and an overall better team.
+
+#  - TEConnectivity:
+#    image: /assets/img/sponsors/TEconnectivity.png
+#    paragraph: TE Connectivity manufactures sensors and connectors able to function in harsh environments, enabling advancements in fields like industrial applications and medical technology. Named among 'World's Most Admired Companies' by FORTUNE, TE Connectivity’s work focuses on developing technology for a connected and sustainable future. Paly Robotics is grateful to be supported by them.
 
 
   # - Google: 
@@ -41,22 +45,22 @@ Sponsors2:
 
  
   
-Sponsors3:
+#Sponsors3:
   
   # - Monsanto:
   #   image: /assets/img/sponsors/monsanto.png
   #   paragraph: Feeding the world since 1901, Monsanto is one of the world’s largest agricultural biotechnology companies. Through the Monsanto Fund, which provides over $20 million for community enrichment and agricultural development programs worldwide, the company helps Team 8 prosper and grow.
-  - Arm:
-    image: /assets/img/sponsors/arm.png
-    paragraph: ARM Architecture is one of the leading producers of RISC architectures for computer processors, which are used to power businesses around the globe. Paly Robotics is proud to share ARM’s goal of driving innovation with technology and our partnership helps us realize this dream.
+#  - Arm:
+#    image: /assets/img/sponsors/arm.png
+#    paragraph: ARM Architecture is one of the leading producers of RISC architectures for computer processors, which are used to power businesses around the globe. Paly Robotics is proud to share ARM’s goal of driving innovation with technology and our partnership helps us realize this dream.
 
-  - NASA:
-    image: /assets/img/sponsors/NASA.png
-    paragraph: Established in 1958, NASA is a US government agency responsible for the civilian space program and space research. For over 60 years, NASA has pushed the boundaries of STEAM achievement, and through its support of Paly Robotics, helps us strive to follow their example in our communities. NASA supports Paly Robotics by providing funds for our projects, allowing us to further spread STEAM learning throughout our community and beyond.
+#  - NASA:
+#    image: /assets/img/sponsors/NASA.png
+#    paragraph: Established in 1958, NASA is a US government agency responsible for the civilian space program and space research. For over 60 years, NASA has pushed the boundaries of STEAM achievement, and through its support of Paly Robotics, helps us strive to follow their example in our communities. NASA supports Paly Robotics by providing funds for our projects, allowing us to further spread STEAM learning throughout our community and beyond.
   
-  - D&K: 
-    image: /assets/img/sponsors/d&k.gif
-    paragraph: D&K Precision Sheet Metal is a family owned sheet metal shop that has been delivering the highest quality sheet metal products to Silicon Valley companies since 1981. Located in the San Francisco South Bay, D&K sponsors Team 8 by fabricating custom sheet metal parts for robot builds. 
+#  - D&K:
+#    image: /assets/img/sponsors/d&k.gif
+#    paragraph: D&K Precision Sheet Metal is a family owned sheet metal shop that has been delivering the highest quality sheet metal products to Silicon Valley companies since 1981. Located in the San Francisco South Bay, D&K sponsors Team 8 by fabricating custom sheet metal parts for robot builds.
  
  
   # - Western-Digital:
@@ -67,7 +71,7 @@ Sponsors3:
   #   image: /assets/img/sponsors/landec.jpg
   #   paragraph: Landec has a diverse portfolio of companies in various industries, with the mission to create innovative products that support everyone’s unique health and wellness journey. They strive to be an innovative leader in the markets they serve, and influence Team 8 through their presence in various markets such as their approach in the biomedical technology field.
 
-Sponsors4:
+Sponsors3:
   # - Hassett-Hardware:
   #   image: /assets/img/sponsors/hassett-hardware.png
   #   paragraph:  Hassett Ace Hardware is a family-owned hardware store in the Bay Area. They are a part of the ACE cooperative because of their belief in ACE values such as innovation, clear communication, strong relationships and networks, and strong advocacy. Their support is greatly beneficial to our team in our robot-building process.
@@ -81,10 +85,7 @@ Sponsors4:
   # - Zume-Pizza:
   #   image: /assets/img/sponsors/zume-pizza.png
   #   paragraph: "Zume Pizza is a pizzeria based in Mountain View, CA, and is a pioneer in the pizza delivery industry. Utilizing advanced, industrial robots, Zume Pizza delivers on-demand pizza to anyplace in the Bay Area. Team 8 is not only inspired by their usage of robots in the modern culinary field, but delighted by their tasty pizzas as well."
-  
-  - Dropbox:
-    image: /assets/img/sponsors/dropbox.jpg
-    paragraph: Dropbox is one of the most well-known file hosting companies in the world, and offers accessible cloud storage and file syncing to its users. Their sponsorship has made us more efficient and an overall better team.
+
   # - Nvidia:
   #   image: /assets/img/sponsors/nvidia.jpg
   #   paragraph: Coming Soon!
@@ -92,22 +93,22 @@ Sponsors4:
   
   
 
-Sponsors5:  
-  - Kirks:
-    image: /assets/img/sponsors/kirks.png
-    paragraph: Kirk's Steakburgers sponsors Team 8 by providing us with delicious burgers to keep us fed during build season.
+#Sponsors5:
+#  - Kirks:
+#    image: /assets/img/sponsors/kirks.png
+#    paragraph: Kirk's Steakburgers sponsors Team 8 by providing us with delicious burgers to keep us fed during build season.
   
-  - AsianBox:
-    image: /assets/img/sponsors/Asiain_Box.jpeg
-    paragraph: Based in Northern California, Asian Box sponsors Paly Robotics by providing us with warm meals during our rigorous 3 month build season. Our team members are grateful for the delicious food that Asian Box has to offer. 
+#  - AsianBox:
+#    image: /assets/img/sponsors/Asiain_Box.jpeg
+#    paragraph: Based in Northern California, Asian Box sponsors Paly Robotics by providing us with warm meals during our rigorous 3 month build season. Our team members are grateful for the delicious food that Asian Box has to offer.
 
-  - RobbyTechnologies:
-    image: /assets/img/sponsors/robby.png
-    paragraph: Robby Technologies is a company located in Palo Alto that creates self-driving vehicles to deliver food and packages. They have graciously donated a multitude of tools and materials to Paly Robotics. 
+#  - RobbyTechnologies:
+#    image: /assets/img/sponsors/robby.png
+#    paragraph: Robby Technologies is a company located in Palo Alto that creates self-driving vehicles to deliver food and packages. They have graciously donated a multitude of tools and materials to Paly Robotics.
   
 
-Sponsors6:
-  - Emotiv:
-    image: /assets/img/sponsors/emotiv.png
-    paragraph: Emotiv sponsored Team 8 with free Electroencephalography (EEG) software for reading brainwaves. We used their technology to develop a solution to allow a quadraplegic individual to communicate with his mind.
+#Sponsors6:
+#  - Emotiv:
+#    image: /assets/img/sponsors/emotiv.png
+#    paragraph: Emotiv sponsored Team 8 with free Electroencephalography (EEG) software for reading brainwaves. We used their technology to develop a solution to allow a quadraplegic individual to communicate with his mind.
 ...
