@@ -28,12 +28,12 @@ Leads1:
     -
         id-number: 2
         mobile-id-number: 22
-        name: Dalia Antebi
-        image: /assets/img/leads/no_icon.png
+        name: Theo Conrad
+        image: /assets/img/leads/tconrad.png
         role: Technical Director
-        email: dantebi@palyrobotics.com
+        email: tconrad@palyrobotics.com
         description: >
-            Dalia is a senior who joined Paly Robotics in her freshman year. As the technical director, she oversees progress on all robot tasks. She is also the operator, controlling key components of the robot during matches.
+            Theo Conrad is a senior who joined the Build Team on Paly Robotics as a freshman. As the Build Project Manager his junior year, he co-led teaching, fabrication, and robot assembly. This year as Technical Director, he oversees all robot tasks and progress in technical subteams. He also aims to create a positive environment and expand the team's technical knowledge.
             
 
     -
@@ -61,12 +61,12 @@ Leads2:
     - 
         id-number: 6
         mobile-id-number: 26
-        name: Malika Bowers
-        image: /assets/img/leads/mbowers.jpg
+        name: Evan Chang
+        image: /assets/img/leads/echang.jpg
         role: Build Captain
-        email: mbowers@palyrobotics.com
+        email: echang@palyrobotics.com
         description: >
-            Malika is a senior who joined the Build subteam as a freshman. During her sophomore year, she served as Pit Manager and Safety Captain. As Build Captain, she oversees prototyping, fabrication, and assembly of the teams robots as well as leads off-season projects. She hopes to foster an efficient, dedicated, and inviting environment within Build and help expand the team’s technical knowledge.
+            Evan is a junior who joined the Build subteam as a freshman. During his sophomore year, Evan served as the pit and safety manager, helping maintain an organized and efficient pit area during competitions and enforcing safety rules at all times. Now, as Build captain, he hopes to successfully lead the team through build season in order to fabricate and assemble the robot.
     
     -
         id-number: 7
@@ -92,10 +92,10 @@ Leads3:
     - 
         id-number: 9
         mobile-id-number: 29
-        name: Luca Manoloche
+        name: Luca Manolache
         image: /assets/img/leads/no_icon.png
         role: Software Captain
-        email: lmanoloche@palyrobotics.com
+        email: lmanolache@palyrobotics.com
         description: >
             Luca Manolache is a senior who joined Paly Robotics his freshman year as a software member. As Software Project Manager during his junior year, he co-led all software team operations and managed assignments and coding. As Software Captain, Luca will to expand the teaching available to members while fostering better code.
     -
@@ -119,12 +119,12 @@ Leads3:
     - 
         id-number: 12
         mobile-id-number: 32
-        name: Evan Chang
-        image: /assets/img/leads/echang.jpg
-        role: Pit Manger and Safety Captain
-        email: echang@palyrobotics.com
+        name: Madison Qin
+        image: /assets/img/leads/no_icon.png
+        role: Pit Manager and Safety Captain
+        email: mqin@palyrobotics.com
         description: >
-            Evan Chang is a sophomore who joined Paly Robotics as a build freshmen and helped fabricate the robot. This year as the Safety Captain he hopes to maintain a safe environment in lab throughout the year. As Pit Manager, he hopes to keep an easy to use and organized pit for competitions.
+            Description coming soon!
             
 Leads4:  
     - 
@@ -155,7 +155,7 @@ Leads4:
         role: Media Director
         email: rlee@palyrobotics.com
         description: >
-            Ryan Lee is a senior who joined Paly Robotics as a Build member in his freshman year. In his sophomore year, Ryan served as the team’s Lab Manager, and in his junior year, he served as the Build Captain. As the Media Director this year, Ryan is responsible for directing the team’s visual content. He hopes to standardize and ensure consistency in the team’s visual media presence this coming year and into the future.
+            Ryan Lee is a senior who joined Paly Robotics as a Build member in his freshman year. In his sophomore year, Ryan served as the team’s Lab Manager, and in his junior year, he served as the ç Captain. As the Media Director this year, Ryan is responsible for directing the team’s visual content. He hopes to standardize and ensure consistency in the team’s visual media presence this coming year and into the future.
     - 
         id-number: 16
         mobile-id-number: 36
