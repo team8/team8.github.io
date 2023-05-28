@@ -62,7 +62,7 @@ Leads2:
         id-number: 6
         mobile-id-number: 26
         name: Evan Chang
-        image: /assets/img/leads/echang.jpg
+        image: /assets/img/leads/no_icon.png
         role: Build Captain
         email: echang@palyrobotics.com
         description: >
