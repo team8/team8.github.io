@@ -8,11 +8,11 @@ Leads1:
         id-number: 0
         mobile-id-number: 20
         name: Susanna Aufrichtig
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/saufrichtig.jpg
         role: Co-Captain
         email: saufrichtig@palyrobotics.com
         description: >
-          Coming soon!
+            Susanna Aufrichtig is a senior who joined Team 8's Design subteam as a freshman. During her sophomore year, she served as Treasurer, standardizing formatting and creating guides to simplify purchase documentation. As the 2023 Design Captain, she managed the strategic design and CAD of our robot by overseeing a team of designers and aspects of the creation process such as prototyping, review, handoff for assembly, and iteration. As Co-captain, she aims to improve the sustainability of knowledge through new teaching paths and cultivate an enthusiastic and supportive environment within the team.
 
     -
         id-number: 1
@@ -52,11 +52,11 @@ Leads2:
         id-number: 5
         mobile-id-number: 25   
         name: Sarabeth Huang
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/shuang.jpg
         role: Art Captain
         email: shuang@palyrobotics.com
         description: >
-           Coming soon!
+            Sarabeth is a senior who joined Paly Robotics in her freshman year as an art member, animating models and designing merch for the team. In her junior year as project manager, she organized and planned the Art Team's animations. As Art Captain, she aims to increase art outreach initiatives and animation projects.
 
     - 
         id-number: 6
@@ -93,7 +93,7 @@ Leads3:
         id-number: 9
         mobile-id-number: 29
         name: Zach Szeto
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/zseto.jpg
         role: Software Captain
         email: zszeto@palyrobotics.com
         description: >
@@ -111,7 +111,7 @@ Leads3:
         id-number: 11
         mobile-id-number: 31
         name: Yuna Jeong
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/yjeong.jpg
         role: Lab Manager
         email: yjeong@palyrobotics.com
         description: >
@@ -131,11 +131,11 @@ Leads4:
         id-number: 13
         mobile-id-number: 33
         name: Hana Kapadia
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/hkapadia.jpg
         role: Treasurer
         email: hkapadia@palyrobotics.com
         description: >
-           Coming soon!
+            Hana is a sophomore on build who spent her first year on the team fabricating and constructing parts for the robot. As treasurer this year, she hopes to keep the teams finances organized and efficiently provide the team with the resources necessary to be successful.
 
     -
         id-number: 14
@@ -151,7 +151,7 @@ Leads4:
         id-number: 15
         mobile-id-number: 35
         name: Justun Kim
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/jkim.jpg
         role: Media Director
         email: jkim@palyrobotics.com
         description: >
@@ -164,5 +164,5 @@ Leads4:
         role: Drive Coach
         email: avalouev@palyrobotics.com
         description: >
-          Coming soon!
+            Aleksey is a junior who joined Paly Robotics in his freshman year as a software member. In his junior year, he became the drive coach, managing match strategy and assisting with robot design decisions.
 ...
