@@ -72,21 +72,21 @@ Leads2:
         id-number: 7
         mobile-id-number: 27
         name: Christie Hong
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/chong.jpg
         role: Business Captain
         email: chong@palyrobotics.com
         description: >
-            Coming soon!
+            Christie is a senior passionate about inspiring others and increasing access through STEAM education. Joining the team in her sophomore year, she has participated in a variety of outreach programs, providing nontech mentorship support to underserved teams and leading LEGO Robotics Summer Program for teaching historically underrepresented students across the Bay Area how to design, build, and program their own EV3 robots. As Business Captain, Christie leads the Business Team in applying to grants and sponsorships, as well as nontech competition awards with presentations.
 
     - 
         id-number: 8
         mobile-id-number: 28
         name: Alex Bradford
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/abradford.jpg
         role: Design Captain
         email: abradford@palyrobotics.com
         description: >
-             Coming soon!
+            Alex Bradford joined Design team as a freshman and  as a senior, is now the Design captain. During his time on the team, Alex has used CAD software to design multiple mechanisms for the team’s robots. As Design captain, Alex looks forward to increase the efficiency of the design process to make a successful robot.
 
 Leads3:  
     - 
@@ -124,7 +124,7 @@ Leads3:
         role: Pit Manager and Safety Captain
         email: mqin@palyrobotics.com
         description: >
-            Coming soon!
+            Madison is a sophomore who joined Paly Robotics in her freshman year as a build member, fabricating parts for the robot. As Pit Manager and Safety Captain, her goal is to create and maintain an organized and efficient pit area during competitions and consistently enforce safety rules.
             
 Leads4:  
     - 
