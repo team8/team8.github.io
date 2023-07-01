@@ -81,7 +81,11 @@ Sponsors3:
 
   - Solidworks: 
     image: /assets/img/sponsors/solidworks.png
-    paragraph: Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing us to effectively design and prototype our robot. They also donated a powerful CAM tool that we use in conjunction with our CNC Mill and 3D Printer.  
+    paragraph: Solidworks sponsors Team 8 by sending us free student copies of their CAD software, allowing us to effectively design and prototype our robot. They also donated a powerful CAM tool that we use in conjunction with our CNC Mill and 3D Printer.
+
+  - Bild:
+    image: /assets/img/sponsors/bild.png
+    paragraph: Bild is a cloud PDM tool that enables Team 8 to securely collaborate on, store, and review expansive CAD projects. This platform differentiates itself from others with its near instantaneous speed and plays a critical role in our robots’ completion.
   # - Zume-Pizza:
   #   image: /assets/img/sponsors/zume-pizza.png
   #   paragraph: "Zume Pizza is a pizzeria based in Mountain View, CA, and is a pioneer in the pizza delivery industry. Utilizing advanced, industrial robots, Zume Pizza delivers on-demand pizza to anyplace in the Bay Area. Team 8 is not only inspired by their usage of robots in the modern culinary field, but delighted by their tasty pizzas as well."
