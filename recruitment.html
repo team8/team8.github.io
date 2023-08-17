@@ -1,8 +1,20 @@
 --- 
 layout: pages 
-<!-- title: Recruitment -->
-<!--permalink: /recruitment/ -->
+title: Recruitment
+permalink: /recruitment/
 ---
+
+<script>
+    var password = "R0b0R10";
+    (function passcodeprotect() {
+        var passcode = prompt("Please enter passcode");
+        while (passcode !== password) {
+            alert("Incorrect Passcode");
+            return passcodeprotect();
+        }
+    }());
+    alert('Access granted');
+</script>
 
 <link rel="stylesheet" type="text/css" href="/assets/css/generic.stylesheet.css">
 
