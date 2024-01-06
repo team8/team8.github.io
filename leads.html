@@ -22,17 +22,21 @@
 	<!-- For the desktop version, only shown on big screens. -->
 	<div class="container visible-lg visible-md hidden-sm">
 		<div class="row first-row">
-			{% for item in site.data.leads.Leads1 %}
-				<div class="col-md-3">
-					<a data-toggle="collapse" href="#{{item.id-number}}">
-				    	<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255" onclick="test({{item.id-number}})">
-					</a>
-					<div class="name-and-role">
-						<p class="name">{{item.name}}</p>
-						<p class="role">{{item.role}}</p>
-					</div>
-	  			</div>
-	  		{% endfor %}
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					{% for item in site.data.leads.Leads1 %}
+						<div class="col-md-4">
+							<a data-toggle="collapse" href="#{{item.id-number}}">
+								<img class="img-circle leads-circle" src="{{item.image}}" class="img-circle person center-block" width="255" height="255" onclick="test({{item.id-number}})">
+							</a>
+							<div class="name-and-role">
+								<p class="name">{{item.name}}</p>
+								<p class="role">{{item.role}}</p>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
 	  		{% for item in site.data.leads.Leads1 %}
 	  		<div class="col-md-12">
 		  		<div id="{{item.id-number}}" class="collapse paragraph">

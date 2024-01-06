@@ -47,7 +47,12 @@ permalink: /mentors/
 		{% for item in sub_array %}
 		<div class="col-md-12">
 			<div id="{{start | plus: forloop.index}}" class="collapse paragraph">
-				<p class="paragraph-text">{{item.description}}</p>
+				<p class="paragraph-text">
+					{% if item.email %}
+					{{item.email}}<br><br>
+					{% endif %}
+					{{item.description}}
+				</p>
 			</div>
 		</div>
 		{% endfor %}
@@ -71,7 +76,12 @@ permalink: /mentors/
 				<p class="role">{{item.role}}</p>
 			</div>
 			<div id="{{forloop.index | plus: 100}}" class="collapse paragraph">
-				<p class="paragraph-text">{{item.description}}</p>
+				<p class="paragraph-text">
+					{% if item.email %}
+					{{item.email}}<br><br>
+					{% endif %}
+					{{item.description}}
+				</p>
 			</div>
 		</div>
 		{% endfor %}

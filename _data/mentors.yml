@@ -1,67 +1,76 @@
 # mentors data
 
 ---
-    
+
 Mentors:
-    
+
     -
-        name: Ed Law
-        image: /assets/img/mentors/ed.jpg
-        role: Head Mentor
+        name: Keith Worrell
+        image: /assets/img/mentors/kworrell.jpg
+        role: Head Coach
+        email: kworrell@palyrobotics.com
         description: >
-            Coming to the Bay Area from HoF Team 2834, which Ed Law founded and coached, as a mentor, he complements our student-run philosophy by prioritizing student learning. His advice has helped Team 8 distinguish the “needs” versus “wants” and make informed decisions regarding robot mechanism prioritization. He also provided directions for outreach and strategy to grow in the long term, helping create a “Five Year Plan” to map out future outreach initiatives. To further sustainability and success in the long run, Mr. Law encouraged recent alumni to transition into mentors, fostering a team culture of giving back and continuing the cycle of mentorship.
-    
-    -
-        name: Jim Barbera
-        image: /assets/img/mentors/jim.jpg
-        description: >
-            Mr. Barbera is a Palo Alto High School alumni from the class of '79, who now looks at RF and Microwave technology in defense electronics, satellite communications, outdoor WiFi, and electric vehicle charging stations as a Systems Engineer at ChargePoint Inc. After his son joined Team 8 in 2016, he saw how much he could do for the lab and machine shop in terms of workspace improvements, and decided to help out the team. One of his favorite memories with us is working with the pit team on the new portable pit. Mr. Barbera's time on Team 8 has brought members tons of knowledge on the newly acquired equipment. His vision for team 8's future is one where it continues the tradition of Gracious Professionalism, teamwork, innovation, and enthusiasm that make his mentor experience inspiring.
-    
+            Keith Worrell is in his sixth year coaching the Palo Alto High School Robotics Program, and third year as Head Coach, supporting both Paly Robotics, FRC Team 8 and Paly VEX Robotics, VEX Team 4008. He is a Paly Robotics alumni, Distinguished Toastmaster, and WGU Graduate with over 20 years of experience serving the PAUSD community through Special Education support. He firmly believes in the principles of Facilitative Leadership in promoting excellence within the team alongside the Core Values of FIRST. When not on campus or in the lab, you will find him hiking, cycling, swimming, or cooking with his family.
+
     -
         name: Devin Ardeshna
         image: /assets/img/mentors/devin.jpg
+        role: Mentor
         description: >
-            Devin graduated from Paly in 2018 and is currently finishing his master's degree in Mechanical Engineering at Stanford. As a mentor for Paly Robotics, Devin helps out on robot design and software development. He also provides advice on team operations and long-term planning. Devin's goal is to equip students with the resources and tools needed to explore whichever topics pique their curiosity. He enjoys coming to the robotics lab and working with students when he can.
+            Devin graduated from Paly in 2018 and studied Mechanical Engineering at the University of Michigan and Stanford. He currenty works at Tesla as a Software Engineer developing stability control and anti-lock braking systems. As a mentor for Paly Robotics, Devin helps with robot design, manufacturing, software development, and long-term planning.
 
     -
         name: Bryan Yang
         image: /assets/img/mentors/bryan.jpg
+        role: Mentor
         description: >
             Bryan graduated from Paly in 2019 and was Team Captain in his senior year. He is currently at UC Berkeley studying Mechanical Engineering. Bryan mentors Paly Robotics on strategy and robot design. He hopes to help younger students explore and develop their interests through the wide variety of opportunities that FRC has to offer.
-    
+
     -
         name: Robbie Selwyn
         image: /assets/img/mentors/robbie.jpg
+        role: Mentor
         description: >
             Robbie is a BS/MS student at Stanford University, where he studies computer science.  He has been involved with Paly Robotics since graduating in 2019.  As a mentor, Robbie has stayed involved with many of the areas he led when he was on the team, working primarily with the software team, the strategy & scouting team, as well as the driveteam.
 
     -
         name: Quintin Dwight
         image: /assets/img/mentors/quintin.jpg
+        role: Mentor
         description: >
             Quintin graduated from Paly in 2020 and was the Programming Subteam Project Manager his senior year. He is currently studying Computer Science at the University of Michigan Ann Arbor and is on the Michigan Mars Rover Team (MRover). He serves to help the students if they have questions about integrating motor controllers, control system tuning, and/or designing clean code architecture.
 
     -
         name: Caleb Tan
         image: /assets/img/mentors/caleb.jpg
+        role: Mentor
         description: >
             Caleb graduated Paly in 2020 and was captain of the Strategy and Scouting subteam. He is currently completing his degree in Computer Science at the University of Illinois at Urbana-Champaign. When he was on the robotics team, Caleb headed the development of a new scouting application and backend which has evolved into the system used today. As he continues his studies, Caleb looks forward to staying involved with the team’s strategy/scouting and driveteam efforts.
 
     -
         name: Nina Hunt
         image: /assets/img/mentors/nina.jpg
+        role: Mentor
         description: >
             Nina is currently a sophomore at Cornell University studying Mechanical Engineering. She helps advise Team 8 on machining and leadership. She graduated from Paly in 2021 after spending her senior year as Team Co-Captain and junior year as Build Team Captain. She has always loved the community aspect of the team and hopes to help foster a welcoming environment where all members can meaningfully contribute to the team.
-    
+
     -
         name: Jeremy Huang
         image: /assets/img/mentors/no_icon.png
+        role: Mentor
         description: >
-            
-    
+
+
     -
         name: Griffin Zajac
         image: /assets/img/mentors/griffin.jpg
+        role: Mentor
         description: >
             Griffin graduated from Paly in 2021 and held the positions of Design Captain and Technical Director while on the team. He is currently studying Mechanical Engineering and EECS at UC Berkeley. Griffin mentors Paly Robotics on strategic design and game analysis, and hopes to inspire a love of robotics, engineering, and collaboration in Team 8's students.
-            
+
+    -
+        name: Julian Kobayashi
+        image: /assets/img/mentors/julian.jpg
+        role: Mentor
+        description: >
+            Julian graduated from Paly in 2022 and is currently studying Mechanical Engineering & Robotics Engineering at Worcester Polytechnic Institute. He is a former Build & Design Subteam member with a background in manufacturing and computer aided design (CAD) who helps students with CAD, CAM, and Mechanical Design.
