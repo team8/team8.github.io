@@ -1,7 +1,7 @@
 # For the summer camp page #
 ---
 AboutTheCamp1:
-  message1: We are planning to hold 2 weeks of Paly Robotics Summer Camp 2023 at our lab space. Registration is closed for this year.
+  message1: We are planning to hold 2 weeks of Paly Robotics Summer Camp 2024 at our lab space. We are in the process of planning. Registration will open early February.
   #message2: Registration will open on February 11 at 12 pm. Note: This message doesn't show up even when it's not commented. Worth looking into.
   paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions.
   paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2017 Recap Video to get a taste of what camp is like&#58;
@@ -16,8 +16,8 @@ AboutTheCamp2:
 
 Table:
   title: Weeks Offered
-  dates1: "Week 1: June 5th - 9th"
-  dates2: "Week 2: June 12th - 16th"
+  dates1: "Week 1: June 10th - 16th"
+  dates2: "Week 2: June 17th - 23rd"
   time: Time
   hour: 9 am - 3 pm
   location: Location
@@ -57,7 +57,7 @@ FAQ:
   - question: How much is the registration fee for this summer camp this year?
     answer: The registration fee is $475 per camper, per session. Please register first and then email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you are in need of financial aid.
   - question: When is the camp offered and what are the different sessions?
-    answer: We are offering the camp the week of June 5th - 9th and the week of June 12th - 16th. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
+    answer: We are offering the camp the week of June 10th - 16th and the week of June 17th - 23rd. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
   - question: What is the cancellation policy?
     answer: |
       As we understand that plans often change over the summer, we will refund any registration cancellations before April 9 with a processing fee of $12.05 per 1 week of camp payment. Any cancellations made after April 9th will incur a fee of $200 per session. However, if the situation arises in which you cancel after May 7th, we unfortunately will not be able to refund you.
