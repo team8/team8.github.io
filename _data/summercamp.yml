@@ -1,8 +1,8 @@
 # For the summer camp page #
 ---
 AboutTheCamp1:
-  message1: We are planning to hold 2 weeks of Paly Robotics Summer Camp 2024 at our lab space. We are in the process of planning. Registration will open early February.
-  #message2: Registration will open on February 11 at 12 pm. Note: This message doesn't show up even when it's not commented. Worth looking into.
+  message1: <b>Due to new information about school district construction, camp dates will have to be rescheduled. We are beyond sorry for this miscommunication. Updated camp dates will be published soon along with our registration date. </b>
+  message2: We are planning to hold 2 weeks of Paly Robotics Summer Camp 2024 at our lab space. We are in the process of planning.
   paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions.
   paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2023 Recap Video to get a taste of what camp is like&#58;
   image1: /assets/img/summercamp/front-page.jpg
@@ -16,8 +16,8 @@ AboutTheCamp2:
 
 Table:
   title: Weeks Offered
-  dates1: "Week 1: June 10th - 14th"
-  dates2: "Week 2: June 17th - 21st"
+  dates1: "Week 1: TBD"
+  dates2: "Week 2: TBD"
   time: Time
   hour: 9 am - 3 pm
   location: Location
