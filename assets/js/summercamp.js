@@ -45,6 +45,12 @@ $("fieldset input, fieldset textarea").on("click keyup", function() {
     else {
         $(".other-choice-text-2").addClass("optional")
     }
+    if($(".other-choice-3").first().is(':checked')) {
+        $(".other-choice-text-3").removeClass("optional")
+    }
+    else {
+        $(".other-choice-text-3").addClass("optional")
+    }
     
     var empty = false;
     
