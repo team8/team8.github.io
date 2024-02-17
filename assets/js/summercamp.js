@@ -45,6 +45,18 @@ $("fieldset input, fieldset textarea").on("click keyup", function() {
     else {
         $(".other-choice-text-2").addClass("optional")
     }
+
+    if($(".other-choice-3").first().is(':checked')) {
+        $(".other-choice-text-3").removeClass("optional");
+        $(".other-choice-text-3").removeClass("greyba");
+        $(".other-choice-text-3").attr("readonly", false);
+    }
+    else {
+        $(".other-choice-text-3").addClass("optional");
+        $(".other-choice-text-3").addClass("greyba");
+        $(".other-choice-text-3").attr("readonly", true);
+        $(".other-choice-text-3").val("");
+    }
     
     var empty = false;
     
