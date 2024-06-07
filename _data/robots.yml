@@ -1,10 +1,59 @@
 # For the robot page #
 
 ---
+    -
+      title: Baldr
+      year: "2024"
+      active: "active"
+      Specifications:
+        -
+          specname: Name
+          spec: Baldr
+        -
+          specname: Game
+          spec: Crescendo
+        -
+          specname: Weight
+          spec: 124.9 lbs
+      # history of competition for Vidar in 2019 #
+      CompHistory:
+        -
+          competition: Ventura County Regional
+          achievement: Semifinalists, Impact Award
+        -
+          competition: Arizona East Regional
+          achievement: Semifinalists
+        -
+          competition: FIRST Championship
+          achievement: Johnson Division
+      # abilities of robot list
+      RobotAbilities:
+        -
+          ability: Four SDS Mk4i swerve modules powered by Kraken X60s with 16t drive pinion adapter for a theoretical top speed of 18.9 ft/sec
+        -
+          ability: Full width under-the-bumper intake for impact-resistance and contesting center line game pieces in autonomous
+        -
+          ability: Dual-gearbox pivot powered by Kraken X60s at a 113.7:1 overall reduction adjusts the shooter angle and allows shooting from anywhere on the field
+        -
+          ability: 8x 4” Colson wheels and 6x 4” Stealth kicker wheels powered by two Kraken X60s consistently shoot game pieces with power and spin
+        -
+          ability: Motor-actuated bar rebounds game pieces into the Amp after shooting for consistency
+        -
+          ability: Two single-stage telescoping enable sub-5 second climbing; capable of climbing to the side of the chain for harmonizing
+        -
+          ability: Custom Kalman Filter determines precise robot pose, fusing estimates from multiple AprilTag cameras to account for poor field tolerances
+        -
+          ability: An interpolating tree map uses pose estimates to determine the correct shooter angle and aim
+        -
+          ability: Shoots on the move by iteratively solving for the robot's future position using vision pose estimates and an interpolating tree map of game piece flight times
+
+
+      image: /assets/img/robots/baldr.jpg
+
     - 
         title: Eir
         year: "2023"
-        active: "active"
+        active: ""
         Specifications:
           - 
             specname: Name
