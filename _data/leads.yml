@@ -105,17 +105,17 @@ Leads3:
         role: Lab Manager
         email: shill@palyrobotics.com
         description: >
-            Check again later for more information.
+            Sophia is a sophomore who joined the team as a freshman. As a member of the Build subteam, she fabricated numerous parts for the robot during Build season. As lab manager this year, she hopes to maintain an organized, clean, and efficient working space.
     - 
         id-number: 12
         mobile-id-number: 32
         name: Maggie Crady
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/mcrady.jpg
         role: Pit Manager and Safety Captain
         email: mcrady@palyrobotics.com
         description: >
-            Check again later for more information.
-            
+            Maggie is a sophomore who joined Paly Robotics in her freshman year as a build member, fabricating parts for the robot. As Pit Manager and Safety Captain, her goal is to create and maintain an organized and efficient pit area during competitions and consistently enforce safety rules.            
+
 Leads4:  
     - 
         id-number: 13
@@ -135,17 +135,17 @@ Leads4:
         role: Competition Manager
         email: kkim@palyrobotics.com
         description: >
-            Check again later for more information.
+            Katie Kim is a sophomore who joined Paly Robotics her freshman year as a business member. As a recruit, she worked on obtaining funding for the team and presenting to non-technical judges. As competition manger, she intends on creating a cordial environment and well-organizing transportation, rooming, and meals for an enjoyable competition season.
     
     -
         id-number: 15
         mobile-id-number: 35
         name: Divya Pabba
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/dpabba.jpg
         role: Media Director
         email: dpabba@palyrobotics.com
         description: >
-            Check again later for more information.
+            Divya Pabba is a sophomore who joined Paly Robotics as a Business member in her freshman year. As the Media Director and Social Media Manager this year, Divya is responsible for directing the team’s visual content. She hopes to increase the team’s media presence and ensure consistency in the team’s visual representation this coming year and into the future.
     - 
         id-number: 16
         mobile-id-number: 36
