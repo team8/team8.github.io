@@ -120,10 +120,10 @@ Leads4:
     - 
         id-number: 13
         mobile-id-number: 33
-        name: Cindy Zhang
+        name: Cindy Liang
         image: /assets/img/leads/no_icon.png
         role: Treasurer
-        email: czhang@palyrobotics.com
+        email: cliang@palyrobotics.com
         description: >
             Check again later for more information.
 
