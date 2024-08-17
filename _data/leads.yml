@@ -52,7 +52,7 @@ Leads2:
         id-number: 6
         mobile-id-number: 26
         name: Yuna Jeong
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/yjeong.jpg
         role: Build Captain
         email: yjeong@palyrobotics.com
         description: >
@@ -87,7 +87,7 @@ Leads3:
         role: Software Captain
         email: mhua@palyrobotics.com
         description: >
-            Check again later for more information.
+            Miles Hua is a senior who joined Paly Robotics in freshman year, programming and testing the robot. As Software and Scouting Captain, he aims to expand the teaching curriculum while facilitating the development of code. 
     -
         id-number: 10
         mobile-id-number: 30
