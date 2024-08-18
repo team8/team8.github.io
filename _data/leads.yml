@@ -52,11 +52,11 @@ Leads2:
         id-number: 6
         mobile-id-number: 26
         name: Yuna Jeong
-        image: /assets/img/leads/yjeong.jpg
+        image: /assets/img/leads/yjeong.jpeg
         role: Build Captain
         email: yjeong@palyrobotics.com
         description: >
-            Check again later for more information.
+            Yuna joined the build subteam as a freshman and maintained the team's facilities as the lab manager during her sophomore year. As build captain, she is excited to lead fabrication and assembly of the robot. She is also the operator on the Drive Team.
     
     -
         id-number: 7
@@ -121,17 +121,17 @@ Leads4:
         id-number: 13
         mobile-id-number: 33
         name: Cindy Liang
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/cliang.jpg
         role: Treasurer
         email: cliang@palyrobotics.com
         description: >
-            Check again later for more information.
+            Cindy is a sophomore on design who spent her first year on the team CADing and constructing parts for the robot. As treasurer this year, she hopes to keep the teams finances organized and efficiently provide the team with the resources necessary to be successful.
 
     -
         id-number: 14
         mobile-id-number: 34
         name: Katie Kim
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/kkim.jpg
         role: Competition Manager
         email: kkim@palyrobotics.com
         description: >
@@ -154,5 +154,5 @@ Leads4:
         role: Drive Coach
         email: avalouev@palyrobotics.com
         description: >
-            Aleksey is a senior who joined Paly Robotics in his freshman year as a software member. In his junior year, he became the drive coach, managing match strategy and assisting with robot design decisions.
+            Aleksey Valouev is a senior who joined Paly Robotics in his freshman year as a software member. In his junior year, he became the drive coach, managing match strategy and assisting with robot design decisions.
 ...
