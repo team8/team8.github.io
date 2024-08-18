@@ -42,11 +42,11 @@ Leads2:
         id-number: 5
         mobile-id-number: 25   
         name: Sophia Zhang
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/szhang.jpg
         role: Art Captain
         email: szhang@palyrobotics.com
         description: >
-            Check again later for more information.
+            Sophia is a junior who joined Paly Robotics in her freshman year as an art member, animating models, designing merch, and making competition banners for the team. After joining Art Team, she realized the various artistic outlets that were possible through the use of softwares such as Blender and Illustrator. She aims to increase art outreach initiatives and animation projects.
 
     - 
         id-number: 6
