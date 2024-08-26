@@ -46,7 +46,7 @@ Leads2:
         role: Art Captain
         email: szhang@palyrobotics.com
         description: >
-            Sophia is a junior who joined Paly Robotics in her freshman year as an art member, animating models, designing merch, and making competition banners for the team. After joining Art Team, she realized the various artistic outlets that were possible through the use of softwares such as Blender and Illustrator. She aims to increase art outreach initiatives and animation projects.
+            Sophia Zhang is a junior who joined Paly Robotics in her freshman year as an art member, animating models, designing merch, and making competition banners for the team. After joining Art Team, she realized the various artistic outlets that were possible through the use of softwares such as Blender and Illustrator. She aims to increase art outreach initiatives and animation projects.
 
     - 
         id-number: 6
@@ -56,7 +56,7 @@ Leads2:
         role: Build Captain
         email: yjeong@palyrobotics.com
         description: >
-            Yuna joined the build subteam as a freshman and maintained the team's facilities as the lab manager during her sophomore year. As build captain, she is excited to lead fabrication and assembly of the robot. She is also the operator on the Drive Team.
+            Yuna Jeong joined the build subteam as a freshman and maintained the team's facilities as the lab manager during her sophomore year. As build captain, she is excited to lead fabrication and assembly of the robot. She is also the operator on the Drive Team.
     
     -
         id-number: 7
@@ -72,12 +72,11 @@ Leads2:
         id-number: 8
         mobile-id-number: 28
         name: Nathan Mourrain
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/nmourrain.jpg
         role: Design Captain
         email: nmourrain@palyrobotics.com
         description: >
-            Check again later for more information.
-
+            Nathan Mourrain joined Design team as a freshman and as a junior, is now the Design captain. During his time on the team, Nathan has used CAD software to design multiple mechanisms for the team’s robots. As Design captain, Nathan looks forward to increase the efficiency of the design process to make a successful robot.
 Leads3:  
     - 
         id-number: 9
@@ -105,7 +104,7 @@ Leads3:
         role: Lab Manager
         email: shill@palyrobotics.com
         description: >
-            Sophia is a sophomore who joined the team as a freshman. As a member of the Build subteam, she fabricated numerous parts for the robot during Build season. As lab manager this year, she hopes to maintain an organized, clean, and efficient working space.
+            Sophia Hill is a sophomore who joined the team as a freshman. As a member of the Build subteam, she fabricated numerous parts for the robot during Build season. As lab manager this year, she hopes to maintain an organized, clean, and efficient working space.
     - 
         id-number: 12
         mobile-id-number: 32
@@ -114,7 +113,7 @@ Leads3:
         role: Pit Manager and Safety Captain
         email: mcrady@palyrobotics.com
         description: >
-            Maggie is a sophomore who joined Paly Robotics in her freshman year as a build member, fabricating parts for the robot. As Pit Manager and Safety Captain, her goal is to create and maintain an organized and efficient pit area during competitions and consistently enforce safety rules.            
+            Maggie Crady is a sophomore who joined Paly Robotics in her freshman year as a build member, fabricating parts for the robot. As Pit Manager and Safety Captain, her goal is to create and maintain an organized and efficient pit area during competitions and consistently enforce safety rules.            
 
 Leads4:  
     - 
@@ -125,7 +124,7 @@ Leads4:
         role: Treasurer
         email: cliang@palyrobotics.com
         description: >
-            Cindy is a sophomore on design who spent her first year on the team CADing and constructing parts for the robot. As treasurer this year, she hopes to keep the teams finances organized and efficiently provide the team with the resources necessary to be successful.
+            Cindy Liang is a sophomore on design who spent her first year on the team CADing and constructing parts for the robot. As treasurer this year, she hopes to keep the teams finances organized and efficiently provide the team with the resources necessary to be successful.
 
     -
         id-number: 14
