@@ -62,11 +62,11 @@ Leads2:
         id-number: 7
         mobile-id-number: 27
         name: Brooke Chandler
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/bchandler.jpg
         role: Business Captain
         email: bchandler@palyrobotics.com
         description: >
-            Check again later for more information.
+            Brooke Chandler is a junior passionate about inspiring others and increasing access through STEAM education. Joining the team in her freshman year, she has participated in a variety of outreach programs, providing nontech mentorship support to underserved teams and leading LEGO Robotics Summer Program for teaching historically underrepresented students across the Bay Area how to design, build, and program their own EV3 robots. As Business Captain, Brooke leads the Business Team in applying to grants and sponsorships, as well as nontech competition awards with presentations.
 
     - 
         id-number: 8
@@ -82,7 +82,7 @@ Leads3:
         id-number: 9
         mobile-id-number: 29
         name: Miles Hua
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/mhua.png
         role: Software Captain
         email: mhua@palyrobotics.com
         description: >
@@ -100,7 +100,7 @@ Leads3:
         id-number: 11
         mobile-id-number: 31
         name: Sophia Hill
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/shill.jpg
         role: Lab Manager
         email: shill@palyrobotics.com
         description: >
