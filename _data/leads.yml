@@ -8,33 +8,31 @@ Leads1:
         id-number: 0
         mobile-id-number: 20
         name: Aleksey Valouev
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/avalouev.jpg
         role: Co-Captain
         email: avalouev@palyrobotics.com
         description: >
-            Check again later for more information.
+            Aleksey Valouev is a senior who joined Team 8's Software subteam as a freshman. In his junior year, he became the drive coach, managing match strategy and assisting with robot design decisions. As Co-captain, he aims to improve the sustainability of knowledge through new teaching paths and cultivate an enthusiastic and supportive environment within the team.
 
     -
         id-number: 1
         mobile-id-number: 21
         name: Keerath Pujji
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/kpujji.jpg
         role: Co-Captain
         email: kpujji@palyrobotics.com
         description: >
-            Check again later for more information.
+            Check again later for Keerath Pujji is a senior who joined Paly Robotics during her freshman year as a software member. She organized and led Team 8's annual summer camp and actively engages with community outreach. As Team Co-Captain, Keerath hopes to improve parent involvement and outreach while fostering a positive team environment. information.
             
-
     -
         id-number: 2
         mobile-id-number: 22
         name: Evan Chang
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/echang.jpg
         role: Technical Director
         email: echang@palyrobotics.com
         description: >
-            Check again later for more information.
-            
+            Evan Chang is a senior who joined the Build Team on Paly Robotics as a freshman. As the Build Captain his junior year, he led teaching, fabrication, and robot assembly. This year as Technical Director, he oversees all robot tasks and progress in technical subteams. He also aims to create a positive environment and expand the team's technical knowledge.            
 
 Leads2:
 
