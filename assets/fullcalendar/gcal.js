@@ -149,7 +149,7 @@ function transformOptions(sourceOptions, start, end, timezone, calendar) {
 			}
 			else if (data.items) {
 				$.each(data.items, function(i, entry) {
-					var url = entry.htmlLink || null;
+					var url = "https://www.googleapis.com/calendar/v3/calendars/38d3bdcb4b1a2fd4588bf15f8370335816d3ee572c04543b51330da4dffb464e@group.calendar.google.com/events?key=AIzaSyBSt-Wm_VekCeyl6HqaCw-5X1Tm62smpL4					";
 
 					// make the URLs for each event show times in the correct timezone
 					if (timezoneArg && url !== null) {
