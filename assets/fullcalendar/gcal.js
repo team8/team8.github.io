@@ -18,50 +18,63 @@
 
 
 var API_BASE = 'https://www.googleapis.com/calendar/v3/calendars';
+var googleCalendarId = '38d3bdcb4b1a2fd4588bf15f8370335816d3ee572c04543b51330da4dffb464e@group.calendar.google.com';
 var FC = $.fullCalendar;
 var applyAll = FC.applyAll;
 
-
 FC.sourceNormalizers.push(function(sourceOptions) {
-	var googleCalendarId = sourceOptions.googleCalendarId;
-	var url = sourceOptions.url;
-	var match;
+    sourceOptions.googleCalendarId = googleCalendarId;
 
-	// if the Google Calendar ID hasn't been explicitly defined
-	if (!googleCalendarId && url) {
-
-		// detect if the ID was specified as a single string.
-		// will match calendars like "asdf1234@calendar.google.com" in addition to person email calendars.
-		if (/^[^\/]+@([^\/\.]+\.)*(google|googlemail|gmail)\.com$/.test(url)) {
-			googleCalendarId = url;
-		}
-		// try to scrape it out of a V1 or V3 API feed URL
-		else if (
-			(match = /^https:\/\/www.googleapis.com\/calendar\/v3\/calendars\/([^\/]*)/.exec(url)) ||
-			(match = /^https?:\/\/www.google.com\/calendar\/feeds\/([^\/]*)/.exec(url))
-		) {
-			googleCalendarId = decodeURIComponent(match[1]);
-		}
-
-		if (googleCalendarId) {
-			sourceOptions.googleCalendarId = googleCalendarId;
-		}
-	}
-
-
-	if (googleCalendarId) { // is this a Google Calendar?
-
-		// make each Google Calendar source uneditable by default
-		if (sourceOptions.editable == null) {
-			sourceOptions.editable = false;
-		}
-
-		// We want removeEventSource to work, but it won't know about the googleCalendarId primitive.
-		// Shoehorn it into the url, which will function as the unique primitive. Won't cause side effects.
-		// This hack is obsolete since 2.2.3, but keep it so this plugin file is compatible with old versions.
-		sourceOptions.url = googleCalendarId;
-	}
+    if (sourceOptions.googleCalendarId) { // Google Calendar?
+        if (sourceOptions.editable == null) {
+            sourceOptions.editable = false;
+        }
+        sourceOptions.url = googleCalendarId;
+    }
 });
+
+
+
+// FC.sourceNormalizers.push(function(sourceOptions) {
+// 	var googleCalendarId = '38d3bdcb4b1a2fd4588bf15f8370335816d3ee572c04543b51330da4dffb464e@group.calendar.google.com';
+// 	var url = sourceOptions.url;
+// 	var match;
+
+// 	// if the Google Calendar ID hasn't been explicitly defined
+// 	if (!googleCalendarId && url) {
+
+// 		// detect if the ID was specified as a single string.
+// 		// will match calendars like "asdf1234@calendar.google.com" in addition to person email calendars.
+// 		if (/^[^\/]+@([^\/\.]+\.)*(google|googlemail|gmail)\.com$/.test(url)) {
+// 			googleCalendarId = url;
+// 		}
+// 		// try to scrape it out of a V1 or V3 API feed URL
+// 		else if (
+// 			(match = /^https:\/\/www.googleapis.com\/calendar\/v3\/calendars\/([^\/]*)/.exec(url)) ||
+// 			(match = /^https?:\/\/www.google.com\/calendar\/feeds\/([^\/]*)/.exec(url))
+// 		) {
+// 			googleCalendarId = decodeURIComponent(match[1]);
+// 		}
+
+// 		if (googleCalendarId) {
+// 			sourceOptions.googleCalendarId = googleCalendarId;
+// 		}
+// 	}
+
+
+// 	if (googleCalendarId) { // is this a Google Calendar?
+
+// 		// make each Google Calendar source uneditable by default
+// 		if (sourceOptions.editable == null) {
+// 			sourceOptions.editable = false;
+// 		}
+
+// 		// We want removeEventSource to work, but it won't know about the googleCalendarId primitive.
+// 		// Shoehorn it into the url, which will function as the unique primitive. Won't cause side effects.
+// 		// This hack is obsolete since 2.2.3, but keep it so this plugin file is compatible with old versions.
+// 		sourceOptions.url = googleCalendarId;
+// 	}
+// });
 
 
 FC.sourceFetchers.push(function(sourceOptions, start, end, timezone) {
@@ -72,11 +85,11 @@ FC.sourceFetchers.push(function(sourceOptions, start, end, timezone) {
 
 
 function transformOptions(sourceOptions, start, end, timezone, calendar) {
-	var url = API_BASE + '/' + encodeURIComponent(sourceOptions.googleCalendarId) + '/events?callback=?'; // jsonp
-	var apiKey = sourceOptions.googleCalendarApiKey || calendar.options.googleCalendarApiKey;
-	var success = sourceOptions.success;
-	var data;
-	var timezoneArg; // populated when a specific timezone. escaped to Google's liking
+    var url = API_BASE + '/' + encodeURIComponent(sourceOptions.googleCalendarId) + '/events?callback=?'; // jsonp
+    var apiKey = 'AIzaSyBSt-Wm_VekCeyl6HqaCw-5X1Tm62smpL4'; // your API key here
+    var success = sourceOptions.success;
+    var data;
+    var timezoneArg;
 
 	function reportError(message, apiErrorObjs) {
 		var errorObjs = apiErrorObjs || [ { message: message } ]; // to be passed into error handlers
