@@ -5,9 +5,9 @@ AboutTheCamp1:
   message2: Registration will open February 15th at 11:59AM PST.
   paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions.
   paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2024 Recap Video to get a taste of what camp is like&#58;
-  image1: /assets/img/summercamp/front-page.jpg
-  image2: /assets/img/summercamp/more-than-robots.jpg
-  image3: /assets/img/summercamp/counselors.jpg
+  image1: /assets/img/summercamp/rdh1.jpg
+  image2: /assets/img/summercamp/morethanrobots.jpg
+  image3: /assets/img/summercamp/counselors1.jpg
 AboutTheCamp2:
   title2: More than Robots
   paragraph2: When most people think about robotics, they picture computer-controlled machines that are coded to complete certain tasks. While building and programming robots are a big part of what we do, our team provides many more opportunities outside of traditional technical fields. We have different subteams and groups that focus on other non-technical aspects, including art, public relations, and student leadership, to name a few. Through the different sessions offered, campers will be able to experience what makes our team more than just robotics. To learn more about the various sessions, check out the Sessions page.
@@ -32,10 +32,10 @@ Sessions1:
   # We are currently waitlisting campers for sessions that are full.  If you would like to waitlist your child for a session, please select that session during registration.
 Sessions2:
   title: Robot Design and Hardware
-  img: /assets/img/summercamp/rdh.jpg
+  img: /assets/img/summercamp/rdh2.jpg
   info: In the Robot Design and Hardware session, campers will be given an engaging experience learning the fundamentals of prototyping, designing, and assembling through lessons and hands-on activities. Campers will also be working in groups to come up with solutions to game challenges inspired by FIRST Robotics Competitions. Counselors will assist campers throughout this process, maintaining hands-off mentorship to allow for creative ideas to thought-provoking problems.
   title1: Programming
-  img1: /assets/img/summercamp/programming.JPG
+  img1: /assets/img/summercamp/programming1.jpg
   info1: The Programming session seeks to ignite an interest in computer science through its applications in robotics. Campers will dive deep into the various aspects of software development and will develop the technical know-how to program in the Python programming language, focusing on its applications toward robotics. All levels of experience are encouraged to come, with a unique curriculum for new and advanced programmers.
   title2: Entrepreneurship and Website Design
   img2: /assets/img/summercamp/entre-web.JPG
