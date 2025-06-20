@@ -9,13 +9,13 @@ Robot:
 
 SummerCamp:
   caption: Summer Camp
-  caption2: Paly Robotics is excited to host its annual summer camp the weeks of June 23 - June 27 and June 30 - July 4! Registration is currently open! For more information, visit our <a href="/summercamp">Summer Camp Page</a>.
+  caption2: Paly Robotics is excited to host its annual summer camp the weeks of June 23 - June 27 and June 30 - July 4! For more information, visit our <a href="/summercamp">Summer Camp Page</a>.
 
 AboutUs:
   image: /assets/img/aboutus/AboutImage1.jpg
   paragraph: Paly Robotics is dedicated to enriching the education of its members through building, programming, animation, and community
         outreach. Our team is focused on learning new skills, which include technical skills, communication skills, leadership
-        skills, and teamwork. We are proud to be a completely student-run team and our finished projects are always a result of our student's work.
+        skills, and teamwork. We are proud to be a completely student-run team and our finished projects are always a result of our student's work
 
 AboutFIRST:
   image: /assets/img/aboutus/AboutImageFIRST.jpg
