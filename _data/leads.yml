@@ -7,140 +7,139 @@ Leads1:
     -
         id-number: 0
         mobile-id-number: 20
-        name: Aleksey Valouev
-        image: /assets/img/leads/avalouev.jpg
+        name: Yuna Jeong
+        image: /assets/img/leads/yjeong.jpeg
         role: Co-Captain
-        email: avalouev@palyrobotics.com
+        email: yjeong@palyrobotics.com
         description: >
-            Aleksey Valouev is a senior who joined Team 8's software subteam as a freshman. In his junior year, he took on the roles of drive coach and software project manager, managing match strategy, contributing to robot design, and leading the software subteam. Now as co-captain, he is focused on strengthening knowledge sustainability through new teaching methods and fostering a driven, supportive team environment.
-
+            Yuna Jeong joined the build subteam as a freshman. During her junior year, she took on the role of build captain, leading teaching, fabrication, and robot assembly. This year as co-captain, she aims to foster a supportive and productive team environment.
     -
         id-number: 1
         mobile-id-number: 21
-        name: Keerath Pujji
-        image: /assets/img/leads/kpujji.jpg
+        name: Brooke Chandler
+        image: /assets/img/leads/bchandler.jpg
         role: Co-Captain
-        email: kpujji@palyrobotics.com
+        email: bchandler@palyrobotics.com
         description: >
-            Keerath Pujji is a senior who joined Paly Robotics during her freshman year as a software member. She organized and led Team 8's annual summer camp and actively engages with community outreach. As Team Co-Captain, Keerath hopes to improve parent involvement and outreach while fostering a positive team environment. 
+            Check back here later for more information.
             
     -
         id-number: 2
         mobile-id-number: 22
-        name: Evan Chang
-        image: /assets/img/leads/echang.jpg
+        name: Hana Kapadia
+        image: /assets/img/leads/no_icon.jpg
         role: Technical Director
-        email: echang@palyrobotics.com
+        email: hkapadia@palyrobotics.com
         description: >
-            Evan Chang is a senior who joined the Build Team on Paly Robotics as a freshman. As the Build Captain his junior year, he led teaching, fabrication, and robot assembly. This year as Technical Director, he oversees all robot tasks and progress in technical subteams. He also aims to create a positive environment and expand the team's technical knowledge.            
+            Check back here later for more information.          
 
 Leads2:
 
     -
         id-number: 5
         mobile-id-number: 25   
-        name: Sophia Zhang
-        image: /assets/img/leads/szhang.jpg
+        name: Rena Kim
+        image: /assets/img/leads/rkim.jpg
         role: Art Captain
-        email: szhang@palyrobotics.com
+        email: rkim@palyrobotics.com
         description: >
-            Sophia Zhang is a junior who joined Paly Robotics in her freshman year as an art member, animating models, designing merch, and making competition banners for the team. After joining Art Team, she realized the various artistic outlets that were possible through the use of softwares such as Blender and Illustrator. She aims to increase art outreach initiatives and animation projects.
+            Rena Kim is a senior who joined Paly Robotics as a freshman. As an art member, she has used Blender and Adobe Illustrator to create animations and merch for the team. As Art Captain, she aims to increase productivity, do more projects, and encourage growth and learning for art softwares.
 
     - 
         id-number: 6
         mobile-id-number: 26
-        name: Yuna Jeong
-        image: /assets/img/leads/yjeong.jpeg
+        name: Nathan Hunt
+        image: /assets/img/leads/no_icon.jpg
         role: Build Captain
-        email: yjeong@palyrobotics.com
+        email: nhunt@palyrobotics.com
         description: >
-            Yuna Jeong joined the build subteam as a freshman and maintained the team's facilities as the lab manager during her sophomore year. As build captain, she is excited to lead fabrication and assembly of the robot. She is also the operator on the Drive Team.
+            Check back here later for more information.
     
     -
         id-number: 7
         mobile-id-number: 27
-        name: Brooke Chandler
-        image: /assets/img/leads/bchandler.jpg
+        name: Katie Kim
+        image: /assets/img/leads/kkim.jpg
         role: Business Captain
-        email: bchandler@palyrobotics.com
+        email: kkim@palyrobotics.com
         description: >
-            Brooke Chandler is a junior passionate about inspiring others and increasing access through STEAM education. Joining the team in her freshman year, she has participated in a variety of outreach programs, providing nontech mentorship support to underserved teams and leading LEGO Robotics Summer Program for teaching historically underrepresented students across the Bay Area how to design, build, and program their own EV3 robots. As Business Captain, Brooke leads the Business Team in applying to grants and sponsorships, as well as nontech competition awards with presentations.
+            Katie Kim is a junior who joined Paly Robotics her freshman year as a business member. She worked on obtaining funding for the team, presented to non-technical judges and planned competition logistics for tournaments. As Business captain, Katie leads the Business Team in applying to grants and sponsorships, as well as unique modes of fundraising for the team. She is passionate about educating the community about different aspects of STEAM and business.
 
     - 
         id-number: 8
         mobile-id-number: 28
-        name: Nathan Mourrain
-        image: /assets/img/leads/nmourrain.jpg
+        name: Arunav Ramanathan
+        image: /assets/img/leads/aramanathan.jpg
         role: Design Captain
-        email: nmourrain@palyrobotics.com
+        email: aramanathan@palyrobotics.com
         description: >
-            Nathan Mourrain joined Design team as a freshman and as a junior, is now the Design captain. During his time on the team, Nathan has used CAD software to design multiple mechanisms for the team’s robots. As Design captain, Nathan looks forward to increase the efficiency of the design process to make a successful robot.
+            Check back here later for more information.
 Leads3:  
     - 
         id-number: 9
         mobile-id-number: 29
-        name: Miles Hua
-        image: /assets/img/leads/mhua.jpg
+        name: Andrew Fan
+        image: /assets/img/leads/no_icon.jpg
         role: Software Captain
-        email: mhua@palyrobotics.com
+        email: afan@palyrobotics.com
         description: >
-            Miles Hua is a senior who joined Paly Robotics in freshman year, programming and testing the robot. As Software and Scouting Captain, he aims to expand the teaching curriculum while facilitating the development of code. 
+            Check back here later for more information.
     -
         id-number: 10
         mobile-id-number: 30
-        name: Xander Deisseroth
-        image: /assets/img/leads/xdeisseroth.jpg
+        name: Priya Tamura
+        image: /assets/img/leads/no_icon.jpg
         role: Scouting Lead
-        email: adeisseroth@palyrobotics.com
+        email: ptamura@palyrobotics.com
         description: >
-            Xander Deisseroth is a junior who joined Paly Robotics in freshman year. Xander is a member of Software and Scouting, and was selected to lead the scouting side of the subteam after his first build season. As Scouting Lead, he plans to carry on the subteam’s mission of innovative data collection and analysis into future build seasons.
+            Check back here later for more information.
     -
         id-number: 11
         mobile-id-number: 31
-        name: Sophia Hill
-        image: /assets/img/leads/shill.jpg
+        name: Olivia Cho
+        image: /assets/img/leads/ocho.jpeg
         role: Lab Manager
-        email: shill@palyrobotics.com
+        email: ocho@palyrobotics.com
         description: >
-            Sophia Hill is a sophomore who joined the team as a freshman. As a member of the Build subteam, she fabricated numerous parts for the robot during Build season. As lab manager this year, she hopes to maintain an organized, clean, and efficient working space.
+            Olivia Cho is a sophomore who joined Paly Robotics in her freshman year as a build member, fabricating parts during build season. As lab manager this year, she aims to keep the lab organized and efficient by maintaining a clean and welcoming work space.
     - 
         id-number: 12
         mobile-id-number: 32
-        name: Maggie Crady
-        image: /assets/img/leads/mcrady.jpg
-        role: Pit Manager and Safety Captain
-        email: mcrady@palyrobotics.com
+        name: Blake Lopez
+        image: /assets/img/leads/no_icon.jpg
+        role: Pit Manager
+        email: blopez@palyrobotics.com
         description: >
-            Maggie Crady is a sophomore who joined Paly Robotics in her freshman year as a build member, fabricating parts for the robot. As Pit Manager and Safety Captain, her goal is to create and maintain an organized and efficient pit area during competitions and consistently enforce safety rules.            
+            Check back here later for more information.
 
 Leads4:  
     - 
         id-number: 13
         mobile-id-number: 33
-        name: Cindy Liang
-        image: /assets/img/leads/cliang.jpg
+        name: Emma Liu
+        image: /assets/img/leads/eliu.jpg
         role: Treasurer
-        email: cliang@palyrobotics.com
+        email: eliu@palyrobotics.com
         description: >
-            Cindy Liang is a sophomore on design who spent her first year on the team CADing and constructing parts for the robot. As treasurer this year, she hopes to keep the teams finances organized and efficiently provide the team with the resources necessary to be successful.
+            Emma Liu is a sophomore who joined Paly Robotics in her freshman year as a design member. As treasurer this year, she plans on managing the team’s finances and purchases effectively while keeping financial records organized.
 
     -
         id-number: 14
         mobile-id-number: 34
-        name: Katie Kim
-        image: /assets/img/leads/kkim.jpg
+        name: Divya Pabba
+        image: /assets/img/leads/no_icon.jpg
         role: Competition Manager
-        email: kkim@palyrobotics.com
+        email: dpabba@palyrobotics.com
         description: >
-            Katie Kim is a sophomore who joined Paly Robotics her freshman year as a business member. As a recruit, she worked on obtaining funding for the team and presenting to non-technical judges. As competition manger, she intends on creating a cordial environment and well-organizing transportation, rooming, and meals for an enjoyable competition season.
+            Check back here later for more information.
     
     -
         id-number: 15
         mobile-id-number: 35
-        name: Divya Pabba
-        image: /assets/img/leads/dpabba.jpg
-        role: Media Director
-        email: dpabba@palyrobotics.com
+        name: Catherine Bradford
+        image: /assets/img/leads/no_icon.jpg
+        role: Media Manager
+        email: cbradford@palyrobotics.com
         description: >
-            Divya Pabba is a sophomore who joined Paly Robotics as a Business member in her freshman year. As the Media Director and Social Media Manager this year, Divya is responsible for directing the team’s visual content. She hopes to increase the team’s media presence and ensure consistency in the team’s visual representation this coming year and into the future.
+            Check back here later for more information.
 ...
