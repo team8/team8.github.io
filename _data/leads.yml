@@ -27,7 +27,7 @@ Leads1:
         id-number: 2
         mobile-id-number: 22
         name: Hana Kapadia
-        image: /assets/img/leads/no_icon.jpg
+        image: /assets/img/leads/no_icon.png
         role: Technical Director
         email: hkapadia@palyrobotics.com
         description: >
@@ -49,7 +49,7 @@ Leads2:
         id-number: 6
         mobile-id-number: 26
         name: Nathan Hunt
-        image: /assets/img/leads/no_icon.jpg
+        image: /assets/img/leads/no_icon.png
         role: Build Captain
         email: nhunt@palyrobotics.com
         description: >
@@ -79,7 +79,7 @@ Leads3:
         id-number: 9
         mobile-id-number: 29
         name: Andrew Fan
-        image: /assets/img/leads/no_icon.jpg
+        image: /assets/img/leads/no_icon.png
         role: Software Captain
         email: afan@palyrobotics.com
         description: >
@@ -88,7 +88,7 @@ Leads3:
         id-number: 10
         mobile-id-number: 30
         name: Priya Tamura
-        image: /assets/img/leads/no_icon.jpg
+        image: /assets/img/leads/no_icon.png
         role: Scouting Lead
         email: ptamura@palyrobotics.com
         description: >
@@ -106,7 +106,7 @@ Leads3:
         id-number: 12
         mobile-id-number: 32
         name: Blake Lopez
-        image: /assets/img/leads/no_icon.jpg
+        image: /assets/img/leads/no_icon.png
         role: Pit Manager
         email: blopez@palyrobotics.com
         description: >
@@ -127,7 +127,7 @@ Leads4:
         id-number: 14
         mobile-id-number: 34
         name: Divya Pabba
-        image: /assets/img/leads/no_icon.jpg
+        image: /assets/img/leads/no_icon.png
         role: Competition Manager
         email: dpabba@palyrobotics.com
         description: >
@@ -137,7 +137,7 @@ Leads4:
         id-number: 15
         mobile-id-number: 35
         name: Catherine Bradford
-        image: /assets/img/leads/no_icon.jpg
+        image: /assets/img/leads/no_icon.png
         role: Media Manager
         email: cbradford@palyrobotics.com
         description: >
