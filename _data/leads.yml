@@ -51,7 +51,7 @@ Leads2:
         name: Nathan Hunt
         image: /assets/img/leads/no_icon.png
         role: Build Captain
-        email: nhunt@palyrobotics.com
+        email: nahunt@palyrobotics.com
         description: >
             Check back here later for more information.
     
@@ -69,9 +69,9 @@ Leads2:
         id-number: 8
         mobile-id-number: 28
         name: Arunav Ramanathan
-        image: /assets/img/leads/aramanathan.jpg
+        image: /assets/img/leads/arramanathan.jpg
         role: Design Captain
-        email: aramanathan@palyrobotics.com
+        email: arramanathan@palyrobotics.com
         description: >
             Check back here later for more information.
 Leads3:  
@@ -106,7 +106,7 @@ Leads3:
         id-number: 12
         mobile-id-number: 32
         name: Blake Lopez
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/blopez.jpg
         role: Pit Manager
         email: blopez@palyrobotics.com
         description: >
