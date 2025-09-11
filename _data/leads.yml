@@ -79,16 +79,16 @@ Leads3:
         id-number: 9
         mobile-id-number: 29
         name: Andrew Fan
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/afan.png
         role: Software Captain
         email: afan@palyrobotics.com
         description: >
-            Check back here later for more information.
+            Andrew is a senior who joined Paly Robotics as a freshman. As a software & scouting member, he developed autonomous features and computer vision for the robot while also revamping the code architecture for clarity and efficiency. This year, he is dedicated to creating documentation and resources to help members contribute more effectively.
     -
         id-number: 10
         mobile-id-number: 30
         name: Priya Tamura
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/ptamura.jpg
         role: Scouting Lead
         email: ptamura@palyrobotics.com
         description: >
