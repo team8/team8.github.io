@@ -49,11 +49,11 @@ Leads2:
         id-number: 6
         mobile-id-number: 26
         name: Nathan Hunt
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/nahunt.jpg
         role: Build Captain
         email: nahunt@palyrobotics.com
         description: >
-            Check back here later for more information.
+            Nathan Hunt joined the build subteam as a freshman. During sophomore year he led the team to build full size FRC field. As Electronics lead in junior year, he led building electronic components. This year he is the build team captain.
     
     -
         id-number: 7
@@ -73,7 +73,7 @@ Leads2:
         role: Design Captain
         email: arramanathan@palyrobotics.com
         description: >
-            Check back here later for more information.
+            Arunav Ramanathan is a junior who joined Paly Robotics in his freshman year as a design member. As Design Captain, he leads the design process of the robot.
 Leads3:  
     - 
         id-number: 9
@@ -92,7 +92,7 @@ Leads3:
         role: Scouting Lead
         email: ptamura@palyrobotics.com
         description: >
-            Check back here later for more information.
+            Priya Tamura is a junior who joined Paly Robotics in her freshman year as a software & scouting member. As Scouting Lead, she oversees the process of robot data collection and analysis. 
     -
         id-number: 11
         mobile-id-number: 31
@@ -110,7 +110,7 @@ Leads3:
         role: Pit Manager
         email: blopez@palyrobotics.com
         description: >
-            Check back here later for more information.
+            Blake Lopez is a sophomore who joined Paly Robotics in his freshman year as a build member. As Pit Manager, he keeps the pit area and components organized for competitions. 
 
 Leads4:  
     - 
@@ -141,5 +141,5 @@ Leads4:
         role: Media Manager
         email: cbradford@palyrobotics.com
         description: >
-            Check back here later for more information.
+            Catherine Bradford is a sophomore who joined Paly Robotics in her freshman year as a business member. As Media Manager, she directs the team's media content.
 ...
