@@ -2,13 +2,13 @@
 
 ---
     -
-      title: Njordr
+      title: Njörðr
       year: "2025"
       active: "active"
       Specifications:
         -
           specname: Name
-          spec: Njordr
+          spec: Njörðr
         -
           specname: Game
           spec: Reefscape
