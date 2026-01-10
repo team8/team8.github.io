@@ -2,9 +2,42 @@
 
 ---
     -
+      title: Njordr
+      year: "2025"
+      active: "active"
+      Specifications:
+        -
+          specname: Name
+          spec: Njordr
+        -
+          specname: Game
+          spec: Reefscape
+        -
+          specname: Weight
+          spec: 113.6 lbs
+      # history of competition #
+      CompHistory:
+        -
+          competition: Orange County Regional
+          achievement: Semifinalists
+        -
+          competition: Idaho Regional
+          achievement: Semifinalists
+    
+      # abilities of robot list
+      RobotAbilities:
+        -
+          ability: Four SDS Mk4n swerve modules powered by Kraken X60s with 16t drive pinion adapter for a theoretical top speed of 17.8 ft/sec
+        -
+          ability: Full width source intake for accepting coral from substation in any orientation
+        -
+          ability: Capable of climbing deep cage, scoring coral on all 4 levels, and making algae into the barge
+
+      image: /assets/img/robots/njordr.png
+    -
       title: Baldr
       year: "2024"
-      active: "active"
+      active: ""
       Specifications:
         -
           specname: Name
