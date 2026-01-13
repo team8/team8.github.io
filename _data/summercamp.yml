@@ -1,7 +1,7 @@
 # For the summer camp page #
 ---
 AboutTheCamp1:
-  message1: We are planning to hold 2 weeks of Paly Robotics Summer Camp 2025 at our lab space.
+  message1: We are planning to hold 2 weeks of Paly Robotics Summer Camp 2026 at our lab space.
   message2: Registration is now closed. Thank you for your interest in our camp! 
   paragraph1: For more information, please check out the FAQ page. Feel free to email <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you have any additional questions.
   paragraph2: <b>Be sure to check out</b> our Paly Robotics Summer Camp 2024 Recap Video to get a taste of what camp is like&#58;
@@ -15,8 +15,8 @@ AboutTheCamp2:
   paragraph3: Our team embraces and fosters a student-run philosophy, promoting student leadership as well as sustainability through having experienced veteran members pass down knowledge to younger students. Reflecting on this philosophy, our high school team members will be the counselors teaching campers and enriching their STEAM education. Just as we were mentored by older team members, we hope to be able to share what we have learned to the younger generation.
 Table:
   title: Weeks Offered
-  dates1: "Week 1: June 23rd - June 27th"
-  dates2: "Week 2: June 30th - July 4th"
+  dates1: "Week 1: June 15rd - June 19th"
+  dates2: "Week 2: June 22nd - June 26th"
   time: Time
   hour: 9 am - 3 pm
   location: Location
@@ -25,7 +25,7 @@ Table:
   age: Age
   grades: Incoming 6th to 9th graders
   payment: Cost
-  finance: $475 per camper, per session (please email us if you are in need of financial aid)
+  finance: $525 per camper, per session (please email us if you are in need of financial aid)
 
 Sessions1:
   paragraph: Registration is not open yet.
@@ -47,7 +47,7 @@ FAQEmail:
   info: Our email&#58; <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a>
 FAQ:
   - question: What age group is served by the camp?
-    answer: The camp is for students entering 6th - 9th grade in Fall of 2025. Campers will be working with counselors and other students via small group discussions and break-out sessions so it is important they are able to stay focused the entire time and engage with their groups.
+    answer: The camp is for students entering 6th - 9th grade in Fall of 2026. Campers will be working with counselors and other students via small group discussions and break-out sessions so it is important they are able to stay focused the entire time and engage with their groups.
   - question: Who are the instructors?
     answer: Our instructors are members of the Paly Robotics team. They are experienced in the specific session subject matter and are eager to share their knowledge and passion for the subject with your camper.
   - question: Is previous experience required?
@@ -55,9 +55,9 @@ FAQ:
   - question: Is it required to attend both weeks?
     answer: It is not required to attend both weeks. The curriculum in each session is repeated each week.
   - question: How much is the registration fee for this summer camp this year?
-    answer: The registration fee is $475 per camper, per session. Please register first and then email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you are in need of financial aid.
+    answer: The registration fee is $525 per camper, per session. Please register first and then email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> if you are in need of financial aid.
   - question: When is the camp offered and what are the different sessions?
-    answer: We are offering the camp the week of June 23 - 27 and the week of June 30 - July 4. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
+    answer: We are offering the camp the week of June 15 - 19 and the week of June 22 - June 26. Each week, there are four different sessions to choose from. Check out the Sessions tab for more information.
   - question: What is the cancellation policy?
     answer: |
       As we understand that plans often change over the summer, we will refund any registration cancellations before April 12 with a processing fee of $14.50 per 1 week of camp payment. Any cancellations made after April 12th will incur a fee of $200 per session. However, if the situation arises in which you cancel after May 10th, we unfortunately will not be able to refund you.
@@ -69,5 +69,3 @@ FAQ:
     answer: Please pay as soon as you register using the PayPal button on the confirmation page. All camp registrations that do not have payment accounted for within 48 hours of signing up will be cancelled.
   - question: For incoming freshmen, does attending the camp affect the chance of being on the team the next year?
     answer: Team membership is evaluated on the interest and commitment a student shows during their freshman evaluation period. So, summer camp will not have an impact on our decision.
-  - question: Will camp run on July 4?
-    answer: Yes, we will hold camp on the Fourth of July. However, we understand campers may have conflicts, so please email us at <a class="paragraph-links" href="mailto:summercamp@palyrobotics.com">summercamp@palyrobotics.com</a> so we can plan accordingly.
