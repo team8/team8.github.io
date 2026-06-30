@@ -37,11 +37,11 @@ Leads2:
         id-number: 5
         mobile-id-number: 25   
         name: Mathis Lynn
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/mlynn.jpg
         role: Art Captain
         email: mlynn@palyrobotics.com
         description: >
-            N/A
+            Mathis Lynn joined the team as a sophomore. During his time on the team, he stepped into key leadership roles as both the Character Design Lead and Set Design Lead, guiding the team's visual identity and creative execution. This year, he aims to foster a closer, more collaborative community where everyone works seamlessly together to achieve their goals on the art team.
     - 
         id-number: 6
         mobile-id-number: 26
@@ -64,11 +64,11 @@ Leads2:
         id-number: 8
         mobile-id-number: 28
         name: Reed Truong
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/rtruong.jpg
         role: Design Captain
         email: rtruong@palyrobotics.com
         description: >
-            N/A
+            Reed Truong has been part of Paly Robotics since his freshman year, doing a lot of designing, building, testing, breaking, and redesigning. He has worked on CAD models, electronics layout, and machined components, while also helping younger members learn design and fabrication. As Design Captain, he loves making robots that are more thoughtful every year and stealing inspiration from the cool things other FRC teams build.
 Leads3:  
     - 
         id-number: 9
@@ -101,11 +101,11 @@ Leads3:
         id-number: 12
         mobile-id-number: 32
         name: Darsh Anaparti
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/danaparti.jpg
         role: Lab Manager
         email: danaparti@palyrobotics.com
         description: >
-            N/A
+            Darsh Anaparti joined the design subteam as a freshman. Stepping up as lab manager during his sophomore year, he managed everything from robotics lab cleanups to restocking the machine parts inventory.
 
 Leads4:
     - 
