@@ -12,7 +12,7 @@ Leads1:
         role: Co-Captain
         email: arramanathan@palyrobotics.com
         description: >
-            Arunav Ramanathan joined the build subteam as a freshman. During her junior year, she took on the role of build captain, leading teaching, fabrication, and robot assembly. This year as co-captain, she aims to foster a supportive and productive team environment.
+            N/A
     -
         id-number: 1
         mobile-id-number: 21
@@ -21,125 +21,128 @@ Leads1:
         role: Co-Captain
         email: skarnam@palyrobotics.com
         description: >
-            Samarths joined the business subteam as a freshman. Her sophomore year she took on the role of social media manager and her junior year, business captain. Brooke presented and composed the essay for the winning Impact award, led a free summer camp in a neighboring district, facilitated Paly Robotics' own summer camp raising 93k, and coordinated to host two state FLL Championships at Palo Alto High School. As Co-Captain this year, she hopes to continue Team 8's involvement with its community and lead the team towards its goals.
-            
+            N/A
     -
         id-number: 2
         mobile-id-number: 22
-        name: Hana Kapadia
-        image: /assets/img/leads/hkapadia.jpg
+        name: Maxwell Liu
+        image: /assets/img/leads/no_icon.png
         role: Technical Director
-        email: hkapadia@palyrobotics.com
+        email: mliu@palyrobotics.com
         description: >
-            Hana joined the the team her freshman year as a member of the build subteam. Her sophomore year she took on the role of Treasurer, managing the team’s budget and finances. As technical director she hopes to facilitate communication between subteams.
-
+            N/A
 Leads2:
 
     -
         id-number: 5
         mobile-id-number: 25   
-        name: Rena Kim
-        image: /assets/img/leads/rkim.jpg
+        name: Mathis Lynn
+        image: /assets/img/leads/no_icon.png
         role: Art Captain
-        email: rkim@palyrobotics.com
+        email: mlynn@palyrobotics.com
         description: >
-            Rena Kim is a senior who joined Paly Robotics as a freshman. As an art member, she has used Blender and Adobe Illustrator to create animations and merch for the team. As Art Captain, she aims to increase productivity, do more projects, and encourage growth and learning for art softwares.
-
+            N/A
     - 
         id-number: 6
         mobile-id-number: 26
-        name: Nathan Hunt
-        image: /assets/img/leads/nahunt.jpg
+        name: Sidhant Vats
+        image: /assets/img/leads/no_icon.png
         role: Build Captain
-        email: nahunt@palyrobotics.com
+        email: svats@palyrobotics.com
         description: >
-            Nathan Hunt joined the build subteam as a freshman. During sophomore year he led the team to build full size FRC field. As Electronics lead in junior year, he led building electronic components. This year he is the build team captain.
-    
+            N/A    
     -
         id-number: 7
         mobile-id-number: 27
-        name: Katie Kim
-        image: /assets/img/leads/kkim.jpg
+        name: Kento Stutz
+        image: /assets/img/leads/no_icon.png
         role: Business Captain
-        email: kkim@palyrobotics.com
+        email: kstutz@palyrobotics.com
         description: >
-            Katie Kim is a junior who joined Paly Robotics her freshman year as a business member. She worked on obtaining funding for the team, presented to non-technical judges and planned competition logistics for tournaments. As Business captain, Katie leads the Business Team in applying to grants and sponsorships, as well as unique modes of fundraising for the team. She is passionate about educating the community about different aspects of STEAM and business.
-
+            N/A
     - 
         id-number: 8
         mobile-id-number: 28
-        name: Arunav Ramanathan
-        image: /assets/img/leads/arramanathan.jpg
+        name: Reed Truong
+        image: /assets/img/leads/no_icon.png
         role: Design Captain
-        email: arramanathan@palyrobotics.com
+        email: rtruong@palyrobotics.com
         description: >
-            Arunav Ramanathan is a junior who joined Paly Robotics in his freshman year as a design member. As Design Captain, he leads the design process of the robot.
+            N/A
 Leads3:  
     - 
         id-number: 9
         mobile-id-number: 29
-        name: Andrew Fan
-        image: /assets/img/leads/afan.png
+        name: Jennifer Yang
+        image: /assets/img/leads/no_icon.png
         role: Software Captain
-        email: afan@palyrobotics.com
+        email: jyang@palyrobotics.com
         description: >
-            Andrew is a senior who joined Paly Robotics as a freshman. As a software & scouting member, he developed autonomous features and computer vision for the robot while also revamping the code architecture for clarity and efficiency. This year, he is dedicated to creating documentation and resources to help members contribute more effectively.
+            N/A
     -
         id-number: 10
         mobile-id-number: 30
-        name: Priya Tamura
-        image: /assets/img/leads/ptamura.jpg
-        role: Scouting Lead
-        email: ptamura@palyrobotics.com
+        name: Kaitlin Ye
+        image: /assets/img/leads/no_icon.png
+        role: Scouting Co-Lead
+        email: kye@palyrobotics.com
         description: >
-            Priya Tamura is a junior who joined Paly Robotics in her freshman year as a software & scouting member. As Scouting Lead, she oversees the process of robot data collection and analysis. 
+            N/A
     -
         id-number: 11
         mobile-id-number: 31
-        name: Olivia Cho
-        image: /assets/img/leads/ocho.jpeg
-        role: Lab Manager
-        email: ocho@palyrobotics.com
+        name: Joycelyn Zhou
+        image: /assets/img/leads/no_icon.png
+        role: Scouting Co-Lead
+        email: jzhou@palyrobotics.com
         description: >
-            Olivia Cho is a sophomore who joined Paly Robotics in her freshman year as a build member, fabricating parts during build season. As lab manager this year, she aims to keep the lab organized and efficient by maintaining a clean and welcoming work space.
-    - 
+            N/A
+    -
         id-number: 12
         mobile-id-number: 32
-        name: Blake Lopez
-        image: /assets/img/leads/blopez.jpg
-        role: Pit Manager
-        email: blopez@palyrobotics.com
+        name: Darsh Anaparti
+        image: /assets/img/leads/no_icon.png
+        role: Lab Manager
+        email: danaparti@palyrobotics.com
         description: >
-            Blake Lopez is a sophomore who joined Paly Robotics in his freshman year as a build member. As Pit Manager, he keeps the pit area and components organized for competitions. 
+            N/A
 
-Leads4:  
+Leads4:
     - 
         id-number: 13
         mobile-id-number: 33
-        name: Emma Liu
-        image: /assets/img/leads/eliu.jpg
-        role: Treasurer
-        email: eliu@palyrobotics.com
+        name: Vidith Karnam
+        image: /assets/img/leads/no_icon.png
+        role: Pit Manager
+        email: vkarnam@palyrobotics.com
         description: >
-            Emma Liu is a sophomore who joined Paly Robotics in her freshman year as a design member. As treasurer this year, she plans on managing the team’s finances and purchases effectively while keeping financial records organized.
-
-    -
+            N/A
+    - 
         id-number: 14
         mobile-id-number: 34
-        name: Divya Pabba
-        image: /assets/img/leads/dpabba.jpeg
-        role: Competition Manager
-        email: dpabba@palyrobotics.com
+        name: Cristina Ye
+        image: /assets/img/leads/no_icon.png
+        role: Treasurer
+        email: cye@palyrobotics.com
         description: >
-            Divya Pabba is a junior who joined Paly Robotics her freshman year as a business member. She has worked on planning outreach events, securing funding for the team, and leading media efforts by promoting social media and creating team content. As part of the FIRST Impact team, Divya presents to judges at competitions. This year, as Competition Manager, she oversees all competition logistics for the team.
-    
+            N/A
+
     -
         id-number: 15
         mobile-id-number: 35
-        name: Catherine Bradford
-        image: /assets/img/leads/cbradford.jpg
-        role: Media Manager
-        email: cbradford@palyrobotics.com
+        name: Amelia Kissner-Colohan
+        image: /assets/img/leads/no_icon.png
+        role: Competition Manager
+        email: akissnercolohan@palyrobotics.com
         description: >
-            Catherine Bradford is a sophomore who joined Paly Robotics in her freshman year as a business member. As Media Manager, she directs the team's media content.
+            N/A    
+    -
+        id-number: 16
+        mobile-id-number: 36
+        name: Kyle Chen
+        image: /assets/img/leads/no_icon.png
+        role: Media Manager
+        email: kchen@palyrobotics.com
+        description: >
+            N/A
 ...
