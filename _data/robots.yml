@@ -2,6 +2,41 @@
 
 ---
     -
+      title: Skaði
+      year: "2026"
+      active: "active"
+      Specifications:
+        -
+          specname: Name
+          spec: Skaði
+        -
+          specname: Game
+          spec: Rebuilt
+        -
+          specname: Weight
+          spec: 103 lbs
+      # history of competition #
+      CompHistory:
+        -
+          competition: Port Hueneme District Event
+          achievement: Semifinalists
+        -
+          competition: Contra Costa District Event
+          achievement: Winner, Industrial Design Award
+        -
+          competition: California Northern State Championship
+          achievement: Quarterfinalists
+        -
+          competition: FIRST Championship
+          achievement: Johnson Division
+    
+      # abilities of robot list
+      RobotAbilities:
+        -
+          ability: Capable of scoring fuel from any point on the field with shooting on the move capabilities
+
+      image: /assets/img/robots/skadi.jpeg
+    -
       title: Njörðr
       year: "2025"
       active: "active"

@@ -12,7 +12,7 @@ Leads1:
         role: Co-Captain
         email: arramanathan@palyrobotics.com
         description: >
-            N/A
+            Come back later for more information
     -
         id-number: 1
         mobile-id-number: 21
@@ -21,7 +21,7 @@ Leads1:
         role: Co-Captain
         email: skarnam@palyrobotics.com
         description: >
-            N/A
+            Samarth Karnam is the Nontechnical Captain for the 26-27 season. He joined as a freshman and since then worked on the build subteam as the spirit lead, field lead, and electrical lead, before becoming a co-captain. More than anything, he enjoys teaching others, spreading his knowledge, and fostering the team's culture.
     -
         id-number: 2
         mobile-id-number: 22
@@ -30,7 +30,7 @@ Leads1:
         role: Technical Director
         email: mliu@palyrobotics.com
         description: >
-            N/A
+            Come back later for more information
 Leads2:
 
     -
@@ -41,25 +41,25 @@ Leads2:
         role: Art Captain
         email: mlynn@palyrobotics.com
         description: >
-            Mathis Lynn joined the team as a sophomore. During his time on the team, he stepped into key leadership roles as both the Character Design Lead and Set Design Lead, guiding the team's visual identity and creative execution. This year, he aims to foster a closer, more collaborative community where everyone works seamlessly together to achieve their goals on the art team.
+            Mathis Lynn joined the art subteam as a sophomore. During his time on the team, he stepped into key leadership roles as both the Character Design Lead and Set Design Lead, guiding the team's visual identity and creative execution. This year, he aims to foster a closer, more collaborative community where everyone works seamlessly together to achieve their goals on the art team.
     - 
         id-number: 6
         mobile-id-number: 26
         name: Sidhant Vats
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/svats.jpg
         role: Build Captain
         email: svats@palyrobotics.com
         description: >
-            N/A    
+            Sidhant Vats joined the build subteam as a freshman. While on the team, Sidhant has demonstrated his prowess in 3D printing and created many custom parts for our robots. As the build captain for the 26-27 season, he will oversee and lead the build subteam's efforts in the assembling of our robots.
     -
         id-number: 7
         mobile-id-number: 27
         name: Kento Stutz
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/kstutz.jpg
         role: Business Captain
         email: kstutz@palyrobotics.com
         description: >
-            N/A
+            Kento Stutz joined the business subteam in his freshman year. Over the past two years, Kento has led the FLL championships, as well as the FTC championships in his junior year. He believes his past experiences — such as being the business project manager and on the impact team — will help him become a better business captain for the 26-27 season.
     - 
         id-number: 8
         mobile-id-number: 28
@@ -74,11 +74,11 @@ Leads3:
         id-number: 9
         mobile-id-number: 29
         name: Jennifer Yang
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/jyang.jpg
         role: Software Captain
         email: jyang@palyrobotics.com
         description: >
-            N/A
+            Jennifer Yang joined the Software and Scouting subteam as a freshman. Previously, she served as the Webmaster, Technician, and Software Project Manager, helping the team to win Contra Costa District and qualify for World Championships. Additionally, she worked as both the Programming Session Summer Camp Lead and Summer Camp Director. This year, she aims to increase collaboration and expand the scope of software-related tasks.
     -
         id-number: 10
         mobile-id-number: 30
@@ -87,7 +87,7 @@ Leads3:
         role: Scouting Co-Lead
         email: kye@palyrobotics.com
         description: >
-            N/A
+            Come back later for more information
     -
         id-number: 11
         mobile-id-number: 31
@@ -96,7 +96,7 @@ Leads3:
         role: Scouting Co-Lead
         email: jzhou@palyrobotics.com
         description: >
-            N/A
+            Joycelyn Zhou joined the programming subteam as a freshman.
     -
         id-number: 12
         mobile-id-number: 32
@@ -105,8 +105,8 @@ Leads3:
         role: Lab Manager
         email: danaparti@palyrobotics.com
         description: >
-            Darsh Anaparti joined the design subteam as a freshman. Stepping up as lab manager during his sophomore year, he managed everything from robotics lab cleanups to restocking the machine parts inventory.
-
+            Darsh Anaparti joined the design subteam as a freshman. Stepping up as lab manager during his sophomore year, he manages everything from robotics lab cleanups to restocking the machine parts inventory.
+    
 Leads4:
     - 
         id-number: 13
@@ -116,16 +116,16 @@ Leads4:
         role: Pit Manager
         email: vkarnam@palyrobotics.com
         description: >
-            N/A
+            Vidith Karnam is currently a sophomore and the king who joined the build subteam as a freshman. During the 2026-27 season, Vidith is the team's pit manager, meaning that he keeps the pit area and components organized for competitions.
     - 
         id-number: 14
         mobile-id-number: 34
         name: Cristina Ye
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/cye.JPG
         role: Treasurer
         email: cye@palyrobotics.com
         description: >
-            N/A
+            Joining the build subteam during her freshman year, Cristina is the team's treasurer for the 2026-2027 season. As treasurer, she purchases the parts essential for constructing the robot.
 
     -
         id-number: 15
@@ -135,7 +135,7 @@ Leads4:
         role: Competition Manager
         email: akissnercolohan@palyrobotics.com
         description: >
-            N/A    
+            Come back later for more information    
     -
         id-number: 16
         mobile-id-number: 36
@@ -144,5 +144,5 @@ Leads4:
         role: Media Manager
         email: kchen@palyrobotics.com
         description: >
-            N/A
+            Come back later for more information
 ...
