@@ -8,11 +8,11 @@ Leads1:
         id-number: 0
         mobile-id-number: 20
         name: Arunav Ramanathan
-        image: /assets/img/leads/arramanathan.jpg
+        image: /assets/img/leads/arramanathan.png
         role: Co-Captain
         email: arramanathan@palyrobotics.com
         description: >
-            Come back later for more information
+            Arunav Ramanathan is our Technical Captain for the 2026-27 season. Since joining the design subteam as a freshman, he has taken on the role of Design Captain in his junior year, which has provided him with invaluable experiences such as teaching others and contributing to team spirit. As the Technical Captain for the 2026-27 season, he will coordinate with team leadership to make sure things run smoothly and organize team meetings.
     -
         id-number: 1
         mobile-id-number: 21
@@ -26,11 +26,11 @@ Leads1:
         id-number: 2
         mobile-id-number: 22
         name: Maxwell Liu
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/mliu.jpg
         role: Technical Director
         email: mliu@palyrobotics.com
         description: >
-            Come back later for more information
+            Maxwell Liu is the Technical Director for the 2026-27 season. Ever since joining the build subteam as a freshman, he has undertook the roles of driver, build project manager, and technical director. This season, he aims to ensure that the manufacturing process of the robot goes smoothly and hopes to create more unity across the different subteams.
 Leads2:
 
     -
@@ -83,20 +83,20 @@ Leads3:
         id-number: 10
         mobile-id-number: 30
         name: Kaitlin Ye
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/kye.jpg
         role: Scouting Co-Lead
         email: kye@palyrobotics.com
         description: >
-            Come back later for more information
+            Kaitlin Ye is a junior who joined the Paly Robotics software & scouting subteam as a freshman. In her sophomore year, she kept the team website updated and developed multiple iterations of the scouting app while overseeing scouting data collection at competitions. This year as co-scouting lead, she hopes to encourage the development of more utility apps for the team as well as streamline data collection and analysis.
     -
         id-number: 11
         mobile-id-number: 31
         name: Joycelyn Zhou
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/jzhou.jpg
         role: Scouting Co-Lead
         email: jzhou@palyrobotics.com
         description: >
-            Joycelyn Zhou joined the programming subteam as a freshman.
+            Joycelyn Zhou is a junior who joined the software and scouting subteam as a freshman. In her sophomore year, she helped develop the 2026 scouting app and manage the scouting processes during competitions.
     -
         id-number: 12
         mobile-id-number: 32
@@ -112,11 +112,11 @@ Leads4:
         id-number: 13
         mobile-id-number: 33
         name: Vidith Karnam
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/vkarnam.png
         role: Pit Manager
         email: vkarnam@palyrobotics.com
         description: >
-            Vidith Karnam is currently a sophomore and the king who joined the build subteam as a freshman. During the 2026-27 season, Vidith is the team's pit manager, meaning that he keeps the pit area and components organized for competitions.
+            Vidith Karnam is a sophomore and the king who joined the build subteam as a freshman. During the 2026-27 season, Vidith is the team's pit manager, meaning that he keeps the pit area and components organized for competitions.
     - 
         id-number: 14
         mobile-id-number: 34
@@ -135,14 +135,14 @@ Leads4:
         role: Competition Manager
         email: akissnercolohan@palyrobotics.com
         description: >
-            Come back later for more information    
+            After joining the buisness subteam as a freshman, Amelia Kissner-Colohan has stepped up to the role of competition manager for the 2026-27 season. As the competition manager, Amelia plans and carries out the process of registering the team and getting people to sign up for competitions.
     -
         id-number: 16
         mobile-id-number: 36
         name: Kyle Chen
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/kchen.jpg
         role: Media Manager
         email: kchen@palyrobotics.com
         description: >
-            Come back later for more information
+            Kyle Chen joined the business subteam as a sophomore. He believes his years spent creating content on youtube and instagram helps him with the role of media manager for the 2026-27 season. As media manager, he will capture competition highlights, outreach events, and share other cool robotics moments. This season, he hopes to increase the team's online presence, while making peak content.
 ...
