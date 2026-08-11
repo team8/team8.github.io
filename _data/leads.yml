@@ -8,11 +8,11 @@ Leads1:
         id-number: 0
         mobile-id-number: 20
         name: Arunav Ramanathan
-        image: /assets/img/leads/arramanathan.jpg
+        image: /assets/img/leads/arrramanathan.png
         role: Co-Captain
         email: arramanathan@palyrobotics.com
         description: >
-            N/A
+            Arunav Ramanathan is our Technical Captain for the 2026-27 season. Since joining the design subteam as a freshman, he has taken on the role of Design Captain in his junior year, which has provided him with invaluable experiences such as teaching others and contributing to team spirit. As the Technical Captain for the 2026-27 season, he will coordinate with team leadership to make sure things run smoothly and organize team meetings.
     -
         id-number: 1
         mobile-id-number: 21
@@ -21,128 +21,128 @@ Leads1:
         role: Co-Captain
         email: skarnam@palyrobotics.com
         description: >
-            N/A
+            Samarth Karnam is the Nontechnical Captain for the 26-27 season. He joined as a freshman and since then worked on the build subteam as the spirit lead, field lead, and electrical lead, before becoming a co-captain. More than anything, he enjoys teaching others, spreading his knowledge, and fostering the team's culture.
     -
         id-number: 2
         mobile-id-number: 22
         name: Maxwell Liu
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/mliu.jpg
         role: Technical Director
         email: mliu@palyrobotics.com
         description: >
-            N/A
+            Maxwell Liu is the Technical Director for the 2026-27 season. Ever since joining the build subteam as a freshman, he has undertook the roles of driver, build project manager, and technical director. This season, he aims to ensure that the manufacturing process of the robot goes smoothly and hopes to create more unity across the different subteams.
 Leads2:
 
     -
         id-number: 5
         mobile-id-number: 25   
         name: Mathis Lynn
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/mlynn.jpg
         role: Art Captain
         email: mlynn@palyrobotics.com
         description: >
-            N/A
+            Mathis Lynn joined the art subteam as a sophomore. During his time on the team, he stepped into key leadership roles as both the Character Design Lead and Set Design Lead, guiding the team's visual identity and creative execution. This year, he aims to foster a closer, more collaborative community where everyone works seamlessly together to achieve their goals on the art team.
     - 
         id-number: 6
         mobile-id-number: 26
         name: Sidhant Vats
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/svats.jpg
         role: Build Captain
         email: svats@palyrobotics.com
         description: >
-            N/A    
+            Sidhant Vats joined the build subteam as a freshman. While on the team, Sidhant has demonstrated his prowess in 3D printing and created many custom parts for our robots. As the build captain for the 26-27 season, he will oversee and lead the build subteam's efforts in the assembling of our robots.
     -
         id-number: 7
         mobile-id-number: 27
         name: Kento Stutz
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/kstutz.jpg
         role: Business Captain
         email: kstutz@palyrobotics.com
         description: >
-            N/A
+            Kento Stutz joined the business subteam in his freshman year. Over the past two years, Kento has led the FLL championships, as well as the FTC championships in his junior year. He believes his past experiences — such as being the business project manager and on the impact team — will help him become a better business captain for the 26-27 season.
     - 
         id-number: 8
         mobile-id-number: 28
         name: Reed Truong
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/rtruong.jpg
         role: Design Captain
         email: rtruong@palyrobotics.com
         description: >
-            N/A
+            Reed Truong has been part of Paly Robotics since his freshman year, doing a lot of designing, building, testing, breaking, and redesigning. He has worked on CAD models, electronics layout, and machined components, while also helping younger members learn design and fabrication. As Design Captain, he loves making robots that are more thoughtful every year and stealing inspiration from the cool things other FRC teams build.
 Leads3:  
     - 
         id-number: 9
         mobile-id-number: 29
         name: Jennifer Yang
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/jyang.jpg
         role: Software Captain
         email: jyang@palyrobotics.com
         description: >
-            N/A
+            Jennifer Yang joined the Software and Scouting subteam as a freshman. Previously, she served as the Webmaster, Technician, and Software Project Manager, helping the team to win Contra Costa District and qualify for World Championships. Additionally, she worked as both the Programming Session Summer Camp Lead and Summer Camp Director. This year, she aims to increase collaboration and expand the scope of software-related tasks.
     -
         id-number: 10
         mobile-id-number: 30
         name: Kaitlin Ye
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/kye.jpg
         role: Scouting Co-Lead
         email: kye@palyrobotics.com
         description: >
-            N/A
+            Kaitlin Ye is a junior who joined the Paly Robotics software & scouting subteam as a freshman. In her sophomore year, she kept the team website updated and developed multiple iterations of the scouting app while overseeing scouting data collection at competitions. This year as co-scouting lead, she hopes to encourage the development of more utility apps for the team as well as streamline data collection and analysis.
     -
         id-number: 11
         mobile-id-number: 31
         name: Joycelyn Zhou
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/jzhou.jpg
         role: Scouting Co-Lead
         email: jzhou@palyrobotics.com
         description: >
-            N/A
+            Joycelyn Zhou is a junior who joined the software and scouting subteam as a freshman. In her sophomore year, she helped develop the 2026 scouting app and manage the scouting processes during competitions.
     -
         id-number: 12
         mobile-id-number: 32
         name: Darsh Anaparti
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/danaparti.jpg
         role: Lab Manager
         email: danaparti@palyrobotics.com
         description: >
-            N/A
-
+            Darsh Anaparti joined the design subteam as a freshman. Stepping up as lab manager during his sophomore year, he manages everything from robotics lab cleanups to restocking the machine parts inventory.
+    
 Leads4:
     - 
         id-number: 13
         mobile-id-number: 33
         name: Vidith Karnam
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/vkarnam.png
         role: Pit Manager
         email: vkarnam@palyrobotics.com
         description: >
-            N/A
+            Vidith Karnam is a sophomore and the king who joined the build subteam as a freshman. During the 2026-27 season, Vidith is the team's pit manager, meaning that he keeps the pit area and components organized for competitions.
     - 
         id-number: 14
         mobile-id-number: 34
         name: Cristina Ye
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/cye.JPG
         role: Treasurer
         email: cye@palyrobotics.com
         description: >
-            N/A
+            Joining the build subteam during her freshman year, Cristina is the team's treasurer for the 2026-2027 season. As treasurer, she purchases the parts essential for constructing the robot.
 
     -
         id-number: 15
         mobile-id-number: 35
         name: Amelia Kissner-Colohan
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/akissner-colohan.jpg
         role: Competition Manager
         email: akissnercolohan@palyrobotics.com
         description: >
-            N/A    
+            After joining the buisness subteam as a freshman, Amelia Kissner-Colohan has stepped up to the role of competition manager for the 2026-27 season. As the competition manager, Amelia plans and carries out the process of registering the team and getting people to sign up for competitions.
     -
         id-number: 16
         mobile-id-number: 36
         name: Kyle Chen
-        image: /assets/img/leads/no_icon.png
+        image: /assets/img/leads/kchen.jpg
         role: Media Manager
         email: kchen@palyrobotics.com
         description: >
-            N/A
+            Kyle Chen joined the business subteam as a sophomore. He believes his years spent creating content on youtube and instagram helps him with the role of media manager for the 2026-27 season. As media manager, he will capture competition highlights, outreach events, and share other cool robotics moments. This season, he hopes to increase the team's online presence, while making peak content.
 ...

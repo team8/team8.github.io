@@ -113,7 +113,7 @@ Maps:
 
   Lab: 
     head: Map to lab
-    img: /assets/img/resources/palymap.png
+    img: /assets/img/resources/palymap.png #update this as paly campus changes
 
 
 ...

@@ -2,9 +2,53 @@
 
 ---
     -
+      title: Skaði
+      year: "2026"
+      active: "active" #"active" means that the robot shows up on the page when initially loaded "" if not the most recent robot
+      Specifications:
+        -
+          specname: Name
+          spec: Skaði
+        -
+          specname: Game
+          spec: Rebuilt
+        -
+          specname: Weight
+          spec: 103 lbs
+      # history of competition #
+      CompHistory:
+        -
+          competition: Port Hueneme District Event
+          achievement: Semifinalists
+        -
+          competition: Contra Costa District Event
+          achievement: Winner, Industrial Design Award
+        -
+          competition: California Northern State Championship
+          achievement: Quarterfinalists
+        -
+          competition: FIRST Championship
+          achievement: Johnson Division
+    
+      # abilities of robot list
+      RobotAbilities:
+        -
+          ability: Four SDS Mk5n swerve modules powered by Kraken X60s and Kraken X40s with 14th pinon adapter for a theoretical top speed of 19.4 ft/sec
+        -
+          ability: Full width over-the-bumper linear slide intake for effectively intaking fuel
+        -
+          ability: Large expandable hopper for intake at the outpost (human source station) and storage of 40+ balls
+        -
+          ability: Omni-wheel spindexer to maximize ball output
+        -
+          ability: Capable of scoring fuel from any point on the field with effective software for slip detection and shooting on the move
+        -
+          ability: Gear-powered turret with over 360 degrees of rotation to shoot in any orientation and location of the bot
+      image: /assets/img/robots/skadi.jpeg
+    -
       title: Njörðr
       year: "2025"
-      active: "active"
+      active: ""
       Specifications:
         -
           specname: Name
