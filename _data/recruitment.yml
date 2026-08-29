@@ -4,7 +4,7 @@
 Intro:
   link: '<a href="https://forms.gle/fT8em9u729jGofcB6" target="_blank"><b>Recruitment 2026 Form</b></a>'
   #roster: "<a href='https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vSAdHYc6wE5aNzMxKU7n5TC1xs9MckP1mi2JsAoXluXb0mFs2DFOVAucsqhpiSe_0M2qG_nX_BHMnD_/pubhtml?gid=0&single=true' target='_blank'>Here</a> is the final roster for the 2023-2024 Paly Robotics recruitment cycle. Please direct any questions to <a href='mailto:kworrell@palyrobotics.com'>kworrell@palyrobotics.com</a>."
-  paragraph: 'Paly Robotics would like to invite you to apply to join our team this year! If you are interested in applying, please read through the following information carefully. The application form can be found <a href="https://forms.gle/fT8em9u729jGofcB6" target="_blank">here</a>, and applications are due <b>Thursday, September 10th, 11:59 PM.</b> This year’s recruitment schedule can also be found here. Please email any questions about recruitment to Team Co-Captains <a href="mailto:arramanathan@palyrobotics.com">arramanathan@palyrobotics.com</a> and <a href="mailto:skarnam@palyrobotics.com">skarnam@palyrobotics.com</a>. Subteam-specific questions can be directed to subteam captains. Their emails can be found on the <a href="http://palyrobotics.com/leads" target="_blank">Leads</a> page.'
+  paragraph: 'Paly Robotics would like to invite you to apply to join our team this year! If you are interested in applying, please read through the following information carefully. The application form can be found <a href="https://forms.gle/fT8em9u729jGofcB6" target="_blank">here</a>, and applications are due <b>Thursday, September 10th, 11:59 PM.</b> This year’s recruitment schedule can also be found <a href="http://palyrobotics.com/calendar" target="_blank">here</a>. Please email any questions about recruitment to Team Co-Captains <a href="mailto:arramanathan@palyrobotics.com">arramanathan@palyrobotics.com</a> and <a href="mailto:skarnam@palyrobotics.com">skarnam@palyrobotics.com</a>. Subteam-specific questions can be directed to subteam captains. Their emails can be found on the <a href="http://palyrobotics.com/leads" target="_blank">Leads</a> page.'
   #paragraph: Applications are now closed. Thank you for applying!
 
 Extra:
@@ -30,4 +30,29 @@ PickASubteam:
 LabDays:
   paragraph: "In addition to submitting an application, recruits are expected to attend recruitment lab hours for the subteam they have applied for. There are seven total recruitment lab hours and recruits should make every effort to attend each one. Lab hours are held in-person in Room 903 and 904 at Paly. Lab hours can be found on the <a href='http://palyrobotics.com/calendar' target='_blank'>Calendar</a>."
 
+Recruitment:
+  paragraph: "Recruitment lab hours will be held on the following dates. Recruits should make every effort to attend each one. Recruitment lab days can also be found on the <a href='http://palyrobotics.com/calendar' target='_blank'>Calendar</a>."
+
+Dates:
+  -
+    date: "Thursday, September 10th"
+    time: "4:00 - 6:30 PM"
+  -
+    date: "Saturday, September 12th"
+    time: "4:00 - 6:30 PM"
+  -
+    date: "Tuesday, September 15th"
+    time: "4:00 - 6:30 PM"
+  -
+    date: "Thursday, September 17th"
+    time: "4:00 - 6:30 PM"
+  -
+    date: "Saturday, September 19th"
+    time: "2:00 - 4:00 PM"
+  -
+    date: "Tuesday, September 22nd"
+    time: "4:00 - 6:30 PM"
+  -
+    date: "Thursday, September 24th"
+    time: "4:00 - 6:30 PM"
 ...
