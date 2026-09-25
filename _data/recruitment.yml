@@ -34,25 +34,25 @@ Recruitment:
   paragraph: "Recruitment lab hours will be held on the following dates. Recruits should make every effort to attend each one. Recruitment lab days can also be found on the <a href='http://palyrobotics.com/calendar' target='_blank'>Calendar</a>."
 
 Dates:
-  -
-    date: "Thursday, September 10th"
-    time: "4:00 - 6:30 PM"
-  -
-    date: "Saturday, September 12th"
-    time: "2:00 - 4:00 PM"
-  -
-    date: "Tuesday, September 15th"
-    time: "4:00 - 6:30 PM"
-  -
-    date: "Thursday, September 17th"
-    time: "4:00 - 6:30 PM"
-  -
-    date: "Saturday, September 19th"
-    time: "2:00 - 4:00 PM"
-  -
-    date: "Tuesday, September 22nd"
-    time: "4:00 - 6:30 PM"
-  -
-    date: "Thursday, September 24th"
-    time: "4:00 - 6:30 PM"
+  # -
+  #   date: "Thursday, September 10th"
+  #   time: "4:00 - 6:30 PM"
+  # -
+  #   date: "Saturday, September 12th"
+  #   time: "2:00 - 4:00 PM"
+  # -
+  #   date: "Tuesday, September 15th"
+  #   time: "4:00 - 6:30 PM"
+  # -
+  #   date: "Thursday, September 17th"
+  #   time: "4:00 - 6:30 PM"
+  # -
+  #   date: "Saturday, September 19th"
+  #   time: "2:00 - 4:00 PM"
+  # -
+  #   date: "Tuesday, September 22nd"
+  #   time: "4:00 - 6:30 PM"
+  # -
+  #   date: "Thursday, September 24th"
+  #   time: "4:00 - 6:30 PM"
 ...

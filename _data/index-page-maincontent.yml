@@ -8,6 +8,7 @@ Team8:
 Recruitment:
   caption: 2026-2027 Season Recruitment
   caption2: Paly Robotics invites you to apply for our team this year! For more information, visit our <a href="/recruitment">Recruitment Page</a>.
+  # The recruitment process has ended! Newly recruited members will receive an email from us soon.
   image: /assets/img/carousel/infonightRecruitment.jpg
 
 Robot:
