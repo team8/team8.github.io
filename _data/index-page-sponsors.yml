@@ -5,16 +5,18 @@
 
 
 Sponsors1:
+  # PLEASE PUT URL IF UR UNHASHING A SPONSOR
   # - BayerFund:
   #   image: /assets/img/sponsors/BayerFund.png
   #   paragraph: With more than 150 years of history, Bayer is one of the world’s primary life science groups, developing technologies for pharmaceuticals, crop sciences, and consumer health. Their philanthropic branch, the Bayer Fund, supports many FIRST teams, including Team 8, helping to shape the next generation of engineers.
 
-  - First NorCal:
-    image: /assets/img/sponsors/firstnorcal.png
-    paragraph: FIRST NorCal is a program dedicated to furthering the education of the next generation in STEM. With nearly 7000 active students, FIRST NorCal allows kids in California to access crucial experience in robotics. Its partership with Team 8 bolsters our learning.
+  # - First NorCal:
+  #   image: /assets/img/sponsors/firstnorcal.png
+  #   paragraph: FIRST NorCal is a program dedicated to furthering the education of the next generation in STEM. With nearly 7000 active students, FIRST NorCal allows kids in California to access crucial experience in robotics. Its partership with Team 8 bolsters our learning.
 
   - Fabworks:
     image: /assets/img/sponsors/fabworks.png
+    url: https://www.fabworks.com/
     paragraph: Fabworks is an online sheet metal fabrication and rapid laser-cutting manufacturer that produces custom parts for our robots. Its partnership with Team 8 has greatly sped up our fabrication and prototyping process, allowing for quick robot assembly to maximize software development.
 
 #  - TEConnectivity:
@@ -36,6 +38,7 @@ Sponsors1:
   
   - GeneHaasFoundation:
     image: /assets/img/sponsors/GHF.jpg
+    url: https://www.ghaasfoundation.org/
     paragraph: The Gene Haas Foundation, based in California, is dedicated to promoting technical expertise and machine learning in high schools, colleges and universities, and trade schools. Through numerous grants and scholarship programs, the Gene Haas Foundation supports its local and broader California communities, and generously contributes to Team 8 and its efforts to promote hands-on learning at Paly and our community.  
 
   # - IntuitiveFoundation:
