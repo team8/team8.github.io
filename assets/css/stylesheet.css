@@ -121,7 +121,7 @@ li.donate-li {
  }
 /* making navbar collapse earlier */
 
- @media (max-width: 1199px) {
+ @media (max-width: 1299px) {
     .navbar-header {
         float: none;
     }
@@ -193,7 +193,7 @@ li.donate-li {
     
 }
  
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1300px) {
 
     .navbar-collapse {
         margin-top: 14px;
@@ -271,7 +271,16 @@ li.donate-li {
 	overflow-y: scroll !important;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
+	/* fluid naver padding */
+	.naver {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	a.links {
+		padding-left: 11px !important;
+		padding-right: 11px !important;
+	}
 	/*making dropdown link scroll down when clicked */
 	.dropdown .dropdown-menu {
 		-webkit-transition: all 0.4s;
