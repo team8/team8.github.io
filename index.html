@@ -164,7 +164,7 @@ permalink: /
 							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 								<div class="flipper">
 									<div class="front">
-										<a href="{{item.url}}">
+										<a href="{{item.url}}" target="_blank">
 											<img src="{{item.image}}" class="sponsor"/>
 										</a>
 									</div>
@@ -183,7 +183,7 @@ permalink: /
 							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 								<div class="flipper">
 									<div class="front">
-										<a href="{{item.url}}">
+										<a href="{{item.url}}" target="_blank">
 											<img src="{{item.image}}" class="sponsor"/>
 										</a>
 									</div>
@@ -203,7 +203,7 @@ permalink: /
 							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 								<div class="flipper">
 									<div class="front">
-										<a href="{{item.url}}">
+										<a href="{{item.url}}" target="_blank">
 											<img src="{{item.image}}" class="sponsor"/>
 										</a>
 									</div>
@@ -221,7 +221,7 @@ permalink: /
 							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 								<div class="flipper">
 									<div class="front">
-										<a href="{{item.url}}">
+										<a href="{{item.url}}" target="_blank">
 											<img src="{{item.image}}" class="sponsor"/>
 										</a>
 									</div>
@@ -239,7 +239,7 @@ permalink: /
 						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 							<div class="flipper">
 								<div class="front">
-									<a href="{{item.url}}">
+									<a href="{{item.url}}" target="_blank">
 										<img src="{{item.image}}" class="sponsor"/>
 									</a>
 								</div>
@@ -257,7 +257,7 @@ permalink: /
 							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 								<div class="flipper">
 									<div class="front">
-										<a href="{{item.url}}">
+										<a href="{{item.url}}" target="_blank">
 											<img src="{{item.image}}" class="sponsor"/>
 										</a>
 									</div>
@@ -292,9 +292,9 @@ permalink: /
 			if (num == 8 && otherNum == 1410) {
 				document.getElementById("robot-image").style.backgroundImage = "url('/assets/img/carousel/robot-tipping.gif')";
 			}
-			// if (num == 8 && otherNum == 1868) {
-			// 	document.getElementById("robot-image").style.backgroundImage = "url('/assets/img/carousel/')"
-			// }
+			if (num == 8 && otherNum == 1868) {
+				document.getElementById("robot-image").style.backgroundImage = "url('/assets/img/carousel/skadi-decapitated.jpg')"
+			}
 		};
 		function getRandomInt(max) {
 			return Math.floor(Math.random() * Math.floor(max));
